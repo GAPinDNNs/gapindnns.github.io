@@ -1,0 +1,13 @@
+# maybe something on the form
+# where a loop will go through authors and, if author name matches group member, then associate the publication the that person
+
+# title: "Title"
+# num_authors: 3
+# author1: "Author 1"
+# author2: "Author 2"
+# author3: "Author 3"
+# publication: "Publication"
+# year: 2020
+# url: "https://arxiv.org/abs/****.******"
+# abstract: "Abstract"
+# keywords: "Keyword 1, Keyword 2, Keyword 3"

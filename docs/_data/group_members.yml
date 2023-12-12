@@ -1,0 +1,61 @@
+# TEMPLATE:
+#  name:
+#  photo: NAME.jpg
+#  info:
+#  email:
+#  number_educ: 4
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+
+name: Daniel Persson
+photo: eliasny.jpg
+info: Professor
+email: name@chalmers.se
+number_educ: 2
+education1: Education 1
+education2: Eduction 2
+
+name: Jan Gerken
+photo: eliasny.jpg
+info: Assistant Professor
+email: name@chalmers.se
+number_educ: 2
+education1: Education 1
+education2: Eduction 2
+
+name: Hampus Linander
+photo: eliasny.jpg
+info: Researcher
+email: name@chalmers.se
+number_educ: 2
+education1: Education 1
+education2: Eduction 2
+
+name: Elias Nyholm
+photo: eliasny.jpg
+info: PhD Student
+email: eliasny@chalmers.se
+number_educ: 2
+education1: MSc ETH Zurich
+education2: BSc Lund University
+
+
+name: Oscar Carlsson
+photo: eliasny.jpg
+info: PhD Student
+email: name@chalmers.se
+number_educ: 2
+education1: Education 1
+education2: Eduction 2
+
+
+name: Philipp Misof
+photo: eliasny.jpg
+info: PhD Student
+email: name@chalmers.se
+number_educ: 2
+education1: Education 1
+education2: Eduction 2
