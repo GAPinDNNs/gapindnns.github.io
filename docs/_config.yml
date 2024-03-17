@@ -12,12 +12,13 @@ plugins:
 - jekyll-remote-theme
 
 include:
-  #- .htaccess
   - _pages
-
 
 sass:
     sass_dir: _sass
+
+collections:
+  members:
 
 # Conversion
 markdown: kramdown
@@ -39,6 +40,11 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+
+# autoprefixer plugin for building bootstrap from source
+autoprefixer:
+  browsers:
+    - last 4 versions
 
 # Build settings
 #theme: minima

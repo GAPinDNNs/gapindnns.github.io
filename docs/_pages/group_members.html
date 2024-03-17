@@ -1,0 +1,57 @@
+---
+layout: default
+title: Group members
+---
+<h1 id="page-title">Group members</h1>
+
+{% assign members_sorted = site.members | sort_natural: "last_name" %}
+
+{% for member in members_sorted %}
+{% assign remainder = forloop.index | modulo: 2 %}
+{% if remainder == 1 %}
+  <div class="row">
+{% endif %}
+  <div class="col-md-6">
+    <div class="card border-primary border-2 mb-3 overflow-hidden">
+      <div class="card-header fw-bold">
+        <div class="row justify-content-between align-items-center" style="height: 2.5rem">
+          <div class="col-auto fs-5">
+          {{ member.first_name }} {{ member.last_name }}
+          </div>
+          <div class="col-auto float-end">
+          {% if member.github %}
+            <a href="{{ member.github }}"><i class="bi bi-github text-body" style="font-size: 1.5rem"></i></a>
+          {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row g-0 img-box-left">
+        <div class="col-auto">
+          <img src={% if member.image %}"{{ member.image }}"{% else %}"/assets/images/profile_pictures/dummy.svg"{% endif %} class="img-fluid rounded-circle object-fit-cover ratio-1x1 m-3" alt="..." style="width: 160px; height: 160px">
+        </div>
+        <div class="col-auto">
+          <div class="card-body">
+            <h5 class="card-title fw-light">{{ member.position }}</h5>
+            <p class="card-text">{{ member.content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-footer" style="height: 3rem"> -->
+        <!-- <a href="{{ member.github }}"><i class="bi bi-github text-body" style="font-size: 1.5rem"></i></a> -->
+      <!-- </div> -->
+    </div>
+  </div>
+{% if remainder == 0 %}
+  </div>
+{% endif %}
+{% endfor %}
+
+<!-- <ul> -->
+<!--   {% for member in site.members %} -->
+<!--     <li> -->
+<!--       <h2>{{ member.name }}</h2> -->
+<!--       <h3>{{ member.position }}</h3> -->
+<!--       <p>{{ member.content | markdownify }}</p> -->
+<!--     </li> -->
+<!--   {% endfor %} -->
+<!-- </ul> -->
