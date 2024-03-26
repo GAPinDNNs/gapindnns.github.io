@@ -1,0 +1,32 @@
+---
+layout: topic
+title: Publications
+---
+
+{% for pub_hash in site.data.publications %}
+{% assign pub = pub_hash[1] %}
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">{{ pub.title }}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {% for author in pub.author %}
+        {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </h6>
+      <p class="card-text">{{ pub.abstract }}</p>
+      <a href="{{ pub.URL }}" class="card-link">{{ pub.publisher }}</a>
+    </div>
+  </div>
+{% endfor %}
+
+<!-- <ul> -->
+<!--   {% for member in site.members %} -->
+<!--     <li> -->
+<!--       <h2>{{ member.name }}</h2> -->
+<!--       <h3>{{ member.position }}</h3> -->
+<!--       <p>{{ member.content | markdownify }}</p> -->
+<!--     </li> -->
+<!--   {% endfor %} -->
+<!-- </ul> -->
+
+<!-- https://stackoverflow.com/questions/51228297/bootstrap-4-collapse-panel-with-preview-and-overflow-expansion -->

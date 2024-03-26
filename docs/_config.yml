@@ -19,6 +19,9 @@ sass:
 
 collections:
   members:
+  # publications:
+
+collections_dir: collections
 
 # Conversion
 markdown: kramdown

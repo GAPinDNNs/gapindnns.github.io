@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Group Members
+  link: /_pages/group_members.html
 - name: Research
   links:
     - name: Research Directions
@@ -11,11 +13,15 @@
         - name: Neural tangent kernels
           link: /ntk.html
     - name: Publications
-      link: /publications.html
+      link: /_pages/publications.html
+    - name: Theses
+      link: /theses.html
     - name: Talks
       link: /talks.html
-- name: Group Members
-  link: /_pages/group_members.html
+    - name: Software
+      link: /software.html
+- name: GPAinDNNs Seminar
+  link: /seminar.html
 - name: Teaching
   links:
     - name: Courses
