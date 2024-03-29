@@ -2,8 +2,22 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-8">
-        <h1>Welcome to the GDL Group page!</h1>
+<div id="hero" class="container-fluid">
+  <div class="container">
+    <div class="row flex-row align-items-center">
+      <div class="col-sm">
+        <h1 id="website-title" class="py-2 ps-3 my-4">Geometry, Algebra and Physics in Deep Neural Networks</h1>
+      </div>
 
-	{{ content }}
+      <div class="col-sm">
+        <img src="/assets/images/NNEFT_insight.png" class="img-fluid">
+      </div>
+    </div>
   </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container pt-4">
+      {{ content }}
+  </div>
+</div>

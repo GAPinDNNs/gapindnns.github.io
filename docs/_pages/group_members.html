@@ -10,8 +10,8 @@ title: Group members
 {% if remainder == 1 %}
   <div class="row">
 {% endif %}
-  <div class="col-md-6">
-    <div class="card border-primary border-2 mb-3 overflow-hidden">
+  <div class="col-lg-6">
+    <div class="card mb-4 overflow-hidden">
       <div class="card-header fw-bold">
         <div class="row justify-content-between align-items-center" style="height: 2.5rem">
           <div class="col-auto fs-5">
@@ -25,13 +25,15 @@ title: Group members
         </div>
       </div>
       <div class="row g-0 img-box-left">
-        <div class="col-auto">
+        <div class="col-sm-auto">
+          <a href="{{ member.url }}">
           <img src={% if member.image %}"{{ member.image }}"{% else %}"/assets/images/profile_pictures/dummy.svg"{% endif %} class="img-fluid rounded-circle object-fit-cover ratio-1x1 m-3" alt="..." style="width: 160px; height: 160px">
+          </a>
         </div>
-        <div class="col-auto">
+        <div class="col-sm-8">
           <div class="card-body">
             <h5 class="card-title fw-light">{{ member.position }}</h5>
-            <p class="card-text">{{ member.content | markdownify }}</p>
+            <p class="card-text">{{ member.short_description | markdownify }}</p>
           </div>
         </div>
       </div>

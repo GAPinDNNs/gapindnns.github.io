@@ -1,0 +1,62 @@
+[
+	{
+		"id": "gerkenGeometricDeepLearning2021",
+		"type": "article",
+		"abstract": "We survey the mathematical foundations of geometric deep learning, focusing on group equivariant and gauge equivariant neural networks. We develop gauge equivariant convolutional neural networks on arbitrary manifolds $\\mathcal{M}$ using principal bundles with structure group $K$ and equivariant maps between sections of associated vector bundles. We also discuss group equivariant neural networks for homogeneous spaces $\\mathcal{M}=G/K$, which are instead equivariant with respect to the global symmetry $G$ on $\\mathcal{M}$. Group equivariant layers can be interpreted as intertwiners between induced representations of $G$, and we show their relation to gauge equivariant convolutional layers. We analyze several applications of this formalism, including semantic segmentation and object detection networks. We also discuss the case of spherical networks in great detail, corresponding to the case $\\mathcal{M}=S^2=\\mathrm{SO}(3)/\\mathrm{SO}(2)$. Here we emphasize the use of Fourier analysis involving Wigner matrices, spherical harmonics and Clebsch-Gordan coefficients for $G=\\mathrm{SO}(3)$, illustrating the power of representation theory for deep learning.",
+		"DOI": "10.48550/arXiv.2105.13926",
+		"note": "arXiv:2105.13926 [hep-th]",
+		"number": "arXiv:2105.13926",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Geometric Deep Learning and Equivariant Neural Networks",
+		"URL": "http://arxiv.org/abs/2105.13926",
+		"author": [
+			{
+				"family": "Gerken",
+				"given": "Jan E."
+			},
+			{
+				"family": "Aronsson",
+				"given": "Jimmy"
+			},
+			{
+				"family": "Carlsson",
+				"given": "Oscar"
+			},
+			{
+				"family": "Linander",
+				"given": "Hampus"
+			},
+			{
+				"family": "Ohlsson",
+				"given": "Fredrik"
+			},
+			{
+				"family": "Petersson",
+				"given": "Christoffer"
+			},
+			{
+				"family": "Persson",
+				"given": "Daniel"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					28
+				]
+			]
+		}
+	}
+]

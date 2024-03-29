@@ -1,28 +1,14 @@
 ---
-title: "GDL Group Gothenburg"
-layout: default
+title: "Geometry, Algebra and Physics in Deep Neural Networks"
+layout: homelay
 excerpt: "Geometric Deep Learning Group Gothenburg"
 sitemap: false
 permalink: /
 ---
 
-# Geometry, Algebra and Physics in Deep Neural Networks
-# This will become the home page
 
-## Things to do
-- `Home` is not necessary when name/logo is a link
-- Decide on publications page
-    - How to sort / filter them?
--  Decide on content of group members
-    -  Should we have a page for each member?
-- Design? Colors? Logo?
-- About page
-- Footer
-    - Contact info
-    - Logos of Chalmers, GU, WASP
-- Github link
 
-## Outcome
+# Discussion outcome
 - Include updated news box on the side. Make this as entry in a news file
     - description, headline, link, date
 - Own page for each member, include its publication

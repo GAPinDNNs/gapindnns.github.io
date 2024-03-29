@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+
+<div class="container">
+<h1>{{ page.first_name }} {{ page.last_name }}</h1>
+<h2>{{ page.position }}</h2>
+
+{{ content }}
+
+
+
+
+<!-- The following looks repetitive but it is due to the limitations of Liquid -->
+
+<!-- Check if author has publications: -->
+{% assign has_pubs = false %}
+{% for pub_hash in site.data.publications %}
+  {% assign match = pub_hash[1].author | where: 'family', page.last_name
+  | first %}
+  {% if match %}
+    {% assign has_pubs = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_pubs %}
+
+  <h2>Publications</h2>
+
+  {% for pub_hash in site.data.publications %}
+    {% assign pub = pub_hash[1] %}
+    {% assign match = pub.author | where: 'family', page.last_name
+    | first %}
+    {% if match %}
+      {% include publication.html pub=pub id=forloop.index %}
+    {% endif %}
+  {% endfor %}
+
+{% endif %}

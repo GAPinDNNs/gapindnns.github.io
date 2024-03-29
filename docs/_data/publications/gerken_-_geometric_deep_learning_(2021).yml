@@ -35,3 +35,5 @@ issued:
 publisher: arXiv
 title: Geometric Deep Learning and Equivariant Neural Networks
 type: article
+tags:
+  - ENN

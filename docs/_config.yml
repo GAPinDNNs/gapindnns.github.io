@@ -19,7 +19,16 @@ sass:
 
 collections:
   members:
+    output: true
   # publications:
+
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"
+
 
 collections_dir: collections
 
