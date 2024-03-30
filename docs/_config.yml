@@ -1,10 +1,10 @@
 # Jekyll configuration
 # adapted from https://github.com/mpa139/allanlab
 
-title: GDL Group @ Chalmers
-email: your-email@example.com
+title: GAPinDNNs @ Chalmers
+email: misof@chalmers.se
 description: >
-  Website of the Geometric Deep Learning Group at Chalmers University of Technology and University of Gothenburg.
+  Geometry, Algebra and Physics at Chalmers University of Technology and University of Gothenburg.
 baseurl: ""
 url: ""
 remote_theme: pages-themes/primer@v0.6.0

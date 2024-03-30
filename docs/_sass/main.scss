@@ -39,9 +39,17 @@ a {
 
 #hero {
 	background-color: #292F36;
-	min-height: 18rem;
+	min-height: $member-hero-height;
 	// min-height: 100px;
 }
+
+#hero > .container{
+	min-height: $member-hero-height;
+	> * {
+		min-height: $member-hero-height;
+	}
+}
+
 
 #hero + .container-fluid {
 	// box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.45);
@@ -56,17 +64,21 @@ nav.border-bottom {
 	border-bottom-color: $purple !important;
 }
 
-#profile-pic {
-	width: $profile-pic-size;
-	height: $profile-pic-size;
+.profile-pic-box {
 	position: absolute;
-	top: calc( (-#{$profile-pic-size}) / 2);
-	// top: $profile-pic-size;
-	// left: 40px;
+	width: 100%;
+	top: calc( (-#{$profile-pic-size}) / 2 - #{$spacer});
 	z-index: 5;
+	text-align: center;
 }
 
-#profile-pic + * {
+#profile-pic {
+	max-width: $profile-pic-size;
+	min-width: calc(#{$profile-pic-size} * 0.9);
+}
+
+
+#profile-pic-out-cont + * {
 	margin-top: calc( (#{$profile-pic-size}) / 2 * 1.15);
 }
 

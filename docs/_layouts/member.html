@@ -4,13 +4,13 @@ layout: default
 
 <div id="hero" class="container-fluid">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-sm-4 text-start mt-4 mb-4">
+    <div class="row align-items-center py-3">
+      <div class="col-sm-4 text-start">
         <h1>{{ page.first_name }} {{ page.last_name }}</h1>
         <p class="ps-1 text-body-secondary">{{ page.position }}</p>
       </div>
       <div class="col-sm-8 text-center">
-      <img src="/assets/images/NNEFT_matrices.png" class="img-fluid my-3" style="max-height: 300px; opacity: 0.7;">
+      <img src="/assets/images/NNEFT_matrices.png" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
     </div>
     </div>
   </div>
@@ -18,15 +18,25 @@ layout: default
 
 
 <div class="container-fluid">
-  <div class="container pt-4" style="position: relative;">
-<img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="rounded-circle border border-4 object-fit-cover ratio-1x1" style="">
+  <div class="container pt-4">
+    <div id="profile-pic-out-cont" class="row align-items-center">
+      <div class="col-sm-auto text-center" style="position: relative;">
+        <div class="row profile-pic-box align-items-center">
+          <div class="col">
+        <img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="img-fluid w-100 rounded-circle border border-4 object-fit-cover ratio-1x1">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+      </div>
+    </div>
 
-  <!-- <h1>{{ page.first_name }} {{ page.last_name }}</h1> -->
-  <!-- <p class="text-body-secondary">{{ page.position }}</p> -->
+
 
   {{ content }}
 
 
+<!-- <p class="text-body-secondary">{{ page.position }}</p> -->
 
 
   <!-- Check if author has publications: -->
