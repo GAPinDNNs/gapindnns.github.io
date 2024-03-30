@@ -2,40 +2,55 @@
 layout: default
 ---
 
+<div id="hero" class="container-fluid">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm-4 text-start mt-4 mb-4">
+        <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+        <p class="ps-1 text-body-secondary">{{ page.position }}</p>
+      </div>
+      <div class="col-sm-8 text-center">
+      <img src="/assets/images/NNEFT_matrices.png" class="img-fluid my-3" style="max-height: 300px; opacity: 0.7;">
+    </div>
+    </div>
+  </div>
+</div>
 
-<div class="container">
-<h1>{{ page.first_name }} {{ page.last_name }}</h1>
-<h2>{{ page.position }}</h2>
 
-{{ content }}
+<div class="container-fluid">
+  <div class="container pt-4" style="position: relative;">
+<img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="rounded-circle border border-4 object-fit-cover ratio-1x1" style="">
+
+  <!-- <h1>{{ page.first_name }} {{ page.last_name }}</h1> -->
+  <!-- <p class="text-body-secondary">{{ page.position }}</p> -->
+
+  {{ content }}
 
 
 
 
-<!-- The following looks repetitive but it is due to the limitations of Liquid -->
+  <!-- Check if author has publications: -->
 
-<!-- Check if author has publications: -->
-{% assign has_pubs = false %}
-{% for pub_hash in site.data.publications %}
-  {% assign match = pub_hash[1].author | where: 'family', page.last_name
-  | first %}
-  {% if match %}
-    {% assign has_pubs = true %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if has_pubs %}
-
-  <h2>Publications</h2>
-
-  {% for pub_hash in site.data.publications %}
-    {% assign pub = pub_hash[1] %}
-    {% assign match = pub.author | where: 'family', page.last_name
-    | first %}
+  {% assign pubs = "" | split: "," %}
+  {% for item in site.data.publications %}
+    {% assign pub = item[1] %}
+    {% assign match = pub.author | where: 'family', page.last_name | first %}
     {% if match %}
-      {% include publication.html pub=pub id=forloop.index %}
+      {% assign pubs = pubs | push: pub %}
     {% endif %}
   {% endfor %}
 
-{% endif %}
+  {% assign pubs = pubs | sort: "issued" | reverse %}
+
+  {% unless pubs == empty %}
+
+    <h2>Publications</h2>
+
+    {% for pub in pubs %}
+      {% include publication.html pub=pub id=forloop.index %}
+    {% endfor %}
+
+  {% endunless %}
+
+  </div>
+</div>

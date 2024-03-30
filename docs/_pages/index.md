@@ -38,3 +38,5 @@ permalink: /
 - Add link to homepage on chalmers for each member
 - Member: start with short introduction
 - Add pdf link to CV on member
+- Sort publications according to year
+- Handle middle name?

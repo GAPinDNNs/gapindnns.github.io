@@ -13,8 +13,7 @@ author:
   given: Jan E.
 - family: Kessel
   given: Pan
-issued:
-  date: '2024-03-05'
+issued: '2024-03-05'
 publisher: arXiv
 title: Emergent Equivariance in Deep Ensembles
 type: article

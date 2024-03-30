@@ -3,8 +3,16 @@ layout: topic
 title: Publications
 ---
 
-{% for pub_hash in site.data.publications %}
-{% assign pub = pub_hash[1] %}
+
+{% assign pubs = "" | split: "," %}
+{% for item in site.data.publications %}
+    {% assign pub = item[1] %}
+    {% assign pubs = pubs | push: pub %}
+{% endfor %}
+
+{% assign pubs = pubs | sort: "issued" | reverse %}
+
+{% for pub in pubs%}
   {% include publication.html pub=pub id=forloop.index %}
 {% endfor %}
 

@@ -39,6 +39,8 @@ a {
 
 #hero {
 	background-color: #292F36;
+	min-height: 18rem;
+	// min-height: 100px;
 }
 
 #hero + .container-fluid {
@@ -53,6 +55,22 @@ nav + .container {
 nav.border-bottom {
 	border-bottom-color: $purple !important;
 }
+
+#profile-pic {
+	width: $profile-pic-size;
+	height: $profile-pic-size;
+	position: absolute;
+	top: calc( (-#{$profile-pic-size}) / 2);
+	// top: $profile-pic-size;
+	// left: 40px;
+	z-index: 5;
+}
+
+#profile-pic + * {
+	margin-top: calc( (#{$profile-pic-size}) / 2 * 1.15);
+}
+
+
 // body .container {
 	// background-image: url("/assets/images/NNEFT_background.png");
 // }
@@ -68,3 +86,7 @@ nav.border-bottom {
 	flex: 1000 1;
 }
 
+
+p + h2 {
+	margin-top: $spacer * 2;
+}

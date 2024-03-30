@@ -9,4 +9,6 @@ image: /assets/images/profile_pictures/Philipp_Misof.jpg
 github: https://github.com/PhilippMisofCH
 ---
 
+## About me
+
 My research interests are **broad**.

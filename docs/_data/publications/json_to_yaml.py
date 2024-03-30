@@ -17,13 +17,20 @@ include_keys = [
 ]
 
 
-def convert(file):
-    data = json.load(file)
+def read_json(file):
+    return json.load(file)
+
+
+def write_yaml(data):
+    return yaml.dump(data)
+
+def fix_structure(data):
     data = remove_top_level_list(data)
     data = extract_keys(data)
     data = fix_date_parts(data)
+    data = make_date_top_level(data)
     data = fix_latex(data)
-    return yaml.dump(data)
+    return data
 
 
 def remove_top_level_list(data):
@@ -48,6 +55,11 @@ def fix_date_parts(data):
             new_data[k] = fix_date_parts(data[k])
 
     return new_data
+
+
+def make_date_top_level(data):
+    data['issued'] = data['issued']['date']
+    return data
 
 
 def date_list_to_str(date_parts):
@@ -75,15 +87,27 @@ def fix_latex(data):
 def fix_latex_str(s):
     return re.sub(r'\$([^$]+)\$', r'\(\1\)', s)
 
+
+def create_filename_stem(data):
+    title = data['title'].split(' ')[:5]
+    fst_author = data['author'][0]['family']
+    year = date.fromisoformat(data['issued']).year
+    filename = f"{fst_author}_-_{'_'.join(title)}_({year})"
+    return filename
+
+
 def main(in_filename, is_frontmatter=False, out_filename=None):
     with open(in_filename, 'r') as file:
-        output = convert(file)
+        data = read_json(file)
+        data = fix_structure(data)
+        output = write_yaml(data)
+        filename_stem = create_filename_stem(data)
 
     if not out_filename:
         if is_frontmatter:
-            out_filename = pl.PurePath(in_filename).with_suffix('.md')
+            out_filename = pl.PurePath(filename_stem).with_suffix('.md')
         else:
-            out_filename = pl.PurePath(in_filename).with_suffix('.yml')
+            out_filename = pl.PurePath(filename_stem).with_suffix('.yml')
 
     if is_frontmatter:
         output = create_frontmatter(output)

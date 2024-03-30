@@ -30,8 +30,7 @@ author:
   given: Christoffer
 - family: Persson
   given: Daniel
-issued:
-  date: '2021-05-28'
+issued: '2021-05-28'
 publisher: arXiv
 title: Geometric Deep Learning and Equivariant Neural Networks
 type: article
