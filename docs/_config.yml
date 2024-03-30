@@ -5,8 +5,12 @@ title: GAPinDNNs @ Chalmers
 email: misof@chalmers.se
 description: >
   Geometry, Algebra and Physics at Chalmers University of Technology and University of Gothenburg.
-baseurl: ""
-url: ""
+
+
+domain: philippmisofch.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://philippmisofch.github.io/ # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /docs/      # place folder name if the site is served in a subfolder
+
 remote_theme: pages-themes/primer@v0.6.0
 plugins:
 - jekyll-remote-theme
