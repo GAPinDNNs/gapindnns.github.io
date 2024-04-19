@@ -5,6 +5,15 @@ import argparse
 from datetime import date
 import re
 
+
+preprints = [
+    'arXiv',
+]
+
+field_translations = {
+    'container-title': 'publisher',
+}
+
 include_keys = [
     'DOI',
     'URL',
@@ -24,12 +33,15 @@ def read_json(file):
 def write_yaml(data):
     return yaml.dump(data)
 
+
 def fix_structure(data):
     data = remove_top_level_list(data)
+    data = translate_fields(data)
     data = extract_keys(data)
     data = fix_date_parts(data)
     data = make_date_top_level(data)
     data = fix_latex(data)
+    data = rename_if_preprint(data)
     return data
 
 
@@ -39,8 +51,30 @@ def remove_top_level_list(data):
     return data
 
 
+def translate_fields(data):
+    new_data = {}
+    for k, v in data.items():
+        if isinstance(v, dict):
+            new_data[k] = translate_fields(v)
+        if k in field_translations:
+            new_data[field_translations[k]] = v
+        else:
+            new_data[k] = v
+    return new_data
+
+
 def extract_keys(data):
     return {key: data[key] for key in include_keys if key in data}
+
+
+def rename_if_preprint(data):
+    breakpoint()
+    if data['publisher'] in preprints:
+        data['preprint'] = {
+            'name': data.pop('publisher'),
+            'URL': data.pop('URL')
+        }
+    return data
 
 
 def fix_date_parts(data):
@@ -85,7 +119,8 @@ def fix_latex(data):
 
 
 def fix_latex_str(s):
-    return re.sub(r'\$([^$]+)\$', r'\(\1\)', s)
+    s = re.sub(r'\${1,2}([^$]+)\${1,2}', r'\(\1\)', s)
+    return s
 
 
 def create_filename_stem(data):

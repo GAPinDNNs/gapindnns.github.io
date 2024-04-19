@@ -1,5 +1,4 @@
 DOI: 10.48550/arXiv.2403.03103
-URL: http://arxiv.org/abs/2403.03103
 abstract: We demonstrate that deep ensembles are secretly equivariant models. More
   precisely, we show that deep ensembles become equivariant for all inputs and at
   all training times by simply using data augmentation. Crucially, equivariance holds
@@ -14,7 +13,9 @@ author:
 - family: Kessel
   given: Pan
 issued: '2024-03-05'
-publisher: arXiv
+preprint:
+  name: arXiv
+  URL: http://arxiv.org/abs/2403.03103
 title: Emergent Equivariance in Deep Ensembles
 type: article
 tags:

@@ -13,6 +13,9 @@
       <h6 class="card-subtitle mb-2 text-muted">
         {% for author in pub.author %}
           {% assign member = site.members | where: 'last_name', author.family | first %}
+          {% unless member %}
+            {% assign member = site.data.external_collaborators | where: 'last_name', author.family | first %}
+          {% endunless %}
           {% if member.url %}<a href="{{ member.url }}">{% endif %}{{ author.given }} {{ author.family }}{% if member.url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </h6>
@@ -30,10 +33,18 @@
 
       </p>
       <div class="row align-items-center justify-content-between">
-        <div class="col">
+        {% if pub.publisher %}
+        <div class="col-sm-5">
           Published:
           <a href="{{ pub.URL }}" class="card-link">{{ pub.publisher }}</a>
         </div>
+        {% endif %}
+        {% if pub.preprint %}
+        <div class="col-sm-5">
+          Preprint:
+          <a href="{{ pub.preprint.URL }}" class="card-link">{{ pub.preprint.name }}</a>
+        </div>
+        {% endif %}
         <div class="col text-end">
           {% for tag in pub.tags %}
             <span class="badge bg-primary">{{ tag }}</span>

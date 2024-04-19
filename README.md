@@ -6,12 +6,10 @@
 
 - Include updated news box on the side. Make this as entry in a news file
     - description, headline, link, date
-- Own page for each member, include its publication
 - Office number
 - separate publication page
 - same concept with talks
 - tags for publications which filter where to appear on research page
-- linkable author names in publications
 - No own page for each publication. Include bibtex copy field.
 - structure members page with
     - current members
@@ -33,5 +31,4 @@
 - Add link to homepage on chalmers for each member
 - Member: start with short introduction
 - Add pdf link to CV on member
-- Sort publications according to year
 - Handle middle name?
