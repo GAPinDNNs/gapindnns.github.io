@@ -38,7 +38,7 @@ a {
 }
 
 #hero {
-	background-color: #292F36;
+	background-color: $alloy;
 	min-height: $member-hero-height;
 	// min-height: 100px;
 }
@@ -50,10 +50,20 @@ a {
 	}
 }
 
+#footer {
+	background-color: $alloy;
+	min-height: 40px;
+}
 
-#hero + .container-fluid {
-	// box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.45);
-	box-shadow: 0 -0.6em 0.6em rgba(0, 0, 0, 0.25);
+// #intro {
+.foreground-banner {
+	box-shadow: 0 0.0em 0.8em 0.3em rgba(0, 0, 0, 0.25);
+	position: relative;
+	z-index: 2;
+}
+
+.foreground-banner-no-bs {
+	box-shadow: 0 -0.4em 0.4em rgba(0, 0, 0, 0.25);
 }
 
 nav + .container {
@@ -87,6 +97,21 @@ nav.border-bottom {
 // body .container {
 	// background-image: url("/assets/images/NNEFT_background.png");
 // }
+body {
+	height: 100vh;
+	// display: flex;
+	// flex-direction: column
+}
+
+.buffer {
+	min-height: $spacer;
+	flex-grow: 1;
+	box-shadow: 0 0.4em 0.4em rgba(0, 0, 0, 0.25);
+	position: relative;
+	z-index: 2;
+	border-radius: 0 0 10px 10px;
+
+}
 
 
 .img-box-left > [class*='col']:first-child {
@@ -99,7 +124,24 @@ nav.border-bottom {
 	flex: 1000 1;
 }
 
+h1 {
+	margin-bottom: $spacer;
+}
 
 p + h2 {
 	margin-top: $spacer * 2;
+}
+
+.subtle_gradient {
+	// background: linear-gradient(-45deg, #5d3682, #33386880)
+	// background: linear-gradient(-45deg, #5d3682a3, #262a5140);
+	// background: linear-gradient(-45deg, #4c296d45, #262a5140);
+	background: linear-gradient(-45deg, $purple-dd, $blue-dd);
+}
+
+.dotted_bg {
+	// background-color: #1c1f23;
+	// opacity: 0.9;
+	background-image: radial-gradient(tint-color($purple, 10%) 0.75px, #0000 0.75px);
+	background-size: 15px 15px;
 }
