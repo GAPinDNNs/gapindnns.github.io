@@ -1,0 +1,66 @@
+{% assign talk = include.talk %}
+{% assign id = include.id %}
+<div class="card mb-3">
+    <div class="card-body">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-8">
+          <h5 class="card-title">{{ talk.title }}</h4>
+        </div>
+        <div class="col text-end text-body-secondary">
+          {{talk.date | date: "%F %a"}} at {{ talk.time | date: "%H:%M" }}
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between">
+        <div class="col-8">
+          <h6 class="card-subtitle mb-2 text-muted">
+            {% assign url = talk.speaker.url %}
+            {% unless url %}
+              {% assign member = site.members | where: 'last_name', talk.speaker.last_name | first %}
+              {% assign url = member.url %}
+              {% unless url %}
+                {% assign member = site.data.external_collaborators | where:
+                'last_name', talk.speaker.last_name | first %}
+              {% endunless %}
+            {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+          </h6>
+        </div>
+        <div class="col text-end text-body-secondary">
+          Room: {{ talk.location }}
+        </div>
+      </div>
+      <p class="card-text">
+
+      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract_{{ id }}" aria-pressed="false" aria-expanded="false" aria-controls="abstract_{{ id }}">
+          Abstract
+        </button>
+
+        <div class="collapse" id="abstract_{{ id }}">
+          <!-- <div class="card card-body"> -->
+            {{ talk.abstract | markdownify }}
+          <!-- </div> -->
+        </div>
+
+      </p>
+      <div class="row align-items-center justify-content-between">
+        <!-- {% if talk.talklisher %} -->
+        <!-- <div class="col-sm-5"> -->
+        <!--   talklished: -->
+        <!--   <a href="{{ talk.URL }}" class="card-link">{{ talk.talklisher }}</a> -->
+        <!-- </div> -->
+        <!-- {% endif %} -->
+        <!-- {% if talk.preprint %} -->
+        <!-- <div class="col-sm-5"> -->
+        <!--   Preprint: -->
+        <!--   <a href="{{ talk.preprint.URL }}" class="card-link">{{ talk.preprint.name }}</a> -->
+        <!-- </div> -->
+        <!-- {% endif %} -->
+        <div class="col text-end">
+          {% for tag in talk.tags %}
+            <span class="badge bg-primary">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+

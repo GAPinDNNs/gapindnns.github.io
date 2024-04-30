@@ -22,7 +22,7 @@
     - name: Software
       link: /software.html
 - name: GAPinDNNs Seminar
-  link: /seminar.html
+  link: /_pages/seminar.html
 - name: Teaching
   links:
     - name: Courses
