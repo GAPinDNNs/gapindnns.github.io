@@ -1,11 +1,11 @@
 - name: Home
   link: /
-- name: Group Members
+- name: Members
   link: /_pages/group_members.html
 - name: Research
-  links:
-    - name: Research Directions
-      link: /_pages/research.html
+  link: /_pages/research.html
+    # - name: Research Directions
+    #   link: /_pages/research.html
       # links:
         # - name: Spherical computer vision
         #   link: /spherical_cv.html
@@ -13,6 +13,8 @@
         #   link: /equivariant_nn.html
         # - name: Neural tangent kernels
         #   link: /ntk.html
+- name: Output
+  links:
     - name: Publications
       link: /_pages/publications.html
     - name: Theses
@@ -21,14 +23,14 @@
       link: /talks.html
     - name: Software
       link: /software.html
-- name: GAPinDNNs Seminar
+# - name: GAPinDNNs Seminar
+- name: Seminar
   link: /_pages/seminar.html
 - name: Teaching
   links:
     - name: Courses
       link: /courses.html
-    - name: Thesis proposals
-      link: /thesis_proposals.html
-- name: Open positions
+    - name: Master projects
+      link: /master_projects.html
+- name: Positions
   link: /positions.html
-

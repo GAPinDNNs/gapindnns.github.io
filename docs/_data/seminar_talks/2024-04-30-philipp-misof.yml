@@ -2,6 +2,8 @@ title: My Example Seminar Talk
 date: '2024-04-30'
 time: '13:15'
 location: MVL-14
+zoom: 
+slides: 
 speaker:
     first_name: Philipp
     last_name: Misof
@@ -10,6 +12,3 @@ speaker:
 abstract:
     We will discuss many **interesting** things and even show some $$\LaTeX$$
     equations.
-tags:
-    - ENN
-

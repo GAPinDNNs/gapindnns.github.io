@@ -7,6 +7,7 @@ short_description: This is the short description that appears in the group
     **identation** since this is YAML syntax.
 image: /assets/images/profile_pictures/Philipp_Misof.jpg
 github: https://github.com/PhilippMisofCH
+blackboard-image: 
 ---
 
 ## About me

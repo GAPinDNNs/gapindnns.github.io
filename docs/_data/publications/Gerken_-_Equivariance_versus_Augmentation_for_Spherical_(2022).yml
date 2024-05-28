@@ -17,6 +17,7 @@ abstract: We analyze the role of rotational equivariance in convolutional neural
 author:
 - family: Gerken
   given: Jan
+  first_author: true
 - family: Carlsson
   given: Oscar
 - family: Linander
