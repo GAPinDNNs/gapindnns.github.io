@@ -39,18 +39,26 @@ layout: default
     <div class="home-text">
       {{ content }}
     </div>
-    <div class="border-top border-2 mt-4 pt-3 home-text ">
+
+    {% assign cutoff_date = 'now' | date: '%s' %}
+    {% assign cutoff_date = cutoff_date | minus: 7776000 %}
+    {% assign all_news = site.data.news | sort: "date" | reverse %}
+    {% assign recent_news = "" | split: "," %}
+    {% for news in all_news %}
+      {% assign news_unix_time = news.date | date: '%s' | plus: 0 %}
+      {% if news_unix_time > cutoff_date %}
+        {% assign recent_news = recent_news | push: news %}
+      {% endif %}
+    {% endfor %}
+
+    {% unless recent_news == empty %}
+    <div id="news" class="border-top border-2 mt-4 pt-3 home-text ">
       <h2>News</h2>
-      {% assign cutoff_date = 'now' | date: '%s' %}
-      {% assign cutoff_date = cutoff_date | minus: 2629743 %}
-      {% assign all_news = site.data.news | sort: "date" | reverse %}
-      {% for news in all_news %}
-        {% assign news_unix_time = news.date | date: '%s' | plus: 0 %}
-        {% if news_unix_time > cutoff_date %}
-          {% include news_entry.html news=news %}
-        {% endif %}
+      {% for selected_news in recent_news %}
+        {% include news_entry.html news=selected_news %}
       {% endfor %}
     </div>
+    {% endunless %}
   </div>
 </div>
 <div class="subtle_gradient px-0" style="">

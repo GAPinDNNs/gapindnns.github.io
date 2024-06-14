@@ -1,11 +1,9 @@
-- date: 2024-05-01
-  headline: This is old news
-  text: |
-    This is old news. It is only here to show how old news is displayed.
-
 - date: 2024-06-12
   headline: Great talks at the GeUmetric Deep Learning workshop
   link: /_pages/seminar.html
   text: |
-    The GeUmetric Deep Learning workshop was a great success. We had a lot of interesting talks and discussions. Thanks to all the speakers and participants!
-
+    The GeUmetric Deep Learning workshop was a **great success**. We had a lot of interesting talks and discussions. Thanks to all the speakers and participants!
+- date: 2024-02-01
+  headline: This is old news
+  text: |
+    This is old news. It is only here to show how old news is displayed.
