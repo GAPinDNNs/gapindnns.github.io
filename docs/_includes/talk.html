@@ -3,15 +3,8 @@
 <div class="card mb-3">
     <div class="card-body">
       <div class="row align-items-center justify-content-between">
-        <div class="col-8">
+        <div class="col-sm-8">
           <h5 class="card-title">{{ talk.title }}</h4>
-        </div>
-        <div class="col text-end text-body-secondary">
-          {{talk.date | date: "%F %a"}} at {{ talk.time | date: "%H:%M" }}
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-between">
-        <div class="col-8">
           <h6 class="card-subtitle mb-2 text-muted">
             {% assign url = talk.speaker.url %}
             {% unless url %}
@@ -22,24 +15,47 @@
                 'last_name', talk.speaker.last_name | first %}
               {% endunless %}
             {% endunless %}
-            {% if url %}<a href="{{ url }}">{% endif %}{{talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{ talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url %}</a>{% endif %}
           </h6>
         </div>
-        <div class="col text-end text-body-secondary">
-          Room: {{ talk.location }}
+        <div class="col-sm text-end text-body-secondary">
+          <div class"row">
+            <i class="bi bi-calendar2-week-fill"></i> <span class="me-3">{{talk.date | date: "%F
+            %a"}}</span> <i class="bi bi-clock-fill"></i> {{ talk.time | date: "%H:%M" }}
+          </div>
+
+          <div class"row">
+            <i class="bi bi-geo-alt-fill"></i>
+            {% if talk.location.url %}
+              <a href="{{ talk.location.url }}">
+            {% endif %}
+            {{ talk.location.name }}
+            {% if talk.location.url %}
+              </a>
+            {% endif %}
+          </div>
         </div>
       </div>
+      <!-- <div class="row align-items-center justify-content-between"> -->
+        <!-- <div class="col-sm-8"> -->
+
+        <!-- </div> -->
+
+      <!-- </div> -->
       <p class="card-text">
 
-      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract_{{ id }}" aria-pressed="false" aria-expanded="false" aria-controls="abstract_{{ id }}">
+      <button class="btn btn-primary btn-sm" type="button"
+        data-bs-toggle="collapse" data-bs-target="#talk_abstract_{{ id }}"
+        aria-pressed="false" aria-expanded="false" aria-controls="talk_abstract_{{ id }}">
           Abstract
-        </button>
+      </button>
+      {% if talk.slides %}
+        <a class="ms-2 btn btn-secondary btn-sm" href="{{ talk.slides }}">Slides</a>
+      {% endif %}
 
-        <div class="collapse" id="abstract_{{ id }}">
-          <!-- <div class="card card-body"> -->
-            {{ talk.abstract | markdownify }}
-          <!-- </div> -->
-        </div>
+      <div class="collapse" id="talk_abstract_{{ id }}">
+          {{ talk.abstract | markdownify }}
+      </div>
 
       </p>
       <div class="row align-items-center justify-content-between">

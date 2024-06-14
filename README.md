@@ -56,27 +56,23 @@ prefer it if there is no significant content section. They are located inside
 
 ### Best done by Philipp
 
-- Include updated news box on the side. Make this as entry in a news file
-    - description, headline, link, date
 - tags for publications which filter where to appear on research page
 - Include bibtex copy field.
 - Add courses collection with own pages as well
     - Courses should have link to canvas page
 - Add pdf link to CV on member
 - Handle middle name?
-- add slides to talk section
 - research topics presented as cards with pictures to the left
     - one card by row or whatever looks good
+- Research page, add boxes/cards with title, picture and short text + link
 - Add first authors asterisks
 - Offer easy way to create extra pages with markdown and reasonable layout
-- Research page, add boxes/cards with title, picture and short text + link
 - long text boxes should be more narrow
 - members page: add group picture
 
 
 ### Less technical, for Elias or Oscar
 - Add office numbers to members
-- create *talks* page similar to publication page
 - structure members page with
     - current members
     - previous members (not further categorized)
@@ -86,7 +82,7 @@ prefer it if there is no significant content section. They are located inside
         - PhD
 - Add thesis page
 - Add link to homepage on Chalmers for each member
-- Footer:  add math department (linked), Chalmers + GU logo, new line with
+- Footer: add math department (linked), Chalmers + GU logo, new line with
   funding: WASP etc., address
 - Publication entries: `Preprint` field below `Published`
 - Publications sorted according to tags in different sections, overlaps

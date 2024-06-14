@@ -1,28 +1,28 @@
-import json
-import yaml
-import pathlib as pl
 import argparse
-from datetime import date
+import json
+import pathlib as pl
 import re
+from datetime import date
 
+import yaml
 
 preprints = [
-    'arXiv',
+    "arXiv",
 ]
 
 field_translations = {
-    'container-title': 'publisher',
+    "container-title": "publisher",
 }
 
 include_keys = [
-    'DOI',
-    'URL',
-    'abstract',
-    'author',
-    'issued',
-    'publisher',
-    'title',
-    'type'
+    "DOI",
+    "URL",
+    "abstract",
+    "author",
+    "issued",
+    "publisher",
+    "title",
+    "type",
 ]
 
 
@@ -68,22 +68,18 @@ def extract_keys(data):
 
 
 def rename_if_preprint(data):
-    breakpoint()
-    if data['publisher'] in preprints:
-        data['preprint'] = {
-            'name': data.pop('publisher'),
-            'URL': data.pop('URL')
-        }
+    if data["publisher"] in preprints:
+        data["preprint"] = {"name": data.pop("publisher"), "URL": data.pop("URL")}
     return data
 
 
 def fix_date_parts(data):
     new_data = dict(data)
     for k in data:
-        if k == 'date-parts':
+        if k == "date-parts":
             date_parts = remove_top_level_list(data[k])
             del new_data[k]
-            new_data['date'] = date_list_to_str(date_parts)
+            new_data["date"] = date_list_to_str(date_parts)
             continue
         if isinstance(data[k], dict):
             new_data[k] = fix_date_parts(data[k])
@@ -92,7 +88,7 @@ def fix_date_parts(data):
 
 
 def make_date_top_level(data):
-    data['issued'] = data['issued']['date']
+    data["issued"] = data["issued"]["date"]
     return data
 
 
@@ -103,9 +99,9 @@ def date_list_to_str(date_parts):
 
 
 def create_frontmatter(data):
-    frontmatter = '---\n'
+    frontmatter = "---\n"
     frontmatter += data
-    frontmatter += '---\n\n'
+    frontmatter += "---\n\n"
     return frontmatter
 
 
@@ -119,20 +115,20 @@ def fix_latex(data):
 
 
 def fix_latex_str(s):
-    s = re.sub(r'\${1,2}([^$]+)\${1,2}', r'\(\1\)', s)
+    s = re.sub(r"\${1,2}([^$]+)\${1,2}", r"\(\1\)", s)
     return s
 
 
 def create_filename_stem(data):
-    title = data['title'].split(' ')[:5]
-    fst_author = data['author'][0]['family']
-    year = date.fromisoformat(data['issued']).year
+    title = data["title"].split(" ")[:5]
+    fst_author = data["author"][0]["family"]
+    year = date.fromisoformat(data["issued"]).year
     filename = f"{fst_author}_-_{'_'.join(title)}_({year})"
     return filename
 
 
 def main(in_filename, is_frontmatter=False, out_filename=None):
-    with open(in_filename, 'r') as file:
+    with open(in_filename, "r") as file:
         data = read_json(file)
         data = fix_structure(data)
         output = write_yaml(data)
@@ -140,32 +136,39 @@ def main(in_filename, is_frontmatter=False, out_filename=None):
 
     if not out_filename:
         if is_frontmatter:
-            out_filename = pl.PurePath(filename_stem).with_suffix('.md')
+            out_filename = pl.PurePath(filename_stem).with_suffix(".md")
         else:
-            out_filename = pl.PurePath(filename_stem).with_suffix('.yml')
+            out_filename = pl.PurePath(filename_stem).with_suffix(".yml")
 
     if is_frontmatter:
         output = create_frontmatter(output)
 
-    with open(out_filename, 'w') as file:
+    with open(out_filename, "w") as file:
         file.write(output)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description='Convert zotero JSON to YAML',
+        description="Convert zotero JSON to YAML",
         # prog='json_to_frontmatter.py'
     )
-    parser.add_argument('filename', help='Input JSON file')
-    parser.add_argument('-o', '--output', help=('Name of output file '
-                        'defaults to same name as input file but with .yml/.md '
-                                                'extension'),
-                        default=None
-                        )
-    parser.add_argument('-f', '--frontmatter', help=('Create frontmatter instead '
-                        'of pure YAML'),
-                        action='store_true'
-                        )
+    parser.add_argument("filename", help="Input JSON file")
+    parser.add_argument(
+        "-o",
+        "--output",
+        help=(
+            "Name of output file "
+            "defaults to same name as input file but with .yml/.md "
+            "extension"
+        ),
+        default=None,
+    )
+    parser.add_argument(
+        "-f",
+        "--frontmatter",
+        help=("Create frontmatter instead " "of pure YAML"),
+        action="store_true",
+    )
     args = parser.parse_args()
     main(args.filename, args.frontmatter, args.output)
     exit(0)

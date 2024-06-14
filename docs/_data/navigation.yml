@@ -20,7 +20,7 @@
     - name: Theses
       link: /theses.html
     - name: Talks
-      link: /talks.html
+      link: /_pages/talks.html
     - name: Software
       link: /software.html
 # - name: GAPinDNNs Seminar

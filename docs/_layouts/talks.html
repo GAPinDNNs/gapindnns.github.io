@@ -2,12 +2,11 @@
 layout: topic
 ---
 
+
 {{ content }}
 
-<h2>Talks</h2>
-
 {% assign talks = "" | split: "," %}
-{% for item in site.data.seminar_talks %}
+{% for item in site.data.talks %}
     {% assign talk = item[1] %}
     {% assign talks = talks | push: talk %}
 {% endfor %}

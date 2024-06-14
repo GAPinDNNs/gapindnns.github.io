@@ -21,11 +21,13 @@
       </h6>
       <p class="card-text">
 
-      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract_{{ id }}" aria-pressed="false" aria-expanded="false" aria-controls="abstract_{{ id }}">
+      <button class="btn btn-primary btn-sm" type="button"
+        data-bs-toggle="collapse" data-bs-target="#pub_abstract_{{ id }}"
+        aria-pressed="false" aria-expanded="false" aria-controls="pub_abstract_{{ id }}">
           Abstract
         </button>
 
-        <div class="collapse" id="abstract_{{ id }}">
+        <div class="collapse" id="pub_abstract_{{ id }}">
           <!-- <div class="card card-body"> -->
             {{ pub.abstract }}
           <!-- </div> -->

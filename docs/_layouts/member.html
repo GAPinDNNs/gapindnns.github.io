@@ -62,5 +62,33 @@ layout: default
 
   {% endunless %}
 
+  {% assign talks = "" | split: "," %}
+  {% for item in site.data.talks %}
+    {% assign talk = item[1] %}
+    {% if talk.speaker.last_name == page.last_name %}
+      {% assign talks = talks | push: talk %}
+    {% endif %}
+  {% endfor %}
+
+  {% for item in site.data.seminar_talks %}
+    {% assign talk = item[1] %}
+    {% if talk.speaker.last_name == page.last_name %}
+      {% assign talks = talks | push: talk %}
+    {% endif %}
+  {% endfor %}
+
+
+  {% assign talks = talks | sort: "date" | reverse %}
+
+  {% unless talks == empty %}
+    <h2>Talks</h2>
+
+    {% for talk in talks %}
+      {% include talk.html talk=talk id=forloop.index %}
+    {% endfor %}
+
+  {% endunless %}
+
+
   </div>
 </div>
