@@ -56,7 +56,6 @@ prefer it if there is no significant content section. They are located inside
 
 ### Best done by Philipp
 
-- tags for publications which filter where to appear on research page
 - Include bibtex copy field.
 - Add courses collection with own pages as well
     - Courses should have link to canvas page

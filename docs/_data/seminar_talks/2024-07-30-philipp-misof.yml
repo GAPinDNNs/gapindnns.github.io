@@ -1,5 +1,5 @@
-title: My Example Seminar Talk
-date: '2024-04-30'
+title: My Example Seminar Talk (Continuation)
+date: '2024-07-30'
 time: '13:15'
 location:
     name: MVL-14
@@ -9,6 +9,7 @@ speaker:
     first_name: Philipp
     last_name: Misof
     affiliation: Chalmers
+    url: /_pages/group_members
 abstract:
     We will discuss many **interesting** things and even show some $$\LaTeX$$
     equations.

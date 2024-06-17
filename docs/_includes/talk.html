@@ -1,6 +1,6 @@
 {% assign talk = include.talk %}
 {% assign id = include.id %}
-<div class="card mb-3">
+<div class="card mb-3 talk-entry">
     <div class="card-body">
       <div class="row align-items-center justify-content-between">
         <div class="col-sm-8">
@@ -20,8 +20,7 @@
         </div>
         <div class="col-sm text-end text-body-secondary">
           <div class"row">
-            <i class="bi bi-calendar2-week-fill"></i> <span class="me-3">{{talk.date | date: "%F
-            %a"}}</span> <i class="bi bi-clock-fill"></i> {{ talk.time | date: "%H:%M" }}
+            <i class="bi bi-calendar2-week-fill"></i> <span class="me-3 talk-date">{{talk.date | date_to_string }}</span> <i class="bi bi-clock-fill"></i> {{ talk.time | date: "%H:%M" }}
           </div>
 
           <div class"row">
@@ -50,7 +49,7 @@
           Abstract
       </button>
       {% if talk.slides %}
-        <a class="ms-2 btn btn-secondary btn-sm" href="{{ talk.slides }}">Slides</a>
+        <a class="ms-2 btn btn-secondary btn-sm" href="{{ talk.slides }}" target="_blank">Slides</a>
       {% endif %}
 
       <div class="collapse" id="talk_abstract_{{ id }}">
