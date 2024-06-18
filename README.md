@@ -61,12 +61,8 @@ prefer it if there is no significant content section. They are located inside
     - Courses should have link to canvas page
 - Add pdf link to CV on member
 - Handle middle name?
-- research topics presented as cards with pictures to the left
-    - one card by row or whatever looks good
-- Research page, add boxes/cards with title, picture and short text + link
 - Add first authors asterisks
 - Offer easy way to create extra pages with markdown and reasonable layout
-- long text boxes should be more narrow
 - members page: add group picture
 
 
