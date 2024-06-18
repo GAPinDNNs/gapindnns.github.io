@@ -2,7 +2,7 @@
 {% assign id = include.id %}
 <div class="card mb-3 talk-entry">
     <div class="card-body">
-      <div class="row align-items-center justify-content-between">
+      <div class="row justify-content-between">
         <div class="col-sm-8">
           <h5 class="card-title">{{ talk.title }}</h4>
           <h6 class="card-subtitle mb-2 text-muted">
@@ -16,6 +16,8 @@
               {% endunless %}
             {% endunless %}
             {% if url %}<a href="{{ url }}">{% endif %}{{ talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url %}</a>{% endif %}
+            {% if talk.speaker.affiliation %}<span class="">({{
+              talk.speaker.affiliation }})</span>{% endif %}
           </h6>
         </div>
         <div class="col-sm text-end text-body-secondary">
@@ -26,7 +28,7 @@
           <div class"row">
             <i class="bi bi-geo-alt-fill"></i>
             {% if talk.location.url %}
-              <a href="{{ talk.location.url }}">
+              <a href="{{ talk.location.url }}" target="_blank">
             {% endif %}
             {{ talk.location.name }}
             {% if talk.location.url %}

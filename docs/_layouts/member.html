@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div id="hero" class="container-fluid">
+<div id="hero">
   <div class="container">
-    <div class="row align-items-center py-3">
+    <div class="row justify-content-center align-items-center py-3">
       <div class="col-sm-4 text-start">
         <h1>{{ page.first_name }} {{ page.last_name }}</h1>
         <p class="ps-1 text-body-secondary">{{ page.position }}</p>
@@ -17,78 +17,68 @@ layout: default
 </div>
 
 
-<div class="container-fluid foreground-banner-no-bs">
+<div class="foreground-banner-no-bs">
   <div class="container pt-4">
-    <div id="profile-pic-out-cont" class="row align-items-center">
-      <div class="col-sm-auto text-center" style="position: relative;">
-        <div class="row profile-pic-box align-items-center">
-          <div class="col">
-        <img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="img-fluid w-100 rounded-circle border border-4 object-fit-cover">
+    <div class="row justify-content-center">
+      <div class="col container-text">
+        <div id="profile-pic-out-cont" class="row align-items-center">
+          <div class="col-sm-auto text-center" style="position: relative;">
+            <div class="row profile-pic-box align-items-center">
+              <div class="col">
+            <img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="img-fluid w-100 rounded-circle border border-4 object-fit-cover">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
           </div>
         </div>
-      </div>
-      <div class="col-sm">
-      </div>
-    </div>
 
-
-
-  {{ content }}
-
-
-<!-- <p class="text-body-secondary">{{ page.position }}</p> -->
-
+        {{ content }}
 
   <!-- Check if author has publications: -->
 
-  {% assign pubs = "" | split: "," %}
-  {% for item in site.data.publications %}
-    {% assign pub = item[1] %}
-    {% assign match = pub.author | where: 'family', page.last_name | first %}
-    {% if match %}
-      {% assign pubs = pubs | push: pub %}
-    {% endif %}
-  {% endfor %}
+        {% assign pubs = "" | split: "," %}
+        {% for item in site.data.publications %}
+          {% assign pub = item[1] %}
+          {% assign match = pub.author | where: 'family', page.last_name | first %}
+          {% if match %}
+            {% assign pubs = pubs | push: pub %}
+          {% endif %}
+        {% endfor %}
 
-  {% assign pubs = pubs | sort: "issued" | reverse %}
+        {% assign pubs = pubs | sort: "issued" | reverse %}
 
-  {% unless pubs == empty %}
+        {% unless pubs == empty %}
 
-    <h2>Publications</h2>
+          <h2>Publications</h2>
 
-    {% for pub in pubs %}
-      {% include publication.html pub=pub id=forloop.index %}
-    {% endfor %}
+          {% for pub in pubs %}
+            {% include publication.html pub=pub id=forloop.index %}
+          {% endfor %}
 
-  {% endunless %}
+        {% endunless %}
 
-  {% assign talks = "" | split: "," %}
-  {% for item in site.data.talks %}
-    {% assign talk = item[1] %}
-    {% if talk.speaker.last_name == page.last_name %}
-      {% assign talks = talks | push: talk %}
-    {% endif %}
-  {% endfor %}
-
-  {% for item in site.data.seminar_talks %}
-    {% assign talk = item[1] %}
-    {% if talk.speaker.last_name == page.last_name %}
-      {% assign talks = talks | push: talk %}
-    {% endif %}
-  {% endfor %}
+        {% assign talks = "" | split: "," %}
+        {% for item in site.data.talks %}
+          {% assign talk = item[1] %}
+          {% if talk.speaker.last_name == page.last_name %}
+            {% assign talks = talks | push: talk %}
+          {% endif %}
+        {% endfor %}
 
 
-  {% assign talks = talks | sort: "date" | reverse %}
+        {% assign talks = talks | sort: "date" | reverse %}
 
-  {% unless talks == empty %}
-    <h2>Talks</h2>
+        {% unless talks == empty %}
+          <h2>Talks</h2>
 
-    {% for talk in talks %}
-      {% include talk.html talk=talk id=forloop.index %}
-    {% endfor %}
+          {% for talk in talks %}
+            {% include talk.html talk=talk id=forloop.index %}
+          {% endfor %}
 
-  {% endunless %}
+        {% endunless %}
 
-
+      </div>
+    </div>
   </div>
 </div>

@@ -36,29 +36,32 @@ layout: default
       <h4 class="alert-heading">Warning!</h4>
       <p class="mb-0">This page is still work in progess.</p>
     </div>
-    <div class="home-text">
-      {{ content }}
-    </div>
+    <div class="row justify-content-center">
+    <!-- <div class="home-text container-text col align-self-center"> -->
+      <div class="col container-text home-text">
+        {{ content }}
 
-    {% assign cutoff_date = 'now' | date: '%s' %}
-    {% assign cutoff_date = cutoff_date | minus: 7776000 %}
-    {% assign all_news = site.data.news | sort: "date" | reverse %}
-    {% assign recent_news = "" | split: "," %}
-    {% for news in all_news %}
-      {% assign news_unix_time = news.date | date: '%s' | plus: 0 %}
-      {% if news_unix_time > cutoff_date %}
-        {% assign recent_news = recent_news | push: news %}
-      {% endif %}
-    {% endfor %}
+        {% assign cutoff_date = 'now' | date: '%s' %}
+        {% assign cutoff_date = cutoff_date | minus: 7776000 %}
+        {% assign all_news = site.data.news | sort: "date" | reverse %}
+        {% assign recent_news = "" | split: "," %}
+        {% for news in all_news %}
+          {% assign news_unix_time = news.date | date: '%s' | plus: 0 %}
+          {% if news_unix_time > cutoff_date %}
+            {% assign recent_news = recent_news | push: news %}
+          {% endif %}
+        {% endfor %}
 
-    {% unless recent_news == empty %}
-    <div id="news" class="border-top border-2 mt-4 pt-3 home-text ">
-      <h2>News</h2>
-      {% for selected_news in recent_news %}
-        {% include news_entry.html news=selected_news %}
-      {% endfor %}
+        {% unless recent_news == empty %}
+        <div id="news" class="border-top border-2 mt-4 pt-3 home-text ">
+          <h2>News</h2>
+          {% for selected_news in recent_news %}
+            {% include news_entry.html news=selected_news %}
+          {% endfor %}
+        </div>
+        {% endunless %}
+      </div>
     </div>
-    {% endunless %}
   </div>
 </div>
 <div class="subtle_gradient px-0" style="">

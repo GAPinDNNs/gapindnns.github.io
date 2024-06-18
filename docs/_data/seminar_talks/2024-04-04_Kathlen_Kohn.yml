@@ -1,0 +1,34 @@
+title:
+    Understanding Linear Convolutional Neural Networks via Sparse
+    Factorizations of Real Polynomials (and Decomposing Linear
+    Group-Equivariant Networks)
+date: '2024-04-04'
+time: '10:30'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Kathlén
+    last_name: Kohn
+    affiliation: KTH
+    url: https://kathlenkohn.github.io/
+abstract: |
+    This talk will explain that Convolutional Neural Networks without
+    activation parametrize polynomials that admit a certain sparse
+    factorization. For a fixed network architecture, these polynomials form
+    a semialgebraic set. We will investigate how the geometry of this
+    semialgebraic set (e.g., its singularities and relative boundary) changes
+    with the network architecture. Moreover, we will explore how these
+    geometric properties affect the optimization of a loss function for given
+    training data. We prove that for architectures where all strides are larger
+    than one and generic data, the non-zero critical points of the
+    squared-error loss are smooth interior points of the semialgebraic function
+    space. This property is known to be false for dense linear networks or
+    linear convolutional networks with stride one. (For linear networks, that
+    are equivariant under the action of some group, we prove that no fixed
+    network architecture can parametrize the whole space of functions, but that
+    finitely many architectures can exhaust the whole space of linear
+    equivariant functions.) This talk is based on joint work with Joan Bruna,
+    Guido Montúfar, Anna-Laura Sattelberger, Vahid Shahverdi, and Matthew
+    Trager.

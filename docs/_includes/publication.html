@@ -38,13 +38,13 @@
         {% if pub.publisher %}
         <div class="col-sm-5">
           Published:
-          <a href="{{ pub.URL }}" class="card-link">{{ pub.publisher }}</a>
+          <a href="{{ pub.URL }}" target="_blank" class="card-link">{{ pub.publisher }}</a>
         </div>
         {% endif %}
         {% if pub.preprint %}
         <div class="col-sm-5">
           Preprint:
-          <a href="{{ pub.preprint.URL }}" class="card-link">{{ pub.preprint.name }}</a>
+          <a href="{{ pub.preprint.URL }}" target="_blank" class="card-link">{{ pub.preprint.name }}</a>
         </div>
         {% endif %}
         <div class="col text-end">

@@ -1,0 +1,34 @@
+title: Equivariant Neural Networks for Biomedical Image Analysis
+date: '2024-05-02'
+time: '10:30'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Karl Bengtsson
+    last_name: Bernander
+    # affiliation:
+    # url: 
+abstract: |
+    In this talk I present an overview to my recently defended PhD thesis
+    conducted within the WASP program. While artificial intelligence and deep
+    learning have revolutionized many fields in the last decade, one of the key
+    drivers has been access to data. This is especially true in biomedical
+    image analysis where expert annotated data is hard to come by. The
+    combination of Convolutional Neural Networks (CNNs) with data augmentation
+    has proven successful in increasing the amount of training data at the cost
+    of overfitting. In our research, equivariant neural networks have been used
+    to extend the equivariant properties of CNNs to more transformations than
+    translations. The networks have been trained and evaluated on biomedical
+    image datasets, including bright-field microscopy images of cytological
+    samples indicating oral cancer, and transmission electron microscopy images
+    of virus samples. By designing the networks to be equivariant to e.g.
+    rotations, it is shown that the need for data augmentation is reduced, that
+    less overfitting occurs, and that convergence during training is faster.
+    Furthermore, equivariant neural networks are more data efficient than CNNs,
+    as demonstrated by scaling laws. These benefits are not present in all
+    problem settings and which benefits will occur is somewhat unpredictable.
+    We have identified that the results to some extent depend on architectures,
+    hyperparameters and datasets. Further research may broaden the performed
+    studies to explain how the results occur with new theory.

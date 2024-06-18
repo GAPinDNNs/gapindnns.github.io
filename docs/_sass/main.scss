@@ -25,6 +25,10 @@ $utilities: map-merge(
 
 @import "bootstrap/scss/utilities/api";
 
+.container-text {
+	max-width: 1110px;
+}
+
 a {
     text-decoration: none;
 }
@@ -155,5 +159,4 @@ p + h2 {
 
 .home-text {
 	padding: 0 $spacer;
-	text-justify: inter-word;
 }
