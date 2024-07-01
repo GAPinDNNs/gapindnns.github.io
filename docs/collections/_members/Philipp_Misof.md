@@ -7,6 +7,7 @@ short_description: Interested in equivariant neural networks and the neural
 image: /assets/images/profile_pictures/Philipp_Misof.jpg
 github: https://github.com/PhilippMisofCH
 blackboard-image: 
+status: active
 ---
 
 ## About me

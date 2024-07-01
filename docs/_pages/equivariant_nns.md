@@ -74,8 +74,8 @@ networks which are invariant, or, more generally, equivariant with respect to
 arbitrary groups of transformations. This allows to import powerful techniques
 from group theory and representation theory into deep learning.
 
-## Deep learning on manifolds and connection with gauge theory Taking
-symmetries of neural networks as a fundamental design principle, it is very
+## Deep learning on manifolds and connection with gauge theory
+Taking symmetries of neural networks as a fundamental design principle, it is very
 natural to consider the question of how to train neural networks in the case of
 “non-flat” data. Relevant applications include fisheye cameras, biomedicine,
 and cosmological data, just to mention a few situations where the data is

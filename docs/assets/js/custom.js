@@ -21,22 +21,26 @@ if (news.length != 0) {
 // Insert Upcoming and Previous headings for talks
 const talks = document.querySelectorAll(".talk-entry");
 if (talks.length != 0) {
+  var has_upcoming = false;
   const latest_date = talks[0].querySelector(".talk-date");
   latest_date_unix = Math.round(new Date(latest_date.innerText).getTime()/1000)
   const now_unix = Math.round(Date.now() / 1000)
   if (latest_date_unix > now_unix) {
+    has_upcoming = true;
     let UpcomingDiv = document.createElement("div");
     UpcomingDiv = talks[0].insertAdjacentElement("beforebegin", UpcomingDiv);
-    UpcomingDiv.innerHTML = "<h3>Upcoming</h3>";
+    UpcomingDiv.innerHTML = "<h4>Upcoming</h4>";
   }
-  for (let i = 0; i < talks.length; i++) {
-    const talk_date = talks[i].querySelector(".talk-date");
-    talk_date_unix = Math.round(new Date(talk_date.innerText).getTime()/1000)
-    if (talk_date_unix < now_unix) {
-      let PreviousDiv = document.createElement("div");
-      PreviousDiv = talks[i].insertAdjacentElement("beforebegin", PreviousDiv);
-      PreviousDiv.innerHTML = "<h3>Previous</h3>";
-      break;
+  if (has_upcoming) {
+    for (let i = 0; i < talks.length; i++) {
+      const talk_date = talks[i].querySelector(".talk-date");
+      talk_date_unix = Math.round(new Date(talk_date.innerText).getTime()/1000)
+      if (talk_date_unix < now_unix) {
+        let PreviousDiv = document.createElement("div");
+        PreviousDiv = talks[i].insertAdjacentElement("beforebegin", PreviousDiv);
+        PreviousDiv.innerHTML = "<h4>Previous</h4>";
+        break;
+      }
     }
   }
 }
