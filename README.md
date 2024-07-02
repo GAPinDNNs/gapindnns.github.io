@@ -71,23 +71,14 @@ prefer it if there is no significant content section. They are located inside
 - structure members page with
     - current members
     - previous members (not further categorized)
-    - but also
-        - Senior
-        - postdoc
-        - PhD
 - Add thesis page
 - Add link to homepage on Chalmers for each member
-- Footer: add math department (linked), Chalmers + GU logo, new line with
-  funding: WASP etc., address
-- Publication entries: `Preprint` field below `Published`
-- Publications sorted according to tags in different sections, overlaps
-  possible
+- Footer: Clarify between affiliations and funding? 
 - String theory:
     - Add a *string theory* tag that is not shown on publication page but on personal page
     - Same for talks (for Jan, Daniel, Hampus, Max)
     - should appear as separate section on personal page
 - Add functionality of personal blackboard image to each member
-- specialized research pages should have filtered (by tag) publication list
 
 
 ### Needs to be done by each member individually
