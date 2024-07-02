@@ -21,18 +21,30 @@ layout: default
   <div class="container pt-4">
     <div class="row justify-content-center">
       <div class="col container-text">
-        <div id="profile-pic-out-cont" class="row align-items-center">
-          <div class="col-sm-auto text-center" style="position: relative;">
+        <div id="profile-pic-out-cont" class="row mb-3 align-items-start
+          d-flex justify-content-between">
+          <div class="col-sm text-center half-pic-height" style="position: relative;">
             <div class="row profile-pic-box align-items-center">
-              <div class="col">
-            <img id="profile-pic" src="{% if page.image %}{{ page.image }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif %}" class="img-fluid w-100 rounded-circle border border-4 object-fit-cover">
+              <div class="col-sm-auto">
+                <img id="profile-pic" src="{% if page.image %}{{ page.image
+                }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif
+                %}" class="rounded-circle border border-4
+                object-fit-cover">
               </div>
             </div>
           </div>
-          <div class="col-sm">
+          {% if page.github %}
+          <div class="col-sm-auto text-center">
+            <a href="{{ page.github }}"><i class="bi bi-github text-body"
+                style="font-size: 2rem"></i></a>
           </div>
+	  {% endif %}
         </div>
-
+        <!-- <div class="row" style="position: relative;"> -->
+        <!--   <div class="col text-end"> -->
+        <!--     Github  -->
+        <!--   </div> -->
+        <!-- </div> -->
         {{ content }}
 
   <!-- Check if author has publications: -->
