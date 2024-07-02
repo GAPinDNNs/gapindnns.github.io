@@ -7,6 +7,30 @@ layout: default
     <div class="col container-text">
       <h1 id="page-title">{{ page.title }}</h1>
       {{ content }}
+
+      {% assign pubs = "" | split: "," %}
+      {% for item in site.data.publications %}
+        {% assign pub = item[1] %}
+        {% for tag in page.publication_tags %}
+          {% if pub.tags contains tag %}
+            {% assign pubs = pubs | push: pub %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign pubs = pubs | sort: "issued" | reverse %}
+
+      {% unless pubs == empty %}
+        <h2>Relevant publications</h2>
+
+        {% for pub in pubs %}
+          {% include publication.html pub=pub id=forloop.index %}
+        {% endfor %}
+      {% endunless %}
+
     </div>
   </div>
 </div>
+
+

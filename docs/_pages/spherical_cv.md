@@ -1,6 +1,7 @@
 ---
 layout: topic
 title: Spherical computer vision and equivariant transformers
+publication_tags:
 ---
 
 Transformer networks are a type of neural network architecture that have been

@@ -1,6 +1,8 @@
 ---
 layout: topic
 title: Equivariant neural networks and geometric deep learning
+publication_tags:
+  - ENN
 ---
 
 The notion of ''geometric deep learning" is often used as an umbrella term to

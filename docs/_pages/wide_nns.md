@@ -1,6 +1,8 @@
 ---
 layout: topic
 title: Wide neural networks and neural tangent kernels
+publication_tags:
+  - NTK
 ---
 
 A solid theoretical understanding of deep neural networks is lacking at the

@@ -14,17 +14,17 @@ title: Group members
     {% endif %}
 {% endfor %}
 
-{% include group_member_card.html members=members_filtered %}
+{% include group_member_card.html members=members_filtered position=true %}
 
 <h2>Postdocs</h2>
 
 {% assign members_filtered = members_sorted | where: "position", "Postdoc" %}
-{% include group_member_card.html members=members_filtered %}
+{% include group_member_card.html members=members_filtered position=false %}
 
 <h2>PhD students</h2>
 
 {% assign members_filtered = members_sorted | where: "position", "PhD student" %}
-{% include group_member_card.html members=members_filtered %}
+{% include group_member_card.html members=members_filtered position=false %}
 
 
 <!-- <ul> -->
