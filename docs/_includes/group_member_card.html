@@ -27,7 +27,7 @@
 	    </div>
 	    <div class="col-sm-8">
 	      <div class="card-body">
-		<h5 class="card-title fw-light">{{ member.position }}</h5>
+		{% if include.position %}<h5 class="card-title fw-light">{{ member.position }}</h5>{% endif %}
 		<p class="card-text">{{ member.short_description | markdownify }}</p>
 	      </div>
 	    </div>

@@ -73,9 +73,11 @@
         <!-- </div> -->
         <!-- {% endif %} -->
         <div class="col text-end">
-          {% for tag in talk.tags %}
-            <span class="badge bg-primary">{{ tag }}</span>
-          {% endfor %}
+        {% for tag in pub.tags %}
+          {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
+          {% assign tag_long = matched_tag.long %}
+          <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
+        {% endfor %}
         </div>
       </div>
     </div>

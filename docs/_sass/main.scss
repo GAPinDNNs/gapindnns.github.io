@@ -160,3 +160,10 @@ p + h2 {
 .home-text {
 	padding: 0 $spacer;
 }
+
+.tag-btn {
+	--bs-btn-padding-y: 0.05rem;
+	--bs-btn-padding-x: 0.25rem;
+	--bs-btn-font-size: 0.75rem;
+	--bs-btn-border-radius: 0.35rem;
+}

@@ -34,22 +34,30 @@
         </div>
 
       </p>
-      <div class="row align-items-center justify-content-between">
+      <div class="row d-flex align-items-end justify-content-between">
+        {% if pub.publisher or pub.preprint %}
+        <div class="col-sm-10">
+        {% endif %}
         {% if pub.publisher %}
-        <div class="col-sm-5">
+        <div>
           Published:
           <a href="{{ pub.URL }}" target="_blank" class="card-link">{{ pub.publisher }}</a>
         </div>
         {% endif %}
         {% if pub.preprint %}
-        <div class="col-sm-5">
+        <div>
           Preprint:
           <a href="{{ pub.preprint.URL }}" target="_blank" class="card-link">{{ pub.preprint.name }}</a>
         </div>
         {% endif %}
+        {% if pub.publisher or pub.preprint %}
+        </div>
+        {% endif %}
         <div class="col text-end">
           {% for tag in pub.tags %}
-            <span class="badge bg-primary">{{ tag }}</span>
+            {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
+            {% assign tag_long = matched_tag.long %}
+            <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
           {% endfor %}
         </div>
       </div>
