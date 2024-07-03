@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Theses
+title: PhD Theses
 ---
 
 ## Mathematical Foundations of Equivariant Neural Networks

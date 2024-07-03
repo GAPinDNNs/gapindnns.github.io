@@ -1,3 +1,16 @@
+- date: 2024-07-02
+  headline: Master Thesis Defense
+  text: |
+    William Nyrén and Ibrahim Taha defended their master thesis on "Predicting UV-Vis absorption spectra by using graph neural network models". Congratulations!
+- date: 2024-06-21
+  headline: CVPR 2024 in Seattle
+  link: https://cvpr.thecvf.com/virtual/2024/poster/31442
+  text: |
+    Several members of our group, [Oscar Carlsson](/members/Oscar_Carlsson), [Jan Gerken](/members/Jan_Gerken), [Hampus Linander](/members/Hampus_Linander) and [Christoffer Petersson](/members/Christoffer_Petersson) traveled to Seattle to participate in CVPR 2024. We had an inspiring conference, met many new and old colleagues and presented our work on [HEAL-SWIN: A Vision Transformer on The Sphere](https://cvpr.thecvf.com/virtual/2024/poster/31442).
+- date: 2024-02-01
+  headline: This is old news
+  text: |
+    This is old news. It is only here to show how old news is displayed.
 - date: 2024-06-12
   headline: GeUmetric Deep Learning workshop in Umeå
   link: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/

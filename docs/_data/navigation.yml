@@ -6,13 +6,13 @@
   link: /_pages/research.html
     # - name: Research Directions
     #   link: /_pages/research.html
-      # links:
-        # - name: Spherical computer vision
-        #   link: /spherical_cv.html
-        # - name: Theory of equivariant neural networks
-        #   link: /equivariant_nn.html
-        # - name: Neural tangent kernels
-        #   link: /ntk.html
+  # links:
+  #  - name: Spherical computer vision
+  #    link: /_pages/spherical_cv.html
+  #  - name: Theory of equivariant neural networks
+  #    link: /_pages/equivariant_nns.html
+  #  - name: Neural tangent kernels
+  #    link: /_pages/wide_nns.html
 - name: Output
   links:
     - name: Publications

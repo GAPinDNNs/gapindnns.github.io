@@ -2,6 +2,12 @@
 first_name: Jan
 last_name: Gerken
 short_description:
+image: /assets/images/profile_pictures/Jan_Gerken.jpg
+github: https://github.com/JanEGerken
+email: gerken@chalmers.se
+office:
+    number: L3090
+    url: https://maps.chalmers.se/#person:chalmers:gerken
 position: Assistant Professor
 ---
 

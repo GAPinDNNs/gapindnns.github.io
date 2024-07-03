@@ -26,4 +26,5 @@ preprint:
 title: Equivariant Neural Tangent Kernels
 type: article
 tags:
-  - NTK
+- NTK
+- ENN

@@ -65,6 +65,7 @@ prefer it if there is no significant content section. They are located inside
 - Offer easy way to create extra pages with markdown and reasonable layout
 - members page: add group picture
 - add office number to member page
+- Fix bug: external collaborators are identified only by last name, if they are identical (eg. David Müller vs. Klaus-Robert Müller), the links get mixed up
 
 
 ### Less technical, for Elias or Oscar

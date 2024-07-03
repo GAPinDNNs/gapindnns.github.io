@@ -16,7 +16,9 @@ issued: '2024-03-05'
 preprint:
   name: arXiv
   URL: http://arxiv.org/abs/2403.03103
+publisher: ICML 2024
 title: Emergent Equivariance in Deep Ensembles
 type: article
 tags:
-  - ENN
+- NTK
+- ENN

@@ -1,0 +1,15 @@
+title: Geometrical aspects of lattice gauge equivariant convolutional neural networks
+abstract: Lattice gauge equivariant convolutional neural networks (L-CNNs) are a framework for convolutional neural networks that can be applied to non-Abelian lattice gauge theories without violating gauge symmetry. We demonstrate how L-CNNs can be equipped with global group equivariance. This allows us to extend the formulation to be equivariant not just under translations but under global lattice symmetries such as rotations and reflections. Additionally, we provide a geometric formulation of L-CNNs and show how convolutions in L-CNNs arise as a special case of gauge equivariant neural networks on SU(N) principal bundles.
+author:
+- family: Aronsson
+  given: Jimmy
+- family: Müller
+  given: David I.
+- family: Schuh
+  given: Daniel
+issued: '2023-03-20'
+preprint:
+  URL: https://arxiv.org/abs/2303.11448
+  name: arXiv
+tags:
+  - ENN

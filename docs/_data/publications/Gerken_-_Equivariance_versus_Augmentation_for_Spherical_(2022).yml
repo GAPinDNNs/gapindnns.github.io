@@ -16,7 +16,7 @@ abstract: We analyze the role of rotational equivariance in convolutional neural
   and data augmentation for practical problems.
 author:
 - family: Gerken
-  given: Jan
+  given: Jan E.
   first_author: true
 - family: Carlsson
   given: Oscar
@@ -29,8 +29,13 @@ author:
 - family: Persson
   given: Daniel
 issued: '2022-06-28'
-publisher: PMLR
+publisher: ICML 2022
+preprint:
+  URL: https://arxiv.org/abs/2202.03990
+  name: arXiv
 title: Equivariance versus Augmentation for Spherical Images
 type: paper-conference
 tags:
+  - SCV
   - ENN
+
