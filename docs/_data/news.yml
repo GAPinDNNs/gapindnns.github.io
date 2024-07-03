@@ -1,8 +1,11 @@
 - date: 2024-06-12
   headline: GeUmetric Deep Learning workshop in Umeå
-  link: /_pages/talks.html
+  link: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
   text: |
-    Thanks to all the speakers and participants of this interesting workshop!
+    Thanks to all the speakers and participants of this interesting workshop at
+    the [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/) which was coorganized by our
+    colleague [Jan Gerken](/members/Jan_Gerken). We had a broad range of talks
+    and discussions focusing on geometric aspects of deep learning.
 - date: 2024-02-01
   headline: This is old news
   text: |

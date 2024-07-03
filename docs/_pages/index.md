@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to our group page!
+# Who we are
 {: .display-5 }
 
 The research group on Geometry, Algebra and Physics in Deep Neural Networks (GAPinDNNs) is based at the Department for Mathematical Sciences at Chalmers Univerity of Technology and the University of Gothenburg. Our vision is to develop a mathematical foundation for deep learning which elevates the field into a theoretically well-grounded science.

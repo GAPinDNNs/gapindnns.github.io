@@ -18,19 +18,19 @@
     - name: Publications
       link: /_pages/publications.html
     - name: Theses
-      link: /theses.html
+      link: /_pages/theses.html
     - name: Talks
       link: /_pages/talks.html
     - name: Software
-      link: /software.html
+      link: /_pages/software.html
 # - name: GAPinDNNs Seminar
 - name: Seminar
   link: /_pages/seminar.html
 - name: Teaching
   links:
     - name: Courses
-      link: /courses.html
+      link: /_pages/courses.html
     - name: Master projects
-      link: /master_projects.html
+      link: /_pages/master_projects.html
 - name: Positions
-  link: /positions.html
+  link: /_pages/positions.html

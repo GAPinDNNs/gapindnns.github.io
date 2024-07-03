@@ -1,0 +1,109 @@
+{% assign project = include.project %}
+{% assign id = include.id %}
+<div class="card mb-3 talk-entry">
+  <div class="card-body">
+    <div class="row justify-content-between">
+      <div class="col-sm-12">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <h6 class="card-subtitle mb-2">
+          <div class="mt-3 mb-2 fw-bold">
+            {% if project.students %}
+            Student{% if project.students.size > 1 %}s{% endif %}:
+            {% for student in project.students %}
+            {% assign member = site.members | where: 'last_name', student.last_name | first %}
+            {% assign url = member.url %}
+            {% unless url %}
+            {% assign member = site.data.external_collaborators | where:
+            'last_name', student.last_name | first %}
+            {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{ student.first_name }} {{
+              student.last_name
+              }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            {% endif %}
+          </div>
+          <div class="text-muted">
+            Supervisor{% if project.supervisors.size > 1 %}s{% endif %}:
+            {% for supervisor in project.supervisors %}
+            {% assign member = site.members | where: 'last_name', supervisor.last_name | first %}
+            {% assign url = member.url %}
+            {% unless url %}
+            {% assign member = site.data.external_collaborators | where:
+            'last_name', supervisor.last_name | first %}
+            {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{ supervisor.first_name }} {{
+              supervisor.last_name
+              }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            <br>
+            Examiner:
+            {% assign member = site.members | where: 'last_name', project.examiner.last_name | first %}
+            {% assign url = member.url %}
+            {% unless url %}
+            {% assign member = site.data.external_collaborators | where: 'last_name', project.examiner.last_name | first
+            %}
+            {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{ project.examiner.first_name }} {{
+              project.examiner.last_name
+              }}{% if url %}</a>{% endif %}
+            {% if project.project_members %}
+            <br>
+            Project members:
+            {% for proj_member in project.project_members %}
+            {% assign member = site.members | where: 'last_name', proj_member.last_name | first %}
+            {% assign url = member.url %}
+            {% unless url %}
+            {% assign member = site.data.external_collaborators | where: 'last_name', proj_member.last_name | first %}
+            {% endunless %}
+            {% if url %}<a href="{{ url }}">{% endif %}{{ proj_member.first_name }} {{ proj_member.last_name }}{% if url
+              %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            {% endif %}
+          </div>
+        </h6>
+      </div>
+      <!-- <div class="col-sm text-end text-body-secondary"> -->
+      <!--   <div class"row"> -->
+      <!--     <i class="bi bi-calendar2-week-fill"></i> <span class="me-3 talk-date">{{project.date | date_to_string -->
+      <!--       }}</span> <i class="bi bi-clock-fill"></i> {{ project.time | date: "%H:%M" }} -->
+      <!--   </div> -->
+      <!---->
+      <!--   <div class"row"> -->
+      <!--     <i class="bi bi-geo-alt-fill"></i> -->
+      <!--     {% if project.location.url %} -->
+      <!--     <a href="{{ project.location.url }}" target="_blank"> -->
+      <!--       {% endif %} -->
+      <!--       {{ project.location.name }} -->
+      <!--       {% if project.location.url %} -->
+      <!--     </a> -->
+      <!--     {% endif %} -->
+      <!--   </div> -->
+      <!-- </div> -->
+    </div>
+
+    <div class="card-text">
+
+      {% if project.description %}
+      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
+        data-bs-target="#project_description_{{ id }}" aria-pressed="false" aria-expanded="false"
+        aria-controls="project_description_{{ id }}">
+        Description
+      </button>
+      <div class="collapse mt-2" id="project_description_{{ id }}">
+        {{ project.description | markdownify }}
+      </div>
+      {% endif %}
+
+    </div>
+    <div class="row align-items-center justify-content-between">
+      <div class="col text-end">
+        {% for tag in project.tags %}
+        {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
+        {% assign tag_long = matched_tag.long %}
+        <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

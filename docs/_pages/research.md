@@ -33,6 +33,9 @@ results from geometric deep learning. Autonomous driving is a prime example. To
 identify traffic situations from different angles requires neural networks with
 rotational symmetry. Other potential applications include cosmological data
 analysis and climate pattern segmentation.
+{: .mb-4 }
+
+
 
 {% include research_topic_card.html
 title="Equivariant neural networks and geometric deep learning"
