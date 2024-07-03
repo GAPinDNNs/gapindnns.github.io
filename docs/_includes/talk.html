@@ -23,8 +23,9 @@
       </div>
       <div class="col-sm text-end text-body-secondary">
         <div class"row">
-          <i class="bi bi-calendar2-week-fill"></i> <span class="me-3 talk-date">{{talk.date | date_to_string }}</span>
-          <i class="bi bi-clock-fill"></i> {{ talk.time | date: "%H:%M" }}
+          <i class="bi bi-calendar2-week-fill"></i> <span class="talk-date">{{talk.date | date_to_string }}</span>
+          {% if talk.time %}<i class="ms-3 bi bi-clock-fill"></i> {{ talk.time
+          | date: "%H:%M" }}{% endif %}
         </div>
 
         <div class"row">
