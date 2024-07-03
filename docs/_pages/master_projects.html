@@ -3,24 +3,35 @@ layout: topic
 title: Master projects
 ---
 
-<h2>Thesis opportunities</h2>
 
 {% assign projects = site.data.master_projects | where: 'status', 'open' %}
+{% unless projects == empty %}
+
+<h2>Thesis opportunities</h2>
 {% for project in projects %}
 {% include master_project.html project=project id=forloop.index %}
 {% endfor %}
 
+{% endunless %}
+
+
+{% assign projects = site.data.master_projects | where: 'status', 'ongoing' %}
+{% unless projects == empty %}
 
 <h2>Current master projects</h2>
 
-{% assign projects = site.data.master_projects | where: 'status', 'ongoing' %}
 {% for project in projects %}
 {% include master_project.html project=project id=forloop.index %}
 {% endfor %}
+
+{% endunless %}
+
+{% assign projects = site.data.master_projects | where: 'status', 'finished' %}
+{% unless projects == empty %}
 
 <h2>Finished master projects</h2>
 
-{% assign projects = site.data.master_projects | where: 'status', 'finished' %}
 {% for project in projects %}
 {% include master_project.html project=project id=forloop.index %}
 {% endfor %}
+{% endunless %}

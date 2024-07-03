@@ -16,83 +16,83 @@
             {% assign member = site.data.external_collaborators | where:
             'last_name', student.last_name | first %}
             {% endunless %}
-            {% if url %}<a href="{{ url }}">{% endif %}{{ student.first_name }} {{
-              student.last_name
-              }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-            {% endif %}
-          </div>
-          <div class="text-muted">
-            Supervisor{% if project.supervisors.size > 1 %}s{% endif %}:
-            {% for supervisor in project.supervisors %}
-            {% assign member = site.members | where: 'last_name', supervisor.last_name | first %}
-            {% assign url = member.url %}
-            {% unless url %}
-            {% assign member = site.data.external_collaborators | where:
-            'last_name', supervisor.last_name | first %}
-            {% endunless %}
-            {% if url %}<a href="{{ url }}">{% endif %}{{ supervisor.first_name }} {{
-              supervisor.last_name
-              }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-            <br>
-            Examiner:
-            {% assign member = site.members | where: 'last_name', project.examiner.last_name | first %}
-            {% assign url = member.url %}
-            {% unless url %}
-            {% assign member = site.data.external_collaborators | where: 'last_name', project.examiner.last_name | first
-            %}
-            {% endunless %}
-            {% if url %}<a href="{{ url }}">{% endif %}{{ project.examiner.first_name }} {{
-              project.examiner.last_name
-              }}{% if url %}</a>{% endif %}
-            {% if project.project_members %}
-            <br>
-            Project members:
-            {% for proj_member in project.project_members %}
-            {% assign member = site.members | where: 'last_name', proj_member.last_name | first %}
-            {% assign url = member.url %}
-            {% unless url %}
-            {% assign member = site.data.external_collaborators | where: 'last_name', proj_member.last_name | first %}
-            {% endunless %}
-            {% if url %}<a href="{{ url }}">{% endif %}{{ proj_member.first_name }} {{ proj_member.last_name }}{% if url
-              %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-            {% endif %}
-          </div>
-        </h6>
-      </div>
-      <!-- <div class="col-sm text-end text-body-secondary"> -->
-      <!--   <div class"row"> -->
-      <!--     <i class="bi bi-calendar2-week-fill"></i> <span class="me-3 talk-date">{{project.date | date_to_string -->
-      <!--       }}</span> <i class="bi bi-clock-fill"></i> {{ project.time | date: "%H:%M" }} -->
-      <!--   </div> -->
-      <!---->
-      <!--   <div class"row"> -->
-      <!--     <i class="bi bi-geo-alt-fill"></i> -->
-      <!--     {% if project.location.url %} -->
-      <!--     <a href="{{ project.location.url }}" target="_blank"> -->
-      <!--       {% endif %} -->
-      <!--       {{ project.location.name }} -->
-      <!--       {% if project.location.url %} -->
-      <!--     </a> -->
-      <!--     {% endif %} -->
-      <!--   </div> -->
-      <!-- </div> -->
+          {% if url %}<a href="{{ url }}">{% endif %}{{ student.first_name }} {{
+            student.last_name
+            }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          {% endif %}
+        </div>
+        <div class="text-muted">
+          Supervisor{% if project.supervisors.size > 1 %}s{% endif %}:
+          {% for supervisor in project.supervisors %}
+          {% assign member = site.members | where: 'last_name', supervisor.last_name | first %}
+          {% assign url = member.url %}
+          {% unless url %}
+          {% assign member = site.data.external_collaborators | where:
+          'last_name', supervisor.last_name | first %}
+          {% endunless %}
+          {% if url %}<a href="{{ url }}">{% endif %}{{ supervisor.first_name }} {{
+            supervisor.last_name
+            }}{% if url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          <br>
+          Examiner:
+          {% assign member = site.members | where: 'last_name', project.examiner.last_name | first %}
+          {% assign url = member.url %}
+          {% unless url %}
+          {% assign member = site.data.external_collaborators | where: 'last_name', project.examiner.last_name | first
+          %}
+          {% endunless %}
+          {% if url %}<a href="{{ url }}">{% endif %}{{ project.examiner.first_name }} {{
+            project.examiner.last_name
+            }}{% if url %}</a>{% endif %}
+          {% if project.project_members %}
+          <br>
+          Project members:
+          {% for proj_member in project.project_members %}
+          {% assign member = site.members | where: 'last_name', proj_member.last_name | first %}
+          {% assign url = member.url %}
+          {% unless url %}
+          {% assign member = site.data.external_collaborators | where: 'last_name', proj_member.last_name | first %}
+          {% endunless %}
+          {% if url %}<a href="{{ url }}">{% endif %}{{ proj_member.first_name }} {{ proj_member.last_name }}{% if url
+            %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          {% endif %}
+        </div>
+      </h6>
     </div>
+  </div>
 
-    <div class="card-text">
+  <div class="card-text">
 
-      {% if project.description %}
-      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
+    {% if project.description.text %}
+      <button class="me-2 btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
         data-bs-target="#project_description_{{ id }}" aria-pressed="false" aria-expanded="false"
         aria-controls="project_description_{{ id }}">
-        Description
+        Open description
       </button>
       <div class="collapse mt-2" id="project_description_{{ id }}">
-        {{ project.description | markdownify }}
+        {{ project.description.text | markdownify }}
       </div>
-      {% endif %}
+    {% endif %}
+    {% if project.description.url %}
+      <a href="{{ project.description.url }}" class="me-2 btn btn-primary btn-sm" role="button">
+        Open description
+      </a>
+    {% endif %}
+    {% if project.announcement %}
+    <a href="{{ project.announcement }}" class="me-2 btn btn-primary btn-sm" role="button">
+        Open announcement
+      </a>
+    {% endif %}
+
+    {% if project.thesis %}
+    <a href="{{ project.thesis }}" class="me-2 btn btn-primary btn-sm" role="button">
+        Open thesis
+    </a>
+    {% endif %}
+
 
     </div>
     <div class="row align-items-center justify-content-between">

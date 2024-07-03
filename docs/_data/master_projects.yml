@@ -1,12 +1,11 @@
 - title: "Geometric Deep Learning: Equivariant Lie Transformer for Computer Vision"
   status: open
-  description: More information found [here](https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/2501)
+  description:
+    text:
+  announcement: https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/2501
   supervisors:
     - first_name: Elias
       last_name: Nyholm
-  # student:
-  #   first_name:
-  #   last_name:
   examiner:
     first_name: Jan
     last_name: Gerken
@@ -23,6 +22,7 @@
 - title: "Geometric Deep Learning: Gauge equivariant neural networks for learning topological order"
   status: ongoing
   description:
+    url: /downloads/master_theses/project_description/Huang_equivariant_nns.pdf
   students:
     - first_name: Longde
       last_name: Huang
@@ -78,7 +78,7 @@
 - title: "Gauge equivariant convolutional neural networks"
   status: finished
   description:
-  file:
+  thesis: /downloads/master_theses/finished/Carlsson-2020-Gauge-equivariant-convolutional-neural-networks.pdf
   students:
     - first_name: Oscar
       last_name: Carlsson
