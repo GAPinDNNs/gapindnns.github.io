@@ -10,8 +10,8 @@ layout: default
         <p class="ps-1 text-body-secondary">{{ page.position }}</p>
       </div>
       <div class="col-sm-8 text-center">
-      <img src="/assets/images/NNEFT_matrices.png" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
-    </div>
+        <img src="/assets/images/NNEFT_matrices.png" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
+      </div>
     </div>
   </div>
 </div>
@@ -33,12 +33,22 @@ layout: default
               </div>
             </div>
           </div>
+          {% if page.email %}
+          <div class="col-sm-auto text-center">
+            <a href="mailto:{{ page.email }}"><i class="bi bi-envelope-fill text-body" style="font-size: 2rem"></i></a>
+          </div>
+          {% endif %}
           {% if page.github %}
           <div class="col-sm-auto text-center">
-            <a href="{{ page.github }}"><i class="bi bi-github text-body"
-                style="font-size: 2rem"></i></a>
+            <a href="{{ page.github }}"><i class="bi bi-github text-body" style="font-size: 2rem"></i></a>
           </div>
-	  {% endif %}
+          {% endif %}
+          {% if page.office.number %}
+          <div class="col-sm-auto text-center">
+            <a href="{{ page.office.url }}"><i class="bi bi-geo-alt-fill text-body" style="font-size: 2rem"></i></a>
+          </div>
+          {% endif %}
+
         </div>
         <!-- <div class="row" style="position: relative;"> -->
         <!--   <div class="col text-end"> -->
@@ -47,46 +57,46 @@ layout: default
         <!-- </div> -->
         {{ content }}
 
-  <!-- Check if author has publications: -->
+        <!-- Check if author has publications: -->
 
         {% assign pubs = "" | split: "," %}
         {% for item in site.data.publications %}
-          {% assign pub = item[1] %}
-          {% assign match = pub.author | where: 'family', page.last_name | first %}
-          {% if match %}
-            {% assign pubs = pubs | push: pub %}
-          {% endif %}
+        {% assign pub = item[1] %}
+        {% assign match = pub.author | where: 'family', page.last_name | first %}
+        {% if match %}
+        {% assign pubs = pubs | push: pub %}
+        {% endif %}
         {% endfor %}
 
         {% assign pubs = pubs | sort: "issued" | reverse %}
 
         {% unless pubs == empty %}
 
-          <h2>Publications</h2>
+        <h2>Publications</h2>
 
-          {% for pub in pubs %}
-            {% include publication.html pub=pub id=forloop.index %}
-          {% endfor %}
+        {% for pub in pubs %}
+        {% include publication.html pub=pub id=forloop.index %}
+        {% endfor %}
 
         {% endunless %}
 
         {% assign talks = "" | split: "," %}
         {% for item in site.data.talks %}
-          {% assign talk = item[1] %}
-          {% if talk.speaker.last_name == page.last_name %}
-            {% assign talks = talks | push: talk %}
-          {% endif %}
+        {% assign talk = item[1] %}
+        {% if talk.speaker.last_name == page.last_name %}
+        {% assign talks = talks | push: talk %}
+        {% endif %}
         {% endfor %}
 
 
         {% assign talks = talks | sort: "date" | reverse %}
 
         {% unless talks == empty %}
-          <h2>Talks</h2>
+        <h2>Talks</h2>
 
-          {% for talk in talks %}
-            {% include talk.html talk=talk id=forloop.index %}
-          {% endfor %}
+        {% for talk in talks %}
+        {% include talk.html talk=talk id=forloop.index %}
+        {% endfor %}
 
         {% endunless %}
 

@@ -64,8 +64,7 @@ prefer it if there is no significant content section. They are located inside
 - Add first authors asterisks
 - Offer easy way to create extra pages with markdown and reasonable layout
 - members page: add group picture
-- add location links on group member page
-- add mail addresses
+- add office number to member page
 
 
 ### Less technical, for Elias or Oscar

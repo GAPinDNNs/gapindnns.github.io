@@ -6,8 +6,11 @@ short_description: Interested in equivariant neural networks and the neural
     tangent kernel.
 image: /assets/images/profile_pictures/Philipp_Misof.jpg
 github: https://github.com/PhilippMisofCH
+email: misof@chalmers.se
+office:
+    number: L3048
+    url: https://maps.chalmers.se/#person:chalmers:misof
 blackboard-image: 
-status: active
 ---
 
 ## About me
