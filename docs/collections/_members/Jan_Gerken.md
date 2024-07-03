@@ -1,7 +1,7 @@
 ---
 first_name: Jan
 last_name: Gerken
-short_description: WIP
+short_description:
 position: Assistant Professor
 ---
 

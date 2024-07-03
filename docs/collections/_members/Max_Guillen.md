@@ -1,7 +1,7 @@
 ---
 first_name: Max
 last_name: Guillen
-short_description: WIP
+short_description:
 position: Postdoc
 ---
 
