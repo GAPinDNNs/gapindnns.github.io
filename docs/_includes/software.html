@@ -1,0 +1,16 @@
+{% assign software = include.software %}
+{% assign id = include.id %}
+<div class="card mb-3" style="">
+  <div class="row g-0">
+    <div class="col-md-3 justify-content-center d-flex flex-column">
+      <a href="{{ software.url }}" class="text-center"><img src="{{ software.image }}" class="img-fluid rounded-start p-2" style="max-height: 250px;"></a>
+    </div>
+    <div class="col-md-9 ps-2">
+      <div class="card-body">
+        <h5 class="card-title">{{ software.title }}</h5>
+        <p class="card-text">{{ software.description | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
