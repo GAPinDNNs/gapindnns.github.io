@@ -33,21 +33,23 @@ layout: default
               </div>
             </div>
           </div>
-          {% if page.email %}
           <div class="col-sm-auto text-center">
-            <a href="mailto:{{ page.email }}"><i class="bi bi-envelope-fill text-body" style="font-size: 2rem"></i></a>
-          </div>
+          {% if page.email %}
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="mailto:{{ page.email }}"><i class="mx-2 bi bi-envelope-fill text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
           {% endif %}
           {% if page.github %}
-          <div class="col-sm-auto text-center">
-            <a href="{{ page.github }}"><i class="bi bi-github text-body" style="font-size: 2rem"></i></a>
-          </div>
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="{{ page.github }}"><i class="mx-2 bi bi-github text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
           {% endif %}
           {% if page.office.number %}
-          <div class="col-sm-auto text-center">
-            <a href="{{ page.office.url }}"><i class="bi bi-geo-alt-fill text-body" style="font-size: 2rem"></i></a>
-          </div>
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="{{ page.office.url }}"><i class="mx-1 bi bi-geo-alt-fill text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
           {% endif %}
+          </div>
 
         </div>
         <!-- <div class="row" style="position: relative;"> -->
