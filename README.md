@@ -64,14 +64,14 @@ prefer it if there is no significant content section. They are located inside
 - Add first authors asterisks
 - Offer easy way to create extra pages with markdown and reasonable layout
 - members page: add group picture
+- add location links on group member page
+- add mail addresses
 
 
 ### Less technical, for Elias or Oscar
 - Add office numbers to members
 - structure members page with
-    - current members
     - previous members (not further categorized)
-- Add thesis page
 - Add link to homepage on Chalmers for each member
 - Footer: Clarify between affiliations and funding? 
 - String theory:
