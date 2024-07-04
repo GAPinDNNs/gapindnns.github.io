@@ -1,0 +1,31 @@
+DOI: 10.1007/JHEP07(2020)190
+abstract: "We study generating series of torus integrals that contain all so-called\
+  \ modular graph forms relevant for massless one-loop closed-string amplitudes. By\
+  \ analysing the differential equation of the generating series we construct a solution\
+  \ for their low-energy expansion to all orders in the inverse string tension \u03B1\
+  \u2032. Our solution is expressed through initial data involving multiple zeta values\
+  \ and certain real-analytic functions of the modular parameter of the torus. These\
+  \ functions are built from real and imaginary parts of holomorphic iterated Eisenstein\
+  \ integrals and should be closely related to Brown\u2019s recent construction of\
+  \ real-analytic modular forms. We study the properties of our real-analytic objects\
+  \ in detail and give explicit examples to a fixed order in the \u03B1\u2032-expansion.\
+  \ In particular, our solution allows for a counting of linearly independent modular\
+  \ graph forms at a given weight, confirming previous partial results and giving\
+  \ predictions for higher, hitherto unexplored weights. It also sheds new light on\
+  \ the topic of uniform transcendentality of the \u03B1\u2032-expansion."
+author:
+- family: Gerken
+  given: Jan E.
+- family: Kleinschmidt
+  given: Axel
+- family: Schlotterer
+  given: Oliver
+issued: '2020-07-27'
+publisher: Journal of High Energy Physics
+preprint:
+  URL: http://arxiv.org/abs/2004.05156
+  name: arXiv
+title: Generating series of all modular graph forms from iterated Eisenstein integrals
+type: article-journal
+tags:
+  - ST

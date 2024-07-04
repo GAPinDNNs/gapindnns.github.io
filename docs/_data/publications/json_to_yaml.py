@@ -35,7 +35,6 @@ def write_yaml(data):
 
 
 def fix_structure(data):
-    data = remove_top_level_list(data)
     data = translate_fields(data)
     data = extract_keys(data)
     data = fix_date_parts(data)
@@ -129,22 +128,26 @@ def create_filename_stem(data):
 
 def main(in_filename, is_frontmatter=False, out_filename=None):
     with open(in_filename, "r") as file:
-        data = read_json(file)
+        data_list = read_json(file)
+    for data in data_list:
+        print(f"processing {data['title']}...")
         data = fix_structure(data)
         output = write_yaml(data)
         filename_stem = create_filename_stem(data)
 
-    if not out_filename:
-        if is_frontmatter:
-            out_filename = pl.PurePath(filename_stem).with_suffix(".md")
+        if out_filename:
+            filename = out_filename
         else:
-            out_filename = pl.PurePath(filename_stem).with_suffix(".yml")
+            if is_frontmatter:
+                filename = pl.PurePath(filename_stem).with_suffix(".md")
+            else:
+                filename = pl.PurePath(filename_stem).with_suffix(".yml")
 
-    if is_frontmatter:
-        output = create_frontmatter(output)
+        if is_frontmatter:
+            output = create_frontmatter(output)
 
-    with open(out_filename, "w") as file:
-        file.write(output)
+        with open(filename, "w") as file:
+            file.write(output)
 
 
 if __name__ == "__main__":

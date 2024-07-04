@@ -1,0 +1,26 @@
+DOI: 10.1088/1751-8121/abbdf2
+abstract: Modular graph forms (MGFs) are a class of non-holomorphic modular forms
+  which naturally appear in the low-energy expansion of closed-string genus-one amplitudes
+  and have generated considerable interest from pure mathematicians. MGFs satisfy
+  numerous non-trivial algebraic- and differential relations which have been studied
+  extensively in the literature and lead to significant simplifications. In this paper,
+  we systematically combine these relations to obtain basis decompositions of all
+  two- and three-point MGFs of total modular weight $$w+\bar{w}\leq12$$, starting
+  from just two well-known identities for banana graphs. Furthermore, we study previously
+  known relations in the integral representation of MGFs, leading to a new understanding
+  of holomorphic subgraph reduction as Fay identities of Kronecker--Eisenstein series
+  and opening the door towards decomposing divergent graphs. We provide a computer
+  implementation for the manipulation of MGFs in the form of the Mathematica
+  package ModularGraphForms which includes the basis decompositions obtained.
+author:
+- family: Gerken
+  given: Jan E.
+preprint:
+  URL: http://arxiv.org/abs/2007.05476
+  name: arXiv
+issued: '2020-07-10'
+publisher: 'Journal of Physics A: Mathematical and Theoretical'
+title: Basis Decompositions and a Mathematica Package for Modular Graph Forms
+type: article-journal
+tags:
+  - ST
