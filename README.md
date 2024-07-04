@@ -71,6 +71,7 @@ prefer it if there is no significant content section. They are located inside
 - members page: add group picture
 - add office number to member page
 - Fix bug: external collaborators are identified only by last name, if they are identical (eg. David Müller vs. Klaus-Robert Müller), the links get mixed up
+- Fix bug: The titles of group member pages are incorrect
 
 
 ### Less technical, for Elias or Oscar

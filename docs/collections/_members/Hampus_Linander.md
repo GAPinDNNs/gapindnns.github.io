@@ -3,6 +3,8 @@ first_name: Hampus
 last_name: Linander
 position: Researcher at Verses AI
 affiliated: true
-short_description:
+image: /assets/images/profile_pictures/Hampus_Linander.png
+github: https://github.com/hlinander
+short_description: My main research interests are geometric deep learning and uncertainty quantification.
 ---
 

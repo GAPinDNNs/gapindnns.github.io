@@ -2,7 +2,7 @@
 first_name: Philipp
 last_name: Misof
 position: PhD student
-short_description: Interested in equivariant neural networks and the neural
+short_description: I am interested in equivariant neural networks and the neural
     tangent kernel.
 image: /assets/images/profile_pictures/Philipp_Misof.jpg
 github: https://github.com/PhilippMisofCH
