@@ -89,7 +89,9 @@ layout: default
         {% for item in site.data.talks %}
         {% assign talk = item[1] %}
         {% if talk.speaker.last_name == page.last_name %}
+	{% unless talk.tags contains "ST" %}
         {% assign talks = talks | push: talk %}
+	{% endunless %}
         {% endif %}
         {% endfor %}
 

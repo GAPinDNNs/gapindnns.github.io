@@ -8,7 +8,9 @@ layout: topic
 {% assign talks = "" | split: "," %}
 {% for item in site.data.talks %}
     {% assign talk = item[1] %}
-    {% assign talks = talks | push: talk %}
+    {% unless talk.tags contains "ST" %}
+      {% assign talks = talks | push: talk %}
+    {% endunless %}
 {% endfor %}
 
 {% assign talks = talks | sort: "date" | reverse %}
