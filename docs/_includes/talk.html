@@ -47,20 +47,22 @@
 
     <!-- </div> -->
     <p class="card-text">
-
+      {% if talk.abstract %}
       <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
         data-bs-target="#talk_abstract_{{ id }}" aria-pressed="false" aria-expanded="false"
         aria-controls="talk_abstract_{{ id }}">
         Abstract
       </button>
+      {% endif %}
       {% if talk.slides %}
-      <a class="ms-2 btn btn-secondary btn-sm" href="{{ talk.slides }}" target="_blank">Slides</a>
+      <a class="{% if talk.abstract %}ms-2 {% endif %}btn btn-secondary btn-sm" href="{{ talk.slides }}" target="_blank">Slides</a>
       {% endif %}
 
+    {% if talk.abstract %}
     <div class="collapse" id="talk_abstract_{{ id }}">
       {{ talk.abstract | markdownify }}
     </div>
-
+    {% endif %}
     </p>
     <div class="row align-items-center justify-content-between">
       <!-- {% if talk.talklisher %} -->
