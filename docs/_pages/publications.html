@@ -13,5 +13,7 @@ title: Publications
 {% assign pubs = pubs | sort: "issued" | reverse %}
 
 {% for pub in pubs%}
-  {% include publication.html pub=pub id=forloop.index %}
+  {% unless pub.tags contains "ST" %}
+    {% include publication.html pub=pub id=forloop.index %}
+  {% endunless %}
 {% endfor %}
