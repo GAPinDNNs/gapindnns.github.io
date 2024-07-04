@@ -4,7 +4,12 @@
 
 ### Building
 
-The website is based on *Jekyll*. To build the website, use
+The website is based on *Jekyll*. To set up the build system, first install Jekyll as explained [here](https://jekyllrb.com/docs/installation/). Then, set up the build system by running
+
+```bash
+bundle install
+```
+inside `/docs`. To build the website, use
 
 ```bash
 bundler exec jekyll serve --livereload
