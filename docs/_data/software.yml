@@ -3,4 +3,8 @@
   url: https://github.com/JanEGerken/HEAL-SWIN/
   image: /assets/images/spherical_cv_semi_transp.png
   description: |
-    We provide a reference implementation for the spherical transformer HEAL-SWIN which includes a containerized training framework based on PyTorch Lightning and parameter logging with MLFlow. SLURM-based jobscripts for published reference runs and baselines are also available.
+    HEAL-SWIN is an extension of the popular vision-transformer [SWIN](https://arxiv.org/abs/2103.14030), capable of operating on high-dimensional spherical data. HEAL-SWIN uses the [HEALPix grid](https://arxiv.org/abs/astro-ph/9812350) and has only minimal computational overhead compared to the baseline SWIN model.
+
+    We provide a reference implementation for HEAL-SWIN focused on applications for spherical images, in particular those taken with fisheye lenses. We include a containerized training framework based on PyTorch Lightning and parameter logging with MLFlow. SLURM-based jobscripts for published reference runs and baselines are also available.
+
+    [Paper](http://arxiv.org/abs/2307.07313){: .btn .btn-primary .btn-sm}
