@@ -9,7 +9,6 @@ slides: /downloads/slides/2024-06-12-philipp-misof.pdf
 speaker:
     first_name: Philipp
     last_name: Misof
-    affiliation: Chalmers and Gothenburg University
 abstract:
     The neural tangent kernel (NTK) is a quantity closely related to
     the training dynamics of neural networks (NNs). It becomes particularly
