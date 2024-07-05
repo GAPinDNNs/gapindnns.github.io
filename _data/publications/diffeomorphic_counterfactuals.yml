@@ -8,7 +8,8 @@ author:
   given: Klaus-Robert
 - family: Kessel
   given: Pan
-DOI: 10.1109/TPAMI.2023.3339980
+DOI: 10.1109/TPAMI.2023.3339908
+URL: https://ieeexplore.ieee.org/document/10345703  
 preprint:
   name: arXiv
   URL: https://arxiv.org/abs/2206.05075
