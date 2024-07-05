@@ -11,14 +11,24 @@
   headline: This is old news
   text: |
     This is old news. It is only here to show how old news is displayed.
-- date: 2024-06-12
-  headline: GeUmetric Deep Learning workshop in Umeå
+- date: 2024-06-13
+  headline: GeUmetric Deep Learning Workshop in Umeå
   link: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
   text: |
     Thanks to all the speakers and participants of this interesting workshop at
     the [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/) which was coorganized by our
     colleague [Jan Gerken](/members/Jan_Gerken). We had a broad range of talks
     and discussions focusing on geometric aspects of deep learning.
+- date: 2024-06-12
+  headline: Oral at ICML 2024
+  link: https://arxiv.org/abs/2403.03103
+  text: |
+    The paper "Emergent Equivariance in Deep Ensembles" from our group was accepted for an oral presentation at [ICML 2024](https://icml.cc/virtual/2024/poster/33027). Congratulations [Jan Gerken](/members/Jan_Gerken) and [Pan Kessel](https://www.gene.com/scientists/our-scientists/pan-kessel)!
+- date: 2024-06-10
+  headline: New Preprint
+  link: https://arxiv.org/abs/2406.06504
+  text: |
+    The preprint "Equivariant Neural Tangent Kernels" from our group appeared on the arXiv today. We compute neural tangent kernels (NTKs) for group convolutional networks for the first time and show that equivariant NTKs outperform their non-equivariant counterparts on a medical image dataset.
 - date: 2024-02-01
   headline: This is old news
   text: |
