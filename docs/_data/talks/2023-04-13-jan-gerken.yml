@@ -1,0 +1,12 @@
+title: "Geometric Deep Learning: From Pure Math to Applications"
+date: '2023-04-13'
+location:
+  name: Uppsala University Amplitudes Seminar
+  url: https://www.uu.se/en/department/physics-and-astronomy/research/theoretical-physics/scattering-amplitudes
+slides: /downloads/slides/2023-04-13-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - GDL
+  - ENN

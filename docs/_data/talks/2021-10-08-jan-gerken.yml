@@ -1,0 +1,11 @@
+title: "Diffeomorphic Explanations with Normalizing Flows"
+date: '2021-10-08'
+location:
+  name: TU Berlin Machine Learning Seminar
+slides: /downloads/slides/2021-10-08-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - GDL
+  - XAI
