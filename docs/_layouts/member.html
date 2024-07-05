@@ -131,6 +131,30 @@ layout: default
 
         {% endunless %}
 
+
+	
+	{% assign talks = "" | split: "," %}
+        {% for item in site.data.talks %}
+        {% assign talk = item[1] %}
+        {% if talk.speaker.last_name == page.last_name %}
+	{% if talk.tags contains "ST" %}
+        {% assign talks = talks | push: talk %}
+	{% endif %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% assign talks = talks | sort: "date" | reverse %}
+
+        {% unless talks == empty %}
+        <h2>String Theory Talks</h2>
+
+        {% for talk in talks %}
+        {% include talk.html talk=talk id=forloop.index %}
+        {% endfor %}
+
+        {% endunless %}
+
       </div>
     </div>
   </div>
