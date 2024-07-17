@@ -4,6 +4,7 @@ last_name: Gerken
 short_description: My research evolves around geometric deep learning and the neural tangent kernel.
 image: /assets/images/profile_pictures/Jan_Gerken.jpg
 github: https://github.com/JanEGerken
+google_scholar: https://scholar.google.com/citations?user=NIdlVIEAAAAJ
 email: gerken@chalmers.se
 office:
     number: L3090

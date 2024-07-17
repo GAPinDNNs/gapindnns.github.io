@@ -11,6 +11,7 @@ office:
     number: L3048
     url: https://maps.chalmers.se/#person:chalmers:misof
 blackboard-image: 
+google_scholar:
 ---
 
 ## About me

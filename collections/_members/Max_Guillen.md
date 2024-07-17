@@ -8,4 +8,5 @@ office:
     number: L3088
     url: https://maps.chalmers.se/#person:chalmers:maxgui
 position: Postdoc
+google_scholar:
 ---

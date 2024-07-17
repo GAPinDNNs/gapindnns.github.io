@@ -5,4 +5,5 @@ short_description: I am interested in theoretical aspects of equivariant neural 
 position: PhD student
 image: /assets/images/profile_pictures/Elias_Nyholm.jpg
 github: https://github.com/nyholme
+google_scholar:
 ---
