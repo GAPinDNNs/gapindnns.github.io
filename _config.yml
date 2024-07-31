@@ -33,6 +33,7 @@ defaults:
       type: "members"
     values:
       layout: "member"
+      title: ""
 
 
 collections_dir: collections

@@ -113,9 +113,6 @@ Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add 
 - **Add first authors asterisks**
 - Offer easy way to create extra pages with markdown and reasonable layout
 - members page: add group picture
-- add office number to member page
-- **Fix bug: external collaborators are identified only by last name, if they are identical (eg. David Müller vs. Klaus-Robert Müller), the links get mixed up**
-- **Fix bug: The titles of group member pages are incorrect**
 
 
 ### Less technical, for Elias or Oscar

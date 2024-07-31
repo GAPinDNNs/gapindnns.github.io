@@ -1,5 +1,5 @@
 ---
-title: "Geometry, Algebra and Physics in Deep Neural Networks"
+title: "GAPinDNNs"
 layout: homelay
 excerpt: "Geometric Deep Learning Group Gothenburg"
 sitemap: false
