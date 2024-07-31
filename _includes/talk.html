@@ -6,17 +6,7 @@
       <div class="col-sm-8">
         <h5 class="card-title">{{ talk.title }}</h5>
         <h6 class="card-subtitle mb-2 text-muted">
-          {% assign url = talk.speaker.url %}
-          {% unless url %}
-          {% assign member = site.members | where: 'last_name', talk.speaker.last_name | first %}
-          {% assign url = member.url %}
-          {% unless url %}
-          {% assign member = site.data.external_collaborators | where:
-          'last_name', talk.speaker.last_name | first %}
-          {% endunless %}
-          {% endunless %}
-          {% if url %}<a href="{{ url }}">{% endif %}{{ talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url
-            %}</a>{% endif %}
+        {% include link_members.html url=talk.speaker.url last_name=talk.speaker.last_name first_name=talk.speaker.first_name %}
           {% if talk.speaker.affiliation %}<span class="">({{
             talk.speaker.affiliation }})</span>{% endif %}
         </h6>

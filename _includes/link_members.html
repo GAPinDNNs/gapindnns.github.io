@@ -1,0 +1,24 @@
+{% assign url = include.url %}
+{% unless url %}
+  {% assign first_wo_middle = include.first_name | split: ' ' | first %}
+  {% assign members_correct_last = site.members | where: 'last_name', include.last_name %}
+  {% for member_cand in members_correct_last %}
+    {% if member_cand.first_name contains first_wo_middle %}
+      {% assign member = member_cand %}
+      {% assign url = member.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+{% unless url %}
+  {% assign members_correct_last = site.data.external_collaborators | where: 'last_name', include.last_name %}
+  {% for member_cand in members_correct_last %}
+    {% if member_cand.first_name contains first_wo_middle %}
+      {% assign member = member_cand %}
+      {% assign url = member.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+{% if url %}<a href="{{ url }}">{% endif %}{{ include.first_name }} {{ include.last_name }}{% if url
+  %}</a>{% endif -%}
