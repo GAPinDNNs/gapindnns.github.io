@@ -1,0 +1,28 @@
+DOI: 10.1007/JHEP01(2019)131
+abstract: Modular graph forms are a class of modular covariant functions which appear
+  in the genus-one contribution to the low-energy expansion of closed string scattering
+  amplitudes. Modular graph forms with holomorphic subgraphs enjoy the simplifying
+  property that they may be reduced to sums of products of modular graph forms of
+  strictly lower loop order. In the particular case of dihedral modular graph forms,
+  a closed form expression for this holomorphic subgraph reduction was obtained previously
+  by D'Hoker and Green. In the current work, we extend these results to trihedral
+  modular graph forms. Doing so involves the identification of a modular covariant
+  regularization scheme for certain conditionally convergent sums over discrete momenta,
+  with some elements of the sum being excluded. The appropriate regularization scheme
+  is identified for any number of exclusions, which in principle allows one to perform
+  holomorphic subgraph reduction of higher-point modular graph forms with arbitrary
+  holomorphic subgraphs.
+author:
+- family: Gerken
+  given: Jan E.
+- family: Kaidi
+  given: Justin
+issued: '2018-09-13'
+publisher: Journal of High Energy Physics
+preprint:
+  URL: http://arxiv.org/abs/1809.05122
+  name: arXiv
+title: Holomorphic subgraph reduction of higher-point modular graph forms
+type: article-journal
+tags:
+  - ST

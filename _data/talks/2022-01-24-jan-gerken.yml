@@ -1,0 +1,11 @@
+title: "Geometric Deep Learning"
+date: '2022-01-24'
+abstract: "The field of geometric deep learning has gained a lot of momentum in recent years and attracted people with different backgrounds such as deep learning, theoretical physics and mathematics. This is also reflected by the considerable research activity in this direction at our department. In this talk, I will give an introduction into neural networks and deeplearning and mention the different branches of mathematics relevant to their study. Then, I will focus more specifically on the subject of geometric deep learning where symmetries in the underlying data are used to guide the construction of network architectures. This opens the door for mathematical tools such as representation theory and differential geometry to be used in deep learning, leading to interesting new results. I will also comment on how the cross-fertilization between machine learning and mathematics has recently benefited (pure) mathematics."
+location:
+  name: Mathematics Colloquium at Chalmers
+slides: /downloads/slides/2022-01-24-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - GDL

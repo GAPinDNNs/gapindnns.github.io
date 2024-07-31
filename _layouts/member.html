@@ -1,0 +1,166 @@
+---
+layout: default
+---
+
+<div id="hero">
+  <div class="container">
+    <div class="row justify-content-center align-items-center py-3">
+      <div class="col-sm-4 text-start">
+        <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+        <p class="ps-1 text-body-secondary">{{ page.position }}</p>
+      </div>
+      <div class="col-sm-8 text-center">
+        <img src="/assets/images/NNEFT_matrices.png" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="foreground-banner-no-bs">
+  <div class="container pt-4">
+    <div class="row justify-content-center">
+      <div class="col container-text">
+        <div id="profile-pic-out-cont" class="row mb-3 align-items-start
+          d-flex justify-content-between">
+          <div class="col-sm text-center half-pic-height" style="position: relative;">
+            <div class="row profile-pic-box align-items-center">
+              <div class="col-sm-auto">
+                <img id="profile-pic" src="{% if page.image %}{{ page.image
+                }}{% else %}/assets/images/profile_pictures/dummy.svg{% endif
+                %}" class="rounded-circle border border-4
+                object-fit-cover">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-auto text-center">
+          {% if page.email %}
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="mailto:{{ page.email }}"><i class="mx-2 bi bi-envelope-fill text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
+          {% endif %}
+          {% if page.github %}
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="{{ page.github }}"><i class="mx-2 bi bi-github text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
+          {% endif %}
+          {% if page.google_scholar %}
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="{{ page.google_scholar }}"><i class="mx-2 fa-brands fa-google-scholar text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
+          {% endif %}
+          {% if page.office.number %}
+          <!-- <div class="col-sm-auto text-center"> -->
+            <a href="{{ page.office.url }}"><i class="mx-1 bi bi-geo-alt-fill text-body" style="font-size: 2rem"></i></a>
+          <!-- </div> -->
+          {% endif %}
+          </div>
+
+        </div>
+        <!-- <div class="row" style="position: relative;"> -->
+        <!--   <div class="col text-end"> -->
+        <!--     Github  -->
+        <!--   </div> -->
+        <!-- </div> -->
+        {{ content }}
+
+        <!-- Check if author has publications: -->
+
+        {% assign pubs = "" | split: "," %}
+        {% for item in site.data.publications %}
+        {% assign pub = item[1] %}
+        {% assign match = pub.author | where: 'family', page.last_name | first %}
+        {% if match %}
+	{% unless pub.tags contains "ST" %}
+        {% assign pubs = pubs | push: pub %}
+	{% endunless %}
+        {% endif %}
+        {% endfor %}
+
+        {% assign pubs = pubs | sort: "issued" | reverse %}
+
+        {% unless pubs == empty %}
+
+        <h2>Publications</h2>
+
+        {% for pub in pubs %}
+        {% include publication.html pub=pub id=forloop.index %}
+        {% endfor %}
+
+        {% endunless %}
+
+
+        {% assign talks = "" | split: "," %}
+        {% for item in site.data.talks %}
+        {% assign talk = item[1] %}
+        {% if talk.speaker.last_name == page.last_name %}
+	{% unless talk.tags contains "ST" %}
+        {% assign talks = talks | push: talk %}
+	{% endunless %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% assign talks = talks | sort: "date" | reverse %}
+
+        {% unless talks == empty %}
+        <h2>Talks</h2>
+
+        {% for talk in talks %}
+        {% include talk.html talk=talk id=forloop.index %}
+        {% endfor %}
+
+        {% endunless %}
+
+
+	{% assign st_pubs = "" | split: "," %}
+	{% for item in site.data.publications %}
+        {% assign pub = item[1] %}
+        {% assign match = pub.author | where: 'family', page.last_name | first %}
+        {% if match %}
+          {% if pub.tags contains "ST" %}
+            {% assign st_pubs = st_pubs | push: pub %}
+          {% endif %}
+	{% endif %}
+        {% endfor %}
+
+        {% assign st_pubs = st_pubs | sort: "issued" | reverse %}
+
+        {% unless st_pubs == empty %}
+
+        <h2>String Theory Publications</h2>
+
+        {% for st_pub in st_pubs %}
+        {% include publication.html pub=st_pub id=forloop.index %}
+        {% endfor %}
+
+        {% endunless %}
+
+
+	
+	{% assign talks = "" | split: "," %}
+        {% for item in site.data.talks %}
+        {% assign talk = item[1] %}
+        {% if talk.speaker.last_name == page.last_name %}
+	{% if talk.tags contains "ST" %}
+        {% assign talks = talks | push: talk %}
+	{% endif %}
+        {% endif %}
+        {% endfor %}
+
+
+        {% assign talks = talks | sort: "date" | reverse %}
+
+        {% unless talks == empty %}
+        <h2>String Theory Talks</h2>
+
+        {% for talk in talks %}
+        {% include talk.html talk=talk id=forloop.index %}
+        {% endfor %}
+
+        {% endunless %}
+
+      </div>
+    </div>
+  </div>
+</div>

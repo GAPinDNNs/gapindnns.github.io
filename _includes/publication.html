@@ -1,0 +1,66 @@
+{% assign pub = include.pub %}
+{% assign id = include.id %}
+<div class="card mb-3">
+    <div class="card-body">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-8">
+          <h5 class="card-title">{{ pub.title }}</h4>
+        </div>
+        <div class="col text-end text-body-secondary">
+          {{pub.issued | date: "%Y"}}
+        </div>
+      </div>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {% for author in pub.author %}
+          {% assign member = site.members | where: 'last_name', author.family | first %}
+          {% unless member %}
+            {% assign member = site.data.external_collaborators | where: 'last_name', author.family | first %}
+          {% endunless %}
+          {% if member.url %}<a href="{{ member.url }}">{% endif %}{{ author.given }} {{ author.family }}{% if member.url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </h6>
+      <p class="card-text">
+
+      <button class="btn btn-primary btn-sm" type="button"
+        data-bs-toggle="collapse" data-bs-target="#pub_abstract_{{ id }}"
+        aria-pressed="false" aria-expanded="false" aria-controls="pub_abstract_{{ id }}">
+          Abstract
+        </button>
+
+        <div class="collapse" id="pub_abstract_{{ id }}">
+          <!-- <div class="card card-body"> -->
+            {{ pub.abstract | markdownify}}
+          <!-- </div> -->
+        </div>
+
+      </p>
+      <div class="row d-flex align-items-end justify-content-between">
+        {% if pub.publisher or pub.preprint %}
+        <div class="col-sm-10">
+        {% endif %}
+        {% if pub.publisher %}
+        <div>
+          Published:
+          <a href="{{ pub.URL }}" target="_blank" class="card-link">{{ pub.publisher }}</a>
+        </div>
+        {% endif %}
+        {% if pub.preprint %}
+        <div>
+          Preprint:
+          <a href="{{ pub.preprint.URL }}" target="_blank" class="card-link">{{ pub.preprint.name }}</a>
+        </div>
+        {% endif %}
+        {% if pub.publisher or pub.preprint %}
+        </div>
+        {% endif %}
+        <div class="col text-end">
+          {% for tag in pub.tags %}
+            {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
+            {% assign tag_long = matched_tag.long %}
+            <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+

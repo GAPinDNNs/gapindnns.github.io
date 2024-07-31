@@ -1,0 +1,20 @@
+{% assign course = include.course %}
+{% assign id = include.id %}
+<div class="card mb-3 talk-entry">
+  <div class="card-body">
+    <h4 class="card-title mb-2">
+      {% if course.code.chalmers or course.code.gu %}
+      <span class="fw-light">
+	{% if course.code.chalmers %}
+	  {{ course.code.chalmers }}
+	{% endif %}
+	{% if course.code.gu %}
+	  {{ course.code.gu }}
+	{% endif %}
+      </span>
+      {% endif %}
+      {{ course.title }}
+    </h4>
+    {{ course.description | markdownify }}
+  </div>
+</div>

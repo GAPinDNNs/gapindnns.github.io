@@ -1,0 +1,26 @@
+- code:
+    chalmers:
+    gu: MMA440
+  title: Mathematical Structures of Deep Neural Networks
+  description: |
+    The goal of this course is to give an overview of mathematical structures
+    that appear in modern deep neural networks and how these can be used to
+    understand neural networks theoretically. The course is aimed at students
+    familiar with advanced mathematics but not machine learning.
+
+    At the end of the course, the students should be able to understand current
+    research literature in the field and carry out their own projects in deep
+    learning.
+
+    The course starts with a concise introduction to deep learning, followed by
+    deeper dives into the topics of equivariant neural networks, large width
+    neural networks and geometrical aspects of explainable AI. Additional
+    lectures cover the practical aspects of implementing neural network
+    training on Google Cloud infrastructure. The lectures are accompanied by
+    exercise sessions and homework assignments, where students gain hands-on
+    experience with training neural networks. The course is graded with
+    a project.
+
+    **Next course instance: LP3 of the academic year 2025/2026**
+
+    [Canvas](https://canvas.gu.se/courses/12237~76615){: .btn .btn-primary .btn-sm} [GitHub](https://github.com/JanEGerken/ms-in-dnns){: .btn .btn-primary .btn-sm}

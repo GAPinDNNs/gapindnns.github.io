@@ -1,0 +1,26 @@
+{% assign news = include.news %}
+<div class="card mb-3 news">
+  <div class="card-header">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-sm-10 fs-5">
+	{{ news.headline }}
+      </div>
+      <div class="col-sm-2 text-end news-date">
+	{{ news.date | date_to_string }}
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-sm-10">
+	<div class="card-text">{{ news.text | markdownify }}</div>
+      </div>
+    {% if news.link %}
+      <div class="col-sm-2 text-end ">
+    <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">read more</a>
+      </div>
+    {% endif %}
+    </div>
+  </div>
+</div>
+

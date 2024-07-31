@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg sticky-top bg-dark border-bottom border-3" data-bs-theme="dark" style="--bs-bg-opacity: 1;">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">GAPinDNNs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        {% for item in site.data.navigation %}
+          {% if item.links %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ item.name }}
+              </a>
+              <ul class="dropdown-menu">
+                {% for iitem in item.links %}
+                  {% if iitem.links %}
+                  <li>
+                    <a class="dropdown-item" href="#">{{ iitem.name }} ></a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                    {% for iiitem in iitem.links %}
+                      <li>
+                        <a class="dropdown-item" href="{{ iiitem.link }}">{{ iiitem.name }}</a>
+                      </li>
+                    {% endfor %}
+                    </ul>
+                  </li>
+                  {% else %}
+                    <li><a class="dropdown-item" href="{{ iitem.link }}">{{ iitem.name }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a href="{{ item.link }}" {% if page.url == item.link %} class="nav-link active" aria-current="page" {% else %} class="nav-link" {% endif %}>
+              {{ item.name }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

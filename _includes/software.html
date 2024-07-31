@@ -1,0 +1,28 @@
+{% assign software = include.software %}
+{% assign id = include.id %}
+<div class="row g-0">
+  <div class="card mb-4 overflow-hidden">
+    <div class="card-header">
+      <div class="row justify-content-between align-items-center" style="height: 2.5rem">
+	<div class="col-auto fs-5">
+	  {{ software.title }}
+	</div>
+	<div class="col-auto float-end">
+	  {% if software.github %}
+	  <a href="{{ software.github }}"><i class="bi bi-github text-body" style="font-size: 1.5rem"></i></a>
+	  {% endif %}
+	</div>
+      </div>
+    </div>
+    <div class="row g-0 img-box-left">
+      <div class="col-sm-auto">
+	<a href="{{ software.url }}" class="text-center"><img src="{{ software.image }}" class="img-fluid rounded-start p-2" style="max-height: 250px;"></a>
+      </div>
+      <div class="col-sm-8">
+	<div class="card-body">
+          <p class="card-text">{{ software.description | markdownify }}</p>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>

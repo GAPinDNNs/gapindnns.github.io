@@ -1,0 +1,104 @@
+- title: "Geometric Deep Learning: Equivariant Lie Transformer for Computer Vision"
+  status: open
+  description:
+    text:
+  announcement: https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/2501
+  supervisors:
+    - first_name: Elias
+      last_name: Nyholm
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+  project_members:
+    - first_name: Hampus
+      last_name: Linander
+    - first_name: Christoffer
+      last_name: Petersson
+    - first_name: Daniel
+      last_name: Persson
+  tags:
+    - ENN
+
+- title: "Geometric Deep Learning: Gauge equivariant neural networks for learning topological order"
+  status: ongoing
+  description:
+    url: /downloads/master_theses/project_description/Huang_equivariant_nns.pdf
+  students:
+    - first_name: Longde
+      last_name: Huang
+  supervisors:
+    - first_name: Jan
+      last_name: Gerken
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+  project_members:
+    - first_name: Oleksandr
+      last_name: Balabanov
+    - first_name: Hampus
+      last_name: Linander
+    - first_name: Daniel
+      last_name: Persson
+    - first_name: Mats
+      last_name: Granath
+  tags:
+    - ENN
+
+- title: "Different measures for parameter importance in deep neural networks"
+  status: ongoing
+  description:
+  students:
+    - first_name: Hanwen
+      last_name: Ge
+  supervisors:
+    - first_name: Jan
+      last_name: Gerken
+  examiner:
+    first_name: Johan
+    last_name: Jonasson
+  tags:
+
+- title: "Predicting UV-Vis absorption spectra by using graph neural network models"
+  status: finished
+  description:
+  students:
+    - first_name: William
+      last_name: Nyrén
+    - first_name: Ibrahim
+      last_name: Taha
+  supervisors:
+    - first_name: Mats
+      last_name: Josefson
+    - first_name: Gustan
+      last_name: Hulthe
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+
+- title: "Gauge equivariant convolutional neural networks"
+  status: finished
+  description:
+  thesis: /downloads/master_theses/finished/Carlsson-2020-Gauge-equivariant-convolutional-neural-networks.pdf
+  students:
+    - first_name: Oscar
+      last_name: Carlsson
+  supervisors:
+    - first_name: Daniel
+      last_name: Persson
+  examiner:
+    first_name: Daniel
+    last_name: Persson
+  project_members:
+    - first_name: Jimmy
+      last_name: Aronsson
+    - first_name: Jan
+      last_name: Gerken
+    - first_name: Hampus
+      last_name: Linander
+    - first_name: Fredrik
+      last_name: Ohlsson
+    - first_name: Christoffer
+      last_name: Petersson
+  tags:
+    - ENN
+

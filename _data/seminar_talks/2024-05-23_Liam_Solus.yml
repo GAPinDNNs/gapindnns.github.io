@@ -1,0 +1,28 @@
+title: Combinatorics and Geometry of Complex Causal Networks
+date: '2024-05-23'
+time: '10:30'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Liam
+    last_name: Solus
+    affiliation: KTH
+    url: https://people.kth.se/~solus/
+abstract: |
+    The field of causality has recently emerged as a subject of interest in
+    machine learning, largely due to major advances in data collection methods in
+    the biological sciences and tech industries where large-scale observational and
+    experimental data sets can now be efficiently and ethically obtained. The
+    modern approach to causality decomposes the inference process into two
+    fundamental problems: the inference of causal relations between variables in
+    a complex system and the estimation of the causal effect of one variable on
+    another given that such a relation exists. The subject of this talk will be the
+    former of the two problems, commonly called causal discovery, where the aim is
+    to learn a complex causal network from the available data. We will give a soft
+    introduction to the basics of causal modeling and causal discovery,
+    highlighting where combinatorics and geometry have already started to
+    contribute. Going deeper, we will analyze how and when geometry and
+    combinatorics help us identify causal structure without the use of experimental
+    data.

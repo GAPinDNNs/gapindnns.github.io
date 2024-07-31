@@ -1,0 +1,96 @@
+{% assign talk = include.talk %}
+{% assign id = include.id %}
+<div class="card mb-3 talk-entry">
+  <div class="card-body">
+    <div class="row justify-content-between">
+      <div class="col-sm-8">
+        <h5 class="card-title">{{ talk.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          {% assign url = talk.speaker.url %}
+          {% unless url %}
+          {% assign member = site.members | where: 'last_name', talk.speaker.last_name | first %}
+          {% assign url = member.url %}
+          {% unless url %}
+          {% assign member = site.data.external_collaborators | where:
+          'last_name', talk.speaker.last_name | first %}
+          {% endunless %}
+          {% endunless %}
+          {% if url %}<a href="{{ url }}">{% endif %}{{ talk.speaker.first_name }} {{ talk.speaker.last_name }}{% if url
+            %}</a>{% endif %}
+          {% if talk.speaker.affiliation %}<span class="">({{
+            talk.speaker.affiliation }})</span>{% endif %}
+        </h6>
+      </div>
+      <div class="col-sm text-end text-body-secondary">
+        <div class"row">
+          <i class="bi bi-calendar2-week-fill"></i> <span class="talk-date">{{talk.date | date_to_string }}</span>
+          {% if talk.time %}<i class="ms-3 bi bi-clock-fill"></i> {{ talk.time
+          | date: "%H:%M" }}{% endif %}
+        </div>
+
+        <div class"row">
+          <i class="bi bi-geo-alt-fill"></i>
+          {% if talk.location.url %}
+          <a href="{{ talk.location.url }}" target="_blank">
+            {% endif %}
+            {{ talk.location.name }}
+            {% if talk.location.url %}
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row align-items-center justify-content-between"> -->
+    <!-- <div class="col-sm-8"> -->
+
+    <!-- </div> -->
+
+    <!-- </div> -->
+    <p class="card-text">
+      <div class="row align-items-center justify-content-between">
+	<div class="col-sm-5">
+	  {% if talk.abstract %}
+      <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
+        data-bs-target="#talk_abstract_{{ id }}" aria-pressed="false" aria-expanded="false"
+        aria-controls="talk_abstract_{{ id }}">
+        Abstract
+      </button>
+      {% endif %}
+      {% if talk.slides %}
+      <a class="{% if talk.abstract %}ms-2 {% endif %}btn btn-secondary btn-sm" href="{{ talk.slides }}" target="_blank">Slides</a>
+      {% endif %}
+      {% if talk.video %}
+      <a class="{% if talk.abstract or talk.slides %}ms-2 {% endif %}btn btn-secondary btn-sm" href="{{ talk.video }}" target="_blank">Video</a>
+      {% endif %}
+      </div>
+      <div class="col text-end">
+        {% for tag in talk.tags %}
+        {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
+        {% assign tag_long = matched_tag.long %}
+        <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover"
+          data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      </div>
+
+    {% if talk.abstract %}
+    <div class="collapse" id="talk_abstract_{{ id }}">
+      {{ talk.abstract | markdownify }}
+    </div>
+    {% endif %}
+    <!-- <div class="row align-items-center justify-content-between"> -->
+      <!-- {% if talk.talklisher %} -->
+      <!-- <div class="col-sm-5"> -->
+      <!--   talklished: -->
+      <!--   <a href="{{ talk.URL }}" class="card-link">{{ talk.talklisher }}</a> -->
+      <!-- </div> -->
+      <!-- {% endif %} -->
+      <!-- {% if talk.preprint %} -->
+      <!-- <div class="col-sm-5"> -->
+      <!--   Preprint: -->
+      <!--   <a href="{{ talk.preprint.URL }}" class="card-link">{{ talk.preprint.name }}</a> -->
+      <!-- </div> -->
+      <!-- {% endif %} -->
+    <!-- </div>  -->
+  </div>
+</div>

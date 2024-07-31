@@ -1,0 +1,20 @@
+---
+layout: topic
+---
+
+
+{{ content }}
+
+{% assign talks = "" | split: "," %}
+{% for item in site.data.talks %}
+    {% assign talk = item[1] %}
+    {% unless talk.tags contains "ST" %}
+      {% assign talks = talks | push: talk %}
+    {% endunless %}
+{% endfor %}
+
+{% assign talks = talks | sort: "date" | reverse %}
+
+{% for talk in talks%}
+  {% include talk.html talk=talk id=forloop.index %}
+{% endfor %}

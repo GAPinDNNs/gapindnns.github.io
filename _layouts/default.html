@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="min-vh-100 d-flex flex-column p-0">
+    <!-- <div class="container-fluid bg-light vh-100 px-0"> -->
+    {% include navbar.html %}
+    <!-- <div class="container"> -->
+        {{ content }}
+    <!-- </div> -->
+    <!-- </div> -->
+
+    <div class="buffer"></div>
+    {% include footer.html %}
+
+    </div>
+  </body>
+
+</html>
+
+

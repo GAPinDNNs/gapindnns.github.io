@@ -1,0 +1,27 @@
+title: "Diffeomorphic Explanations with Normalizing Flows"
+date: '2021-07-23'
+abstract: "Normalizing flows are diffeomorphisms which
+are parameterized by neural networks. As a result,
+they can induce coordinate transformations in the
+tangent space of the data manifold. In this work,
+we demonstrate that such transformations can be
+used to generate interpretable explanations for de-
+cisions of neural networks. More specifically, we
+perform gradient ascent in the base space of the
+flow to generate counterfactuals which are clas-
+sified with great confidence as a specified target
+class. We analyze this generation process theo-
+retically using Riemannian differential geometry
+and establish a rigorous theoretical connection be-
+tween gradient ascent on the data manifold and in
+the base space of the flow."
+location:
+  name: ICML 2021 INNF+ Workshop
+  url: https://invertibleworkshop.github.io/
+slides: /downloads/slides/2021-07-23-jan-gerken.pdf
+speaker:
+  first_name: Jan E.
+  last_name: Gerken
+tags:
+  - GDL
+  - XAI

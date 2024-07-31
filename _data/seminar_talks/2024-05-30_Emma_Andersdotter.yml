@@ -1,0 +1,25 @@
+title: Equivariant Manifold Neural ODEs and Differential Invariants
+date: '2024-05-30'
+time: '10:30'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Emma
+    last_name: Andersdotter Svensson
+    affiliation: Umeå University
+    url: https://www.umu.se/en/staff/emma-andersdotter/
+abstract: |
+    Neural ODEs are neural network models where the network is not specified by
+    a discrete sequence of hidden layers. Instead, the network is defined by
+    a vector field describing how the data evolves continuously over time
+    governed by an ordinary differential equation (ODE). These models can be
+    generalized for data living on non-Euclidean manifolds, a concept known as
+    manifold neural ODEs. In our paper, we develop a geometric framework for
+    equivariant manifold neural ODEs. Our work includes a novel formulation of
+    equivariant neural ODEs in terms of differential invariants, based on Lie
+    theory for symmetries of differential equations. We also construct
+    augmented manifold neural ODEs and show that they are universal
+    approximators of equivariant diffeomorphisms on any path-connected
+    manifold.

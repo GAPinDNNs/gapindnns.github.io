@@ -1,0 +1,31 @@
+---
+layout: topic
+title: Group members
+---
+
+{% assign members_sorted = site.members | sort_natural: "last_name" %}
+
+<h2>Seniors</h2>
+
+{% assign members_filtered = "" | split: "," %}
+{% for member in members_sorted %}
+    {% if member.position contains "Professor" and member.affiliated != true %}
+        {% assign members_filtered = members_filtered | push: member %}
+    {% endif %}
+{% endfor %}
+
+{% include group_member_card.html members=members_filtered position=true %}
+
+<h2>Postdocs</h2>
+
+{% assign members_filtered = members_sorted | where: "position", "Postdoc" %}
+{% include group_member_card.html members=members_filtered position=false %}
+
+<h2>PhD students</h2>
+
+{% assign members_filtered = members_sorted | where: "position", "PhD student" %}
+{% include group_member_card.html members=members_filtered position=false %}
+
+<h2>Affiliated</h2>
+{% assign members_filtered = members_sorted | where: "affiliated", "true" %}
+{% include group_member_card.html members=members_filtered position=true %}

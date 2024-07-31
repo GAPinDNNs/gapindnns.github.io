@@ -1,0 +1,29 @@
+DOI: 10.1007/JHEP01(2020)064
+URL: https://doi.org/10.1007/JHEP01(2020)064
+abstract: We investigate generating functions for the integrals over world-sheet tori
+  appearing in closed-string one-loop amplitudes of bosonic, heterotic and type-II
+  theories. These closed-string integrals are shown to obey homogeneous and linear
+  differential equations in the modular parameter of the torus. We spell out the first-order
+  Cauchy-Riemann and second-order Laplace equations for the generating functions for
+  any number of external states. The low-energy expansion of such torus integrals
+  introduces infinite families of non-holomorphic modular forms known as modular graph
+  forms. Our results generate homogeneous first- and second-order differential equations
+  for arbitrary such modular graph forms and can be viewed as a step towards all-order
+  low-energy expansions of closed-string integrals.
+author:
+- family: Gerken
+  given: Jan E.
+- family: Kleinschmidt
+  given: Axel
+- family: Schlotterer
+  given: Oliver
+issued: '2019-11-08'
+publisher: Journal of High Energy Physics
+preprint:
+  URL: https://arxiv.org/abs/1911.03476
+  name: arXiv
+title: All-order differential equations for one-loop closed-string integrals and modular
+  graph forms
+type: article-journal
+tags:
+  - ST

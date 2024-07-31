@@ -1,0 +1,13 @@
+title: Emergent Equivariance in Deep Ensembles
+date: '2024-03-19'
+location:
+  name: Workshop in Statistical aspects related to Machine Learning
+  url: https://www.mn.uio.no/math/english/research/groups/statistics-data-science/events/conferences/akademia-2024-workshop/
+zoom: test/
+slides: /downloads/slides/2024-03-19-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN

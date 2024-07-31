@@ -1,0 +1,14 @@
+- short: NTK
+  long: Neural Tangent Kernel
+  # link:
+- short: ENN
+  long: Equivariant Neural Networks
+  # link:
+- short: GDL
+  long: Geometric Deep Learning
+- short: XAI
+  long: Explainable AI
+- short: SCV
+  long: Spherical Computer Vision  
+- short: ST
+  long: String Theory

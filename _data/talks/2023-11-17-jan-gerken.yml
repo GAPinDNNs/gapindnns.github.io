@@ -1,0 +1,14 @@
+title: Diffeomorphic Counterfactuals and Generative Models
+date: '2023-11-17'
+location:
+  name: KAIST XAI Research Center, Seoul
+  url: https://xai.kaist.ac.kr/
+abstract: "Counterfactuals can explain classification decisions of neural networks in a human interpretable way. We propose a simple but effective method to generate such counterfactuals. More specifically, we perform a suitable diffeomorphic coordinate transformation and then perform gradient ascent in these coordinates to find counterfactuals which are classified with great confidence as a specified target class. We propose two methods to leverage generative models to construct such suitable coordinate systems that are either exactly or approximately diffeomorphic. We analyze the generation process theoretically using Riemannian differential geometry and validate the quality of the generated counterfactuals using various qualitative and quantitative measures.
+Related paper : https://arxiv.org/abs/2206.05075"
+slides: /downloads/slides/2023-11-17-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - GDL
+  - XAI

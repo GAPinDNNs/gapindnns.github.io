@@ -1,0 +1,24 @@
+title: Geometric Deep Learning Using Spherical Neurons
+date: '2024-05-16'
+time: '10:30'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Mårten
+    last_name: Wadenbäck
+    affiliation: Linköping University
+    url: https://liu.se/medarbetare/marwa32
+abstract: |
+    We start from geometric first principles to construct a machine learning
+    framework for 3D point set analysis. We argue that spherical decision
+    surfaces are a natural choice for this type of problems, and we represent
+    them using a non-linear embedding of 3D Euclidean space into a Minkowski
+    space, represented by a 5D Euclidean space. Via classification experiments
+    on a 3D Tetris dataset, we show that we can get a geometric handle on the
+    network weights, allowing us to directly apply transformations to the
+    network. The model is further extended into a steerable filter bank,
+    facilitating classification in arbitrary poses. Additionally, we study
+    equivariance and invariance properties with respect to $$O(3)$$
+    transformations.

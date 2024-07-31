@@ -1,0 +1,30 @@
+DOI: 10.48550/arXiv.2406.06504
+abstract: |
+  Equivariant neural networks have in recent years become an important technique
+  for guiding architecture selection for neural networks with many applications in
+  domains ranging from medical image analysis to quantum chemistry. In particular,
+  as the most general linear equivariant layers with respect to the regular representation,
+  group convolutions have been highly impactful in numerous applications. Although
+  equivariant architectures have been studied extensively, much less is known about
+  the training dynamics of equivariant neural networks. Concurrently, neural tangent
+  kernels (NTKs) have emerged as a powerful tool to analytically understand the training
+  dynamics of wide neural networks. In this work, we combine these two fields for
+  the first time by giving explicit expressions for NTKs of group convolutional neural
+  networks. In numerical experiments, we demonstrate superior performance for equivariant
+  NTKs over non-equivariant NTKs on a classification task for medical images.
+author:
+- family: Misof
+  given: Philipp
+- family: Kessel
+  given: Pan
+- family: Gerken
+  given: Jan E.
+issued: '2024-06-10'
+preprint:
+  URL: http://arxiv.org/abs/2406.06504
+  name: arXiv
+title: Equivariant Neural Tangent Kernels
+type: article
+tags:
+- NTK
+- ENN

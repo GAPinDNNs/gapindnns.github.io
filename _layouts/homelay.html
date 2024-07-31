@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<div id="hero" class="">
+  <div class="container">
+    <div class="row flex-row align-items-center py-3">
+      <div class="col-sm">
+        <h1 id="website-title" class="py-3 ps-3">
+          <span class="acronym">G</span>eometry, <span
+            class="acronym">A</span>lgebra and <span
+            class="acronym">P</span>hysics <span class="acronym">in</span>
+          <span class="acronym">D</span>eep <span class="acronym">N</span>eural
+          <span class="acronym">N</span>etwork<span class="acronym">s</span></h1>
+      </div>
+
+      <div class="col-sm">
+        <img src="/assets/images/NNEFT_insight.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="foreground-banner" style="">
+  <div class="container py-4">
+    <!-- <div class="alert alert-dismissible alert-warning mt-4"> -->
+    <!--   <button type="button" class="btn-close" data-bs-dismiss="alert"></button> -->
+    <!--   <h4 class="alert-heading">Warning!</h4> -->
+    <!--   <p class="mb-0">This page is still work in progess.</p> -->
+    <!-- </div> -->
+    <div class="row justify-content-center">
+    <!-- <div class="home-text container-text col align-self-center"> -->
+      <div class="col container-text home-text">
+        {{ content }}
+
+        {% assign cutoff_date = 'now' | date: '%s' %}
+        {% assign cutoff_date = cutoff_date | minus: 7776000 %}
+        {% assign all_news = site.data.news | sort: "date" | reverse %}
+        {% assign recent_news = "" | split: "," %}
+        {% for news in all_news %}
+          {% assign news_unix_time = news.date | date: '%s' | plus: 0 %}
+          {% if news_unix_time > cutoff_date %}
+            {% assign recent_news = recent_news | push: news %}
+          {% endif %}
+        {% endfor %}
+
+        {% unless recent_news == empty %}
+        <div id="news" class="border-top border-2 mt-4 pt-3">
+          <h2>News</h2>
+          {% for selected_news in recent_news %}
+            {% include news_entry.html news=selected_news %}
+          {% endfor %}
+        </div>
+        {% endunless %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="subtle_gradient px-0" style="">
+  <div class="dotted_bg" style="">
+
+    <div class="container py-4">
+      <div class="row">
+
+        <div class="col-sm-4 my-2">
+          <div class="card" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Equivariant Neural Networks</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">Theory and applications of quivariant neural networks and geometric deep learning</p>
+              <a href="/_pages/equivariant_nns" class="card-link">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 my-2">
+          <div class="card" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Spherical Computer Vision</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">Computer vision models for spherical data like fisheye images</p>
+              <a href="/_pages/spherical_cv" class="card-link">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 my-2">
+          <div class="card" >
+            <div class="card-body text-center">
+              <h5 class="card-title">Wide Neural Networks</h5>
+              <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              <p class="card-text">Theory and applications of wide neural networks, using the neural tangent kernel</p>
+              <a href="/_pages/wide_nns" class="card-link">Read more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="foreground-banner-no-bs" style="position: relative; z-index: 2;">
+  <div class="container py-4">
+     
+
+  </div>
+</div>

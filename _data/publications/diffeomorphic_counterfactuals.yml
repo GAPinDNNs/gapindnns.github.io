@@ -1,0 +1,22 @@
+title: Diffeomorphic Counterfactuals With Generative Models
+author:
+- family: Dombrowski
+  given: Ann-Kathrin
+- family: Gerken
+  given: Jan E.
+- family: Müller
+  given: Klaus-Robert
+- family: Kessel
+  given: Pan
+DOI: 10.1109/TPAMI.2023.3339908
+URL: https://ieeexplore.ieee.org/document/10345703  
+preprint:
+  name: arXiv
+  URL: https://arxiv.org/abs/2206.05075
+publisher: IEEE TPAMI
+issued: '2022-06-10'
+abstract: Counterfactuals can explain classification decisions of neural networks in a human interpretable way. We propose a simple but effective method to generate such counterfactuals. More specifically, we perform a suitable diffeomorphic coordinate transformation and then perform gradient ascent in these coordinates to find counterfactuals which are classified with great confidence as a specified target class. We propose two methods to leverage generative models to construct such suitable coordinate systems that are either exactly or approximately diffeomorphic. We analyze the generation process theoretically using Riemannian differential geometry and validate the quality of the generated counterfactuals using various qualitative and quantitative measures.
+type: article-journal
+tags:
+  - GDL
+  - XAI

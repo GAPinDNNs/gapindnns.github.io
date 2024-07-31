@@ -1,0 +1,20 @@
+title: "Geometric Deep Learning: From Pure Math to Applications"
+date: '2023-04-12'
+abstract: "Despite its remarkable success, deep learning is lacking a strong theoretical
+foundation. One way to help alleviate this problem is to use ideas from differential geometry
+and group theory at various points in the learning process to arrive at a more principled
+approach of setting up the learning process. This approach goes by the name of geometric
+deep learning and has received a lot of attention in recent years. In this talk, I will summarize
+our work on some aspects of geometric deep learning, namely using group theory to guide
+the construction of neural network architectures and using the manifold structure of the input
+data to generate counterfactual explanations for neural networks motivated from differential
+geometry."
+location:
+  name: WASP Math/AI Meeting
+slides: /downloads/slides/2023-04-12-jan-gerken.pdf
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - GDL
+  - ENN

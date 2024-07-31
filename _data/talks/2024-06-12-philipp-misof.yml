@@ -1,0 +1,28 @@
+title: Neural Tangent Kernel for Equivariant Neural Networks
+date: '2024-06-12'
+# time: '14:30'
+location:
+  name: GeUmetric Deep Learning Workshop
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
+zoom: test/
+slides: /downloads/slides/2024-06-12-philipp-misof.pdf
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract:
+    The neural tangent kernel (NTK) is a quantity closely related to
+    the training dynamics of neural networks (NNs). It becomes particularly
+    interesting in the infinite width limit of NNs, where this kernel becomes
+    deterministic and time-independent, allowing for an analytical solution of the
+    gradient descent dynamics under the mean squared error loss, resulting in
+    a Gaussian process behaviour. In this talk, we will first introduce the NTK and
+    its properties, and then discuss how it can be extended to NNs equivariant with
+    respect to the regular representation. In analogy to the forward equation of
+    the NTK of conventional NNs, we will present a recursive relation connecting
+    the NTK to the corresponding kernel of the previous layer in an equivariant NN.
+    As a concrete example, we provide explicit expressions for the symmetry group
+    of 90° rotations and translations in the plane, as well as Fourier-space
+    expressions for $$SO(3)$$ acting on spherical signals. We support our theoretical
+    findings with numerical experiments.
+tags:
+  - NTK
