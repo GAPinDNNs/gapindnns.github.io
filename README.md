@@ -9,7 +9,7 @@ The website is based on *Jekyll*. To set up the build system, first install Jeky
 ```bash
 bundle install
 ```
-inside `/docs`. To build the website, use
+inside the root of this repository `/`. To build the website, use
 
 ```bash
 bundler exec jekyll serve --livereload
@@ -32,7 +32,7 @@ components.
 To make content reusable, use [layouts](https://jekyllrb.com/docs/layouts/)
 (for whole pages, can be nested) or
 [includes](https://jekyllrb.com/docs/includes/) for elements like the
-publication card. They can be found in `_layouts/` and `_includes/`,
+publication or talk card. They can be found in `_layouts/` and `_includes/`,
 respectively.
 
 If you need to define your own CSS classes, use the `_sass/main.scss` file.
@@ -40,7 +40,7 @@ SCSS variables should be defined inside `_sass/_custom_variables.scss`.
 
 ### Content dependent rendering
 
-Control flow inside layouts can be achieved by
+Control flow / dynamic content inside layouts can be achieved by
 [Liquid](https://jekyllrb.com/docs/liquid/). Note that its capabilities are
 quite limited but have a look at e.g. the publications page or member page
 
@@ -106,22 +106,24 @@ Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add 
 ### Best done by Philipp
 
 - **Include bibtex copy field.**
-- Add courses collection with own pages as well
-    - Courses should have link to canvas page
 - Add pdf link to CV on member
-- Handle middle name?
 - **Add first authors asterisks**
 - Offer easy way to create extra pages with markdown and reasonable layout
 - members page: add group picture
-
+- News: change name of read more button, maybe make it collapsible, also set max heigth
+- Add optional image to news
+- 6 months cutoff for news
 
 ### Less technical, for Elias or Oscar
+- **Add functionality of personal blackboard image to each member**
 - Add office numbers to members
 - structure members page with
-    - previous members (not further categorized)
-- Add link to homepage on Chalmers for each member
-- Add functionality of personal blackboard image to each member
-
+    - previous members (not further categorized) without own individual page
+- Tags should hover and link to main research page
+- Add anchors to publications, talks etc. for member page
 
 ### Needs to be done by each member individually
 - Member page: start with short introduction
+- Add link to homepage on Chalmers's employees page for each member
+
+**Deadline** for member content: **September 25th**
