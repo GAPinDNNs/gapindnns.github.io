@@ -8,6 +8,6 @@ google_scholar: https://scholar.google.com/citations?user=DVx2XtEAAAAJ
 office:
     number: H4026
     url: https://maps.chalmers.se/#person:chalmers:danper
-short_description: My research is centered on geometric deep learning. I also work on mathematical aspects of string theory.
+short_description: My research is centered on geometric deep learning. I also work on mathematical aspects of string theory, with emphasis on automorphic forms and scattering amplitudes.
 ---
-
+# kasjdhaslkjdfhaslkdfjhasdlkfjhasdflkjsadhflkasjhaslkjfh     
