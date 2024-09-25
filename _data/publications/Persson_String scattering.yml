@@ -1,0 +1,18 @@
+DOI: 
+URL: 
+abstract: Discrete symmetry groups arise in string theory in many contexts and several inter- esting physical quantities are defined on spaces that carry an action of these groups. Scattering amplitudes in particular have to be invariant under the group action and are often associated with automorphic forms. It has been noted first by Green, Miller and Vanhove as well as Pioline that these automorphic forms belong to very special automorphic representations, so-called small representations, leading to a rich interplay between mathematics and physics. This development and some open questions are sketched in this contribution.
+author:
+- family: Bossard 
+  given: Guillaume
+- family: Kleinschmidt
+  given: Axel
+- family: Persson
+  given: Daniel  
+issued: '2024-08-30'
+publisher: Proceedings of the Waseda Number Theory Workshop 2024
+preprint:
+  URL: 
+  name: arXiv
+title: String Scattering Amplitudes and Small Automorphic Representations
+type: proceedings
+tags:
