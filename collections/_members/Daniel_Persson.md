@@ -22,4 +22,4 @@ Some of my current research projects include:
 - Automorphic forms satisfying Poisson-type differential equations
 
 
-Below I list my publications and talks. I have also written a book on automorphic forms.
+Below I list my [publications](#Publications) and [talks](#Talks). I have also written a book on automorphic forms.

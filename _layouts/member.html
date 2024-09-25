@@ -81,7 +81,7 @@ layout: default
 
         {% unless pubs == empty %}
 
-        <h2>Publications</h2>
+        <h2 id="Publications">Publications</h2>
 
         {% for pub in pubs %}
         {% include publication.html pub=pub id=forloop.index %}
@@ -104,7 +104,7 @@ layout: default
         {% assign talks = talks | sort: "date" | reverse %}
 
         {% unless talks == empty %}
-        <h2>Talks</h2>
+        <h2 id="Talks">Talks</h2>
 
         {% for talk in talks %}
         {% include talk.html talk=talk id=forloop.index %}
