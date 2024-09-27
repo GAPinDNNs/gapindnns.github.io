@@ -23,6 +23,10 @@ $utilities: map-merge(
   )
 );
 
+html {
+	scroll-padding-top: calc(75px + 1rem);
+}
+
 @import "bootstrap/scss/utilities/api";
 
 .container-text {

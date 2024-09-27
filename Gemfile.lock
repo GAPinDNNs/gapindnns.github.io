@@ -266,6 +266,7 @@ GEM
     webrick (1.8.2)
 
 PLATFORMS
+  x86_64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
