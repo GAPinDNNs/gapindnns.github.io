@@ -128,7 +128,7 @@ layout: default
 
         {% unless st_pubs == empty %}
 
-        <h2>String Theory Publications</h2>
+        <h2 id="StringTheoryPublications">String Theory Publications</h2>
 
         {% for st_pub in st_pubs %}
         {% include publication.html pub=st_pub id=forloop.index %}
@@ -152,7 +152,7 @@ layout: default
         {% assign talks = talks | sort: "date" | reverse %}
 
         {% unless talks == empty %}
-        <h2>String Theory Talks</h2>
+        <h2 id="StringTheoryTalks">String Theory Talks</h2>
 
         {% for talk in talks %}
         {% include talk.html talk=talk id=forloop.index %}

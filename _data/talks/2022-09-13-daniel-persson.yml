@@ -1,10 +1,11 @@
 title: "Geometric Deep Learning - From AI to gauge theory, and back"
 date: '2022-09-13'
-location: Albert Einstein Institute Potsdam
-  name: Quantum Gravity - The Sound of Symmetry ("HermannFest")
+location: 
+  name: Albert Einstein Institute Potsdam
 slides: /downloads/slides/2022-09-13-daniel-persson.pdf
 speaker:
     first_name: Daniel
     last_name: Persson  
 tags:
- 
+  - GDL
+  - ENN

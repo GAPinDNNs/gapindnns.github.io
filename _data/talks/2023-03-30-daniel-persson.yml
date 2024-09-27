@@ -1,10 +1,10 @@
 title: "An excursion to the moon - from finite groups to black holes via modular forms"
 date: '2023-03-30'
-location: Boston College
+location:
   name: Boston College Number Theory and Representation Theorey Seminar
 slides: /downloads/slides/2023-03-30-daniel-persson.pdf
 speaker:
     first_name: Daniel
     last_name: Persson  
 tags:
- 
+  - ST
