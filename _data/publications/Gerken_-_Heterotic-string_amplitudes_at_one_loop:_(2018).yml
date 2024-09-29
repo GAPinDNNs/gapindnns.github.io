@@ -1,5 +1,6 @@
 DOI: 10.1007/JHEP01(2019)052
-abstract: We investigate one-loop four-point scattering of non-abelian gauge bosons
+abstract: |
+  We investigate one-loop four-point scattering of non-abelian gauge bosons
   in heterotic string theory and identify new connections with the corresponding open-string
   amplitude. In the low-energy expansion of the heterotic-string amplitude, the integrals
   over torus punctures are systematically evaluated in terms of modular graph forms,
@@ -10,12 +11,12 @@ abstract: We investigate one-loop four-point scattering of non-abelian gauge bos
   zeta values supports a recent proposal for an elliptic generalization of the single-valued
   map at genus zero.
 author:
-- family: Gerken
-  given: Jan E.
-- family: Kleinschmidt
-  given: Axel
-- family: Schlotterer
-  given: Oliver
+  - family: Gerken
+    given: Jan E.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Schlotterer
+    given: Oliver
 issued: '2018-11-06'
 publisher: Journal of High Energy Physics
 preprint:

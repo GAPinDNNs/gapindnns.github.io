@@ -1,5 +1,6 @@
 URL: https://proceedings.mlr.press/v162/gerken22a.html
-abstract: We analyze the role of rotational equivariance in convolutional neural networks
+abstract: |
+  We analyze the role of rotational equivariance in convolutional neural networks
   (CNNs) applied to spherical images. We compare the performance of the group equivariant
   networks known as S2CNNs and standard non-equivariant CNNs trained with an increasing
   amount of data augmentation. The chosen architectures can be considered baseline
@@ -15,19 +16,19 @@ abstract: We analyze the role of rotational equivariance in convolutional neural
   networks, enabling detailed tradeoff considerations between equivariant architectures
   and data augmentation for practical problems.
 author:
-- family: Gerken
-  given: Jan E.
-  first_author: true
-- family: Carlsson
-  given: Oscar
-- family: Linander
-  given: Hampus
-- family: Ohlsson
-  given: Fredrik
-- family: Petersson
-  given: Christoffer
-- family: Persson
-  given: Daniel
+  - family: Gerken
+    given: Jan E.
+    first_author: true
+  - family: Carlsson
+    given: Oscar
+  - family: Linander
+    given: Hampus
+  - family: Ohlsson
+    given: Fredrik
+  - family: Petersson
+    given: Christoffer
+  - family: Persson
+    given: Daniel
 issued: '2022-06-28'
 publisher: ICML 2022
 preprint:
