@@ -1,5 +1,6 @@
 DOI: 10.48550/arXiv.2403.03103
-abstract: We demonstrate that deep ensembles are secretly equivariant models. More
+abstract: |
+  We demonstrate that deep ensembles are secretly equivariant models. More
   precisely, we show that deep ensembles become equivariant for all inputs and at
   all training times by simply using data augmentation. Crucially, equivariance holds
   off-manifold and for any architecture in the infinite width limit. The equivariance
@@ -8,10 +9,10 @@ abstract: We demonstrate that deep ensembles are secretly equivariant models. Mo
   used to derive this result and we verify our theoretical insights using detailed
   numerical experiments.
 author:
-- family: Gerken
-  given: Jan E.
-- family: Kessel
-  given: Pan
+  - family: Gerken
+    given: Jan E.
+  - family: Kessel
+    given: Pan
 issued: '2024-03-05'
 preprint:
   name: arXiv
@@ -21,5 +22,5 @@ URL: https://proceedings.mlr.press/v235/gerken24a.html
 title: Emergent Equivariance in Deep Ensembles
 type: article
 tags:
-- NTK
-- ENN
+  - NTK
+  - ENN

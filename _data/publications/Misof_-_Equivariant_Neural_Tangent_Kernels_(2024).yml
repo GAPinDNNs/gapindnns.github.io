@@ -13,12 +13,12 @@ abstract: |
   networks. In numerical experiments, we demonstrate superior performance for equivariant
   NTKs over non-equivariant NTKs on a classification task for medical images.
 author:
-- family: Misof
-  given: Philipp
-- family: Kessel
-  given: Pan
-- family: Gerken
-  given: Jan E.
+  - family: Misof
+    given: Philipp
+  - family: Kessel
+    given: Pan
+  - family: Gerken
+    given: Jan E.
 issued: '2024-06-10'
 preprint:
   URL: http://arxiv.org/abs/2406.06504
@@ -26,5 +26,5 @@ preprint:
 title: Equivariant Neural Tangent Kernels
 type: article
 tags:
-- NTK
-- ENN
+  - NTK
+  - ENN

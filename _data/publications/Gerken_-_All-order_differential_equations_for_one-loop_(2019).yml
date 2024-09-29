@@ -1,6 +1,7 @@
 DOI: 10.1007/JHEP01(2020)064
 URL: https://doi.org/10.1007/JHEP01(2020)064
-abstract: We investigate generating functions for the integrals over world-sheet tori
+abstract: |
+  We investigate generating functions for the integrals over world-sheet tori
   appearing in closed-string one-loop amplitudes of bosonic, heterotic and type-II
   theories. These closed-string integrals are shown to obey homogeneous and linear
   differential equations in the modular parameter of the torus. We spell out the first-order
@@ -11,12 +12,12 @@ abstract: We investigate generating functions for the integrals over world-sheet
   for arbitrary such modular graph forms and can be viewed as a step towards all-order
   low-energy expansions of closed-string integrals.
 author:
-- family: Gerken
-  given: Jan E.
-- family: Kleinschmidt
-  given: Axel
-- family: Schlotterer
-  given: Oliver
+  - family: Gerken
+    given: Jan E.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Schlotterer
+    given: Oliver
 issued: '2019-11-08'
 publisher: Journal of High Energy Physics
 preprint:
