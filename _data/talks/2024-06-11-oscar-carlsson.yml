@@ -1,7 +1,7 @@
 title: 'HEAL-SWIN: A Vision Transformer On The Sphere' 
 date: '2024-06-11'
 location:
-  name: GeUmetric Deep Learning Workshop at Umeå University, Umeå
+  name: GeUmetric Deep Learning Workshop
   url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
 abstract: "High-resolution wide-angle images, such as fisheye
 images, are increasingly important in applications like
