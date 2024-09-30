@@ -1,0 +1,24 @@
+title: 'Half-way seminar: Geometric deep learning for data on manifolds and spherical images'
+date: '2023-02-09'
+location:
+  name: Chalmers, Gothenburg, Sweden
+  url: https://chalmers.se/
+abstract: "Geometric Deep Learning (GDL) is a vast and rapidly advancing field.
+ In this talk, I provide a brief introduction to GDL,
+ some approaches and applications, along with a few examples.
+ An essential aspect of GDL is how the model handles symmetries
+ in data or spaces. For data defined on a manifold, one such
+ symmetry is the choice of local coordinates and I will present our
+ formulation of a convolutional layer which is equivariant to
+ the choice of local coordinates (gauge equivariant) along with a
+ brief overview of the required structures and concepts.
+ Finally I will discuss our findings on the benefits and drawbacks
+ of enforcing equivariance in the model compared to augmenting the
+ training data. Based on our findings I am going to present some
+ questions to consider when choosing the best approach for your models."
+slides: /downloads/slides/2023-02-09-oscar-carlsson.pdf
+speaker:
+    first_name: Oscar
+    last_name: Carlsson  
+tags:
+  - GDL

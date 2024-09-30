@@ -1,0 +1,12 @@
+title: A popular science introduction to geometric deep learning
+date: '2023-10-31'
+location:
+  name: Chalmers, Gothenburg, Sweden
+  url: https://chalmers.se/
+abstract: "A popular science introduction to geometric deep learning for high school teachers. (Given in Swedish.)"
+slides: /downloads/slides/2023-10-31-oscar-carlsson.pdf 
+speaker:
+    first_name: Oscar 
+    last_name: Carlsson 
+tags:
+  - GDL
