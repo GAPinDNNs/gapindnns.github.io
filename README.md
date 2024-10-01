@@ -89,6 +89,14 @@ Talks are sorted into upcoming and past automatically based on the talk date.
 
 Group member pages are markdown files in `collections/_members`. The top of the page contains some meta-data like email address, path to image file etc. Images are stored in `assests/images/profile_pictures`. Below this block, you can add any content you like in markdown syntax.
 
+### Add downloadable files
+
+Downloadable files should be stored in the `downloads/` directory with appropriate subdirectories. The files can then be linked e.g. in the `slides` field for talks or at other places using the path `/downloads/...`.
+
+### Add images
+
+Upload the file in the folder `assets/images/` with corresponding subdirectories if appropriate. They can then be linked using the path `/assets/images/...`, e.g. for the `blackboard-image` field in the member file.
+
 ### Add master project
 
 Master projects are collected in `_data/master_projects.yml`. Copy one of the old master project entries to create a new one and adjust the content accordingly. Make sure to get the number of spaces right. Theses are stored in the directory `downloads/master_theses` and descriptions in `downloads/master_theses/project_description`.
@@ -100,6 +108,7 @@ For frequent external collaborators, it is nice to have their names in author li
 ### Add tag
 
 Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add an abbreviation which appears next to the papers and talks and a description which appears upon clicking on the abbreviation here. Note that the `ST` tag is used to filter string theory papers.
+
 
 ## To do
 
@@ -115,7 +124,6 @@ Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add 
 - 6 months cutoff for news
 
 ### Less technical, for Elias or Oscar
-- **Add functionality of personal blackboard image to each member**
 - Add office numbers to members
 - structure members page with
     - previous members (not further categorized) without own individual page
@@ -126,4 +134,3 @@ Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add 
 - Member page: start with short introduction
 - Add link to homepage on Chalmers's employees page for each member
 
-**Deadline** for member content: **September 25th**
