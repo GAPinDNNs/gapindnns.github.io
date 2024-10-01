@@ -1,0 +1,25 @@
+DOI: 10.1007/JHEP01(2019)052
+abstract: |
+  We investigate one-loop four-point scattering of non-abelian gauge bosons
+  in heterotic string theory and identify new connections with the corresponding open-string
+  amplitude. In the low-energy expansion of the heterotic-string amplitude, the integrals
+  over torus punctures are systematically evaluated in terms of modular graph forms,
+  certain non-holomorphic modular forms. For a specific torus integral, the modular
+  graph forms in the low-energy expansion are related to the elliptic multiple zeta
+  values from the analogous open-string integrations over cylinder boundaries. The
+  detailed correspondence between these modular graph forms and elliptic multiple
+  zeta values supports a recent proposal for an elliptic generalization of the single-valued
+  map at genus zero.
+author:
+  - family: Guillen
+    given: Max
+issued: '2018-11-06'
+publisher: Journal of High Energy Physics
+preprint:
+  URL: http://arxiv.org/abs/1811.02548
+  name: arXiv
+title: 'Heterotic-string amplitudes at one loop: modular graph forms and relations
+  to open strings'
+type: article-journal
+tags:
+  - ST
