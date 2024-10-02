@@ -1,0 +1,20 @@
+URL: https://doi.org/10.1007/JHEP03(2023)135
+abstract: |
+  We provide an alternative compact expression for the 11D pure spinor b-ghost by introducing a new set of negative ghost number operators 
+  made out of non-minimal pure spinor variables. Using the algebraic properties satisfied by these operators, it will be straightforwardly 
+  shown that $$\{Q, b\} = \frac{P^{2}}{2}$$, as well as $\{b, b\} = QΩ$. As an application of this novel formulation, the ghost number two 
+  vertex operator will easily be obtained in a completely covariant manner from a standard descent relation, the ghost number three vertex 
+  operator will be shown to satisfy the generalized Siegel gauge condition, and the 11D supergravity two-particle superfield will be 
+  constructed in a quite simple way.
+author:
+  - family: Guillen
+    given: Max
+issued: '2023-03-20'
+publisher: "Journal of High Energy Physics"
+preprint:
+  URL: https://arxiv.org/abs/2212.13653
+  name: arXiv
+title: Taming the 11D pure spinor b-ghost
+type: paper-journal
+tags:
+  - ST
