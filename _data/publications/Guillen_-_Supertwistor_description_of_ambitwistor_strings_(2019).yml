@@ -1,0 +1,19 @@
+URL: https://doi.org/10.1007/JHEP01(2020)020
+abstract: |
+  A new ambitwistor string is constructed based on a ten-dimensional supertwistor model for the massless superparticle. Although covariant quantization is complicated by reducibility issues, a light-cone gauge analysis can be easily performed. We show that with this analysis, this supertwistor ambitwistor string is equivalent to the RNS ambitwistor string in light-cone gauge. In order to make the comparison, we develop the light-cone gauge analysis of the RNS ambitwistor string which has some novel features in terms of its expression of the scattering equations through interaction point operators.
+author:
+  - family: Berkovits
+    given: Nathan
+  - family: Guillen
+    given: Max
+  - family: Mason
+    given: Lionel
+issued: '2020-01-07'
+publisher: "Journal of High Energy Physics"
+preprint:
+  URL: https://arxiv.org/abs/1908.06899
+  name: arXiv
+title: Supertwistor description of ambitwistor strings
+type: paper-journal
+tags:
+  - ST

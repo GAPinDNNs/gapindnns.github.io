@@ -1,0 +1,26 @@
+URL: https://doi.org/10.1103/PhysRevLett.127.051601
+abstract: |
+  We present a new method, exact in $$\alpha'$$, to explicitly compute string tree-level amplitudes involving one massive state and any number of massless ones. 
+  This construction relies on the so-called twisted heterotic string, which admits only gauge multiplets, a gravitational multiplet, 
+  and a single massive supermultiplet in its spectrum. In this simplified model, we determine the moduli-space integrand of all amplitudes 
+  with one massive state using Berends-Giele currents of the gauge multiplet. These integrands are then straightforwardly mapped to 
+  gravitational amplitudes in the twisted heterotic string and to the corresponding massive amplitudes of the conventional type-I and 
+  type-II superstrings.
+author:
+  - family: Guillen
+    given: Max
+  - family: Johansson
+    given: Henrik
+  - family: Lipinski Jusinskas
+    given: Renann
+  - family: Schlotterer
+    given: Oliver
+issued: '2021-07-21'
+publisher: "Physical Review Letters"
+preprint:
+  URL: https://arxiv.org/abs/2104.03314
+  name: arXiv
+title: Scattering Massive String Resonances through Field-Theory Methods
+type: paper-journal
+tags:
+  - ST

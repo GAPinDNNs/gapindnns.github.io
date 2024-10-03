@@ -1,0 +1,21 @@
+URL: https://doi.org/10.1007/JHEP08(2019)178
+abstract: |
+  The $$D=11$$ pure spinor superparticle has been shown to describe linearized $$D=11$$ supergravity in a manifestly covariant way. A number of authors have proposed that its correlation functions be used to compute amplitudes. The use of the scalar structure of the eleven-dimensional pure spinor top cohomology introduces a natural measure for computing such correlation functions. This prescription requires the construction of ghost number one and zero vertex operators. In these notes, we construct explicitly a ghost number one vertex operator but show the incompatibiliy of a ghost number zero vertex operator satisfying a standard descent equation for $$D=11$$ supergravity.
+author:
+  - family: Berkovits
+    given: Nathan
+  - family: Casali
+    given: Eduardo
+  - family: Guillen
+    given: Max
+  - family: Mason
+    given: Lionel
+issued: '2019-08-30'
+publisher: "Journal of High Energy Physics"
+preprint:
+  URL: https://arxiv.org/abs/1905.03737
+  name: arXiv
+title: Notes on the D=11 pure spinor superparticle
+type: paper-journal
+tags:
+  - ST
