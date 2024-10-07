@@ -1,0 +1,22 @@
+title: The Geometry of Neuromanifolds
+date: '2024-10-14'
+time: '13:15'
+location:
+    name: MVL-22
+zoom: 
+slides: 
+speaker:
+    first_name: Giovanni
+    last_name: Luca
+    affiliation: KTH
+    url: https://people.kth.se/~glma/
+abstract: |
+    Neural networks parametrize spaces of functions, sometimes referred to as `neuromanifolds'. 
+    Their geometry is intimately related to fundamental machine learning aspects, such as expressivity, 
+    sample complexity, and training dynamics. For polynomial activation functions, neuromanifolds are (semi-) algebraic varieties, 
+    enabling the application of tools and ideas from algebraic geometry to deep learning. 
+    In this talk, we will first review the general theory of neuromanifolds, and then present our recent results for 
+    deep convolutional networks with monomial activations. In this case, we show that the parametrization is finite, 
+    birational, and regular, factoring through the Segre-Veronese embedding. Moreover, by appealing to the theory of the generic 
+    Euclidean distance degree, we compute the number of critical points of the (complexified) regression objective 
+    for a generic large dataset.

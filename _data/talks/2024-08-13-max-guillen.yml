@@ -1,0 +1,20 @@
+title: RG flow of the NTK dynamics at finite-width from Feynman diagrams
+date: '2024-08-13'
+location:
+  name: IAIFI 2024 Summer Workshop
+  url: https://iaifi.org/summer-workshop.html
+abstract: Deep Learning is nowadays a well-stablished method for different applications in science and technology. 
+          However, it has been unclear for a long time how the "learning process" actually occurs in different architectures, 
+          and how this knowledge could be used to optimize performance and efficiency. Recently, high-energy-physics-based ideas 
+          have been applied to the modelling of Deep Learning, thus translating the learning problem to an RG flow analysis in 
+          Quantum Field Theory (QFT). In this talk, I will explain how these quite complicated formulae describing such RG flows 
+          for different observables in neural networks at initialization, can be easily obtained from a few rules resembling Feynman 
+          rules in QFT. I will also comment on some work in progress which implements such rules for computing higher-order corrections 
+          to the frozen (infinite-width) NTK for particular activation functions, and how they evolve after a few steps of SGD.
+slides: 
+video: 
+speaker:
+    first_name: Max
+    last_name: Guillen  
+tags:
+  - NTK
