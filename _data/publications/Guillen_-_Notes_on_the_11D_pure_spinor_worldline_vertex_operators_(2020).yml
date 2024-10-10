@@ -1,0 +1,15 @@
+URL: https://doi.org/10.1007/JHEP08(2020)122
+abstract: |
+  The construction of the ghost number zero and one vertex operators for the 11D pure spinor superparticle will be revisited. In this sense, an alternative way of defining the ghost number one vertex operator will be given after introducing a ghost number -2 operator made out of physical operators defined on the 11D non-minimal pure spinor superspace. This procedure will make explicit and transparent the relation between the ghost number three and one vertex operators. In addition, using a non-Lorentz covariant b-ghost, ghost number zero and two vertex operators satisfying standard descent equations will be presented in full form.
+author:
+  - family: Guillen
+    given: Max
+issued: '2020-08-25'
+publisher: "Journal of High Energy Physics"
+preprint:
+  URL: https://arxiv.org/abs/2006.06022
+  name: arXiv
+title: Notes on the 11D pure spinor worldline vertex operators
+type: paper-journal
+tags:
+  - ST

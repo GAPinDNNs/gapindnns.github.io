@@ -1,0 +1,13 @@
+title: Quantum Field Theory Behind the Foundations of Deep Learning
+date: '2024-01-10'
+location:
+  name: Physics in Rio Rimac  
+  url: 
+abstract: In this talk I will present novel ideas which implement different high-energy physics tools for describing deep neural networks at initialization and after GD training.
+slides: 
+video: 
+speaker:
+    first_name: Max
+    last_name: Guillen  
+tags:
+  - NTK

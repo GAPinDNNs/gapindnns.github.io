@@ -1,8 +1,7 @@
 ---
 first_name: Elias
 last_name: Nyholm
-short_description: I am interested in theoretical aspects of equivariant neural networks and spherical computer vision.
-short_description: Interested in mathematical aspects of local and global symmetries in neural networks, currently with a focus on transformer models and their equivariant counterparts.
+short_description: I am interested in mathematical aspects of local and global symmetries in neural networks, currently with a focus on transformers and their equivariant counterparts.
 position: PhD student
 email: eliasny@chalmers.se
 office:

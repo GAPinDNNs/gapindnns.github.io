@@ -1,0 +1,25 @@
+URL: 
+abstract: |
+  We present a novel ten-dimensional description of ambitwistor strings. This formulation is based on a set of supertwistor variables involving 
+  pure spinors and a set of constraints previously introduced in the context of the $$D=10$$ superparticle following a ten-dimensional 
+  twistor-like construction introduced by Berkovits. We perform a detailed quantum-mechanical analysis of the constraint algebra, we show that
+  the corresponding central charges vanish, and after considering a convenient gauge fixing procedure, physical states are found. 
+  Vertex operators are explicitly constructed and, by noticing a relation with the standard pure spinor formalism, scattering amplitudes 
+  are shown to correctly describe $$D=10$$ super-Yang-Mills interactions. As in other ambitwistor string models, amplitudes are found to be 
+  localized on the support of the scattering equations, and thus this work provides a bridge between Berkovits' construction and the 
+  Cachazo-He-Yuan formulae. After extending the pure spinor twistor transform to include an additional supersymmetry, our results are 
+  immediately generalized to Type IIB supergravity.
+author:
+  - family: Garcia Sepulveda
+    given: Diego
+  - family: Guillen
+    given: Max
+issued: '2020-06-10'
+publisher: 
+preprint:
+  URL: https://arxiv.org/abs/2006.06025
+  name: arXiv
+title: A Pure Spinor Twistor Description of Ambitwistor Strings
+type: paper
+tags:
+  - ST

@@ -1,0 +1,21 @@
+title: Equivariant and Coordinate Independent Convolutional Networks
+date: '2024-10-28'
+time: '10:30'
+location:
+    name: MVL-22
+zoom: 
+slides: 
+speaker:
+    first_name: Maurice
+    last_name: Weiler
+    affiliation: University of Amsterdam
+    url: https://maurice-weiler.gitlab.io/
+abstract: |
+    Equivariance imposes symmetry constraints on the connectivity of neural networks. 
+    This talk investigates the case of equivariant networks for fields of feature vectors 
+    on Euclidean spaces or other Riemannian manifolds. Equivariance is shown to lead to 
+    requirements for 1) spatial (convolutional) weight sharing, and 2) symmetry constraints 
+    on the shared weights themselves. We investigate the symmetry constraints imposed on 
+    convolution kernels and discuss how they can be solved and implemented. A gauge theoretic formulation 
+    of equivariant CNNs shows that these models are not only equivariant under global transformations, 
+    but under more general local gauge transformations as well.

@@ -13,8 +13,8 @@ abstract: Modular graph forms (MGFs) are a class of non-holomorphic modular form
   implementation for the manipulation of MGFs in the form of the Mathematica
   package ModularGraphForms which includes the basis decompositions obtained.
 author:
-- family: Gerken
-  given: Jan E.
+  - family: Gerken
+    given: Jan E.
 preprint:
   URL: http://arxiv.org/abs/2007.05476
   name: arXiv

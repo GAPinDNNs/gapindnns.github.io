@@ -1,0 +1,24 @@
+title: 'HEAL-SWIN: A Vision Transformer On The Sphere' 
+date: '2024-06-11'
+location:
+  name: GeUmetric Deep Learning Workshop
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
+abstract: "High-resolution wide-angle images, such as fisheye
+images, are increasingly important in applications like
+robotics and autonomous driving. Traditional
+neural networks struggle with these images due to
+projection and distortion losses when operating on
+their flat projections. In this presentation, I will
+introduce the HEAL-SWIN model, which addresses this
+issue by combining the SWIN transformer with the
+Hierarchical Equal Area iso-Latitude Pixelation
+(HEALPix) grid from astrophysics. This integration
+enables the HEAL-SWIN model to process inherently
+spherical data without projections, effectively
+eliminating distortion losses."
+slides: /downloads/slides/2024-06-11-oscar-carlsson.pdf
+speaker:
+    first_name: Oscar
+    last_name: Carlsson  
+tags:
+  - GDL

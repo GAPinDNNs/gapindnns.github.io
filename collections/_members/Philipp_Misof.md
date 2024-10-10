@@ -31,5 +31,5 @@ Program (WASP)*.
 ### Education
 
 **MSc in Physics** at the University of Vienna, Austria (2023) \
-Thesis: *Neural network potentials with long-range charge transfer and electrostatics* \
+Thesis: [*Neural network potentials with long-range charge transfer and electrostatics*](https://utheses.univie.ac.at/detail/66332#) \
 Supervised by: Prof. Christoph Dellago, Dr. Andreas Tröster

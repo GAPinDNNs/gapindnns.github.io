@@ -1,0 +1,28 @@
+URL: 
+abstract: |
+  In this Thesis we study first- and second-quantized approaches describing $$D=11$$ supergravity using pure spinor variables. 
+  We introduce the so-called $$D=11$$ pure spinor superparticle through BRST cohomology arguments starting from the semi-light-cone gauge 
+  $$D=11$$ Brink-Schwarz-like superparticle. After performing a light-cone gauge analysis of the pure spinor BRST cohomology at ghost number
+  three, we find the linearized equations of motion of $$D=11$$ supergravity in $$D=9$$ superspace. In addition, we construct a BRST-closed, 
+  ghost number one vertex operator made out of worldline fields and $$D=11$$ supergravity superfields, and we run into an inconsistency 
+  when constructing a ghost number zero vertex operator satisfying a standard descent equation. We then introduce the non-minimal version 
+  of the $$D=11$$ pure spinor superparticle, in which a composite b-ghost can be constructed satisfying $$\{Q,b\}=P^{2}$$. However, its complicated 
+  expression makes it difficult to check its nilpotency. We show that introducing an $$SO(1,10)$$ fermionic vector $$\bar{\Sigma}^{a}$$ 
+  simplifies the form of the b-ghost considerably, which allows us to verify that $$\{Q,b\}=P^{2}$$ and $$\{b,b\}$$= BRST-exact. Using this 
+  b-ghost we propose an alternative ghost number zero vertex operator satisfying a standard descent equation. However, its expression will 
+  depend on non-minimal pure spinor variables in a very complicated fashion. After discussing this first-quantized approach for $$D=11$$ 
+  supergravity, we move on to discussing the pure spinor master actions introduced by Cederwall for studying maximally supersymmetric 
+  gauge theories. We show that these actions indeed describe $$D=10$$ super-Yang-Mills, $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity
+  by extracting the equations of motion in ordinary superspace for each one of these theories.
+author:
+  - family: Guillen
+    given: Max
+issued: '2020-06-10'
+publisher: 
+preprint:
+  URL: https://arxiv.org/abs/2006.06014
+  name: arXiv
+title: Pure spinors and 11D supergravity
+type: PhD Thesis
+tags:
+  - ST

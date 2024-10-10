@@ -1,0 +1,24 @@
+DOI: https://doi.org/10.1016/j.jnt.2018.03.022
+URL: https://www.sciencedirect.com/science/article/pii/S0022314X18301197?via%3Dihub
+abstract: |
+  We show that Fourier coefficients of automorphic forms attached to minimal or next-to-minimal automorphic representations of  are completely determined by certain highly degenerate Whittaker coefficients. We give an explicit formula for the Fourier expansion, analogously to the Piatetski-Shapiro–Shalika formula. In addition, we derive expressions for Fourier coefficients associated to all maximal parabolic subgroups. These results have potential applications for scattering amplitudes in string theory.
+author:
+  - family: Ahlen
+    given: Olof
+  - family: Gustafsson
+    given: Henrik P. A.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Liu
+    given: Baying
+  - family: Persson
+    given: Daniel
+issued: '2018-11-01'
+publisher: Journal of Number Theory
+preprint:
+  URL: https://arxiv.org/abs/1707.08937
+  name: arXiv
+title: Fourier coefficients attached to small automorphic representations of SLn(𝔸)
+type: article-journal
+tags:
+  - ST

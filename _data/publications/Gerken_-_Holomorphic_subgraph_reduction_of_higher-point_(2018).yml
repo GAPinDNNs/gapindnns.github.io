@@ -1,5 +1,6 @@
 DOI: 10.1007/JHEP01(2019)131
-abstract: Modular graph forms are a class of modular covariant functions which appear
+abstract: |
+  Modular graph forms are a class of modular covariant functions which appear
   in the genus-one contribution to the low-energy expansion of closed string scattering
   amplitudes. Modular graph forms with holomorphic subgraphs enjoy the simplifying
   property that they may be reduced to sums of products of modular graph forms of
@@ -13,10 +14,10 @@ abstract: Modular graph forms are a class of modular covariant functions which a
   holomorphic subgraph reduction of higher-point modular graph forms with arbitrary
   holomorphic subgraphs.
 author:
-- family: Gerken
-  given: Jan E.
-- family: Kaidi
-  given: Justin
+  - family: Gerken
+    given: Jan E.
+  - family: Kaidi
+    given: Justin
 issued: '2018-09-13'
 publisher: Journal of High Energy Physics
 preprint:

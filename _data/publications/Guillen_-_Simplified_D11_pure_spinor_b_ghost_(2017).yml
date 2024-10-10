@@ -1,0 +1,19 @@
+URL: https://doi.org/10.1007/JHEP07(2017)115
+abstract: |
+  A b-ghost was constructed for the $$D = 11$$ non-minimal pure spinor superparticle by requiring that $$ \{Q, b\} = T$$ where $$Q = \Lambda^{\alpha}D_{\alpha} +R^{\alpha}\bar{W}_{\alpha}$$ is the usual 
+  non-minimal pure spinor BRST operator. As was done for the $$D = 10$$ b-ghost, we will show that the $$D = 11$$ b-ghost can be simplified by introducing an $$SO(10, 1)$$ fermionic vector $$\bar{\Sigma}^{i}$$ 
+  constructed out of the fermionic spinor $$D_{\alpha}$$ and pure spinor variables. This simplified version will be shown to satisfy $$\{Q, b\} = T$$ and $$\{b, b\} =$$ BRST - trivial.  
+author:
+  - family: Berkovits
+    given: Nathan
+  - family: Guillen
+    given: Max
+issued: '2017-07-25'
+publisher: "Journal of High Energy Physics"
+preprint:
+  URL: https://arxiv.org/abs/1703.05116
+  name: arXiv
+title: Simplified D=11 Pure Spinor b Ghost
+type: paper-journal
+tags:
+  - ST
