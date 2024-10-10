@@ -22,5 +22,5 @@ Some of my current research projects include:
 - Automorphic forms satisfying Poisson-type differential equations
 
 
-Below I list my [publications](#Publications) and [talks](#Talks) in deep learning as well as my string theory [publications](#StringTheoryPublications) and [talks](#StringTheoryTalks).  
+Below I list my [publications](#Publications) and [talks](#Talks).  
 I have also written a [book](https://www.cambridge.org/core/books/eisenstein-series-and-automorphic-representations/A815C7DFFF757DE89269DE0C36B6FBB8) on automorphic forms.
