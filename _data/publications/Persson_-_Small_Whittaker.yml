@@ -1,0 +1,20 @@
+DOI: https://www.sciencedirect.com/science/article/pii/S0022314X16300099
+URL: https://www.sciencedirect.com/science/article/pii/S0022314X16300099
+abstract: |
+ We investigate Fourier coefficients of automorphic forms on split simply-laced Lie groups G. We show that for automorphic representations of small Gelfand-Kirillov dimension the Fourier coefficients are completely determined by certain degenerate Whittaker vectors on G. Although we expect our results to hold for arbitrary simply-laced groups, we give complete proofs only for G=SL(3) and G=SL(4). This is based on a method of Ginzburg that associates Fourier coefficients of automorphic forms with nilpotent orbits of G. Our results complement and extend recent results of Miller and Sahi. We also use our formalism to calculate various local (real and p-adic) spherical vectors of minimal representations of the exceptional groups E_6, E_7, E_8 using global (adelic) degenerate Whittaker vectors, correctly reproducing existing results for such spherical vectors obtained by very different methods.
+author:
+  - family: Gustafsson
+    given: Henrik P. A.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Persson
+    given: Daniel
+issued: '2016-09-01'
+publisher: Journal of Number Theory
+preprint:
+  URL: https://arxiv.org/abs/1412.5625
+  name: arXiv
+title: Small automorphic representations and degenerate Whittaker vectors
+type: article-journal
+tags:
+
