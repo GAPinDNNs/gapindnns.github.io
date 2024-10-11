@@ -1,0 +1,20 @@
+DOI: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+URL: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+abstract: |
+ Motivated by string theory scattering amplitudes that are invariant under a discrete U-duality, we study Fourier coefficients of Eisenstein series on Kac-Moody groups. In particular, we analyse the Eisenstein series on E9(R), E10(R) and E11(R) corresponding to certain degenerate principal series at the values s=3/2 and s=5/2 that were studied in 1204.3043. We show that these Eisenstein series have very simple Fourier coefficients as expected for their role as supersymmetric contributions to the higher derivative couplings R4 and ∂4R4 coming from 1/2-BPS and 1/4-BPS instantons, respectively. This suggests that there exist minimal and next-to-minimal unipotent automorphic representations of the associated Kac-Moody groups to which these special Eisenstein series are attached. We also provide complete explicit expressions for degenerate Whittaker vectors of minimal Eisenstein series on E6(R), E7(R) and E8(R) that have not appeared in the literature before.
+author:
+  - family: Fleig
+    given: Philipp
+  - family: Kleinschmidt
+    given: Axel
+  - family: Persson
+    given: Daniel
+issued: '2014-03-01'
+publisher: Communications in Number Theory and Physics
+preprint:
+  URL: https://arxiv.org/abs/1312.3643
+  name: arXiv 
+title: Fourier expansions of Kac-Moody Eisenstein series and degenerate Whittaker vectors
+type: article
+tags:
+
