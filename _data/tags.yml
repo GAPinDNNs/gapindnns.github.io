@@ -1,14 +1,20 @@
 - short: NTK
   long: Neural Tangent Kernel
+  ml-relevant: true
   # link:
 - short: ENN
   long: Equivariant Neural Networks
+  ml-relevant: true
   # link:
 - short: GDL
   long: Geometric Deep Learning
+  ml-relevant: true
 - short: XAI
   long: Explainable AI
+  ml-relevant: true
 - short: SCV
   long: Spherical Computer Vision  
+  ml-relevant: true
 - short: ST
   long: String Theory
+  ml-relevant: false
