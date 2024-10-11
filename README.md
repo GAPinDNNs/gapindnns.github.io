@@ -107,7 +107,7 @@ For frequent external collaborators, it is nice to have their names in author li
 
 ### Add tag
 
-Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add an abbreviation which appears next to the papers and talks and a description which appears upon clicking on the abbreviation here. Note that the `ST` tag is used to filter string theory papers.
+Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add an abbreviation which appears next to the papers and talks and a description which appears upon clicking on the abbreviation here. `ml-relevant` can be `true` or `false` and, if true, let's a publication containing such a tag appear on the common publication page. Note that the `ST` tag is used to filter string theory papers.
 
 
 ## To do
