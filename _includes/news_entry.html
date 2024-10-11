@@ -3,7 +3,7 @@
   <div class="card-header">
     <div class="row align-items-center justify-content-between">
       <div class="col-sm-10 fs-5">
-	{{ news.headline }}
+	{{ news.headline | markdownify }}
       </div>
       <div class="col-sm-2 text-end news-date">
 	{{ news.date | date_to_string }}
