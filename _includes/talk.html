@@ -47,6 +47,10 @@
           {% if talk.video %}
           <a class="{% if talk.abstract or talk.slides %}ms-2 {% endif %}btn btn-secondary btn-sm" href="{{ talk.video }}" target="_blank">Video</a>
           {% endif %}
+          {% if talk.notes %}
+          <a class="{% if talk.abstract or talk.slides or talk.video %}ms-2 {% endif %}btn btn-secondary btn-sm" href="{{ talk.notes }}" target="_blank">Notes</a>
+          {% endif %}
+
         </div>
         <div class="col text-end">
           {% for tag in talk.tags %}

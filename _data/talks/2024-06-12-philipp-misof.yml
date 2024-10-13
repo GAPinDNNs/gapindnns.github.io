@@ -6,6 +6,7 @@ location:
   url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
 zoom: test/
 slides: /downloads/slides/2024-06-12-philipp-misof.pdf
+notes:
 speaker:
     first_name: Philipp
     last_name: Misof

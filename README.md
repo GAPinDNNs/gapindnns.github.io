@@ -71,9 +71,8 @@ There is a Python script `json_to_yaml.py` in `_data/publications` to convert JS
 
 ### Add Talk
 
-Talks are `.yml` files in the directory `_data/talks`. To add a talk, copy one of the existing talks and change the data accordingly. The file name convention is `YYYY-MM-DD-firstname-lastname.yml`. Be careful to get the number of spaces right.
+Talks are `.yml` files in the directory `_data/talks`. To add a talk, copy one of the existing talks and change the data accordingly. The file name convention is `YYYY-MM-DD-firstname-lastname.yml`. Be careful to get the number of spaces right. You can add additional material like `slides`, `video` and `notes` by setting a corresponding tag to the path in `donwloads/...` or linking to an external website.
 
-Note that the `ST`-tag is special: It signifies a string theory talk which will not show up in the central list of talks. Instead, it will only show up under a new section *String Theory Talks* of the member pages of the authors.
 
 ### Add news
 
