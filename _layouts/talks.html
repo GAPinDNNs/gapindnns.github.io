@@ -5,12 +5,18 @@ layout: topic
 
 {{ content }}
 
+
+{% assign ml_tags = site.data.tags | where: 'ml-relevant', true %}
+
 {% assign talks = "" | split: "," %}
 {% for item in site.data.talks %}
     {% assign talk = item[1] %}
-    {% unless talk.tags contains "ST" %}
-      {% assign talks = talks | push: talk %}
-    {% endunless %}
+    {% for ml_tag in ml_tags %}
+      {% if talk.tags contains ml_tag.short %}
+        {% assign talks = talks | push: talk %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
 {% endfor %}
 
 {% assign talks = talks | sort: "date" | reverse %}
