@@ -1,10 +1,10 @@
 {% assign talk = include.talk %}
 {% assign id = include.id %}
-<div class="card mb-3 talk-entry">
+<div id="talk_{{id}}" class="card mb-3 talk-entry">
   <div class="card-body">
     <div class="row justify-content-between">
       <div class="col-sm-8">
-        <h5 class="card-title">{{ talk.title }}</h5>
+        <h5 class="card-title">{{ talk.title }} <a class="link-opacity-25" href="#talk_{{id}}">#</a></h5>
         <h6 class="card-subtitle mb-2 text-muted">
         {% include link_members.html url=talk.speaker.url last_name=talk.speaker.last_name first_name=talk.speaker.first_name %}
           {% if talk.speaker.affiliation %}<span class="">({{
@@ -14,8 +14,8 @@
       <div class="col-sm text-end text-body-secondary">
         <div class"row">
           <i class="bi bi-calendar2-week-fill"></i> <span class="talk-date">{{talk.date | date_to_string }}</span>
-          {% if talk.time %}<i class="ms-3 bi bi-clock-fill"></i> {{ talk.time
-          | date: "%H:%M" }}{% endif %}
+          {% if talk.time %}<i class="ms-3 bi bi-clock-fill"></i> <span class="talk-time">{{ talk.time
+            | date: "%H:%M" }}</span>{% endif %}
         </div>
 
         <div class"row">
