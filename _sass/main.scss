@@ -176,3 +176,7 @@ p + h2 {
 .card:target {
 	--bs-card-bg: #392f43;
 }
+
+.news-headline > p {
+	margin-bottom: 0;
+}
