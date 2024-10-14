@@ -172,3 +172,7 @@ p + h2 {
 	--bs-btn-font-size: 0.75rem;
 	--bs-btn-border-radius: 0.35rem;
 }
+
+.card:target {
+	--bs-card-bg: #392f43;
+}
