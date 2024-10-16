@@ -8,6 +8,7 @@ office:
     number: L3088
     url: https://maps.chalmers.se/#person:chalmers:maxgui
 position: Postdoc
+blackboard-image: /assets/images/blackboard_images/NNEFT_feynman_2.png
 google_scholar:
 ---
 
