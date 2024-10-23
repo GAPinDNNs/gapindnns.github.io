@@ -1,0 +1,17 @@
+title: Using geometry and domain knowledge for improved interpretation of deep learning models
+date: '2024-10-29'
+time: '10:30'
+location:
+    name: MVL-22
+zoom: 
+slides: 
+speaker:
+    first_name: Aasa
+    last_name: Feragen
+    affiliation: Technical University of Denmark
+    url: https://orbit.dtu.dk/en/persons/aasa-feragen-hauberg
+abstract: |
+    Visualization and uncertainty quantification are often used to support our interpretation of deep learning models. 
+    In this talk, we show through examples how both visualization and uncertainty quantification can lead to 
+    misinterpretation if applied naïvely. Our examples will include equivariant neural networks for graphs 
+    and images, as well as uncertainty quantification with structured label variation.
