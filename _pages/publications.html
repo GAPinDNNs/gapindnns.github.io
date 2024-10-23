@@ -8,9 +8,9 @@ title: Publications
 
 
 {% assign pubs = "" | split: "," %}
+{% assign pub_ids = "" | split: "," %}
 {% for item in site.data.publications %}
     {% assign pub = item[1] %}
-    {% assign pub.issued = pub.issued | date: "%Y-%m-%d" %}
 
     {% for ml_tag in ml_tags %}
       {% if pub.tags contains ml_tag.short %}
@@ -23,5 +23,5 @@ title: Publications
 {% assign pubs = pubs | sort: "issued" | reverse %}
 
 {% for pub in pubs%}
-  {% include publication.html pub=pub id=forloop.index %}
+  {% include publication.html pub=pub.id %}
 {% endfor %}

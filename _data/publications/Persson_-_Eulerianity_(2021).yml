@@ -1,7 +1,5 @@
-DOI: https://doi.org/10.1090/ert/565
-URL: https://www.ams.org/journals/ert/2021-25-16/S1088-4165-2021-00565-0/
-abstract: |
-  We study the question of Eulerianity (factorizability) for Fourier coefficients of automorphic forms, and we prove a general transfer theorem that allows one to deduce the Eulerianity of certain coefficients from that of another coefficient. We also establish a ‘hidden’ invariance property of Fourier coefficients. We apply these results to minimal and next-to-minimal automorphic representations, and deduce Eulerianity for a large class of Fourier and Fourier–Jacobi coefficients. In particular, we prove Eulerianity for parabolic Fourier coefficients with characters of maximal rank for a class of Eisenstein series in minimal and next-to-minimal representations of groups of ADE-type that are of interest in string theory.
+title: Eulerianity of Fourier coefficients of automorphic forms
+id: Persson_-_Eulerianity_(2021)
 author:
   - family: Gourevitch
     given: Dmitry
@@ -14,11 +12,13 @@ author:
   - family: Sahi
     given: Siddhartha
 issued: '2021-06-07'
+DOI: https://doi.org/10.1090/ert/565
+URL: https://www.ams.org/journals/ert/2021-25-16/S1088-4165-2021-00565-0/
+abstract: |
+  We study the question of Eulerianity (factorizability) for Fourier coefficients of automorphic forms, and we prove a general transfer theorem that allows one to deduce the Eulerianity of certain coefficients from that of another coefficient. We also establish a ‘hidden’ invariance property of Fourier coefficients. We apply these results to minimal and next-to-minimal automorphic representations, and deduce Eulerianity for a large class of Fourier and Fourier–Jacobi coefficients. In particular, we prove Eulerianity for parabolic Fourier coefficients with characters of maximal rank for a class of Eisenstein series in minimal and next-to-minimal representations of groups of ADE-type that are of interest in string theory.
 publisher: Representation Theory
 preprint:
   URL: https://arxiv.org/abs/2004.14244
   name: arXiv
-title: Eulerianity of Fourier coefficients of automorphic forms
 type: article-journal
 tags:
-

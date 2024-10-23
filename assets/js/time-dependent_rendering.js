@@ -36,30 +36,40 @@ export function cut_off_news() {
 
 export function insert_upcoming_and_previous_headings() {
 // Insert Upcoming and Previous headings for talks
-  const talks = document.querySelectorAll(".talk-entry");
-  if (talks.length != 0) {
-    var has_upcoming = false;
-    const latest_date_unix = get_talk_date_time(talks[0]);
-    const now_unix = ms_time_to_unix(Date.now())
+  const [upcoming_talks, previous_talks] = divide_into_upcoming_previous_talks();
+  if (upcoming_talks.length != 0) {
+    let UpcomingDiv = document.createElement("div");
+    UpcomingDiv = upcoming_talks[0].insertAdjacentElement("beforebegin", UpcomingDiv);
+    UpcomingDiv.innerHTML = "<h4>Upcoming</h4>";
+    upcoming_talks.reverse();
 
-    if (latest_date_unix > now_unix) {
-      has_upcoming = true;
-      let UpcomingDiv = document.createElement("div");
-      UpcomingDiv = talks[0].insertAdjacentElement("beforebegin", UpcomingDiv);
-      UpcomingDiv.innerHTML = "<h4>Upcoming</h4>";
-    }
+    UpcomingDiv.append(...upcoming_talks);
 
-    if (has_upcoming) {
-      for (let i = 0; i < talks.length; i++) {
-        const talk_date_unix = get_talk_date_time(talks[i]);
-        if (talk_date_unix + 3600 < now_unix) {
-          let PreviousDiv = document.createElement("div");
-          PreviousDiv = talks[i].insertAdjacentElement("beforebegin", PreviousDiv);
-          PreviousDiv.innerHTML = "<h4>Previous</h4>";
-          break;
-        }
-      }
-    }
+    let PreviousDiv = document.createElement("div");
+    PreviousDiv = previous_talks[0].insertAdjacentElement("beforebegin", PreviousDiv);
+    PreviousDiv.innerHTML = "<h4>Previous</h4>";
+    PreviousDiv.append(...previous_talks);
   }
 }
 
+function compare_talks_dates(talk1, talk2) {
+  const talk1_date_unix = get_talk_date_time(talk1);
+  const talk2_date_unix = get_talk_date_time(talk2);
+  return talk1_date_unix - talk2_date_unix;
+}
+
+export function divide_into_upcoming_previous_talks() {
+  const talks = document.getElementsByClassName("talk-entry");
+  const upcoming_talks = [];
+  const previous_talks = [];
+  const now_unix = ms_time_to_unix(Date.now());
+  for (let i = 0; i < talks.length; i++) {
+    const talk_date_unix = get_talk_date_time(talks[i]);
+    if (talk_date_unix > now_unix) {
+      upcoming_talks.push(talks[i]);
+    } else {
+      previous_talks.push(talks[i]);
+    }
+  }
+  return [upcoming_talks, previous_talks];
+}

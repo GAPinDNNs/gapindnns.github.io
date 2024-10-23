@@ -1,3 +1,11 @@
+title: Superspace Expansion of The 11D Linearized Superfields in The Pure Spinor Formalism, and The Covariant Vertex Operator
+id: Guillen_-_Superspace_expansion_of_the_11D_linearized_superfields_in_the_pure_spinor_formalism_and_the_covariant_vertex_operator_(2023)
+author:
+  - family: Ben-Shahar
+    given: Maor
+  - family: Guillen
+    given: Max
+issued: '2023-09-04'
 URL: https://doi.org/10.1007/JHEP09(2023)018
 
 abstract: |
@@ -8,17 +16,10 @@ abstract: |
   introducing the 11D analogue of the 10D $$\mathcal{A}\mathcal{B}\mathcal{C}$$ superparticle, we construct, for the first time, a fully 
   covariant vertex operator for 11D supergravity by making use of the linearized 11D superfields. Notably, we show that this vertex 
   reproduces the Green-Gutperle-Kwon 11D operators in light-cone gauge.
-author:
-  - family: Ben-Shahar
-    given: Maor
-  - family: Guillen
-    given: Max
-issued: '2023-09-04'
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/2305.19898
   name: arXiv
-title: Superspace Expansion of The 11D Linearized Superfields in The Pure Spinor Formalism, and The Covariant Vertex Operator
 type: paper-journal
 tags:
   - ST

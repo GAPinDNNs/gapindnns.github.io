@@ -1,18 +1,18 @@
-DOI: 10.1007/JHEP05(2023)062
-URL: https://link.springer.com/article/10.1007/JHEP05(2023)062
-abstract: |
-  We use Poincaré series for massive Maass-Jacobi forms to define a “massive theta lift”, and apply it to the examples of the constant function and the modular invariant j-function, with the Siegel-Narain theta function as integration kernel. These theta integrals are deformations of known one-loop string threshold corrections. Our massive theta lifts fall off exponentially, so some Rankin-Selberg integrals are finite without Zagier renormalization.
+title: Massive Theta Lifts
+id: Persson_-_Massive_theta_lifts_(2022)
 author:
   - family: Berg
     given: Marcus
   - family: Persson
     given: Daniel
 issued: '2022-12-22'
+DOI: 10.1007/JHEP05(2023)062
+URL: https://link.springer.com/article/10.1007/JHEP05(2023)062
+abstract: |
+  We use Poincaré series for massive Maass-Jacobi forms to define a “massive theta lift”, and apply it to the examples of the constant function and the modular invariant j-function, with the Siegel-Narain theta function as integration kernel. These theta integrals are deformations of known one-loop string threshold corrections. Our massive theta lifts fall off exponentially, so some Rankin-Selberg integrals are finite without Zagier renormalization.
 publisher: Journal of High Energy Physics 
 preprint:
   URL: https://arxiv.org/abs/2212.11957
   name: arXiv
-title: Massive Theta Lifts
 type: article-journal
 tags:
-

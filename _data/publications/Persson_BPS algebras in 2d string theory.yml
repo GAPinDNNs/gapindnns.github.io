@@ -1,3 +1,15 @@
+title: BPS Algebras in 2D String Theory
+id: Persson_BPS_algebras_in_2d_string_theory
+author:
+- family: Harrison
+  given: Sarah M.
+- family: Paquette
+  given: Natalie M.
+- family: Persson
+  given: Daniel
+- family: Volpato
+  given: Roberto
+issued: '2022-05-16'
 DOI: https://link.springer.com/article/10.1007/s00023-022-01189-7
 URL: https://link.springer.com/article/10.1007/s00023-022-01189-7
 abstract: |
@@ -12,20 +24,9 @@ abstract: |
   manifestly automorphic forms closely related to the Borcherds–Weyl–Kac
   denominator. Along the way, we comment on various subtleties inherent to
   these low-dimensional string compactifications.
-author:
-- family: Harrison
-  given: Sarah M.
-- family: Paquette
-  given: Natalie M.
-- family: Persson
-  given: Daniel
-- family: Volpato
-  given: Roberto
-issued: '2022-05-16'
 publisher: Annales Henri Poincare
 preprint:
   URL: https://arxiv.org/abs/2107.03507
   name: arXiv
-title: BPS Algebras in 2D String Theory
 type: article-journal
 tags:

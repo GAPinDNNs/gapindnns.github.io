@@ -1,7 +1,5 @@
-DOI: https://iopscience.iop.org/article/10.1088/1751-8121/aa8443
-URL: https://iopscience.iop.org/article/10.1088/1751-8121/aa8443
-abstract: |
- In this note, we expand on some technical issues raised in \cite{PPV} by the authors, as well as providing a friendly introduction to and summary of our previous work. We construct a set of heterotic string compactifications to 0+1 dimensions intimately related to the Monstrous moonshine module of Frenkel, Lepowsky, and Meurman (and orbifolds thereof). Using this model, we review our physical interpretation of the genus zero property of Monstrous moonshine. Furthermore, we show that the space of (second-quantized) BPS-states forms a module over the Monstrous Lie algebras 𝔪g---some of the first and most prominent examples of Generalized Kac-Moody algebras---constructed by Borcherds and Carnahan. In particular, we clarify the structure of the module present in the second-quantized string theory. We also sketch a proof of our methods in the language of vertex operator algebras, for the interested mathematician.
+title: BPS-algebras, genus zero and the heterotic monster
+id: Persson_-_BPS_algebras_GenusZero
 author:
   - family: Paquette
     given: Natalie M.
@@ -10,11 +8,13 @@ author:
   - family: Volpato
     given: Roberto
 issued: '2017-09-08'
+DOI: https://iopscience.iop.org/article/10.1088/1751-8121/aa8443
+URL: https://iopscience.iop.org/article/10.1088/1751-8121/aa8443
+abstract: |
+ In this note, we expand on some technical issues raised in \cite{PPV} by the authors, as well as providing a friendly introduction to and summary of our previous work. We construct a set of heterotic string compactifications to 0+1 dimensions intimately related to the Monstrous moonshine module of Frenkel, Lepowsky, and Meurman (and orbifolds thereof). Using this model, we review our physical interpretation of the genus zero property of Monstrous moonshine. Furthermore, we show that the space of (second-quantized) BPS-states forms a module over the Monstrous Lie algebras 𝔪g---some of the first and most prominent examples of Generalized Kac-Moody algebras---constructed by Borcherds and Carnahan. In particular, we clarify the structure of the module present in the second-quantized string theory. We also sketch a proof of our methods in the language of vertex operator algebras, for the interested mathematician.
 publisher: Journal of Physics A - Mathematical and Theoretical
 preprint:
   URL: https://arxiv.org/abs/1701.05169
   name: arXiv
-title: BPS-algebras, genus zero and the heterotic monster
 type: article-journal
 tags:
-  
