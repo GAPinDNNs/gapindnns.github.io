@@ -1,3 +1,9 @@
+title: Modular Graph Forms and Scattering Amplitudes in String Theory
+id: Gerken_-_Modular_Graph_Forms_and_Scattering_(2020)
+author:
+  - family: Gerken
+    given: Jan E.
+issued: '2020-09-04'
 DOI: 10.18452/21829
 URL: https://edoc.hu-berlin.de/handle/18452/22571
 abstract: |
@@ -5,15 +11,10 @@ abstract: |
 
   Furthermore, we study a generating function which conjecturally contains the torus integrals of all perturbative closed-string theories. We write this generating function in terms of iterated integrals of holomorphic Eisenstein series and use this approach to arrive at a more rigorous characterization of the space of modular graph forms than was possible before.
   For tree-level string amplitudes, the single-valued map of multiple zeta values maps open-string amplitudes to closed-string amplitudes. The definition of a suitable one-loop generalization, a so-called elliptic single-valued map, is an active area of research and we provide a new perspective on this topic using our generating function of torus integrals.
-author:
-  - family: Gerken
-    given: Jan E.
-issued: '2020-09-04'
 publisher: Humboldt University Berlin
 preprint:
   URL: https://arxiv.org/abs/2011.08647
   name: arXiv
-title: Modular Graph Forms and Scattering Amplitudes in String Theory
 type: article-journal
 tags:
   - ST

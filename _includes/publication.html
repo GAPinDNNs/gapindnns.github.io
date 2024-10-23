@@ -1,10 +1,10 @@
 {% assign pub = include.pub %}
-{% assign id = include.id %}
-<div class="card mb-3">
+{% assign id = pub.id %}
+<div id="pub_{{ id }}" class="card mb-3">
   <div class="card-body">
     <div class="row align-items-center justify-content-between">
       <div class="col-8">
-        <h5 class="card-title">{{ pub.title }}</h4>
+        <h5 class="card-title">{{ pub.title }} <a class="link-opacity-25" href="#pub_{{id}}">#</a></h4>
       </div>
       <div class="col text-end text-body-secondary">
         {{pub.issued | date: "%Y"}}

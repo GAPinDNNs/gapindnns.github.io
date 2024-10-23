@@ -1,3 +1,17 @@
+title: One-loop matrix elements of effective superstring interactions α′-expanding loop integrands
+id: Guillen_-_One_loop_matrix_elements_of_effective_superstring_interactions_(2021)
+author:
+  - family: Edison
+    given: Alex
+  - family: Guillen
+    given: Max
+  - family: Johansson
+    given: Henrik
+  - family: Schlotterer
+    given: Oliver
+  - family: Teng
+    given: Fei
+issued: '2021-12-02'
 URL: https://doi.org/10.1007/JHEP12(2021)007
 abstract: |
   In the low-energy effective action of string theories, non-abelian gauge interactions and supergravity are augmented by infinite 
@@ -11,23 +25,10 @@ abstract: |
   should make this recombination possible at all orders in $$\alpha'$$. The ultraviolet divergences of the one-loop matrix elements are 
   crosschecked against the non-separating degeneration of genus-one integrals in string amplitudes. Conversely, our results can be used as 
   a constructive method to determine degenerations of elliptic multiple zeta values and modular graph forms at arbitrary weight.
-author:
-  - family: Edison
-    given: Alex
-  - family: Guillen
-    given: Max
-  - family: Johansson
-    given: Henrik
-  - family: Schlotterer
-    given: Oliver
-  - family: Teng
-    given: Fei
-issued: '2021-12-02'
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/2107.08009
   name: arXiv
-title: One-loop matrix elements of effective superstring interactions α′-expanding loop integrands
 type: paper-journal
 tags:
   - ST

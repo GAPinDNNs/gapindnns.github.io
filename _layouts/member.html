@@ -68,11 +68,11 @@ layout: default
 
         {% assign pubs = "" | split: "," %}
         {% for item in site.data.publications %}
-        {% assign pub = item[1] %}
-        {% assign match = pub.author | where: 'family', page.last_name | first %}
-        {% if match %}
-        {% assign pubs = pubs | push: pub %}
-        {% endif %}
+          {% assign pub = item[1] %}
+          {% assign match = pub.author | where: 'family', page.last_name | first %}
+          {% if match %}
+            {% assign pubs = pubs | push: pub %}
+          {% endif %}
         {% endfor %}
 
         {% assign pubs = pubs | sort: "issued" | reverse %}
@@ -82,7 +82,7 @@ layout: default
         <h2 id="Publications">Publications</h2>
 
         {% for pub in pubs %}
-        {% include publication.html pub=pub id=forloop.index %}
+          {% include publication.html pub=pub id=pub.id %}
         {% endfor %}
 
         {% endunless %}
@@ -90,10 +90,10 @@ layout: default
 
         {% assign talks = "" | split: "," %}
         {% for item in site.data.talks %}
-        {% assign talk = item[1] %}
-        {% if talk.speaker.last_name == page.last_name %}
-        {% assign talks = talks | push: talk %}
-        {% endif %}
+          {% assign talk = item[1] %}
+          {% if talk.speaker.last_name == page.last_name %}
+            {% assign talks = talks | push: talk %}
+          {% endif %}
         {% endfor %}
 
 
@@ -103,7 +103,7 @@ layout: default
         <h2 id="Talks">Talks</h2>
 
         {% for talk in talks %}
-        {% include talk.html talk=talk id=forloop.index %}
+        {% include talk.html talk=talk id=talk.id %}
         {% endfor %}
 
         {% endunless %}

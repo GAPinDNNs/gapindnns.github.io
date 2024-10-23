@@ -1,3 +1,11 @@
+title: A Pure Spinor Twistor Description of The D=10 Superparticle
+id: Guillen_-_A_pure_spinor_description_of_the_10D_superparticle_(2020)
+author:
+  - family: Garcia Sepulveda
+    given: Diego
+  - family: Guillen
+    given: Max
+issued: '2020-07-28'
 URL: https://doi.org/10.1007/JHEP08(2020)130
 
 abstract: |
@@ -5,17 +13,10 @@ abstract: |
   of pure spinor variables through a field redefinition of another model for the superparticle, and in the new description we find that 
   the super-Pauli-Lubanski three-form naturally arises as a constraint. Quantization is studied in detail for both models and they are 
   shown to correctly describe the D=10 super-Yang-Mills states.
-author:
-  - family: Garcia Sepulveda
-    given: Diego
-  - family: Guillen
-    given: Max
-issued: '2020-07-28'
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/2006.06023
   name: arXiv
-title: A Pure Spinor Twistor Description of The D=10 Superparticle
 type: paper
 tags:
   - ST

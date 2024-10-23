@@ -1,3 +1,9 @@
+title: Green-Schwarz and pure spinor formulations of chiral strings
+id: Guillen_-_Green_Schwarz_and_pure_spinor_formulations_of_chiral_strings_(2021)
+author:
+  - family: Guillen
+    given: Max
+issued: '2021-12-07'
 URL: https://doi.org/10.1007/JHEP12(2021)029
 abstract: |
   Bosonic and RNS chiral strings have been defined from a singular gauge fixing of the respective Polyakov and spinning string actions, enforcing, among other things, 
@@ -8,15 +14,10 @@ abstract: |
   predicted by RNS ambitwistor strings. Their pure spinor counterparts are then introduced by making use of the Oda-Tonin method. 
   In doing so, symmetries hidden in the pure spinor ambitwistor string action become manifest, proposals motivating the sectorized 
   pure spinor BRST charges find simple grounds, and integrated vertex operators emerge naturally.
-author:
-  - family: Guillen
-    given: Max
-issued: '2021-12-07'
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/2108.11724
   name: arXiv
-title: Green-Schwarz and pure spinor formulations of chiral strings
 type: paper-journal
 tags:
   - ST

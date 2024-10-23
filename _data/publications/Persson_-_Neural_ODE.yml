@@ -1,6 +1,5 @@
-URL: 
-abstract: |
-  In this paper, we develop a manifestly geometric framework for equivariant manifold neural ordinary differential equations (NODEs) and use it to analyse their modelling capabilities for symmetric data. First, we consider the action of a Lie group G on a smooth manifold M and establish the equivalence between equivariance of vector fields, symmetries of the corresponding Cauchy problems, and equivariance of the associated NODEs. We also propose a novel formulation, based on Lie theory for symmetries of differential equations, of the equivariant manifold NODEs in terms of the differential invariants of the action of G on M, which provides an efficient parameterisation of the space of equivariant vector fields in a way that is agnostic to both the manifold M and the symmetry group G. Second, we construct augmented manifold NODEs, through embeddings into flows on the tangent bundle TM, and show that they are universal approximators of diffeomorphisms on any connected M. Furthermore, we show that universality persists in the equivariant case and that the augmented equivariant manifold NODEs can be incorporated into the geometric framework using higher-order differential invariants. Finally, we consider the induced action of G on different fields on M and show how it can be used to generalise previous work, on, e.g., continuous normalizing flows, to equivariant models in any geometry.
+title: Equivariant Manifold Neural ODEs and Differential Invariants
+id: Persson_-_Neural_ODE
 author:
   - family: Andersdotter Svensson
     given: Emma
@@ -10,13 +9,14 @@ author:
   - family: Ohlsson
     given: Fredrik
 issued: '2024-10-11'
+URL: 
+abstract: |
+  In this paper, we develop a manifestly geometric framework for equivariant manifold neural ordinary differential equations (NODEs) and use it to analyse their modelling capabilities for symmetric data. First, we consider the action of a Lie group G on a smooth manifold M and establish the equivalence between equivariance of vector fields, symmetries of the corresponding Cauchy problems, and equivariance of the associated NODEs. We also propose a novel formulation, based on Lie theory for symmetries of differential equations, of the equivariant manifold NODEs in terms of the differential invariants of the action of G on M, which provides an efficient parameterisation of the space of equivariant vector fields in a way that is agnostic to both the manifold M and the symmetry group G. Second, we construct augmented manifold NODEs, through embeddings into flows on the tangent bundle TM, and show that they are universal approximators of diffeomorphisms on any connected M. Furthermore, we show that universality persists in the equivariant case and that the augmented equivariant manifold NODEs can be incorporated into the geometric framework using higher-order differential invariants. Finally, we consider the induced action of G on different fields on M and show how it can be used to generalise previous work, on, e.g., continuous normalizing flows, to equivariant models in any geometry.
 publisher: 
 preprint:
   URL: https://arxiv.org/abs/2401.14131
   name: arXiv
-title: Equivariant Manifold Neural ODEs and Differential Invariants
 type: 
 tags:
   - GDL
   - ENN
-

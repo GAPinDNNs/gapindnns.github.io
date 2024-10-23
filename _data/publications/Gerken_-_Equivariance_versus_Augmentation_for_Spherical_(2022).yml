@@ -1,3 +1,20 @@
+title: Equivariance versus Augmentation for Spherical Images
+id: Gerken_-_Equivariance_versus_Augmentation_for_Spherical_(2022)
+author:
+  - family: Gerken
+    given: Jan E.
+    first_author: true
+  - family: Carlsson
+    given: Oscar
+  - family: Linander
+    given: Hampus
+  - family: Ohlsson
+    given: Fredrik
+  - family: Petersson
+    given: Christoffer
+  - family: Persson
+    given: Daniel
+issued: '2022-06-28'
 URL: https://proceedings.mlr.press/v162/gerken22a.html
 abstract: |
   We analyze the role of rotational equivariance in convolutional neural networks
@@ -15,28 +32,11 @@ abstract: |
   also analyze and compare the inference latency and training times of the different
   networks, enabling detailed tradeoff considerations between equivariant architectures
   and data augmentation for practical problems.
-author:
-  - family: Gerken
-    given: Jan E.
-    first_author: true
-  - family: Carlsson
-    given: Oscar
-  - family: Linander
-    given: Hampus
-  - family: Ohlsson
-    given: Fredrik
-  - family: Petersson
-    given: Christoffer
-  - family: Persson
-    given: Daniel
-issued: '2022-06-28'
 publisher: ICML 2022
 preprint:
   URL: https://arxiv.org/abs/2202.03990
   name: arXiv
-title: Equivariance versus Augmentation for Spherical Images
 type: paper-conference
 tags:
   - SCV
   - ENN
-

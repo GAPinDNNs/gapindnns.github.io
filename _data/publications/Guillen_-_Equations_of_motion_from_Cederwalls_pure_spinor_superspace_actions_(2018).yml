@@ -1,17 +1,18 @@
-URL: https://doi.org/10.1007/JHEP08(2018)033
-abstract: |
-  Using non-minimal pure spinor superspace, Cederwall has constructed BRST-invariant actions for $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity which are quartic in the superfields. But since the superfields have explicit dependence on the non-minimal pure spinor variables, it is non-trivial to show these actions correctly describe super-Born-Infeld and supergravity. In this paper, we expand solutions to the equations of motion from Cederwall's actions to leading order around the linearized solutions and show that they correctly describe the interactions of $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity.
+title: Equations of motion from Cederwall's pure spinor superspace actions
+id: Guillen_-_Equations_of_motion_from_Cederwalls_pure_spinor_superspace_actions_(2018)
 author:
   - family: Berkovits
     given: Nathan
   - family: Guillen
     given: Max
 issued: '2018-08-08'
+URL: https://doi.org/10.1007/JHEP08(2018)033
+abstract: |
+  Using non-minimal pure spinor superspace, Cederwall has constructed BRST-invariant actions for $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity which are quartic in the superfields. But since the superfields have explicit dependence on the non-minimal pure spinor variables, it is non-trivial to show these actions correctly describe super-Born-Infeld and supergravity. In this paper, we expand solutions to the equations of motion from Cederwall's actions to leading order around the linearized solutions and show that they correctly describe the interactions of $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity.
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/1804.06979
   name: arXiv
-title: Equations of motion from Cederwall's pure spinor superspace actions
 type: paper-journal
 tags:
   - ST

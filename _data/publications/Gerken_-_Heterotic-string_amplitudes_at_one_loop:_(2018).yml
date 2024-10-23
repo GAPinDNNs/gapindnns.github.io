@@ -1,3 +1,14 @@
+title: 'Heterotic-string amplitudes at one loop: modular graph forms and relations
+  to open strings'
+id: Gerken_-_Heterotic-string_amplitudes_at_one_loop:_(2018)
+author:
+  - family: Gerken
+    given: Jan E.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Schlotterer
+    given: Oliver
+issued: '2018-11-06'
 DOI: 10.1007/JHEP01(2019)052
 abstract: |
   We investigate one-loop four-point scattering of non-abelian gauge bosons
@@ -10,20 +21,10 @@ abstract: |
   detailed correspondence between these modular graph forms and elliptic multiple
   zeta values supports a recent proposal for an elliptic generalization of the single-valued
   map at genus zero.
-author:
-  - family: Gerken
-    given: Jan E.
-  - family: Kleinschmidt
-    given: Axel
-  - family: Schlotterer
-    given: Oliver
-issued: '2018-11-06'
 publisher: Journal of High Energy Physics
 preprint:
   URL: http://arxiv.org/abs/1811.02548
   name: arXiv
-title: 'Heterotic-string amplitudes at one loop: modular graph forms and relations
-  to open strings'
 type: article-journal
 tags:
   - ST
