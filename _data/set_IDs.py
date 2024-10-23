@@ -1,5 +1,4 @@
 from pathlib import Path
-import yaml
 import argparse
 from collections import OrderedDict
 import re
@@ -84,13 +83,6 @@ def set_id_tags_of_files(overwrite=False):
 
             with file.open("w") as f:
                 f.write(output)
-
-            # id = clean_id_tag(str(file.stem))
-            # data = order_dict(data)
-            # output = set_id_tag(data, id, overwrite)
-            # if output is not None:
-            #     with file.open("w") as f:
-            #         f.write(output)
 
 
 def create_parser():
