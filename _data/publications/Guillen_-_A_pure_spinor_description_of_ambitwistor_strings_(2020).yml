@@ -1,3 +1,11 @@
+title: A Pure Spinor Twistor Description of Ambitwistor Strings
+id: Guillen_-_A_pure_spinor_description_of_ambitwistor_strings_(2020)
+author:
+  - family: Garcia Sepulveda
+    given: Diego
+  - family: Guillen
+    given: Max
+issued: '2020-06-10'
 URL: 
 abstract: |
   We present a novel ten-dimensional description of ambitwistor strings. This formulation is based on a set of supertwistor variables involving 
@@ -9,17 +17,10 @@ abstract: |
   localized on the support of the scattering equations, and thus this work provides a bridge between Berkovits' construction and the 
   Cachazo-He-Yuan formulae. After extending the pure spinor twistor transform to include an additional supersymmetry, our results are 
   immediately generalized to Type IIB supergravity.
-author:
-  - family: Garcia Sepulveda
-    given: Diego
-  - family: Guillen
-    given: Max
-issued: '2020-06-10'
 publisher: 
 preprint:
   URL: https://arxiv.org/abs/2006.06025
   name: arXiv
-title: A Pure Spinor Twistor Description of Ambitwistor Strings
 type: paper
 tags:
   - ST

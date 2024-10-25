@@ -39,7 +39,7 @@ analysis and climate pattern segmentation.
 
 {% include research_topic_card.html
 title="Equivariant neural networks and geometric deep learning"
-image="/assets/images/gdl_equiv_nn.png"
+image="/assets/images/research/gdl_equiv_nn.png"
 url="/_pages/equivariant_nns.html"
 description='The notion of "geometric deep learning" is
         often used as an umbrella term to describe various approaches to geometric
@@ -50,7 +50,7 @@ description='The notion of "geometric deep learning" is
 
 {% include research_topic_card.html
 title="Spherical computer vision and equivariant transformers"
-image="/assets/images/spherical_cv_semi_transp.png"
+image="/assets/images/research/spherical_cv_semi_transp.png"
 url="/_pages/spherical_cv.html"
 description='Transformer networks are a type of neural network architecture that
           have been widely used in natural language processing (NLP) tasks such as
@@ -72,7 +72,7 @@ description='Transformer networks are a type of neural network architecture that
 
 {% include research_topic_card.html
 title="Wide neural networks and neural tangent kernels"
-image="/assets/images/NNEFT_feynman.png"
+image="/assets/images/research/NNEFT_feynman.png"
 url="/_pages/wide_nns.html"
 description='A solid theoretical understanding of deep neural networks is
   lacking at the moment. This is because, although the building blocks of neural

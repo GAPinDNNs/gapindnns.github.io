@@ -1,7 +1,5 @@
-DOI: https://link.intlpress.com/journals/journalList?id=1804413969028411393
-URL: https://link.intlpress.com/journals/journalList?id=1804413969028411393
-abstract: |
- We provide a physics derivation of Monstrous moonshine. We show that the McKay-Thompson series Tg, g∈𝕄, can be interpreted as supersymmetric indices counting spacetime BPS-states in certain heterotic string models. The invariance groups of these series arise naturally as spacetime T-duality groups and their genus zero property descends from the behaviour of these heterotic models in suitable decompactification limits. We also show that the space of BPS-states forms a module for the Monstrous Lie algebras 𝔪g, constructed by Borcherds and Carnahan. We argue that 𝔪g arise in the heterotic models as algebras of spontaneously broken gauge symmetries, whose generators are in exact correspondence with BPS-states. This gives 𝔪g an interpretation as a kind of BPS-algebra.
+title: Monstrous BPS-Algebras and the Superstring Origin of Moonshine
+id: Persson_-_Monstrous_BPS
 author:
   - family: Paquette
     given: Natalie M.
@@ -10,11 +8,13 @@ author:
   - family: Volpato
     given: Roberto
 issued: '2016-03-01'
+DOI: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+URL: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+abstract: |
+ We provide a physics derivation of Monstrous moonshine. We show that the McKay-Thompson series Tg, g∈𝕄, can be interpreted as supersymmetric indices counting spacetime BPS-states in certain heterotic string models. The invariance groups of these series arise naturally as spacetime T-duality groups and their genus zero property descends from the behaviour of these heterotic models in suitable decompactification limits. We also show that the space of BPS-states forms a module for the Monstrous Lie algebras 𝔪g, constructed by Borcherds and Carnahan. We argue that 𝔪g arise in the heterotic models as algebras of spontaneously broken gauge symmetries, whose generators are in exact correspondence with BPS-states. This gives 𝔪g an interpretation as a kind of BPS-algebra.
 publisher: Communications in Number Theory and Physics
 preprint:
   URL: https://arxiv.org/abs/1601.05412
   name: arXiv
-title: Monstrous BPS-Algebras and the Superstring Origin of Moonshine
 type: article-journal
 tags:
-  

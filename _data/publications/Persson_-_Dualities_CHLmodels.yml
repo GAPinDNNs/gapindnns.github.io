@@ -1,18 +1,18 @@
-DOI: https://iopscience.iop.org/article/10.1088/1751-8121/aab489
-URL: https://iopscience.iop.org/article/10.1088/1751-8121/aab489
-abstract: |
- We define a very general class of CHL-models associated with any string theory (bosonic or supersymmetric) compactified on an internal CFT C x T^d. We take the orbifold by a pair (g,\delta), where g is a (possibly non-geometric) symmetry of C and \delta is a translation along T^d. We analyze the T-dualities of these models and show that in general they contain Atkin-Lehner type symmetries. This generalizes our previous work on N=4 CHL-models based on heterotic string theory on T^6 or type II on K3 x T^2, as well as the `monstrous' CHL-models based on a compactification of heterotic string theory on the Frenkel-Lepowsky-Meurman CFT V^{\natural}.
+title: Dualities in CHL-models
+id: Persson_-_Dualities_CHLmodels
 author:
   - family: Persson
     given: Daniel
   - family: Volpato
     given: Roberto
 issued: '2018-03-27'
+DOI: https://iopscience.iop.org/article/10.1088/1751-8121/aab489
+URL: https://iopscience.iop.org/article/10.1088/1751-8121/aab489
+abstract: |
+ We define a very general class of CHL-models associated with any string theory (bosonic or supersymmetric) compactified on an internal CFT C x T^d. We take the orbifold by a pair (g,\delta), where g is a (possibly non-geometric) symmetry of C and \delta is a translation along T^d. We analyze the T-dualities of these models and show that in general they contain Atkin-Lehner type symmetries. This generalizes our previous work on N=4 CHL-models based on heterotic string theory on T^6 or type II on K3 x T^2, as well as the `monstrous' CHL-models based on a compactification of heterotic string theory on the Frenkel-Lepowsky-Meurman CFT V^{\natural}.
 publisher: Journal of Physics A - Mathematical and Theoretical
 preprint:
   URL: https://arxiv.org/abs/1704.00501
   name: arXiv
-title: Dualities in CHL-models
 type: article-journal
 tags:
-

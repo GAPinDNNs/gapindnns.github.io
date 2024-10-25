@@ -10,7 +10,7 @@ layout: default
         <p class="ps-1 text-body-secondary">{{ page.position }}</p>
       </div>
       <div class="col-sm-8 text-center">
-        <img src="{% if page.blackboard-image %}{{ page.blackboard-image }}{% else %}/assets/images/NNEFT_matrices.png{% endif %}" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
+        <img src="{% if page.blackboard-image %}{{ page.blackboard-image }}{% else %}/assets/images/blackboard_images/NNEFT_matrices.png{% endif %}" class="img-fluid" style="max-height: 300px; opacity: 0.7;">
       </div>
     </div>
   </div>
@@ -68,13 +68,11 @@ layout: default
 
         {% assign pubs = "" | split: "," %}
         {% for item in site.data.publications %}
-        {% assign pub = item[1] %}
-        {% assign match = pub.author | where: 'family', page.last_name | first %}
-        {% if match %}
-	{% unless pub.tags contains "ST" %}
-        {% assign pubs = pubs | push: pub %}
-	{% endunless %}
-        {% endif %}
+          {% assign pub = item[1] %}
+          {% assign match = pub.author | where: 'family', page.last_name | first %}
+          {% if match %}
+            {% assign pubs = pubs | push: pub %}
+          {% endif %}
         {% endfor %}
 
         {% assign pubs = pubs | sort: "issued" | reverse %}
@@ -84,7 +82,7 @@ layout: default
         <h2 id="Publications">Publications</h2>
 
         {% for pub in pubs %}
-        {% include publication.html pub=pub id=forloop.index %}
+          {% include publication.html pub=pub id=pub.id %}
         {% endfor %}
 
         {% endunless %}
@@ -92,12 +90,10 @@ layout: default
 
         {% assign talks = "" | split: "," %}
         {% for item in site.data.talks %}
-        {% assign talk = item[1] %}
-        {% if talk.speaker.last_name == page.last_name %}
-	{% unless talk.tags contains "ST" %}
-        {% assign talks = talks | push: talk %}
-	{% endunless %}
-        {% endif %}
+          {% assign talk = item[1] %}
+          {% if talk.speaker.last_name == page.last_name %}
+            {% assign talks = talks | push: talk %}
+          {% endif %}
         {% endfor %}
 
 
@@ -107,55 +103,7 @@ layout: default
         <h2 id="Talks">Talks</h2>
 
         {% for talk in talks %}
-        {% include talk.html talk=talk id=forloop.index %}
-        {% endfor %}
-
-        {% endunless %}
-
-
-	{% assign st_pubs = "" | split: "," %}
-	{% for item in site.data.publications %}
-        {% assign pub = item[1] %}
-        {% assign match = pub.author | where: 'family', page.last_name | first %}
-        {% if match %}
-          {% if pub.tags contains "ST" %}
-            {% assign st_pubs = st_pubs | push: pub %}
-          {% endif %}
-	{% endif %}
-        {% endfor %}
-
-        {% assign st_pubs = st_pubs | sort: "issued" | reverse %}
-
-        {% unless st_pubs == empty %}
-
-        <h2 id="StringTheoryPublications">String Theory Publications</h2>
-
-        {% for st_pub in st_pubs %}
-        {% include publication.html pub=st_pub id=forloop.index %}
-        {% endfor %}
-
-        {% endunless %}
-
-
-	
-	{% assign talks = "" | split: "," %}
-        {% for item in site.data.talks %}
-        {% assign talk = item[1] %}
-        {% if talk.speaker.last_name == page.last_name %}
-	{% if talk.tags contains "ST" %}
-        {% assign talks = talks | push: talk %}
-	{% endif %}
-        {% endif %}
-        {% endfor %}
-
-
-        {% assign talks = talks | sort: "date" | reverse %}
-
-        {% unless talks == empty %}
-        <h2 id="StringTheoryTalks">String Theory Talks</h2>
-
-        {% for talk in talks %}
-        {% include talk.html talk=talk id=forloop.index %}
+        {% include talk.html talk=talk id=talk.id %}
         {% endfor %}
 
         {% endunless %}

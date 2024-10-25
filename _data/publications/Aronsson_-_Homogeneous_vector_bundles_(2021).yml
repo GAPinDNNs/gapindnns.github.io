@@ -1,10 +1,11 @@
 title: Homogeneous vector bundles and G-equivariant convolutional neural networks
+id: Aronsson_-_Homogeneous_vector_bundles_(2021)
 author:
   - family: Aronsson
     given: Jimmy
+issued: '2021-05-11'
 abstract: |
   \\(G\\)-equivariant convolutional neural networks (GCNNs) is a geometric deep learning model for data defined on a homogeneous \\(G\\)-space \\(\mathcal{M}\\). GCNNs are designed to respect the global symmetry in \\(\mathcal{M}\\), thereby facilitating learning. In this paper, we analyze GCNNs on homogeneous spaces \\(\mathcal{M} = G/K\\) in the case of unimodular Lie groups \\(G\\) and compact subgroups \\(K \leq G\\). We demonstrate that homogeneous vector bundles is the natural setting for GCNNs. We also use reproducing kernel Hilbert spaces to obtain a precise criterion for expressing \\(G\\)-equivariant layers as convolutional layers. This criterion is then rephrased as a bandwidth criterion, leading to even stronger results for some groups.
-issued: '2021-05-11'
 preprint:
   URL: http://arxiv.org/abs/2105.05400
   name: arXiv

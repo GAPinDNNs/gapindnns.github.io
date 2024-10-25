@@ -3,18 +3,25 @@ layout: topic
 title: Publications
 ---
 
+{% assign ml_tags = site.data.tags | where: 'ml-relevant', true %}
+
+
 
 {% assign pubs = "" | split: "," %}
+{% assign pub_ids = "" | split: "," %}
 {% for item in site.data.publications %}
     {% assign pub = item[1] %}
-    {% assign pub.issued = pub.issued | date: "%Y-%m-%d" %}
-    {% assign pubs = pubs | push: pub %}
+
+    {% for ml_tag in ml_tags %}
+      {% if pub.tags contains ml_tag.short %}
+        {% assign pubs = pubs | push: pub %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
 {% endfor %}
 
 {% assign pubs = pubs | sort: "issued" | reverse %}
 
 {% for pub in pubs%}
-  {% unless pub.tags contains "ST" %}
-    {% include publication.html pub=pub id=forloop.index %}
-  {% endunless %}
+  {% include publication.html pub=pub.id %}
 {% endfor %}
