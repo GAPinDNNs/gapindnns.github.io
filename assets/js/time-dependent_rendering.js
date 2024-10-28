@@ -2,10 +2,22 @@ function ms_time_to_unix(time) {
   return Math.round(time / 1000);
 }
 
+function interpret_in_timezone(date, ianatz) {
+  var invdate = new Date(date.toLocaleString('en-US', {
+    timeZone: ianatz
+  }));
+
+  var diff = date.getTime() - invdate.getTime();
+
+  return new Date(date.getTime() - diff);
+}
+
 function get_talk_date_time(talk) {
   const talk_date = talk.querySelector(".talk-date");
   const talk_time = talk.querySelector(".talk-time");
-  const talk_datetime = new Date(talk_date.innerText + ' ' + talk_time.innerText + ' GMT+02:00');
+  var talk_datetime = new Date(talk_date.innerText + ' ' + talk_time.innerText);
+  talk_datetime = interpret_in_timezone(talk_datetime, 'Europe/Stockholm');
+
   const talk_date_unix = Math.round(ms_time_to_unix(talk_datetime.getTime()))
   return talk_date_unix;
 }
@@ -62,10 +74,11 @@ export function divide_into_upcoming_previous_talks() {
   const talks = document.getElementsByClassName("talk-entry");
   const upcoming_talks = [];
   const previous_talks = [];
+  const time_buffer_upcoming = 60 * 30; // 30 minutes
   const now_unix = ms_time_to_unix(Date.now());
   for (let i = 0; i < talks.length; i++) {
     const talk_date_unix = get_talk_date_time(talks[i]);
-    if (talk_date_unix > now_unix) {
+    if (talk_date_unix + time_buffer_upcoming > now_unix) {
       upcoming_talks.push(talks[i]);
     } else {
       previous_talks.push(talks[i]);
