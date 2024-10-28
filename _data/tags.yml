@@ -13,8 +13,11 @@
   long: Explainable AI
   ml-relevant: true
 - short: SCV
-  long: Spherical Computer Vision  
+  long: Spherical Computer Vision
   ml-relevant: true
 - short: ST
   long: String Theory
   ml-relevant: false
+- short: LLM
+  long: Large Language Models
+  ml-relevant: true

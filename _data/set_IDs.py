@@ -17,6 +17,11 @@ first_keys = [
     "date",
 ]
 
+id_replace_map = {
+    " ": "_",
+    ",": "_",
+}
+
 
 folders = map(lambda p: Path(p), folders)
 
@@ -56,7 +61,9 @@ def set_id_tag(data, id, overwrite=False):
 
 
 def clean_id_tag(tag):
-    return tag.replace(" ", "_")
+    for key, value in id_replace_map.items():
+        tag = tag.replace(key, value)
+    return tag
 
 
 def set_id_tags_of_files(overwrite=False):

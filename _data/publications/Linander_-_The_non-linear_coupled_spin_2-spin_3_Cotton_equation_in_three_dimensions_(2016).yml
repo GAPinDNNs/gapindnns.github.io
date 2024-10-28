@@ -28,6 +28,5 @@ abstract: |
 type: article-journal
 URL: "https://link.springer.com/article/10.1007/JHEP07(2016)024"
 publisher: Springer JHEP
-tags: [ST]
-
-
+tags:
+  - ST
