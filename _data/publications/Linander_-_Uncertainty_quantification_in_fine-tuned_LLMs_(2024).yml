@@ -22,5 +22,4 @@ abstract: |
 type: article-journal
 URL: "https://arxiv.org/abs/2402.12264"
 publisher: arXiv
-tags:
-  - LLM
+tags: [XAI, UQ, LLM]

@@ -40,6 +40,6 @@ abstract: |
   when tolerating a 6% accuracy degradation.
 type: article-journal
 publisher: IOP MLST
-tags:
+tags: [EdgeML]
 
 

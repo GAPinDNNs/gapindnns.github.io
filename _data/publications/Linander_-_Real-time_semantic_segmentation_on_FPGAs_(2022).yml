@@ -39,5 +39,4 @@ abstract: |
 type: article-journal
 URL: "https://iopscience.iop.org/article/10.1088/2632-2153/ac9cb5/meta"
 publisher: IOP MLST
-tags:
-
+tags: [EdgeML]

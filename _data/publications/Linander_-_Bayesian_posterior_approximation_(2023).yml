@@ -23,6 +23,6 @@ abstract: |
 type: paper-conference
 URL: "https://openaccess.thecvf.com/content/CVPR2023/papers/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper.pdf"
 publisher: IEEE/CVF CVPR
-tags:
+tags: [BDL]
 
 
