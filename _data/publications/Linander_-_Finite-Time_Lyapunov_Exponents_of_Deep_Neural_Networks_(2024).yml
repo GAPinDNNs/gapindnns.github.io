@@ -1,0 +1,30 @@
+title: "Finite-Time Lyapunov Exponents of Deep Neural Networks"
+id: Linander_-_Finite-Time_Lyapunov_Exponents_of_Deep_Neural_Networks_(2024)
+author:
+  - family: Storm
+    given: Ludvig
+    first_author: true
+  - family: Linander
+    given: Hampus
+  - family: Bec
+    given: Jeremy
+  - family: Gustavsson
+    given: Kristian
+  - family: Mehlig
+    given: Bernhard
+issued: '2024-01-01'
+abstract: |
+  We compute how small input perturbations affect the output of deep neural
+  networks, exploring an analogy between deep feed-forward networks and dynamical
+  systems, where the growth or decay of local perturbations is characterized
+  by finite-time Lyapunov exponents. We show that the maximal exponent forms
+  geometrical structures in input space, akin to coherent structures in dynamical
+  systems. Ridges of large positive exponents divide input space into different
+  regions that the network associates with different classes. These ridges
+  visualize the geometry that deep networks construct in input space, shedding
+  light on the fundamental mechanisms underlying their learning capabilities.
+type: article-journal
+URL: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.057301"
+publisher: PRL
+tags: 
+  - DL

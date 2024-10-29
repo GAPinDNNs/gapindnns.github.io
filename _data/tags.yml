@@ -13,8 +13,23 @@
   long: Explainable AI
   ml-relevant: true
 - short: SCV
-  long: Spherical Computer Vision  
+  long: Spherical Computer Vision
   ml-relevant: true
 - short: ST
   long: String Theory
   ml-relevant: false
+- short: LLM
+  long: Large Language Models
+  ml-relevant: true
+- short: BDL
+  long: Bayesian Deep Learning
+  ml-relevant: true
+- short: EdgeML
+  long: Machine learning on edge devices
+  ml-relevant: true
+- short: UQ
+  long: Uncertainty Quantification
+  ml-relevant: true
+- short: DL
+  long: Deep Learning
+  ml-relevant: true
