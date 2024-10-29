@@ -26,4 +26,5 @@ abstract: |
 type: article-journal
 URL: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.057301"
 publisher: PRL
-tags: [DL]
+tags: 
+  - DL

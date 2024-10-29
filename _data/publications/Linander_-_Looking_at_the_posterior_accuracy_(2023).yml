@@ -28,4 +28,6 @@ abstract: |
   for fully-connected, convolutional and attention-based neural networks.
 publisher: 'Machine Learning: Science and Technology'
 type: article-journal
-tags: [XAI, UQ]
+tags: 
+  - XAI
+  - UQ
