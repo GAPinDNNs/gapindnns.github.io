@@ -1,3 +1,13 @@
+title: Generating series of all modular graph forms from iterated Eisenstein integrals
+id: Gerken_-_Generating_series_of_all_modular_(2020)
+author:
+  - family: Gerken
+    given: Jan E.
+  - family: Kleinschmidt
+    given: Axel
+  - family: Schlotterer
+    given: Oliver
+issued: '2020-07-27'
 DOI: 10.1007/JHEP07(2020)190
 abstract: |
   We study generating series of torus integrals that contain all so-called
@@ -13,20 +23,11 @@ abstract: |
   In particular, our solution allows for a counting of linearly independent modular
   graph forms at a given weight, confirming previous partial results and giving
   predictions for higher, hitherto unexplored weights. It also sheds new light on
-  the topic of uniform transcendentality of the \u03B1\u2032-expansion."
-author:
-  - family: Gerken
-    given: Jan E.
-  - family: Kleinschmidt
-    given: Axel
-  - family: Schlotterer
-    given: Oliver
-issued: '2020-07-27'
+  the topic of uniform transcendentality of the \u03B1\u2032-expansion.
 publisher: Journal of High Energy Physics
 preprint:
   URL: http://arxiv.org/abs/2004.05156
   name: arXiv
-title: Generating series of all modular graph forms from iterated Eisenstein integrals
 type: article-journal
 tags:
   - ST

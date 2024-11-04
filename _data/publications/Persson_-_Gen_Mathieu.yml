@@ -1,7 +1,5 @@
-DOI: 
-URL: 
-abstract: |
- The Mathieu twisted twining genera, i.e. the analogues of Norton's generalised Moonshine functions, are constructed for the elliptic genus of K3. It is shown that they satisfy the expected consistency conditions, and that their behaviour under modular transformations is controlled by a 3-cocycle in H^3(M_24,U(1)), just as for the case of holomorphic orbifolds. This suggests that a holomorphic VOA may be underlying Mathieu Moonshine.
+title: Generalised Mathieu Moonshine
+id: Persson_-_Gen_Mathieu
 author:
   - family: Gaberdiel
     given: Matthias R.
@@ -10,11 +8,13 @@ author:
   - family: Volpato
     given: Roberto
 issued: '2013-02-21'
+DOI: 
+URL: 
+abstract: |
+ The Mathieu twisted twining genera, i.e. the analogues of Norton's generalised Moonshine functions, are constructed for the elliptic genus of K3. It is shown that they satisfy the expected consistency conditions, and that their behaviour under modular transformations is controlled by a 3-cocycle in H^3(M_24,U(1)), just as for the case of holomorphic orbifolds. This suggests that a holomorphic VOA may be underlying Mathieu Moonshine.
 publisher: Communications in Number Theory and Physics
 preprint:
   URL: https://arxiv.org/abs/1211.7074
   name: arXiv
-title: Generalised Mathieu Moonshine
 type: article-journal
 tags:
-

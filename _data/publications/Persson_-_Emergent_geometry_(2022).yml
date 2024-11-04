@@ -1,7 +1,5 @@
-DOI: 10.1038/s41467-021-27951-9
-URL: https://www.nature.com/articles/s41467-021-27951-9
-abstract: |
-  We consider supergravity in five-dimensional Anti-De Sitter space AdS5 with minimal supersymmetry, encoded by a Sasaki-Einstein metric on a five-dimensional compact manifold M. Our main result reveals how the Sasaki-Einstein metric emerges from a canonical state in the dual CFT, defined by a superconformal gauge theory in four dimensional Minkowski space ℝ3,1in the t'Hooft limit where the rank N tends to infinity. We obtain explicit finite N−approximations to the Sasaki-Einstein metric, expressed in terms of a canonical (i.e. background free) BPS-state on the gauge theory side. We also provide a string theory interpretation of the BPS-state in question, which sheds new light on the previously noted intriguing duality of giant gravitons.
+title: Emergent Sasaki-Einstein geometry and AdS/CFT
+id: Persson_-_Emergent_geometry_(2022)
 author:
   - family: Berman 
     given: Robert J.
@@ -10,11 +8,13 @@ author:
   - family: Persson
     given: Daniel
 issued: '2022-01-18'
+DOI: 10.1038/s41467-021-27951-9
+URL: https://www.nature.com/articles/s41467-021-27951-9
+abstract: |
+  We consider supergravity in five-dimensional Anti-De Sitter space AdS5 with minimal supersymmetry, encoded by a Sasaki-Einstein metric on a five-dimensional compact manifold M. Our main result reveals how the Sasaki-Einstein metric emerges from a canonical state in the dual CFT, defined by a superconformal gauge theory in four dimensional Minkowski space ℝ3,1in the t'Hooft limit where the rank N tends to infinity. We obtain explicit finite N−approximations to the Sasaki-Einstein metric, expressed in terms of a canonical (i.e. background free) BPS-state on the gauge theory side. We also provide a string theory interpretation of the BPS-state in question, which sheds new light on the previously noted intriguing duality of giant gravitons.
 publisher: Nature Communications
 preprint:
   URL: https://arxiv.org/abs/2008.12004
   name: arXiv
-title: Emergent Sasaki-Einstein geometry and AdS/CFT
 type: article-journal
 tags:
-  

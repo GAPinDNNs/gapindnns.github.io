@@ -1,4 +1,5 @@
 title: "Diffeomorphic Counterfactuals and Generative Models"
+id: 2022-05-11-jan-gerken
 date: '2022-05-11'
 abstract: "Neural network classifiers are black box models which lack inherent interpretability. In many practical applications like medical imaging or autonomous driving, interpretations of the network decisions are needed which are provided by the field of explainable AI.
 Counterfactuals provide intuitive explanations for neural network classifiers which help to identify reliance on spurious features and biases in the underlying dataset.

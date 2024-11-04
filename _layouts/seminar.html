@@ -7,13 +7,15 @@ layout: topic
 <h2>Talks</h2>
 
 {% assign talks = "" | split: "," %}
+
 {% for item in site.data.seminar_talks %}
     {% assign talk = item[1] %}
+
     {% assign talks = talks | push: talk %}
 {% endfor %}
 
 {% assign talks = talks | sort: "date" | reverse %}
 
 {% for talk in talks%}
-  {% include talk.html talk=talk id=forloop.index %}
+  {% include talk.html talk=talk.id %}
 {% endfor %}

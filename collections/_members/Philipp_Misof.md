@@ -11,7 +11,7 @@ email: misof@chalmers.se
 office:
     number: L3048
     url: https://maps.chalmers.se/#person:chalmers:misof
-blackboard-image: 
+blackboard-image: /assets/images/blackboard_images/NNEFT_feynman_2.png
 google_scholar:
 ---
 

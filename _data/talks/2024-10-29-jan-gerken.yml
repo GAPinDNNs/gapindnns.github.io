@@ -1,0 +1,15 @@
+title: Emergent Equivariance in Deep Ensembles
+id: 2024-10-29-jan-gerken
+date: '2024-10-29'
+location:
+  name: BIFOLD Workshop on equivariance in ML for quantum chemistry
+  url: https://bifold.berlin
+abstract: 
+slides: /downloads/slides/2024-10-29-jan-gerken.pdf
+video: 
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN

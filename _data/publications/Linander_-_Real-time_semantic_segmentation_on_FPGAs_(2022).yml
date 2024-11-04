@@ -1,0 +1,43 @@
+title: "Real-time semantic segmentation on FPGAs for autonomous vehicles with hls4ml"
+id: Linander_-_Real-time_semantic_segmentation_on_FPGAs_(2022)
+author:
+  - family: Ghielmetti
+    given: Nicolò
+    first_author: true
+  - family: Loncar
+    given: Vladimir
+  - family: Pierini
+    given: Maurizio
+  - family: Roed
+    given: Marcel
+  - family: Summers
+    given: Sioni
+  - family: Aarrestad
+    given: Thea
+  - family: Petersson
+    given: Christoffer
+  - family: Linander
+    given: Hampus
+  - family: Ngadiuba
+    given: Jennifer
+  - family: Lin
+    given: Kelvin
+issued: '2022-01-01'
+abstract: |
+  In this paper, we investigate how field programmable gate arrays can serve as
+  hardware accelerators for real-time semantic segmentation tasks relevant for
+  autonomous driving. Considering compressed versions of the ENet convolutional
+  neural network architecture, we demonstrate a fully-on-chip deployment with
+  a latency of 4.9 ms per image, using less than 30% of the available resources
+  on a Xilinx ZCU102 evaluation board. The latency is reduced to 3 ms per image
+  when increasing the batch size to ten, corresponding to the use case where the
+  autonomous vehicle receives inputs from multiple cameras simultaneously. We
+  show, through aggressive filter reduction and heterogeneous quantization-aware
+  training, and an optimized implementation of convolutional layers, that the
+  power consumption and resource utilization can be significantly reduced while
+  maintaining accuracy on the Cityscapes dataset.
+type: article-journal
+URL: "https://iopscience.iop.org/article/10.1088/2632-2153/ac9cb5/meta"
+publisher: IOP MLST
+tags:
+  - EdgeML

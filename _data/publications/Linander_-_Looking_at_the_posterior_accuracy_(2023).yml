@@ -1,3 +1,15 @@
+title: 'Looking at the posterior: accuracy and uncertainty of neural-network predictions'
+id: Linander_-_Looking_at_the_posterior_accuracy_(2023)
+author:
+  - family: Linander
+    given: Hampus
+  - family: Balabanov
+    given: Oleksandr
+  - family: Yang
+    given: Henry
+  - family: Mehlig
+    given: Bernhard
+issued: "2023-11-17"
 DOI: 10.1088/2632-2153/ad0ab4
 URL: https://iopscience.iop.org/article/10.1088/2632-2153/ad0ab4
 abstract: |
@@ -14,16 +26,8 @@ abstract: |
   introduce a novel acquisition function that outperforms common uncertainty-based
   methods. To arrive at our results, we approximated the posteriors using deep ensembles,
   for fully-connected, convolutional and attention-based neural networks.
-author:
-  - family: Linander
-    given: Hampus
-  - family: Balabanov
-    given: Oleksandr
-  - family: Yang
-    given: Henry
-  - family: Mehlig
-    given: Bernhard
-issued: "2023-11-17"
 publisher: 'Machine Learning: Science and Technology'
-title: 'Looking at the posterior: accuracy and uncertainty of neural-network predictions'
 type: article-journal
+tags: 
+  - XAI
+  - UQ

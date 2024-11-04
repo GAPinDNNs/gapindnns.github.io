@@ -12,6 +12,11 @@ short_description: My main research interests are geometric deep learning and un
 
 ## About me
 
-I am a machine learning researcher with a focus on geometric deep learning and uncertainty quantification for artificial neural networks.
+I am a machine learning researcher specializing in geometric deep learning and
+uncertainty quantification for artificial neural networks.
 
-My journey began with a PhD in theoretical physics, where I explored string theory and higher spin using symbolic computational methods. I have developed perception models for autonomous driving using artificial neural networks and researched interdisciplinary problems in machine learning, mathematics, physics and computer science.
+My journey began with a PhD in theoretical physics, where I explored string
+theory and higher spin using symbolic computational methods. I have developed
+perception models for autonomous driving using artificial neural networks and
+researched interdisciplinary problems in machine learning, mathematics, physics
+and computer science.
