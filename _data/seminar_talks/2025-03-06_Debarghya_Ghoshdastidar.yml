@@ -1,0 +1,17 @@
+title:
+    Are self-supervised models doing kernel PCA?
+id: 2025-03-06_Debarghya_Ghoshdastidar
+date: '2025-03-06'
+time: '13:30'
+location:
+    name: MVL15
+zoom: 
+slides: 
+speaker:
+    first_name: Debarghya
+    last_name: Ghoshdastidar
+    affiliation: TU Munich
+    url: https://www.professoren.tum.de/en/ghoshdastidar-debarghya
+abstract: |
+    The short answer to the title is NO, but there are some theoretical connections between neural networks with self-supervised pre-training and kernel principal component analysis. At a high level, the equivalence is based on two ideas: (i) optimal solutions for many self-supervised losses correspond to spectral embeddings; and (ii) infinite-width neural networks converge to neural tangent kernel (NTK) models.<br> I will first give a short overview of this equivalence and discuss why it could be useful for both theory and practice of foundation models. I will then discuss two recent works on the NTK convergence under self-supervised losses ([arXiv:2403.08673](https://arxiv.org/abs/2403.08673), [arXiv:2411.11176](https://arxiv.org/abs/2411.11176)). Specifically, I will show that one cannot directly use NTK results from supervised learning / regression, but a careful analysis is needed to prove that the NTK indeed remains constant during self-supervised training.
+

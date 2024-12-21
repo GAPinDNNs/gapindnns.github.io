@@ -1,0 +1,16 @@
+title: Graph neural networks for numerical linear algebra
+id: 2025-02-27_Jens_Sjölund
+date: '2025-02-27'
+time: '13:30'
+location:
+    name: MVL15
+zoom: 
+slides: 
+speaker:
+    first_name: Jens
+    last_name: Sjölund
+    affiliation: Uppsala University
+    url: https://jsjol.github.io/
+abstract: |
+    Numerical linear algebra underpins all computational sciences, machine learning not the least. But what if machine learning could return the favor by learning numerical algorithms tailored to a particular problem class? In this talk, I will highlight the connection between matrices and graph, and argue that this makes graph neural networks a natural fit for learning task-specific numerical algorithms.
+
