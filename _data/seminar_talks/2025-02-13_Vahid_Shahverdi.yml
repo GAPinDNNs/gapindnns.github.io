@@ -1,4 +1,4 @@
-title: TBA
+title: An Invitation to Neuroalgebraic Geometry
 id: 2025-02-13_Vahid_Shahverdi
 date: '2025-02-13'
 time: '13:30'
@@ -11,4 +11,5 @@ speaker:
     last_name: Shahverdi
     affiliation: KTH
     url: https://sites.google.com/view/vahidshahverdi/
-abstract: 
+abstract: |
+  In this talk, I will present how algebraic geometry provides a framework to study neural networks by using polynomials to approximate their activation functions. This approach allows us to view the function spaces of neural networks, or neuromanifolds, as semi-algebraic varieties. I will discuss key algebraic properties of these neuromanifolds, such as their dimension and degree, and their role in governing fundamental aspects of network behavior, including expressivity and sample complexity. Singularities in the neuromanifold further shape the training process, introducing implicit biases that influence optimization paths and generalization. Finally, I will describe the relationship between the global geometry of neuromanifolds and optimization dynamics, focusing on the impact of algebraic invariants on the loss landscape.
