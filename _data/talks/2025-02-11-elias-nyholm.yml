@@ -1,0 +1,15 @@
+title: A (More) General Framework for Equivariant Neural Networks
+id: 2025-02-11-elias-nyholm
+date: '2025-02-11'
+# time: '14:30'
+location:
+  name: Learning on graphs and geometry meetup
+  url: https://sites.google.com/view/logmeetupsweden/home
+slides: /downloads/slides/2025-02-11-elias-nyholm.pdf
+speaker:
+    first_name: Elias
+    last_name: Nyholm
+      # abstract: |
+tags:
+  - GDL
+  - ENN
