@@ -1,0 +1,32 @@
+title: Equivariant Neural Tangent Kernels
+id: 2025-02-11-philipp-misof
+date: '2025-02-11'
+# time: '14:30'
+location:
+  name: Learning on graphs and geometry meetup
+  url: https://sites.google.com/view/logmeetupsweden/home
+zoom:
+slides: /downloads/slides/2025-02-11-philipp-misof.pdf
+notes:
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract: |
+    In this talk I will present a compact overview of our recent work, where we
+    extend the recent theory of the Neural Tangent Kernel (NTK) to equivariant
+    neural networks. The NTK has been proven to be a useful analytical tool in
+    the study of the training dynamics of wide NNs. Investigating the
+    properties of the NTK associated to Group Convolutional NNs (GCNNs) allows
+    us to draw a connection between data augmentation and manifestly
+    equivariant architectures. In particular, we show that the mean predictions
+    of an ensemble of data augmented non-equivariant networks coincide with the
+    mean predictions of an ensemble of specific GCNNs at all training times in
+    the infinite-width limit. This correspondence is numerically verified to
+    also hold at finite width. We further show that the performance boost of
+    \\(\mathrm{SO}(3)\\)-invariant architectures compared to non-equivariant
+    counterparts in quantum mechanical property prediction extends to the
+    infinite width limit.
+
+tags:
+  - NTK
+  - ENN
