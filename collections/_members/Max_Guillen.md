@@ -9,7 +9,7 @@ office:
     url: https://maps.chalmers.se/#person:chalmers:maxgui
 position: Postdoc
 blackboard-image: /assets/images/blackboard_images/NNEFT_feynman_2.png
-google_scholar:
+google_scholar: https://www.semanticscholar.org/author/Max-Guillen/144171948
 ---
 
 # About me

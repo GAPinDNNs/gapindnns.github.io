@@ -1,0 +1,27 @@
+title: On the Ability of Deep Networks to Learn Symmetries from Data - A Neural Kernel Theory
+date: '2025-04-17'
+time: '13:30'
+location:
+    name: MVL-22
+zoom: 
+slides: 
+speaker:
+    first_name: Stéphane
+    last_name: Deny
+    affiliation: University of Toronto
+    url: https://sites.google.com/view/stephanedeny/home
+abstract: |
+    Symmetries (transformations by group actions) are present in many datasets, and leveraging them holds significant 
+    promise for improving predictions in machine learning. In the work I will present, we aim to understand when and 
+    how deep networks can learn symmetries from data. We focus on a supervised classification paradigm where data symmetries 
+    are only partially observed during training: some classes include all transformations of a cyclic group, while others 
+    include only a subset. We ask: can deep networks generalize symmetry invariance to the partially sampled classes? 
+    To answer this question, we derive a neural kernel theory of symmetry learning. We find a simple characterization of 
+    the generalization error of deep networks on symmetric datasets, and observe that generalization can only be successful 
+    when the local structure of the data prevails over its non-local symmetric structure, in the kernel space defined 
+    by the architecture. Our framework also applies to equivariant architectures (e.g., CNNs), and recovers their success 
+    in the special case where the architecture matches the inherent symmetry of the data. Empirically, our theory reproduces 
+    the generalization failure of finite-width networks (MLP, CNN, ViT) trained on partially observed versions of rotated-MNIST. 
+    We conclude that conventional networks trained with supervision lack a mechanism to learn symmetries that 
+    have not been explicitly embedded in their architecture a priori. Our framework could be extended to guide 
+    the design of architectures and training procedures able to learn symmetries from data.
