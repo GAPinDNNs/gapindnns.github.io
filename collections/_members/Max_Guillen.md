@@ -8,7 +8,7 @@ office:
     number: L3088
     url: https://maps.chalmers.se/#person:chalmers:maxgui
 position: Postdoc
-google_scholar:
+google_scholar: https://www.semanticscholar.org/author/Max-Guillen/144171948
 ---
 
 # About me
