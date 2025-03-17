@@ -1,4 +1,5 @@
 title: On the Ability of Deep Networks to Learn Symmetries from Data - A Neural Kernel Theory
+id: 2025-04-17_Stephane_Deny
 date: '2025-04-17'
 time: '13:30'
 location:
@@ -8,7 +9,7 @@ slides:
 speaker:
     first_name: Stéphane
     last_name: Deny
-    affiliation: Aalto Universiyt
+    affiliation: Aalto University
     url: https://sites.google.com/view/stephanedeny/home
 abstract: |
     Symmetries (transformations by group actions) are present in many datasets, and leveraging them holds significant 
