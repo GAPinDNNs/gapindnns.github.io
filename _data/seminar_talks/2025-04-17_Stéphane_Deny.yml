@@ -8,7 +8,7 @@ slides:
 speaker:
     first_name: Stéphane
     last_name: Deny
-    affiliation: University of Toronto
+    affiliation: Aalto University
     url: https://sites.google.com/view/stephanedeny/home
 abstract: |
     Symmetries (transformations by group actions) are present in many datasets, and leveraging them holds significant 
