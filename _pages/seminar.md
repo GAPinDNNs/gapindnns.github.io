@@ -12,3 +12,5 @@ Seminars usually happen in-person only on Thursdays at 1.30pm. Before the semina
 Current seminar organizers are [Jan Gerken](/members/Jan_Gerken) and [Max
 Guillen](/members/Max_Guillen).
 
+**Link to subscribe to the calendar:** [https://gapindnns.github.io/downloads/calendar.ics](https://gapindnns.github.io/downloads/calendar.ics)
+
