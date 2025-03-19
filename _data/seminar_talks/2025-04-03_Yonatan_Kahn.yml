@@ -1,20 +1,19 @@
 title: Finite-width feature learning in deep networks with orthogonal weight initialization
-id: 2025-04-03_Yonatan_Kahn
 date: '2025-04-03'
-time: '13:30'
+time: '15:30'
 location:
-    name: MVL-22
-zoom: 
-slides: 
+    name: MVL-13
+zoom:
+slides:
 speaker:
     first_name: Yonatan
     last_name: Kahn
     affiliation: University of Toronto
     url: https://www.artsci.utoronto.ca/about/glance/new-faculty/2024-25/yonatan-kahn
 abstract: |
-    Fully-connected deep neural networks with weights initialized from independent Gaussian distributions can be tuned to criticality, 
-    which prevents the exponential growth or decay of signals propagating through the network. However, such networks still exhibit 
-    fluctuations that grow linearly with the depth of the network, which may impair the training of networks with width comparable to depth. 
-    I will provide some theoretical and experimental evidence that using weights initialized from the ensemble of orthogonal matrices 
-    leads to better training and generalization behavior even for deep networks, and argue that these results demonstrate the practical 
+    Fully-connected deep neural networks with weights initialized from independent Gaussian distributions can be tuned to criticality,
+    which prevents the exponential growth or decay of signals propagating through the network. However, such networks still exhibit
+    fluctuations that grow linearly with the depth of the network, which may impair the training of networks with width comparable to depth.
+    I will provide some theoretical and experimental evidence that using weights initialized from the ensemble of orthogonal matrices
+    leads to better training and generalization behavior even for deep networks, and argue that these results demonstrate the practical
     usefulness of finite-width perturbation theory.
