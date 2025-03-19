@@ -1,0 +1,20 @@
+title: Wall-crossing, Rogers dilogarithm, and the QK/HK correspondence
+id: Persson_-_Rogers_dilog
+author:
+  - family: Alexandrov
+    given: Sergei
+  - family: Persson
+    given: Daniel
+  - family: Pioline
+    given: Boris
+issued: '2011-12-06'
+DOI: 
+URL: https://link.springer.com/article/10.1007/JHEP12(2011)027
+abstract: |
+ When formulated in twistor space, the D-instanton corrected hypermultiplet moduli space in N=2 string vacua and the Coulomb branch of rigid N=2 gauge theories on R3×S1 are strikingly similar and, to a large extent, dictated by consistency with wall-crossing. We elucidate this similarity by showing that these two spaces are related under a general duality between, on one hand, quaternion-Kahler manifolds with a quaternionic isometry and, on the other hand, hyperkahler manifolds with a rotational isometry, further equipped with a hyperholomorphic circle bundle with a connection. We show that the transition functions of the hyperholomorphic circle bundle relevant for the hypermultiplet moduli space are given by the Rogers dilogarithm function, and that consistency across walls of marginal stability is ensured by the motivic wall-crossing formula of Kontsevich and Soibelman. We illustrate the construction on some simple examples of wall-crossing related to cluster algebras for rank 2 Dynkin quivers. In an appendix we also provide a detailed discussion on the general relation between wall-crossing and the theory of cluster algebras.
+publisher: Journal of High Energy Physics
+preprint:
+  URL: https://arxiv.org/abs/1304.0766
+  name: arXiv
+type: article-journal
+tags:

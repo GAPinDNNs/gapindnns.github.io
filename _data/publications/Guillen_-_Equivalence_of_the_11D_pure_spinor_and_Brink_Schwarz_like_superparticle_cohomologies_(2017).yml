@@ -1,3 +1,9 @@
+title: Equivalence of the 11D pure spinor and Brink-Schwarz superparticle cohomologies
+id: Guillen_-_Equivalence_of_the_11D_pure_spinor_and_Brink_Schwarz_like_superparticle_cohomologies_(2017)
+author:
+  - family: Guillen
+    given: Max
+issued: '2018-03-07'
 URL: https://doi.org/10.1103/PhysRevD.97.066002
 abstract: |
   The $$ D=11 $$ pure spinor formulation of the superparticle allows a simple realization of covariant quantization, unlike the $$ D=11 $$ Brink-Schwarz-like
@@ -5,15 +11,10 @@ abstract: |
     and $$ SO(10,1) \rightarrow SO(3,1)\times SO(7)$$. We also carry out a light-cone analysis of the pure spinor cohomology, and show that it correctly reproduces the $$SO(9)$$ equations of motion 
     for $$D=11$$ linearized supergravity.
 
-author:
-  - family: Guillen
-    given: Max
-issued: '2018-03-07'
 publisher: "Physical Review D"
 preprint:
   URL: https://arxiv.org/abs/1705.06316
   name: arXiv
-title: Equivalence of the 11D pure spinor and Brink-Schwarz superparticle cohomologies
 type: paper-journal
 tags:
   - ST

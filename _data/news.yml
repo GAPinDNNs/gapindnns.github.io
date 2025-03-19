@@ -1,3 +1,39 @@
+- date: 2025-02-24
+  headline: "New Paper on Gauge Equivariant Networks for Topological Insulators"
+  link: https://arxiv.org/abs/2502.15376
+  text: |
+    Our work on *Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks* is now on the arXiv! In this paper, we combine lattice gauge equivariant networks with a novel training mechanism to learn topological invariants (Chern numbers) of topological insulators. This paper combines several beautiful topics in machine learning, physics and mathematics.
+
+    First author is our master's student Longde Huang. Congratualtions to his first publication! From our group, [Hampus Linander](/members/Hampus_Linander), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken) were also involved. Thanks to our phyiscs-collaborators [Oleksandr Balabanov](https://scholar.google.com/citations?user=F90j61kAAAAJ) (then at Stockholm University) and [Mats Granath](https://www.gu.se/en/about/find-staff/matsgranath) (University of Gothenburg) for their expertise and a fun collaboration!
+- date: 2025-02-11
+  headline: "Learning on Graphs and Geometry Meetup Sweden"
+  link: https://sites.google.com/view/logmeetupsweden
+  text: |
+    [Elias Nyholm](/members/Elias_Nyholm) is one of the organisers of the LoG Meetup Sweden in Uppsala this year. This two-day workshop is the official local meetup of the online LoG Conference and will consist of keynote talks, contributed talks and a poster session.
+- date: 2025-01-15
+  headline: "WASP Winter Conference 2025"
+  text: |
+   The group had a strong presence at the WASP Winter Conference in Norrköping this year, including poster presentations by [Elias](/members/Elias_Nyholm), [Philipp](/members/Philipp_Misof) and [Oscar](/members/Oscar_Carlsson).
+- date: 2024-11-22
+  headline: "*The Quest for Unification - Intersecting Mathematics, Physics and AI*"
+  link: /downloads/slides/Promotion_lecture_Full_Prof.pdf
+  text: |
+   Inauguration lecture for [Daniel Persson's](/members/Daniel_Persson) promotion to full professor of mathematics.
+- date: 2024-11-14
+  headline: "Daniel Persson develops *the mathematics of AI*"
+  link: https://www.chalmers.se/en/current/news/mv-daniel-persson-develops-the-math-of-future-ai/
+  text: |
+   Interview with [Daniel Persson](/members/Daniel_Persson) on the occasion of his upcoming promotion to full professor of mathematics.
+- date: 2024-10-24
+  headline: "Lecture for high school students on *Matematikens mysterier - från svarta hål till artificiell intelligens*"
+  link: /downloads/slides/2024-10-24-daniel-persson.pdf
+  text: |
+   Public lecture by [Daniel Persson](/members/Daniel_Persson) for high school students at Hulebäcksgymnasiet.
+- date: 2024-10-11
+  headline: New paper on [Equivariant manifold neural ODEs and differential invariants](https://arxiv.org/abs/2401.14131)
+  link: https://arxiv.org/abs/2401.14131
+  text: |
+   Paper by [Daniel Persson](/members/Daniel_Persson) together with Emma Andersdotter and Fredrik Ohlsson at [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/).
 - date: 2024-09-02
   headline: CaLISTA Workshop
   link: https://sites.google.com/view/calistaworkshop2024paris/home

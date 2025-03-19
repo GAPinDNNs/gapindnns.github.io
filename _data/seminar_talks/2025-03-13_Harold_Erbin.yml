@@ -1,0 +1,17 @@
+title:
+    Non-perturbative renormalization for the neural network-QFT correspondence
+id: 2025-03-13_Harold_Erbin
+date: '2025-03-13'
+time: '13:30'
+location:
+    name: MVL13
+zoom: 
+slides: 
+speaker:
+    first_name: Harold
+    last_name: Erbin
+    affiliation: IPHT, CEA-Saclay, France
+    url: https://harolderbin.com/
+abstract: |
+    The NN-QFT correspondence provides a description of a statistical ensemble of neural networks in terms of a quantum field theory. The infinite-width limit is mapped to a free field theory while finite N corrections are taken into account by interactions. In this talk, after reviewing the correspondence, I will describe how to use non-perturbative renormalization in this context. An important difference with the usual analysis is that the effective (IR) 2-point function is known, while the microscopic (UV) 2-point function is not, which requires setting the problem with care. Finally, I will discuss preliminary numerical results for translation-invariant kernels. A major result is that changing the standard deviation of the neural network weight distribution can be interpreted as a renormalization flow in the space of networks.<br>Based on [arXiv:2108.01403](https://arxiv.org/abs/2108.01403) and [arXiv:2212.11811](https://arxiv.org/abs/2212.11811).
+

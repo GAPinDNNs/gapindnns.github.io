@@ -1,0 +1,18 @@
+title: Symmetries in AI4Science
+id: 2024-10-22-jan-gerken
+date: '2024-10-22'
+location:
+  name: Workshop on Machine-Learning-Based Sampling in Lattice Field Theory and Quantum Chemistry, TRA Colloquium
+  url: https://indico.hiskp.uni-bonn.de/event/443/page/147-home
+abstract: "Symmetries are of fundamental importance in all of science and therefore critical for the success of deep learning systems used in this domain.
+In this talk, I will give an overview of the different forms in which symmetries appear in physics and chemistry and explain the theoretical background behind equivariant neural networks.
+Then, I will discuss common ways of constructing equivariant networks in different settings and contrast manifestly equivariant networks with other techniques for reaching equivariant models.
+Finally, I will report on recent results about the symmetry properties of deep ensembles trained with data augmentation."
+slides: /downloads/slides/2024-10-22-jan-gerken.pdf
+video: 
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN

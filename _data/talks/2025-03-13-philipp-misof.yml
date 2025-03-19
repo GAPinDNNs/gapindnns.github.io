@@ -1,0 +1,33 @@
+title: Equivariant Neural Tangent Kernels
+id: 2025-03-13-philipp-misof
+date: '2025-03-13'
+# time: '14:30'
+location:
+  name: Mathematical Foundations of AI Seminar in Umeå
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/seminars/
+zoom:
+slides: /downloads/slides/2025-03-13-philipp-misof.pdf
+notes:
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract: |
+    In recent years, the neural tangent kernel (NTK) has proven to be a
+    valuable tool to study training dynamics of neural networks (NN)
+    analytically. In this talk, I will present how this NTK framework can be
+    extended to equivariant NNs based on group convolutional NNs (GCNNs). Not
+    only does this enable the analytic study of influences of hyperparameters,
+    training biases etc. in equivariant NNs, but it also allows us to draw an
+    interesting connection between data augmentation and manifestly equivariant
+    architectures. In particular, we show that the mean predictions of an
+    ensemble of data augmented non-equivariant networks coincide with the mean
+    predictions of an ensemble of specific GCNNs at all training times in the
+    infinite-width limit. We further provide explicit implementations of the
+    equivariant NTK for roto-translations in the plane and 3d rotations. To
+    evaluate the performance of the equivariant infinite width solution, we
+    benchmark the models on quantum mechanical property prediction and medical
+    image classification. This talk is based on joined work with Jan Gerken and
+    Pan Kessel.
+tags:
+  - NTK
+  - ENN

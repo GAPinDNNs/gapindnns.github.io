@@ -8,12 +8,13 @@ office:
     number: L3088
     url: https://maps.chalmers.se/#person:chalmers:maxgui
 position: Postdoc
+blackboard-image: /assets/images/blackboard_images/NNEFT_feynman_2.png
 google_scholar: https://www.semanticscholar.org/author/Max-Guillen/144171948
 ---
 
 # About me
 
-I obtained my PhD in 2019 at ICTP South American Institute for Fundamental Research. In 2020, I joined the Department of Physics and Astronomy at Uppsala University as a postdoctoral researcher. I started a new postdoctoral position in 2024 in the departments of Algebra and Geometry, and Analysis and Probability Theory at Chalmers University of Technology and the University of Gothenburg, respectively.
+I obtained my PhD in 2019 at ICTP South American Institute for Fundamental Research. In 2020, I joined the Department of Physics and Astronomy at Uppsala University as a postdoctoral researcher. I started a new postdoctoral position in 2024 in the department of Mathematical Sciences, division of Algebra and Geometry at Chalmers University of Technology and the University of Gothenburg.
 
 My main research on AI focuses on mathematical or physics-based formulations of foundational aspects of Deep Learning, e.g:
 

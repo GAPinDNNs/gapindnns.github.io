@@ -1,0 +1,18 @@
+title: Second Quantized Mathieu Moonshine
+id: Persson_-_Second_Quantized
+author:
+  - family: Persson
+    given: Daniel
+  - family: Volpato
+    given: Roberto
+issued: '2014-03-01'
+DOI: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+URL: https://link.intlpress.com/journals/journalList?id=1804413969028411393
+abstract: |
+ We study the second quantized version of the twisted twining genera of generalized Mathieu moonshine, and prove that they give rise to Siegel modular forms with infinite product representations. Most of these forms are expected to have an interpretation as twisted partition functions counting 1/4 BPS dyons in type II superstring theory on K3\times T^2 or in heterotic CHL-models. We show that all these Siegel modular forms, independently of their possible physical interpretation, satisfy an "S-duality" transformation and a "wall-crossing formula". The latter reproduces all the eta-products of an older version of generalized Mathieu moonshine proposed by Mason in the '90s. Surprisingly, some of the Siegel modular forms we find coincide with the multiplicative (Borcherds) lifts of Jacobi forms in umbral moonshine.
+publisher: Communications in Number Theory and Physics
+preprint:
+  URL: https://arxiv.org/abs/1312.0622
+  name: arXiv
+type: article-journal
+tags:

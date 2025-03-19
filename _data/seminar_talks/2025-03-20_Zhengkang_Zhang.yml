@@ -1,0 +1,15 @@
+title: Neural Networks, Scaling Laws and Effective Field Theories
+id: 2025-03-20_Zhengkang_Zhang
+date: '2025-03-20'
+time: '16:00'
+location:
+    name: MVL13
+zoom: 
+slides: 
+speaker:
+    first_name: Zhengkang (Kevin)
+    last_name: Zhang
+    affiliation: University of Utah
+    url: https://faculty.utah.edu/u6047490-ZHENGKANG_ZHANG/hm/index.hml#summary
+abstract: |
+  Starting from simple curve fitting problems, I will explain how modern AI works by learning a large number of features from data: wide neural networks fit data to linear combinations of many random features, and stacking layers to form deep neural networks allows the features to evolve according to data. It has been empirically observed that the performance of neural networks scales as power laws with respect to the sizes of the model and training data set. I will discuss a recently proposed random feature model that captures the physics of neural scaling laws, and its solution in an effective theory framework using large-N field theory methods. The solution reveals a duality that is indicative of a deeper connection between neural networks and field theories.

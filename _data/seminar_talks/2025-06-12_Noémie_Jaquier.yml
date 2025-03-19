@@ -1,23 +1,16 @@
 title: The geometries of Lagrangian systems
+id: 2025-06-12_Noemie_Jaquier
 date: '2025-06-12'
 time: '13:30'
 location:
     name: MVL-22
-zoom: 
-slides: 
+zoom:
+slides:
 speaker:
     first_name: Noémie
     last_name: Jaquier
     affiliation: KTH
     url: https://njaquier.ch/
 abstract: |
-    Lagrangian mechanics provides a powerful framework for modeling the dynamics of physical systems by inferring 
-    their motions based on energy conservation. This talk will explore recent advances in applying geometric perspectives, 
-    particularly Riemannian geometry, to Lagrangian principles for predicting and optimizing motion dynamics. 
-    First, I will discuss how the dynamic properties of humans and robots are straightforwardly accounted for by 
-    considering geometric configuration spaces. Second, I will show how this geometric approach can be extended to 
-    generate dynamic-aware, collision-free robot motions by modifying the underlying Riemannian metric. 
-    Finally, I will consider the problem of learning unknown high-dimensional Lagrangian dynamics. 
-    I will present a geometric architecture to learn physically-consistent and interpretable reduced-order dynamic parameters 
-    that accurately capture the behavior of the original system.
+  Lagrangian mechanics provides a powerful framework for modeling the dynamics of physical systems by inferring their motions based on energy conservation. This talk will explore recent advances in applying geometric perspectives, particularly Riemannian geometry, to Lagrangian principles for predicting and optimizing motion dynamics. First, I will discuss how the dynamic properties of humans and robots are straightforwardly accounted for by considering geometric configuration spaces. Second, I will show how this geometric approach can be extended to generate dynamic-aware, collision-free robot motions by modifying the underlying Riemannian metric. Finally, I will consider the problem of learning unknown high-dimensional Lagrangian dynamics. I will present a geometric architecture to learn physically-consistent and interpretable reduced-order dynamic parameters that accurately capture the behavior of the original system.
 

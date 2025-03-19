@@ -1,20 +1,21 @@
-URL: https://doi.org/10.1007/JHEP12(2021)014
-abstract: |
-  Using the pure spinor master action for 10D super-Yang-Mills in the gauge $$b_{0}V = QΞ$$, tree-level scattering amplitudes 
-  are calculated through the perturbiner method, and shown to match those obtained from pure spinor CFT techniques. 
-  We find kinematic numerators made of nested b-ghost operators, and show that the Siegel gauge condition $$b_{0}V = 0$$ gives rise to 
-  color-kinematics duality satisfying numerators whose Jacobi identity follows from the Jacobi identity of a kinematic algebra.
+title: 10D Super-Yang-Mills Scattering Amplitudes from Its Pure Spinor Action
+id: Guillen_-_10D_super_Yang_Mills_scattering_amplitudes_from_its_pure_spinor_action_(2021)
 author:
   - family: Ben-Shahar
     given: Maor
   - family: Guillen
     given: Max
 issued: '2021-12-06'
+URL: https://doi.org/10.1007/JHEP12(2021)014
+abstract: |
+  Using the pure spinor master action for 10D super-Yang-Mills in the gauge $$b_{0}V = QΞ$$, tree-level scattering amplitudes 
+  are calculated through the perturbiner method, and shown to match those obtained from pure spinor CFT techniques. 
+  We find kinematic numerators made of nested b-ghost operators, and show that the Siegel gauge condition $$b_{0}V = 0$$ gives rise to 
+  color-kinematics duality satisfying numerators whose Jacobi identity follows from the Jacobi identity of a kinematic algebra.
 publisher: "Journal of High Energy Physics"
 preprint:
   URL: https://arxiv.org/abs/2108.11708
   name: arXiv
-title: 10D Super-Yang-Mills Scattering Amplitudes from Its Pure Spinor Action
 type: paper-journal
 tags:
   - ST

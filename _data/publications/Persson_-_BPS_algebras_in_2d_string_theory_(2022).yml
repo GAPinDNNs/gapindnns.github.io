@@ -1,7 +1,5 @@
-DOI: https://link.springer.com/article/10.1007/s00023-022-01189-7
-URL: https://link.springer.com/article/10.1007/s00023-022-01189-7
-abstract: |
-  We discuss a set of heterotic and type II string theory compactifications to dimensions that are characterized by factorized internal worldsheet CFTs of the form , where  are self-dual (super) vertex operator algebras. In the cases with spacetime supersymmetry, we show that the BPS states form a module for a Borcherds–Kac–Moody (BKM) (super)algebra, and we prove that for each model the BKM (super)algebra is a symmetry of genus zero BPS string amplitudes. We compute the supersymmetric indices of these models using both Hamiltonian and path integral formalisms. The path integrals are manifestly automorphic forms closely related to the Borcherds–Weyl–Kac denominator. Along the way, we comment on various subtleties inherent to these low-dimensional string compactifications.
+title: BPS Algebras in 2D String Theory
+id: Persson_-_BPS_algebras_in_2d_string_theory_(2022)
 author:
   - family: Harrison 
     given: Sarah M.
@@ -12,11 +10,23 @@ author:
   - family: Volpato
     given: Roberto
 issued: '2022-05-16'
+DOI: https://link.springer.com/article/10.1007/s00023-022-01189-7
+URL: https://link.springer.com/article/10.1007/s00023-022-01189-7
+abstract: |
+  We discuss a set of heterotic and type II string theory compactifications to
+  dimensions that are characterized by factorized internal worldsheet CFTs of
+  the form , where  are self-dual (super) vertex operator algebras. In the
+  cases with spacetime supersymmetry, we show that the BPS states form a module
+  for a Borcherds–Kac–Moody (BKM) (super)algebra, and we prove that for each
+  model the BKM (super)algebra is a symmetry of genus zero BPS string
+  amplitudes. We compute the supersymmetric indices of these models using both
+  Hamiltonian and path integral formalisms. The path integrals are manifestly
+  automorphic forms closely related to the Borcherds–Weyl–Kac denominator.
+  Along the way, we comment on various subtleties inherent to these
+  low-dimensional string compactifications.
 publisher: Annales Henri Poincare
 preprint:
   URL: https://arxiv.org/abs/2107.03507
   name: arXiv
-title: BPS Algebras in 2D String Theory
 type: article-journal
 tags:
-  - ST

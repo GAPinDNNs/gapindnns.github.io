@@ -15,7 +15,7 @@ layout: default
       </div>
 
       <div class="col-sm">
-        <img src="/assets/images/NNEFT_insight.png" class="img-fluid">
+        <img src="/assets/images/blackboard_images/NNEFT_insight.png" class="img-fluid">
       </div>
     </div>
   </div>
@@ -34,7 +34,8 @@ layout: default
         {{ content }}
 
         {% assign cutoff_date = 'now' | date: '%s' %}
-        {% assign cutoff_date = cutoff_date | minus: 7776000 %}
+        {% assign cutoff_time_unix = 183 | times: 24 | times: 3600 %}
+        {% assign cutoff_date = cutoff_date | minus: cutoff_time_unix %}
         {% assign all_news = site.data.news | sort: "date" | reverse %}
         {% assign recent_news = "" | split: "," %}
         {% for news in all_news %}

@@ -24,3 +24,21 @@
     **Next course instance: LP3 of the academic year 2025/2026**
 
     [Canvas](https://canvas.gu.se/courses/12237~76615){: .btn .btn-primary .btn-sm} [GitHub](https://github.com/JanEGerken/ms-in-dnns){: .btn .btn-primary .btn-sm}
+- code:
+    chalmers:
+    gu: DIT008
+  title: Discrete Mathematics
+  description: |
+    This course is part of the [Software Engineering and Management bachelor's programme](https://www.gu.se/en/study-gothenburg/software-engineering-and-management-bachelors-programme-n1sof) at Gothenburg University. The course is taken by students in the first year of the program and introduces basic mathematical concepts and reasoning and discusses important techniques and results required in later courses. The content of the course includes
+    - (Predicate) logic
+    - Direct proofs, counterexamples, proof by contradiction and induction
+    - Sequences, recursion and iteration
+    - Basics of set theory
+    - Basic properties of functions
+    - Basic probability theory and combinatorics
+    - Basic properties of graphs and trees
+    - Growth behavior of functions and algorithm efficiency
+
+    **Next course instance: LP1 of the academic year 2025/2026**
+
+    [Canvas](https://canvas.gu.se/courses/85861){: .btn .btn-primary .btn-sm}

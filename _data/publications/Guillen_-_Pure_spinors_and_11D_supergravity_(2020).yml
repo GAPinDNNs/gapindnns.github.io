@@ -1,3 +1,9 @@
+title: Pure spinors and 11D supergravity
+id: Guillen_-_Pure_spinors_and_11D_supergravity_(2020)
+author:
+  - family: Guillen
+    given: Max
+issued: '2020-06-10'
 URL: 
 abstract: |
   In this Thesis we study first- and second-quantized approaches describing $$D=11$$ supergravity using pure spinor variables. 
@@ -14,15 +20,10 @@ abstract: |
   supergravity, we move on to discussing the pure spinor master actions introduced by Cederwall for studying maximally supersymmetric 
   gauge theories. We show that these actions indeed describe $$D=10$$ super-Yang-Mills, $$D=10$$ super-Born-Infeld and $$D=11$$ supergravity
   by extracting the equations of motion in ordinary superspace for each one of these theories.
-author:
-  - family: Guillen
-    given: Max
-issued: '2020-06-10'
 publisher: 
 preprint:
   URL: https://arxiv.org/abs/2006.06014
   name: arXiv
-title: Pure spinors and 11D supergravity
 type: PhD Thesis
 tags:
   - ST

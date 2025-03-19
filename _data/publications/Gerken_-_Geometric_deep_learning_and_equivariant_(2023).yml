@@ -1,3 +1,21 @@
+title: Geometric deep learning and equivariant neural networks
+id: Gerken_-_Geometric_deep_learning_and_equivariant_(2023)
+author:
+  - family: Gerken
+    given: Jan E.
+  - family: Aronsson
+    given: Jimmy
+  - family: Carlsson
+    given: Oscar
+  - family: Linander
+    given: Hampus
+  - family: Ohlsson
+    given: Fredrik
+  - family: Petersson
+    given: Christoffer
+  - family: Persson
+    given: Daniel
+issued: '2023-12-01'
 DOI: 10.1007/s10462-023-10502-7
 URL: https://doi.org/10.1007/s10462-023-10502-7
 abstract: |
@@ -15,27 +33,10 @@ abstract: |
   corresponding to the case \\(\\mathcal {M}=S^2=\\textrm{SO}(3)/\\textrm{SO}(2)\\). Here we emphasize the use of Fourier analysis involving Wigner matrices, spherical
   harmonics and Clebsch-Gordan coefficients for \\(G=\\textrm{SO}(3)\\), illustrating
   the power of representation theory for deep learning.
-author:
-  - family: Gerken
-    given: Jan E.
-  - family: Aronsson
-    given: Jimmy
-  - family: Carlsson
-    given: Oscar
-  - family: Linander
-    given: Hampus
-  - family: Ohlsson
-    given: Fredrik
-  - family: Petersson
-    given: Christoffer
-  - family: Persson
-    given: Daniel
-issued: '2023-12-01'
 publisher: Artificial Intelligence Review
 preprint:
   URL: http://arxiv.org/abs/2105.13926
   name: arXiv
-title: Geometric deep learning and equivariant neural networks
 type: article-journal
 tags:
   - ENN
