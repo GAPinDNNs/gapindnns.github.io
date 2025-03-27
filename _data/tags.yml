@@ -33,3 +33,6 @@
 - short: DL
   long: Deep Learning
   ml-relevant: true
+- short: CMP
+  long: Condensed Matter Physics
+  ml-relevant: false
