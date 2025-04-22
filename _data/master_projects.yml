@@ -44,8 +44,8 @@
   tags:
     - ENN
 
-- title: "Different measures for parameter importance in deep neural networks"
-  status: ongoing
+- title: "Sub-networks and Spectral Anisotropy in Deep Neural Networks"
+  status: finished
   description:
   students:
     - first_name: Hanwen
