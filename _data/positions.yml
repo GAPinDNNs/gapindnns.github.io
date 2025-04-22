@@ -1,0 +1,15 @@
+- code:
+  title: "PhD Position in Theoretical Deep Learning: Symmetries in Neural Networks"
+  description: |
+    We seek a PhD student for a project at the intersection of mathematics and deep learning to work on theoretical aspects of geometric deep learning. The question whether more data and compute are sufficient to improve neural networks is highly debated at the moment in all areas of deep learning. In this project, you will work on a theoretical framework which will help to better understand these questions in the context of geometric deep learning and add rigorous arguments to a debate driven by empirical results.
+
+    **Project description**  
+    In many deep learning applications ranging from medical image analysis to quantum chemistry, the symmetries of the underlying problem pose an important constraint. These can be taken into account by modifying the architecture of the network (yielding so-called equivariant neural networks) or by learning the symmetry from the data (data augmentation). In this project, the aim is to construct a theoretical framework for data augmentation of deep neural networks. During the last year, the debate around the trade-offs between data augmentation and manifest equivariance has intensified, with data augmentation gaining popularity in notable domains such as protein design and quantum chemistry. The goal of this project is to contribute to this debate with a theoretical framework and novel algorithms.
+
+    This project will be conducted in close collaboration with [Axel Flinth](https://www.umu.se/en/staff/axel-flinth/) from Umeå University (who will act as WASP co-supervisor) and [Pan Kessel](https://www.gene.com/scientists/our-scientists/pan-kessel) from Genentech Roche in Basel (who will act as industrial supervisor).
+
+    Main Supervisor: [Jan Gerken](../members/Jan_Gerken)
+
+    **Application Deadline: 21 May 2025**
+
+    [Job Announcement](https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=13875&rmlang=UK){: .btn .btn-primary .btn-sm}

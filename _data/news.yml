@@ -1,3 +1,12 @@
+- date: 2025-04-22
+  headline: Open PhD Position
+  link: https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/?rmpage=job&rmjob=13875&rmlang=UK
+  text: |
+    We have an open PhD position with [Jan Gerken](/members/Jan_Gerken) about symmetries in neural networks.
+
+    We seek a PhD student for a project at the intersection of mathematics and deep learning to work on theoretical aspects of geometric deep learning. The question whether more data and compute are sufficient to improve neural networks is highly debated at the moment in all areas of deep learning. In this project, you will work on a theoretical framework which will help to better understand these questions in the context of geometric deep learning and add rigorous arguments to a debate driven by empirical results.
+    
+    **Application Deadline is 21 May 2025.**
 - date: 2025-02-24
   headline: "New Paper on Gauge Equivariant Networks for Topological Insulators"
   link: https://arxiv.org/abs/2502.15376

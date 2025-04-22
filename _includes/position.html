@@ -1,0 +1,10 @@
+{% assign position = include.position %}
+{% assign id = include.id %}
+<div class="card mb-3 talk-entry">
+  <div class="card-body">
+    <h4 class="card-title mb-2">
+      {{ position.title }}
+    </h4>
+    {{ position.description | markdownify }}
+  </div>
+</div>
