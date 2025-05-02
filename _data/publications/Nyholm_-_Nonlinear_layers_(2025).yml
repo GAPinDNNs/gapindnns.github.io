@@ -1,0 +1,22 @@
+title: Equivariant non-linear maps for neural networks on homogeneous spaces
+id: Nyholm_-_Nonlinear_layers_(2025)
+author:
+  - family: Nyholm
+    given: Elias
+  - family: Carlsson
+    given: Oscar
+  - family: Weiler
+    given: Maurice
+  - family: Persson
+    given: Daniel
+issued: '2025-04-29'
+DOI: 10.48550/arXiv.2504.20974
+abstract: |
+  This paper presents a novel framework for non-linear equivariant neural network layers on homogeneous spaces. The seminal work of Cohen et al. on equivariant G-CNNs on homogeneous spaces characterized the representation theory of such layers in the linear setting, finding that they are given by convolutions with kernels satisfying so-called steerability constraints. Motivated by the empirical success of non-linear layers, such as self-attention or input dependent kernels, we set out to generalize these insights to the non-linear setting. We derive generalized steerability constraints that any such layer needs to satisfy and prove the universality of our construction. The insights gained into the symmetry-constrained functional dependence of equivariant operators on feature maps and group elements informs the design of future equivariant neural network layers. We demonstrate how several common equivariant network architectures - G-CNNs, implicit steerable kernel networks, conventional and relative position embedded attention based transformers, and LieTransformers - may be derived from our framework.
+preprint:
+  URL: https://arxiv.org/abs/2504.20974
+  name: arXiv
+type: article
+tags:
+  - ENN
+  - GDL
