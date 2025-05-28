@@ -1,0 +1,23 @@
+title: 'PEAR: Equal Area Weather Forecasting on the Sphere'
+id: Linander_-_PEAR(2025)
+author:
+  - family: Linander
+    given: Hampus
+  - family: Petersson
+    given: Christoffer
+  - family: Persson
+    given: Daniel
+  - family: Gerken
+    given: Jan E.
+issued: '2025-05-23'
+DOI: 10.48550/arXiv.2505.17720
+abstract: |
+  Machine learning methods for global medium-range weather forecasting have recently received immense attention. Following the publication of the Pangu Weather model, the first deep learning model to outperform traditional numerical simulations of the atmosphere, numerous models have been published in this domain, building on Pangu's success. However, all of these models operate on input data and produce predictions on the Driscoll--Healy discretization of the sphere which suffers from a much finer grid at the poles than around the equator. In contrast, in the Hierarchical Equal Area iso-Latitude Pixelization (HEALPix) of the sphere, each pixel covers the same surface area, removing unphysical biases. Motivated by a growing support for this grid in meteorology and climate sciences, we propose to perform weather forecasting with deep learning models which natively operate on the HEALPix grid. To this end, we introduce Pangu Equal ARea (PEAR), a transformer-based weather forecasting model which operates directly on HEALPix-features and outperforms the corresponding model on Driscoll--Healy without any computational overhead.
+preprint:
+  URL: https://arxiv.org/abs/2505.17720
+  name: arXiv
+type: article
+tags:
+  - DL
+  - GDL
+  - ML4SCI
