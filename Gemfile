@@ -37,4 +37,6 @@ gem "webrick", ">= 1.8.2"
 
 gem "json", "~> 2.7"
 
+gem "csv", ">= 3.3"
+
 # What about autoprefixer for Bootstrap?
