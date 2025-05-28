@@ -36,3 +36,6 @@
 - short: CMP
   long: Condensed Matter Physics
   ml-relevant: false
+- short: ML4SCI
+  long: Machine learning for Science
+  ml-relevant: true

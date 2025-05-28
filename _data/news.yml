@@ -1,3 +1,10 @@
+- date: 2025-05-28
+  headline: "New Article on global Weather Forecasting"
+  link: https://arxiv.org/abs/2505.17720
+  text: |
+    Our work *PEAR: Equal Area Weather Forecasting on the
+    Sphere* by [Hampus Linander](/members/Hampus_Linander), [Christoffer Petersson](/members/Christoffer_Petersson), [Daniel Persson](/members/Christoffer_Petersson) and
+    [Daniel Persson](/members/Daniel_Persson), is now available on the arXiv. We use an equal area gridding (HEALPix) of the sphere to perform global weather forecasting with a volumetric transformer architecture, outperforming the same architecture on the standard Driscoll-Healy grid.
 - date: 2025-04-29
   headline: "New Article on Non-linear Equivariant Neural Networks"
   link: https://arxiv.org/abs/2504.20974
