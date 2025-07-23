@@ -3,24 +3,34 @@
   <div class="card-header">
     <div class="row align-items-center justify-content-between">
       <div class="col-sm-10 fs-5 news-headline">
-	{{ news.headline | markdownify }}
+        {{ news.headline | markdownify }}
       </div>
       <div class="col-sm-2 text-end news-date">
-	{{ news.date | date_to_string }}
+        {{ news.date | date_to_string }}
       </div>
     </div>
   </div>
+
   <div class="card-body">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-sm-10">
-	<div class="card-text">{{ news.text | markdownify }}</div>
+    <div class="align-items-start justify-content-between">
+      <div class="row">
+        <div class="col-sm-10 card-text collapse-wrapper news-text" id="news-text-{{ forloop.index }}" >
+          {{ news.text | markdownify }}
+        </div>
+        {% if news.link %}
+        <div class="col-sm-2 text-end">
+          <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
+        </div>
+        {% endif %}
       </div>
-    {% if news.link %}
-      <div class="col-sm-2 text-end ">
-    <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
-      </div>
-    {% endif %}
+      <button
+        class="btn btn-sm mt-2 toggle-btn arrow-btn d-block mx-auto"
+        data-target="#news-text-{{ forloop.index }}"
+        aria-expanded="false"
+        aria-label="Toggle full text"
+      >
+        <i class="text-primary arrow-icon fas fa-chevron-down"></i>
+      </button>
     </div>
   </div>
 </div>
-

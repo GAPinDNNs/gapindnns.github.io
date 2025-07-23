@@ -1,4 +1,6 @@
 import * as tdr from "./time-dependent_rendering.js";
+import { add_expandable_functionality } from './card_functionalities.js';
+
 
 // Popovers from bootstrap
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
@@ -24,6 +26,9 @@ document.querySelectorAll('.copyable').forEach(linkElement => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  add_expandable_functionality();
+});
 
 tdr.cut_off_news();
 tdr.insert_upcoming_and_previous_headings();

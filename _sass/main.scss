@@ -180,3 +180,50 @@ p + h2 {
 .news-headline > p {
 	margin-bottom: 0;
 }
+
+
+.collapse-wrapper {
+    max-height: 4.5em;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
+}
+
+.collapse-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), $card-bg);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.collapse-wrapper.expanded {
+    max-height: none;
+}
+
+.collapse-wrapper.expanded::after {
+    opacity: 0;
+}
+
+.arrow-btn {
+    font-size: 1.25rem;
+    line-height: 1;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.arrow-btn.expanded .arrow-icon {
+    transform: rotate(180deg);
+}
+
+
