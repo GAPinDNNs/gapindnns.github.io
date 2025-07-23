@@ -1,3 +1,13 @@
+- date: 2025-07-13
+  headline: "ICML 2025"
+  link: https://icml.cc/virtual/2025/poster/44041
+  text: |
+    [Philipp Misof](/members/Philipp_Misof) is presenting our paper *Equivariant Neural Tangent Kernels* at this year's ICML in Vancouver. In this work, we extend the neural tangent kernel to equivariant neural networks and use it to draw an interesting connection between equivariant neural networks and data-augmented networks.
+- date: 2025-07-07
+  headline: "LOGML Summer School 2025"
+  link: https://www.logml.ai/
+  text: |
+    [Elias Nyholm](/members/Elias_Nyholm) and [Philipp Misof](/members/Philipp_Misof) are attending the LOGML Summer School in Paris this week. They are both working in small groups on projects related to geometric deep learning, which they will summarize in a short presentation at the end of the week.
 - date: 2025-05-28
   headline: "New Article on global Weather Forecasting"
   link: https://arxiv.org/abs/2505.17720

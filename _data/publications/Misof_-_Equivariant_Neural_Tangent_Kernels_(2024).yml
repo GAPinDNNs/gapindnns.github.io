@@ -7,8 +7,8 @@ author:
     given: Pan
   - family: Gerken
     given: Jan E.
-issued: '2024-06-10'
-DOI: 10.48550/arXiv.2406.06504
+issued: '2025-05-01'
+URL: https://openreview.net/pdf?id=ooUlq9jA2K
 abstract: |
   Equivariant neural networks have in recent years become an important technique
   for guiding architecture selection for neural networks with many applications in
@@ -22,6 +22,7 @@ abstract: |
   the first time by giving explicit expressions for NTKs of group convolutional neural
   networks. In numerical experiments, we demonstrate superior performance for equivariant
   NTKs over non-equivariant NTKs on a classification task for medical images.
+publisher: ICML 2025
 preprint:
   URL: http://arxiv.org/abs/2406.06504
   name: arXiv
