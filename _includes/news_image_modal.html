@@ -1,0 +1,18 @@
+<!-- This needs to be outside of any container that uses absolute positioning -->
+{% for news in site.data.news %}
+{% if news.image %}
+<div class="modal fade" id="newsImageModal-{{ forloop.index }}" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+	<img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="img-fluid w-100">
+      </div>
+      <div class="modal-footer">
+	<button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+

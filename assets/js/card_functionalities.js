@@ -7,11 +7,14 @@ export function add_expandable_functionality() {
 
 
     requestAnimationFrame(() => {
-      const hasOverflow = newsText.scrollHeight > newsText.clientHeight;
+      const maxHeight = parseFloat(getComputedStyle(newsText).maxHeight);
+      const hasOverflow = newsText.scrollHeight > maxHeight;
+      // const hasOverflow = newsText.scrollHeight > newsText.clientHeight;
 
       if (!hasOverflow) {
         button.style.setProperty('display', 'none', 'important');
       } else {
+        newsText.classList.add('overflow');
         // Attach toggle behavior
         button.addEventListener('click', () => {
           const expanded = newsText.classList.toggle('expanded');

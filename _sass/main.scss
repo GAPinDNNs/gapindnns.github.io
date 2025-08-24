@@ -183,13 +183,16 @@ p + h2 {
 
 
 .collapse-wrapper {
-    max-height: 4.5em;
+    max-height: 8em !important;
     overflow: hidden;
     position: relative;
     transition: max-height 0.3s ease;
 }
 
-.collapse-wrapper::after {
+/* .collapse-wrapper.overflow { */
+/* } */
+
+.collapse-wrapper.overflow::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -202,7 +205,7 @@ p + h2 {
 }
 
 .collapse-wrapper.expanded {
-    max-height: none;
+    max-height: none !important;
 }
 
 .collapse-wrapper.expanded::after {
@@ -226,4 +229,6 @@ p + h2 {
     transform: rotate(180deg);
 }
 
-
+.rounded-bottom-end {
+  border-bottom-right-radius: .375rem; /* same as Bootstrap’s default .rounded */
+}
