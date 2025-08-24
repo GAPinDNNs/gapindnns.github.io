@@ -10,25 +10,43 @@
       </div>
     </div>
   </div>
-
-  <div class="card-body">
-    <div class="row align-items-start">
-      <div class="col-sm-10 card-text collapse-wrapper news-text" id="news-text-{{ forloop.index }}" >
-        {{ news.text | markdownify }}
+  <div class="row g-0">
+    {% if news.image %}
+    <div class="col-md-9">
+    {% else %}
+    <div class="col-md-12">
+    {% endif %}
+      <div class="card-body">
+        <!-- <div class="row align-items-center justify-content-between"> -->
+          <div class="col-sm align-items-center">
+            <div class="card-text collapse-wrapper news-text" id="news-text-{{ forloop.index }}">
+              {{ news.text | markdownify }}
+              {% if news.link %}
+              <!-- <div class="col-sm-2 text-end "> -->
+              <div class="text-center ">
+                <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
+              </div>
+              {% endif %}
+            </div>
+        </div>
       </div>
-      {% if news.link %}
-      <div class="col-sm-2 text-sm-end text-center my-2 my-sm-0">
-        <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
-      </div>
-      {% endif %}
+      <button
+        class="btn btn-sm mt-2 toggle-btn arrow-btn d-block mx-auto"
+        data-target="#news-text-{{ forloop.index }}"
+        aria-expanded="false"
+        aria-label="Toggle full text"
+      >
+        <i class="text-primary arrow-icon fas fa-chevron-down"></i>
+      </button>
     </div>
-    <button
-      class="btn btn-sm mt-2 toggle-btn arrow-btn d-block mx-auto"
-      data-target="#news-text-{{ forloop.index }}"
-      aria-expanded="false"
-      aria-label="Toggle full text"
-    >
-      <i class="text-primary arrow-icon fas fa-chevron-down"></i>
-    </button>
+    {% if news.image %}
+    <div class="col-md-3">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ forloop.index }}">
+        <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="img-fluid rounded-bottom-end">
+      </a>
+      <!-- <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="img-fluid rounded-bottom-end"> -->
+    </div>
+    {% endif %}
   </div>
 </div>
+
