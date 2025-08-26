@@ -15,9 +15,9 @@ status: active
 ---
 
 ## About me
-My current research focuses on the theoretical sides of **equivariant neural networks**, in particular on the trade-off between enforcing symmetry through **data augmentation** and through **manifestly equivariant architectures**. More concretely, I view the training dynamic as a stochastic process, and aim to understand the asymptotic symmetry properties emerging from random sampling and parameter initialization.
+My current research focuses on the theoretical sides of **equivariant neural networks**, in particular on the trade-off between enforcing symmetry through **data augmentation** and through **manifestly equivariant architectures**. More concretely, I view the training dynamic as a **stochastic process**, and aim to understand the asymptotic symmetry properties emerging from random sampling and parameter initialization.
 
-My background prior to this is in mathematics and topology*, which has motivated me to work on gauge-equivariant neural networks for predicting **topological invariants of multiband insulators**, and studying the symmetry derived from mathematics and physics. These experiences continue to shape my current research, where I have reoriented my self to explore more general and abstract structures underneath, and develop a theoretical framework for equivariance of neural networks.
+My background prior to this is in mathematics and topology, which has motivated me to work on gauge-equivariant neural networks for predicting **topological invariants of multiband insulators**, and studying the symmetry derived from mathematics and physics. These experiences continue to shape my current research, where I have reoriented my self to explore more general and abstract structures underneath, and develop a theoretical framework for equivariance of neural networks.
 
 My research is supported by the *Wallenberg AI, Autonomous Systems and Software
 Program (WASP)*.
