@@ -25,5 +25,5 @@ Program (WASP)*.
 ### Education
 
 **MSc in Engineering Mathematics and Computational Science** at Chalmers University of Technology, Sweden (2023) \
-Thesis: [*Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks*](https://utheses.univie.ac.at/detail/66332#) \
+Thesis: [*Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks*](https://odr.chalmers.se/items/d40739a9-af54-4cf8-a920-ea0e39949c3e) \
 Supervised by: [Prof. Jan Gerken](Jan_Gerken.html)
