@@ -1,11 +1,11 @@
-- title: "Geometric Deep Learning: Equivariant Lie Transformer for Computer Vision"
+- title: "Equivariant Weather Forecasting with PEAR"
   status: open
   description:
     text:
-  announcement: https://annonsportal.chalmers.se/CareerServices/se/Ads/Details/2501
+  announcement: https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/3527
   supervisors:
-    - first_name: Elias
-      last_name: Nyholm
+    - first_name: Jan
+      last_name: Gerken
   examiner:
     first_name: Jan
     last_name: Gerken
@@ -18,6 +18,8 @@
       last_name: Persson
   tags:
     - ENN
+    - SCV
+    - ML4SCI
 
 - title: "Geometric Deep Learning: Gauge equivariant neural networks for learning topological order"
   status: finished
@@ -46,7 +48,7 @@
 
 - title: "Sub-networks and Spectral Anisotropy in Deep Neural Networks"
   status: finished
-  description:
+  thesis: /downloads/master_theses/finished/Ge-2025.pdf
   students:
     - first_name: Hanwen
       last_name: Ge
@@ -60,7 +62,7 @@
 
 - title: "Predicting UV-Vis absorption spectra by using graph neural network models"
   status: finished
-  description:
+  thesis: /downloads/master_theses/finished/Nyren-Taha-2024.pdf
   students:
     - first_name: William
       last_name: Nyrén
