@@ -1,0 +1,14 @@
+title: Introduction to Machine Learning and Geometric Deep Learning
+id: 2025-08-29-oscar-carlsson-general
+date: '2025-08-29'
+location:
+  name: PhD Defence, Department of Mathematical Sciences, Chalmers University of Technology
+  url: 
+abstract: In this talk I give a very high level introduction to machine learning and geometric deep learning. The intended audience is people with no previous knowledge of ML or GDL.
+slides: /downloads/slides/2025-08-29-o-carlsson-overview-presentation.pdf
+video: 
+speaker:
+    first_name: Oscar
+    last_name: Carlsson  
+tags:
+  - GDL
