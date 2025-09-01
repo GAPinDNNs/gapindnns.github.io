@@ -37,3 +37,15 @@ tools for analyzing equivariant neural networks.
 [Full thesis](/downloads/phd_theses/Jimmy_Aronsson.pdf){: .btn .btn-primary
 .btn-sm}
 
+## Geometry and Symmetry in Deep Learning: From Mathematical Foundations to Vision Applications
+By Oscar Carlsson
+
+Deep learning — particularly neural networks — has profoundly transformed both industry and academia. However, designing and training effective networks remains challenging, often requiring extensive data and compute. This barrier limits applicability of deep learning in domains with scarce labelled data or limited computational budgets. One way to overcome these barriers is to bake prior knowledge — such as geometry or symmetry — directly into network architectures.
+
+Geometric deep learning focuses on model and data design by leveraging the knowledge of problem specific geometry and symmetries. Encoding this into the pipeline can reduce sample complexity as the models do not need to learn these structures directly from the data. Two common examples of this is equivariant and invariant networks. Equivariant networks guarantee that when the input is transformed the output transforms in a predictable way. On the other hand, an invariant network is a network where the output does not change if the input is transformed.
+
+In this thesis we study both applied and mathematical perspectives on parts of the geometric deep learning field. On the mathematical side I show a theory for equivariant CNNs on (bi)principal bundles and a novel framework for equivariant non-linear maps. On the applied side the I present a study of the effects of imposed equivariance on the data requirements and the increased data efficiency as well as the benefits of using a grid well suited for the underlying geometry of the data.
+
+[Full thesis](/downloads/phd_theses/o-carlsson.pdf){: .btn .btn-primary
+.btn-sm}
+
