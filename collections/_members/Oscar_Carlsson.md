@@ -1,7 +1,8 @@
 ---
 first_name: Oscar
 last_name: Carlsson
-position: PhD student
+position: PhD student 2020-2025
+alum: true
 short_description: I work on spherical computer vision and the theory of equivariant neural networks.
 image: /assets/images/profile_pictures/Oscar_Carlsson.jpg
 email: osccarls@chalmers.se
