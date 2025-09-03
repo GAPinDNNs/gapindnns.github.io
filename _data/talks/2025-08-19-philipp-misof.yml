@@ -1,0 +1,33 @@
+title: Equivariant Neural Tangent Kernels - Connecting data augmentation and equivariant architectures
+id: 2025-08-19-philipp-misof
+date: '2025-08-19'
+# time: '14:30'
+location: 
+  name: GeUmetric Deep Learning Workshop 2025, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2025/
+zoom:
+slides: /downloads/slides/2025-08-19-philipp-misof.pdf
+notes:
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract: |
+  In recent years, the neural tangent kernel (NTK) has proven to be a valuable
+  tool to study training dynamics of neural networks (NN) analytically. In this
+  talk, I will present how this NTK framework can be extended to equivariant NNs
+  based on group convolutional NNs (GCNNs). Not only does this enable the
+  analytic study of influences of hyperparameters, training biases etc. in
+  equivariant NNs, but it also allows us to draw an interesting connection
+  between data augmentation and manifestly equivariant architectures. In
+  particular, we show that the mean predictions of an ensemble of data augmented
+  non-equivariant networks coincide with the mean predictions of an ensemble of
+  specific GCNNs at all training times in the infinite-width limit. We further
+  provide explicit implementations of the equivariant NTK for roto-translations
+  in the plane (\\(G = C_{n}\ltimes\mathbb{R}^{2}\\)) and 3d rotations (\\(G=\mathrm{SO}(3)\\)). To evaluate
+  the performance of the equivariant infinite width solution, we benchmark the
+  models on quantum mechanical property prediction and medical image
+  classification.
+
+tags:
+  - NTK
+  - ENN

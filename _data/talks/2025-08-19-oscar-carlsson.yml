@@ -2,7 +2,7 @@ title: Differential Geometry in Equivariant CNNs via Biprincipal Bundles
 id: 2025-08-19-oscar-carlsson
 date: '2025-08-19'
 location:
-  name: 2025 GeUmetric Workshop, Umeå University, Umeå
+  name: GeUmetric Deep Learning Workshop 2025, Umeå University
   url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2025/
 abstract: The standard convolutional layer in convolutional neural networks (CNNs) arises from a general linear map constrained by translation equivariance. This constraint leads to the classical weight-sharing property of the integration kernel. Interestingly, one can also derive this property from a purely differential geometry viewpoint. In this talk, I will present this alternative derivation for the weight-sharing constraint of the standard CNN and then extend this framework to a more general setting using biprincipal bundles. Finally, I will discuss how this differential geometry framework connects to established approaches for equivariant CNNs on homogeneous spaces.
 slides: /downloads/slides/2025-08-19-o-carlsson.pdf

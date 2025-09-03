@@ -1,0 +1,19 @@
+title: "The Neural Tangent Kernel: Equivariance, Data Augmentation and Corrections from Feynman Diagrams"
+id: 2025-08-28-philipp-misof
+date: '2025-08-28'
+# time: '14:30'
+location: 
+  name: Half-way seminar @ Chalmers
+  url: 
+zoom:
+slides: /downloads/slides/2025-08-28-philipp-misof.pdf
+notes:
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract: |
+  In this talk, I will summarize my first two years of research in my PhD. Starting with an introduction to the Neural Tangent Kernel, I will later explain how we extended this to the domain of equivariant architectures and how this can be used to derive a connection between manifest equivariance and data-augmentation. The second part of the talk focuses on our most recent project: deriving finite-width corrections to the NTK by means of Feynman diagrams.
+  
+tags:
+  - NTK
+  - ENN

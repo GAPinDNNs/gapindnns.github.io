@@ -24,9 +24,14 @@ better-tailored algorithms, as well as in the regime of wide neural networks
 that is governed by the **neural tangent kernel**. Owing to my physics background,
 my work is influenced by symmetry-centered approaches typically found in
 mathematical physics and quantum field theory. Possible applications in
-condensed matter physics and autonomous driving are also part of my interests.
+condensed matter physics and bioinformatics are also part of my interests.
 My research is supported by the *Wallenberg AI, Autonomous Systems and Software
 Program (WASP)*.
+
+### Internship at *Genentech*
+
+Currently, I'm complementing my education with a 10-months internship at [**Genentech**](https://www.gene.com/) (Roche) in Switzerland under the supervision of [Pan Kessel](https://www.gene.com/scientists/our-scientists/pan-kessel). In this project, I am investigating new ways for generative protein design.
+
 
 ### Education
 
