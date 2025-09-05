@@ -2,7 +2,7 @@
 first_name: Miaowen
 last_name: Dong
 position: PhD student
-short_description: I am interested in probabilistic methods for deep learning, aiming to reduce training costs in ensembles and enhance model performance under uncertainty.
+short_description: I am interested in the synergy between equivariant neural networks and data augmentation to build more sample-efficient and robust models.
 image: /assets/images/profile_pictures/Miaowen_Dong.jpg
 github: https://github.com/dmw1998
 email: miaowen@chalmers.se
@@ -16,7 +16,7 @@ status: active
 
 ## About me
 
-As a member of [Jan Gerken](Jan_Gerken.html)'s group, my research focuses on equivariant neural networks and their applications. I am broadly interested in understanding how symmetry can be exploited to design more efficient and reliable deep learning models.
+As a member of [Jan Gerken](Jan_Gerken.html)'s group, my research focuses on equivariant neural networks and data augmentation. I am broadly interested in understanding how symmetry can be exploited to design more efficient and reliable deep learning models.
 
 With a background in applied mathematics and probabilistic methods, I aim to integrate these approaches to improve performance and explore new applications of deep learning models.
 
