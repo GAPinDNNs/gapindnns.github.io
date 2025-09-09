@@ -1,0 +1,15 @@
+title: "Do neural networks learn symmetries in data?"
+id: 2025-09-17_Axel_Flinth
+date: '2025-09-17'
+time: '13:15'
+location:
+    name: MVH-12
+zoom: 
+slides: 
+speaker:
+    first_name: Axel
+    last_name: Flinth
+    affiliation: Umeå University
+    url: https://www.umu.se/en/staff/axel-flinth/
+abstract: |
+    What is the best way to make a neural network respect a symmetry in the data?  Some say that it is better to build models that always respect the symmetry, while others say that it is better to rely on training on symmetric(augmented) data.  There is empirical work pointing in both directions, and likewise reasonable arguments for both viewpoints. In this talk , we will present some theoretical results that compare and connect the different strategies. The main insight is that the geometry of the underlying architecture plays a role in it being able to learn symmetries.
