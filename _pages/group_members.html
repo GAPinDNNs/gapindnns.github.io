@@ -18,14 +18,19 @@ title: Group members
 
 <h2>Postdocs</h2>
 
-{% assign members_filtered = members_sorted | where: "position", "Postdoc" %}
+{% assign members_filtered = members_sorted | where: "position", "Postdoc" | where_exp: "item", "item.alum != true" %}
 {% include group_member_card.html members=members_filtered position=false %}
 
 <h2>PhD students</h2>
 
-{% assign members_filtered = members_sorted | where: "position", "PhD student" %}
+{% assign members_filtered = members_sorted | where: "position", "PhD student" | where_exp: "item", "item.alum != true" %}
 {% include group_member_card.html members=members_filtered position=false %}
 
 <h2>Affiliated</h2>
-{% assign members_filtered = members_sorted | where: "affiliated", "true" %}
+{% assign members_filtered = members_sorted | where: "affiliated", "true" | where_exp: "item", "item.alum != true" %}
 {% include group_member_card.html members=members_filtered position=true %}
+
+<h2>Allumni</h2>
+{% assign members_filtered = members_sorted | where: "alum", "true" %}
+{% include group_member_card.html members=members_filtered position=true %}
+
