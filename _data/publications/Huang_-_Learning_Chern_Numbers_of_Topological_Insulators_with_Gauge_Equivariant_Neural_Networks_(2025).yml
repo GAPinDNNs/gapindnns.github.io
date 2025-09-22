@@ -20,6 +20,7 @@ abstract: |
 preprint:
   URL: https://arxiv.org/abs/2502.15376
   name: arXiv
+publisher: NeurIPS 2025 
 type: article
 tags:
   - GDL
