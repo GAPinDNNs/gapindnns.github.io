@@ -1,8 +1,8 @@
 - date: 2025-09-22
-  headline: "Paper accepted in Neurips 2025"
+  headline: "Paper accepted in NeurIPS 2025"
   link: https://arxiv.org/abs/2502.15376
   text: |
-    Our paper on *Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks* has been accepted for a poster at Neurips 2025! In this paper, we combine lattice gauge equivariant networks with a novel training mechanism to learn topological invariants (Chern numbers) of topological insulators. This paper combines several beautiful topics in machine learning, physics and mathematics.
+    Our paper on *Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks* has been accepted for a poster at NeurIPS 2025! In this paper, we combine lattice gauge equivariant networks with a novel training mechanism to learn topological invariants (Chern numbers) of topological insulators. This paper combines several beautiful topics in machine learning, physics and mathematics.
     
     First author is our new PhD student [Longde Huang](/members/Longde_Huang). Congratulations to his first publication! From our group, [Hampus Linander](/members/Hampus_Linander), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken) were also involved. Thanks to our phyiscs-collaborators [Oleksandr Balabanov](https://scholar.google.com/citations?user=F90j61kAAAAJ) (then at Stockholm University) and [Mats Granath](https://www.gu.se/en/about/find-staff/matsgranath) (University of Gothenburg) for their expertise and a fun collaboration!
 - date: 2025-09-01
