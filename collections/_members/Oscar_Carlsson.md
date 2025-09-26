@@ -3,7 +3,7 @@ first_name: Oscar
 last_name: Carlsson
 position: PhD student 2020-2025
 alum: true
-short_description: I worked on spherical computer vision and the theory of equivariant neural networks. I successfully defended my thesis the 29th of August with Remco Duits as my opponent. Currently teaching at the Department of Mathematical Sciences.
+short_description: I worked on spherical computer vision and the theory of equivariant neural networks. I currently teach at the Department of Mathematical Sciences at Chalmers.
 image: /assets/images/profile_pictures/Oscar_Carlsson.jpg
 email: osccarls@chalmers.se
 google_scholar: https://scholar.google.com/citations?user=aMu5YbUAAAAJ
