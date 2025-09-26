@@ -30,7 +30,7 @@ title: Group members
 {% assign members_filtered = members_sorted | where: "affiliated", "true" | where_exp: "item", "item.alum != true" %}
 {% include group_member_card.html members=members_filtered position=true %}
 
-<h2>Allumni</h2>
+<h2>Alumni</h2>
 {% assign members_filtered = members_sorted | where: "alum", "true" %}
 {% include group_member_card.html members=members_filtered position=true %}
 
