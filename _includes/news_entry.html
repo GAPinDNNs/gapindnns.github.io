@@ -10,7 +10,7 @@
       </div>
     </div>
   </div>
-  <div class="row g-0">
+  <div class="row g-2">
     {% if news.image %}
     <div class="col-md-9">
     {% else %}
@@ -44,7 +44,6 @@
       <a href="#" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ forloop.index }}">
         <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="news-image rounded-bottom-end">
       </a>
-      <!-- <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="img-fluid rounded-bottom-end"> -->
     </div>
     {% endif %}
   </div>
