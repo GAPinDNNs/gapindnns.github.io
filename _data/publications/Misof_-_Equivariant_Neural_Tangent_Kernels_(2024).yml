@@ -8,7 +8,7 @@ author:
   - family: Gerken
     given: Jan E.
 issued: '2025-05-01'
-URL: https://openreview.net/pdf?id=ooUlq9jA2K
+URL: https://proceedings.mlr.press/v267/misof25a.html
 abstract: |
   Equivariant neural networks have in recent years become an important technique
   for guiding architecture selection for neural networks with many applications in
