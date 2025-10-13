@@ -11,3 +11,5 @@ status: active
 ## About me
 From 2018 until 2023, I was [Daniel Persson's](Daniel_Persson.html) PhD student. I was a member of the *Wallenberg AI, Autonomous Systems and Software
 Program (WASP)* graduate school as well.
+
+I wrote my [PhD thesis](/_pages/theses.html#thesis_Aronsson) on the mathematical foundations of equivariant neural networks.

@@ -32,7 +32,7 @@ with [Elias Nyholm](Elias_Nyholm.html), [Maurice Wiler](https://maurice-weiler.g
 [Daniel Persson](Daniel_Persson.html). This paper constructs a unifying framework allowing 
 multiple well known layers (both linear and non-linear) to appear as special cases.
 
-Additionally, please read my PhD thesis [Geometry and Symmetry in Deep Learning: From Mathematical Foundations to Vision Applications](/_pages/theses.html) which I successfully defended on the 29th of August 2025.
+Additionally, please read my PhD thesis [Geometry and Symmetry in Deep Learning: From Mathematical Foundations to Vision Applications](/_pages/theses.html#thesis_Carlsson) which I successfully defended on the 29th of August 2025.
 
 Currently I have a full time teaching position, limited to one year, at the 
 Department of Mathematical Sciences at Chalmers University of Technology.
