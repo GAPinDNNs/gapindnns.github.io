@@ -1,0 +1,27 @@
+{% assign thesis = include.thesis %}
+{% assign id = thesis.id %}
+<div id="thesis_{{ id }}" class="card mb-3">
+    <div class="card-header">
+      <div class="row justify-content-between align-items-center" style="height: 2.5rem">
+	<div class="col-auto fs-5">
+	  {{ thesis.title }} <a class="link-opacity-25" href="#thesis_{{id}}">#</a>
+	</div>
+	<div class="col text-end text-body-secondary">
+          {{thesis.date | date: "%Y"}}
+	</div>
+      </div>
+    </div>
+    <div class="row g-0 img-box-left">
+      <div class="col-sm-8">
+	<div class="card-body">
+	  <h6 class="card-subtitle mb-2 text-muted">
+	    {% include link_members.html last_name=thesis.author_family first_name=thesis.author_given %}
+	  </h6>
+          <p class="card-text">{{ thesis.abstract | markdownify }}</p>
+	  <a href="{{ thesis.url }}" class="me-2 btn btn-primary btn-sm" role="button">
+            Thesis
+	  </a>
+	</div>
+      </div>
+    </div>
+</div>
