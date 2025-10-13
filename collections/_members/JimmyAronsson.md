@@ -4,7 +4,7 @@ last_name: Aronsson
 position: PhD student 2018-2023
 alum: true
 short_description: My PhD was on theoretical aspects of geometric deep learning. I now work for Saab.
-image: /assets/images/profile_pictures/Jimmy_Aronsson.jpeg
+image: /assets/images/profile_pictures/Jimmy_Aronsson.jpg
 status: active
 ---
 
