@@ -21,6 +21,18 @@
     - SCV
     - ML4SCI
 
+- title: "Manifold-based knowledge distillation"
+  status: ongoing
+  students:
+    - first_name: Atharva
+      last_name: Khandait
+  supervisors:
+    - first_name: Jan
+      last_name: Gerken
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+
 - title: "Geometric Deep Learning: Gauge equivariant neural networks for learning topological order"
   status: finished
   thesis: /downloads/master_theses/finished/Huang-2025.pdf
