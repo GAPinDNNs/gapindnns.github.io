@@ -1,0 +1,16 @@
+title: "Equivariant Neural Networks: From Training Dynamics to Topology"
+id: 2025-10-29-jan-gerken
+date: '2025-10-29'
+location:
+  name: CHAIR Structured Learning Workshop
+  url: https://ui.ungpd.com/Events/60bfc7b5-c9d0-4e3e-9aec-1a6a62e1e805
+abstract: 
+slides: /downloads/slides/2025-10-29-jan-gerken.pdf
+video: 
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN
+  - AI4SCI
