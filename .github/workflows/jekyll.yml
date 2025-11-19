@@ -40,6 +40,16 @@ jobs:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      # Set up Python and create Calendar
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+      - name: Install dependencies
+        run: pip install -r _scripts/requirements.txt
+      - name: Create Calendar file
+        run: python _scripts/create_calendar.py --talks_dir _data/seminar_talks/ --output_dir downloads/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
