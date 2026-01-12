@@ -16,6 +16,7 @@ abstract: |
 preprint:
   URL: https://arxiv.org/abs/2505.17720
   name: arXiv
+publisher: NeurIPS 2025 Workshop AI4Science
 type: article
 tags:
   - DL
