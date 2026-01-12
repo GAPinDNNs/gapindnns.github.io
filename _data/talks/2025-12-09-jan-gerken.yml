@@ -1,0 +1,20 @@
+title: "Structure and Dynamics of Deep Neural Networks: A Perspective from Geometry and Physics"
+id: 2025-12-09-jan-gerken
+date: '2025-12-09'
+location:
+  name: Docent Lecture
+abstract: |
+  In this lecture, I will give a broad overview of my research over the past several years and outline how the different threads fit together into a coherent agenda.
+  
+    Modern neural networks are extraordinarily powerful, yet they implement highly nonlinear functions whose mathematical structure remains difficult to analyze. One way to make progress is to adopt a geometric perspective. When the underlying data distribution exhibits symmetries, we can incorporate these directly into network architectures via equivariance, leading to the framework of geometric deep learning. This approach has seen significant empirical success, but it also raises an important question: should symmetries be built into the model, or can they be learned from data?
+
+  Addressing this question requires a theoretical understanding of learning dynamics. I will discuss our recent progress on this problem in the limit of infinitely wide networks, where the training dynamics simplify and become analytically tractable. Building on tools inspired by Feynman diagrams in theoretical physics, we have further developed a diagrammatic method for computing corrections beyond this infinite-width limit. Together, these results provide a unified view of how geometry and physics can illuminate the behavior of deep neural networks."
+slides: /downloads/slides/2025-12-09-jan-gerken.pdf
+video: 
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN
+  - AI4SCI
