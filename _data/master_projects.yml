@@ -1,14 +1,60 @@
-- title: "Equivariant Weather Forecasting with PEAR"
-  status: open
+- title: "Graph Modelling for Metal Organic Complexation"
+  status: ongoing
+  students:
+    - first_name: Jonatan
+      last_name: Larsen
+    - first_name: Filip
+      last_name: Nyman
+  supervisors:
+    - first_name: Mats
+      last_name: Josefson
+    - first_name: Gustaf
+      last_name: Hulthe
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+  tags:
+    - ML4SCI
+
+- title: "Climate Prediction with PEAR"
+  status: ongoing
   description:
     text:
-  announcement: https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/3527
+  students:
+    - first_name: Tage
+      last_name: Tykesson
+  supervisors:
+    - first_name: Daniel
+      last_name: Persson
+  examiner:
+    first_name: Daniel
+    last_name: Persson
+  project_members:
+    - first_name: Hampus
+      last_name: Linander
+    - first_name: Christoffer
+      last_name: Petersson
+    - first_name: Jan
+      last_name: Gerken
+  tags:
+    - ENN
+    - SCV
+    - ML4SCI
+
+
+- title: "Equivariant Weather Forecasting with PEAR"
+  status: ongoing
+  description:
+    text:
+  students:
+    - first_name: Pietro
+      last_name: Rosso
   supervisors:
     - first_name: Jan
       last_name: Gerken
   examiner:
-    first_name: Jan
-    last_name: Gerken
+    first_name: Simon
+    last_name: Olsson
   project_members:
     - first_name: Hampus
       last_name: Linander
@@ -21,7 +67,7 @@
     - SCV
     - ML4SCI
 
-- title: "Manifold-based knowledge distillation"
+- title: "Manifold-Based Knowledge Distillation"
   status: ongoing
   students:
     - first_name: Atharva
@@ -83,7 +129,7 @@
   supervisors:
     - first_name: Mats
       last_name: Josefson
-    - first_name: Gustan
+    - first_name: Gustaf
       last_name: Hulthe
   examiner:
     first_name: Jan
