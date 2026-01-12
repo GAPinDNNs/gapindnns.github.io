@@ -30,7 +30,7 @@
   links:
     - name: Courses
       link: /_pages/courses.html
-    - name: Master projects
+    - name: Master's projects
       link: /_pages/master_projects.html
 - name: Positions
   link: /_pages/positions.html

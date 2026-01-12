@@ -1,8 +1,8 @@
 ---
 layout: topic
-title: Master projects
+title: Master's projects
 ---
-<p>Our group frequently supervises master's theses on topics related to our research. This page lists past and ongoing master projects as well as thesis opportunities if available.</p>
+<p>Our group frequently supervises master's theses on topics related to our research. This page lists past and ongoing master's projects as well as thesis opportunities if available.</p>
 
 
 {% assign projects = site.data.master_projects | where: 'status', 'open' %}
@@ -19,7 +19,7 @@ title: Master projects
 {% assign projects = site.data.master_projects | where: 'status', 'ongoing' %}
 {% unless projects == empty %}
 
-<h2>Current master projects</h2>
+<h2>Current master's projects</h2>
 
 {% for project in projects %}
 {% include master_project.html project=project id=forloop.index %}
@@ -30,7 +30,7 @@ title: Master projects
 {% assign projects = site.data.master_projects | where: 'status', 'finished' %}
 {% unless projects == empty %}
 
-<h2>Finished master projects</h2>
+<h2>Finished master's projects</h2>
 
 {% for project in projects %}
 {% include master_project.html project=project id=forloop.index %}
