@@ -1,0 +1,15 @@
+title: "Reparametrization invariance in Bayesian approximations"
+id: 2026_01_28_Søren_Hauberg
+date: '2026-01-28'
+time: '15:15'
+location:
+    name: MVL-14
+zoom: 
+slides: 
+speaker:
+    first_name: Søren
+    last_name: Hauberg
+    affiliation: Technical University of Denmark
+    url: https://www2.compute.dtu.dk/~sohau/
+abstract: |
+    Bayesian analysis of deep neural networks has largely been unsuccessful, often resulting in significant under- or over-fitting. We argue that this is due to inappropriate treatment of the overparametrization that trivially follows from increasing network size. We give a geometric characterization of overparametrization and show that respecting this geometric structure results in significant improvements to Bayesian approximations. We further discuss the numerical aspects.
