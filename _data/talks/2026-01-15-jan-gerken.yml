@@ -1,0 +1,18 @@
+title: "Neural Tangent Kernels: Data augmentation and Feynman diagrams"
+id: 2026-01-15-jan-gerken
+date: '2026-01-15'
+location:
+  name: Math Machine Learning seminar MPI MIS + UCLA
+  url: https://www.mis.mpg.de/events/series/math-machine-learning-seminar-mpi-mis-ucla
+abstract: |
+  In this talk, I will discuss how neural tangent kernels (NTKs) can be used to understand the symmetry properties of deep ensembles trained with data augmentation. In the infinite-width limit, we prove that such ensembles are equivariant at any training step, even off-manifold, and that the predictor becomes equivalent to a group convolutional neural network. This equivariance is emergent; individual ensemble members are not equivariant, but their collective prediction is. I will prove this theoretically using NTK theory and verify our insights with numerical experiments.
+
+  I will also discuss recent work on going beyond the infinite-width limit using Feynman diagrams. While infinite-width NTKs are analytically tractable, they miss important phenomena like NTK evolution and feature learning. I introduce a diagrammatic approach for computing finite-width corrections that dramatically simplifies the necessary calculations and enables calculation of neural network statistics at finite width.
+slides: /downloads/slides/2026-01-15-jan-gerken.pdf
+video: 
+speaker:
+    first_name: Jan E.
+    last_name: Gerken  
+tags:
+  - NTK
+  - ENN
