@@ -10,6 +10,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -20,10 +26,11 @@ jobs:
       - name: Create Calendar file
         run: python _scripts/create_calendar.py --talks_dir _data/seminar_talks/ --output_dir downloads/
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          verbose: true
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
