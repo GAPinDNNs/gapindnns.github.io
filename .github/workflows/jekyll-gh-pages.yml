@@ -24,31 +24,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip"
-      - name: Install dependencies
-        run: pip install -r _scripts/requirements.txt
-      - name: Create Calendar file
-        run: python _scripts/create_calendar.py --talks_dir _data/seminar_talks/ --output_dir downloads/
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          # source: ./docs
-          # destination: ./docs/_site
-          verbose: true
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-          #  with:
-          #    path: ./_site/
+    uses: ./.github/workflows/build-jekyll.yml
 
   # Deployment job
   deploy:
