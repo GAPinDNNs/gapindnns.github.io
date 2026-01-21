@@ -3,11 +3,6 @@ name: Build Jekyll (Test)
 
 on:
   # Runs on pushes to all branches except main
-  push:
-    branches:
-      - '**'
-      - '!main'
-
   pull_request:
     branches: [ "main" ]
   # Allows you to run this workflow manually from the Actions tab
