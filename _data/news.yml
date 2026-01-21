@@ -1,3 +1,17 @@
+- date: 2025-12-03
+  headline: "Poster session at NeurIPS 2025"
+  link: https://neurips.cc/virtual/2025/loc/san-diego/poster/119763
+  text: |
+    Lots of interesting discussion at the poster session here on the first day of NeurIPS 2025 in San Diego! [Hampus Linander](/members/Hampus_Linander) presented our paper *Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks* by
+    [Longde Huang](/members/Longde_Huang), [Oleksandr Balabanov](https://scholar.google.com/citations?user=F90j61kAAAAJ), [Hampus Linander](/members/Hampus_Linander), [Mats Granath](https://www.gu.se/en/about/find-staff/matsgranath), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken).
+  image: /assets/images/news/neurips2025.jpg
+- date: 2025-09-24
+  headline: "Paper accepted in AI4Science workshop at NeurIPS 2025"
+  link: https://arxiv.org/abs/2505.17720
+  image: /assets/images/news/pear.jpg
+  text: |
+    Our paper *PEAR: Equal Area Weather Forecasting on the Sphere* by [Hampus Linander](/members/Hampus_Linander), [Christoffer Petersson](/members/Christoffer_Petersson), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken)
+    was accepted in the AI4Science workshop at NeurIPS 2025. In this paper we show how to do compute efficient global weather forecasting using the HEALPix grid.
 - date: 2025-09-22
   headline: "Paper accepted in NeurIPS 2025"
   link: https://arxiv.org/abs/2502.15376
