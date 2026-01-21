@@ -24,10 +24,12 @@ concurrency:
 jobs:
   # Build job
   build:
+    name: Jekyll Build
     uses: ./.github/workflows/build-jekyll.yml
 
   # Deployment job
   deploy:
+    name: Deploy to GitHub Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
