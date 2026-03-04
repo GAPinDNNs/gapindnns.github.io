@@ -8,3 +8,11 @@
     We provide a reference implementation for HEAL-SWIN focused on applications for spherical images, in particular those taken with fisheye lenses. We include a containerized training framework based on PyTorch Lightning and parameter logging with MLFlow. SLURM-based jobscripts for published reference runs and baselines are also available.
 
     [Paper](http://arxiv.org/abs/2307.07313){: .btn .btn-primary .btn-sm}
+- title: equivariant-ntk
+  github: https://github.com/PhilippMisofCH/equivariant-ntk
+  url: https://github.com/PhilippMisofCH/equivariant-ntk
+  image: /assets/images/research/equivariant-ntk.svg
+  description: |
+    This package implements the NTK and NNGP recursions of several group convolutional layers enabling the analysis of the infinite-width training dynamics of equivariant neural networks. The package is written as an extension to the [neural-tangents](https://github.com/google/neural-tangents) library and is implemented in [JAX](https://github.com/jax-ml/jax). Supported symmetry groups are the planar roto-translation group \\(C_4 \ltimes \mathbb{R}^2\\) and the group of 3D rotations \\(\mathrm{SO}(3)\\).
+
+    [Paper](https://proceedings.mlr.press/v267/misof25a.html){: .btn .btn-primary .btn-sm}
