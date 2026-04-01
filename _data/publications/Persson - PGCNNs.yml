@@ -1,0 +1,19 @@
+title: The Geometry of Polynomial Group Convolutional Neural Networks
+id: Persson_-_PGCNNs
+author:
+  - family: Hendi
+    given: Yacoub
+  - family: Persson
+    given: Daniel
+  - family: Larfors
+    given: Magdalena
+issued: '2026-03-31'
+abstract: |
+ We study polynomial group convolutional neural networks (PGCNNs) for an arbitrary finite group G. In particular, we introduce a new mathematical framework for PGCNNs using the language of graded group algebras. This framework yields two natural parametrizations of the architecture, based on Hadamard and Kronecker products, related by a linear map. We compute the dimension of the associated neuromanifold, verifying that it depends only on the number of layers and the size of the group. We also describe the general fiber of the Kronecker parametrization up to the regular group action and rescaling, and conjecture the analogous description for the Hadamard parametrization. Our conjecture is supported by explicit computations for small groups and shallow networks. 
+preprint:
+  URL: https://arxiv.org/abs/1412.5625
+  name: arXiv
+type: article-journal
+tags:
+  - GDL
+  - ENN
