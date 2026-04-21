@@ -26,6 +26,19 @@
     [Canvas](https://canvas.gu.se/courses/96537){: .btn .btn-primary .btn-sm} [GitHub](https://github.com/JanEGerken/ms-in-dnns){: .btn .btn-primary .btn-sm}
 - code:
     chalmers:
+    gu: MMA211
+  title: Advanced Differential Calculus
+  description: |
+    This course examines the foundations of differential and integral calculus on smooth manifolds,
+    along with applications of the theory in topology and geometry. A primary focus involves
+    introducing differential forms and their applications across mathematics. The course is taught
+    at master's level and is open to exchange students.
+
+    **Given every other year, in the spring semester of even-numbered years.**
+
+    [Course page](https://www.gu.se/en/study-in-gothenburg/exchange-student/courses/mma211){: .btn .btn-primary .btn-sm}
+- code:
+    chalmers:
     gu: DIT008
   title: Discrete Mathematics
   description: |

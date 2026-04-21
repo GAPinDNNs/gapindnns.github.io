@@ -1,3 +1,60 @@
+- title: "Equivariant Machine Learning using Irreducible and Regular Representations"
+  status: open
+  supervisors:
+    - first_name: Elias
+      last_name: Nyholm
+  examiner:
+    first_name: Daniel
+    last_name: Persson
+  description:
+    text: |
+      The goal of this project is to explore different ways of constructing invariant and equivariant
+      machine learning models, which are models that adhere to particular symmetry-related constraints.
+      This family of models is especially well-suited for processing geometric data such as images and
+      molecules, and has been used with success for tasks like molecular simulations, robotics and
+      computer vision.
+
+      There exist several different ways of constructing invariant/equivariant models in practice, where
+      the two most popular methods either rely on **regular representations** or **irreducible
+      representations**. In this project, you will learn about these different representations and run
+      experiments to test which representation performs better on what type of task. We will also
+      investigate the difference between choices of representation when scaling up the model.
+
+      *Prerequisites:* Linear algebra, groups and representations. Python and PyTorch on the programming side.
+
+      Contact [Elias Nyholm](mailto:eliasny@chalmers.se) for more information.
+  tags:
+    - ENN
+
+- title: "Using Computational Invariant Theory to Design Equivariant Machine Learning Models"
+  status: open
+  supervisors:
+    - first_name: Elias
+      last_name: Nyholm
+  examiner:
+    first_name: Daniel
+    last_name: Persson
+  description:
+    text: |
+      The goal of this project is to use mathematical tools to design new machine learning models.
+      More specifically, we are interested in constructing new **invariant and equivariant machine
+      learning models** that are particularly well-suited for specific types of data such as 2D data
+      (images) and 3D data (molecules).
+
+      To design new models with these properties, we will use tools from **computational invariant
+      theory**, the field of mathematics concerned with generating invariant and equivariant polynomials
+      using computational tools. In practice, software like SageMath includes algorithms from
+      computational invariant theory which we can make use of. The project will include learning about
+      mathematical basics such as Hilbert's finiteness theorem and Gröbner bases, alongside hands-on
+      use of SageMath to build new equivariant machine learning models.
+
+      *Prerequisites:* Linear algebra, groups and representations, abstract algebra. Python and PyTorch
+      on the programming side.
+
+      Contact [Elias Nyholm](mailto:eliasny@chalmers.se) for more information.
+  tags:
+    - ENN
+
 - title: "Graph Modelling for Metal Organic Complexation"
   status: ongoing
   students:
