@@ -1,0 +1,22 @@
+title: Geometric Configurations, Regular Subalgebras of E10 and M-Theory Cosmology
+id: Persson_-_Geometric_configurations_E10
+author:
+  - family: Henneaux
+    given: Marc
+  - family: Leston
+    given: Mauricio
+  - family: Persson
+    given: Daniel
+  - family: Spindel
+    given: Philippe
+issued: '2006-10-01'
+DOI:
+URL: https://iopscience.iop.org/article/10.1088/1126-6708/2006/10/021
+abstract: |
+ We re-examine previously found cosmological solutions to eleven-dimensional supergravity in the light of the E_{10}-approach to M-theory. We focus on the solutions with non zero electric field determined by geometric configurations (n_m, g_3), n<= 10. We show that these solutions are associated with rank g regular subalgebras of E_{10}, the Dynkin diagrams of which are the (line) incidence diagrams of the geometric configurations. Our analysis provides as a byproduct an interesting class of rank-10 Coxeter subgroups of the Weyl group of E_{10}.
+publisher: Journal of High Energy Physics
+preprint:
+  URL: https://arxiv.org/abs/hep-th/0606123
+  name: arXiv
+type: article-journal
+tags:

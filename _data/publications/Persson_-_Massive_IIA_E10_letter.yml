@@ -1,0 +1,22 @@
+title: Massive Type IIA Supergravity and E10
+id: Persson_-_Massive_IIA_E10_letter
+author:
+  - family: Henneaux
+    given: Marc
+  - family: Jamsin
+    given: Ella
+  - family: Kleinschmidt
+    given: Axel
+  - family: Persson
+    given: Daniel
+issued: '2009-06-01'
+DOI:
+URL:
+abstract: |
+ In this talk we investigate the symmetry under E10 of Romans' massive type IIA supergravity. We show that the dynamics of a spinning particle in a non-linear sigma model on the coset space E10/K(E10) reproduces the bosonic and fermionic dynamics of massive IIA supergravity, in the standard truncation. In particular, we identify Romans' mass with a generator of E10 that is beyond the realm of the generators of E10 considered in the eleven-dimensional analysis, but using the same, underformed sigma model. As a consequence, this work provides a dynamical unification of the massless and massive versions of type IIA supergravitiy inside E10.
+publisher: Fortschritte der Physik
+preprint:
+  URL: https://arxiv.org/abs/0901.4848
+  name: arXiv
+type: article-journal
+tags:

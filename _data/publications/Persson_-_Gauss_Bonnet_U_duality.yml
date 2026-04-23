@@ -1,0 +1,24 @@
+title: U-Duality and the Compactified Gauss-Bonnet Term
+id: Persson_-_Gauss_Bonnet_U_duality
+author:
+  - family: Bao
+    given: Ling
+  - family: Bielecki
+    given: Johan
+  - family: Cederwall
+    given: Martin
+  - family: Nilsson
+    given: Bengt E. W.
+  - family: Persson
+    given: Daniel
+issued: '2008-07-01'
+DOI:
+URL: https://iopscience.iop.org/article/10.1088/1126-6708/2008/07/048
+abstract: |
+ We present the complete toroidal compactification of the Gauss-Bonnet Lagrangian from D dimensions to (D-n) dimensions. Our goal is to investigate the resulting action from the point of view of the "U-duality" symmetry SL(n+1,R) which is present in the tree-level Lagrangian when D-n=3. The analysis builds upon and extends the investigation of the paper [arXiv:0706.1183], by computing in detail the full structure of the compactified Gauss-Bonnet term, including the contribution from the dilaton exponents. We analyze these exponents using the representation theory of the Lie algebra sl(n+1,R) and determine which representation seems to be the relevant one for quadratic curvature corrections. By interpreting the result of the compactification as a leading term in a large volume expansion of an SL(n+1,Z)-invariant action, we conclude that the overall exponential dilaton factor should not be included in the representation structure. As a consequence, all dilaton exponents correspond to weights of sl(n+1,R), which, nevertheless, remain on the positive side of the root lattice.
+publisher: Journal of High Energy Physics
+preprint:
+  URL: https://arxiv.org/abs/0710.4907
+  name: arXiv
+type: article-journal
+tags:

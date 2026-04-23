@@ -1,0 +1,22 @@
+title: On the E10/Massive Type IIA Supergravity Correspondence
+id: Persson_-_E10_massive_IIA_correspondence
+author:
+  - family: Henneaux
+    given: Marc
+  - family: Jamsin
+    given: Ella
+  - family: Kleinschmidt
+    given: Axel
+  - family: Persson
+    given: Daniel
+issued: '2009-02-15'
+DOI:
+URL: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.79.045008
+abstract: |
+ In this paper we investigate in detail the correspondence between E10 and Romans' massive deformation of type IIA supergravity. We analyse the dynamics of a non-linear sigma model for a spinning particle on the coset space E10/K(E10) and show that it reproduces the dynamics of the bosonic as well as the fermionic sector of the massive IIA theory, within the standard truncation. The mass deformation parameter corresponds to a generator of E10 outside the realm of the generators entering the usual D=11 analysis, and is naturally included without any deformation of the coset model for E10/K(E10). Our analysis thus provides a dynamical unification of the massless and massive versions of type IIA supergravity inside E10. We discuss a number of additional and general features of relevance in the analysis of any deformed supergravity in the correspondence to Kac-Moody algebras, including recently studied deformations where the trombone symmetry is gauged.
+publisher: Physical Review D
+preprint:
+  URL: https://arxiv.org/abs/0811.4358
+  name: arXiv
+type: article-journal
+tags:
