@@ -1,0 +1,20 @@
+title: On the topology of the hypermultiplet moduli space in type II/CY string vacua
+id: Persson_-_Hypermultiplet_topology
+author:
+  - family: Alexandrov
+    given: Sergei
+  - family: Persson
+    given: Daniel
+  - family: Pioline
+    given: Boris
+issued: '2011-01-21'
+DOI:
+URL: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.83.026001
+abstract: |
+ By analyzing qualitative aspects of NS5-brane instanton corrections, we determine the topology of the hypermultiplet moduli space M_H in Calabi-Yau compactifications of type II string theories at fixed value of the dilaton and of the Calabi-Yau metric. Specifically, we show that for fivebrane instanton couplings to be well-defined, translations along the intermediate Jacobian must induce non-trivial shifts of the Neveu-Schwarz axion which had thus far been overlooked. As a result, the Neveu-Schwarz axion parametrizes the fiber of a circle bundle, isomorphic to the one in which the fivebrane partition function is valued. In the companion paper arXiv:1010.5792, we go beyond the present analysis and take steps towards a quantitative description of fivebrane instanton corrections, using a combination of mirror symmetry, S-duality, topological string theory and twistor techniques.
+publisher: Physical Review D
+preprint:
+  URL: https://arxiv.org/abs/1009.3026
+  name: arXiv
+type: article-journal
+tags:
