@@ -8,6 +8,7 @@
     We provide a reference implementation for HEAL-SWIN focused on applications for spherical images, in particular those taken with fisheye lenses. We include a containerized training framework based on PyTorch Lightning and parameter logging with MLFlow. SLURM-based jobscripts for published reference runs and baselines are also available.
 
     [Paper](http://arxiv.org/abs/2307.07313){: .btn .btn-primary .btn-sm}
+    [Code](https://github.com/JanEGerken/HEAL-SWIN/){: .btn .btn-primary .btn-sm}
 - title: equivariant-ntk
   github: https://github.com/PhilippMisofCH/equivariant-ntk
   url: https://github.com/PhilippMisofCH/equivariant-ntk
@@ -16,3 +17,15 @@
     This package implements the NTK and NNGP recursions of several group convolutional layers enabling the analysis of the infinite-width training dynamics of equivariant neural networks. The package is written as an extension to the [neural-tangents](https://github.com/google/neural-tangents) library and is implemented in [JAX](https://github.com/jax-ml/jax). Supported symmetry groups are the planar roto-translation group \\(C_4 \ltimes \mathbb{R}^2\\) and the group of 3D rotations \\(\mathrm{SO}(3)\\).
 
     [Paper](https://proceedings.mlr.press/v267/misof25a.html){: .btn .btn-primary .btn-sm}
+    [Code](https://github.com/PhilippMisofCH/equivariant-ntk){: .btn .btn-primary .btn-sm}
+- title: PEAR-Weather
+  github: https://github.com/hlinander/PEAR-Weather
+  url: https://github.com/hlinander/PEAR-Weather
+  image: /assets/images/research/pear_weather.jpg
+  description: |
+    We use an equal area gridding (HEALPix) of the sphere to perform global weather forecasting with a volumetric transformer architecture, outperforming baselines on an equiangular grid.
+
+    We provide an implementation in PyTorch including training and evaluation pipelines, ERA5 data ingestion via CDSAPI, and metrics consolidation with DuckDB. SLURM-based run scripts and persisted experiment configurations for reproducing published results are also included.
+
+    [Paper](https://arxiv.org/abs/2505.17720){: .btn .btn-primary .btn-sm}
+    [Code](https://github.com/hlinander/PEAR-Weather){: .btn .btn-primary .btn-sm}
