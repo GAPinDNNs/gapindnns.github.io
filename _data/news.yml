@@ -1,3 +1,8 @@
+- date: 2026-05-11
+  headline: "New Preprint on Steerable Neural ODEs on Homogeneous Spaces"
+  link: https://arxiv.org/abs/2605.11133
+  text: |
+    [Daniel Persson](/members/Daniel_Persson), together with collaborators Emma Andersdotter and Fredrik Ohlsson at [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/), have published a new preprint on *Steerable Neural ODEs on Homogeneous Spaces*. The paper introduces a novel geometric framework for equivariant neural ODEs on homogeneous spaces, using parallel transport to steer feature vectors transforming under local symmetry groups.
 - date: 2026-04-17
   headline: "Invited talk at AI4Physics Workshop, Uppsala University"
   link: /downloads/slides/2026-04-17-daniel-persson.pdf
