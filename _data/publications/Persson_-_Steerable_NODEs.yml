@@ -1,0 +1,23 @@
+title: Steerable Neural ODEs on Homogeneous Spaces
+id: Persson_-_Steerable_NODEs
+author:
+  - family: Andersdotter
+    given: Emma
+    first_author: true
+  - family: Persson
+    given: Daniel
+  - family: Ohlsson
+    given: Fredrik
+issued: '2026-05-11'
+DOI:
+URL:
+abstract: |
+ We introduce steerable neural ordinary differential equations on homogeneous spaces M = G/H. These models constitute a novel geometric extension of manifold neural ordinary differential equations (NODEs) that transport associated feature vectors transforming under the local symmetry group H. We interpret features as sections of associated vector bundles over M, and describe their evolution as parallel transport. This results in a coupled system of ODEs consisting of a flow equation on M and a steering equation acting on features. We show that steerable NODEs are G-equivariant whenever the vector field generating the flow and the connection governing parallel transport are both G-invariant. Furthermore, we demonstrate how steerable NODEs incorporate existing NODE models and continuous normalizing flows on Lie groups. Our framework provides the geometric foundation for learning continuous-time equivariant dynamics of general vector-valued features on homogeneous spaces.
+publisher:
+preprint:
+  URL: https://arxiv.org/abs/2605.11133
+  name: arXiv
+type: article
+tags:
+  - GDL
+  - ENN
