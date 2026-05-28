@@ -1,0 +1,18 @@
+title: "From Layers to Networks: Comparing Neural Representations via Diffusion Geometry"
+id: Khandait_-_comparing_neural_representations_via_diffusion_geometry_(2026)
+author:
+  - family: Khandait
+    given: Atharva
+  - family: Gerken
+    given: Jan E.
+issued: "2026-05-15"
+URL:
+abstract: |
+  Diffusion geometry is a manifold learning framework that uses random walks defined by Markov transition matrices to characterize the geometry of a dataset at multiple scales. We use diffusion geometry for neural representations, incorporating tools from multi-view learning into this field for the first time. Our key technical observation is that a broad class of similarity measures based on representational similarity matrices (RSMs) admits a closed-form equivalent formulation in terms of row-stochastic Markov matrices, opening the door to manipulations from diffusion geometry. As a first application, we develop multi-scale variants of Centered Kernel Alignment and Distance Correlation, which utilise the t-th power of the underlying transition matrix to probe the data geometry at adjustable diffusion scales. Going further, we introduce variants of these measures which fuse the Markov matrices of several layers via alternating diffusion into a single operator that captures the network's joint sample geometry, allowing similarity to be computed across multiple layers and shifting the comparison from layer-to-layer to network-to-network. We perform extensive numerical experiments, evaluating our measures on the Representational Similarity (ReSi) benchmark comprising 14 architectures trained on 7 datasets across three different domains. Our methods achieve SoTA results in accuracy and output correlation for both language and vision tasks across different models. We furthermore show SoTA performance on an additional benchmark evaluating on out-of-distribution data.
+publisher:
+preprint:
+  name: arXiv
+  URL: http://arxiv.org/abs/2605.15901
+type: article
+tags:
+  - DL
