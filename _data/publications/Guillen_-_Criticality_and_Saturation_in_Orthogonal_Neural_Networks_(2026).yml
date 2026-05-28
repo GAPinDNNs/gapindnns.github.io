@@ -1,0 +1,19 @@
+title: Criticality and Saturation in Orthogonal Neural Networks
+id: Guillen_-_Criticality_and_Saturation_in_Orthogonal_Neural_Networks_(2026)
+author:
+  - family: Guillen
+    given: Max
+  - family: Gerken
+    given: Jan E.
+issued: "2026-05-07"
+URL:
+abstract: |
+  It has been known for a long time that initializing weight matrices to be orthogonal instead of having i.i.d. Gaussian components can improve training performance. This phenomenon can be analyzed using finite-width corrections, where the infinite-width statistics are supplemented by a power series in 1/width. In particular, recent empirical results by Day et al. show that the tensors appearing in this treatment stabilize for large depth, as opposed to the tensors of i.i.d.-initialized networks. In this article, we derive explicit layer-wise recursion relations for the tensors appearing in the finite-width expansion of the network statistics in the case of orthogonal initializations. We also provide an extension of recently-introduced Feynman diagrams for the corresponding recursions in the i.i.d.-case which are valid to all orders in 1/width. Finally, we show explicitly that the recursions we derive reproduce the stability of the finite-width tensors which was observed for activation functions with vanishing fixed point. This work therefore provides a theoretical explanation for the stability of nonlinear networks of finite width initialized with orthogonal weights, closing a long-standing gap in the literature. We validate our theoretical results experimentally by showing that numerical solutions of our recursion relations and their analytical large-depth expansions agree excellently with Monte-Carlo estimates from network ensembles.
+publisher:
+preprint:
+  URL: http://arxiv.org/abs/2605.06563
+  name: arXiv
+type: article
+tags:
+  - NTK
+  - DL
