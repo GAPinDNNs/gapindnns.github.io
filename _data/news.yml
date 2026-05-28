@@ -1,3 +1,28 @@
+- date: 2026-05-01
+  headline: "Paper accepted at ICML 2026"
+  link: https://arxiv.org/abs/2508.11522
+  text: |
+    Our paper *Finite-Width Neural Tangent Kernels from Feynman Diagrams* by [Max Guillen](/members/Max_Guillen), [Philipp Misof](/members/Philipp_Misof) and [Jan Gerken](/members/Jan_Gerken) has been accepted at ICML 2026! The paper introduces a Feynman diagram framework for computing finite-width corrections to NTK statistics, enabling layer-wise recursive relations for preactivations, NTKs and higher-derivative tensors required to predict training dynamics at leading order.
+- date: 2026-05-27
+  headline: "New Version of PEAR Paper on the arXiv"
+  link: https://arxiv.org/abs/2505.17720
+  image:
+  text: |
+    A substantially updated version of our paper *PEAR: Equal Area Weather Forecasting on the Sphere* by [Hampus Linander](/members/Hampus_Linander), [Christoffer Petersson](/members/Christoffer_Petersson), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken) is now available on the arXiv. The new version shows that PEAR outperforms a much wider range of baseline architectures than previously evaluated, demonstrates that PEAR performs well in climate model emulation, and presents new results on the symmetry properties of PEAR.
+
+    The new results on symmetry properties and climate modeling are thanks to the work of our master's students Pietro Rosso and Tage Tykesson. Congratulations to both!
+- date: 2026-05-15
+  headline: "New Preprint on Comparing Neural Representations via Diffusion Geometry"
+  link: https://arxiv.org/abs/2605.15901
+  text: |
+    A new preprint *From Layers to Networks: Comparing Neural Representations via Diffusion Geometry* is now available on the arXiv. The paper brings tools from diffusion geometry and multi-view learning to the comparison of neural representations, showing that a broad class of representational similarity measures can be reformulated via row-stochastic Markov matrices. This yields multi-scale variants of Centered Kernel Alignment and Distance Correlation and enables network-to-network comparisons, achieving state-of-the-art results on the Representational Similarity (ReSi) benchmark.
+
+    First author is our master's student Atharva Khandait, together with [Jan Gerken](/members/Jan_Gerken). Congratulations to Atharva on his first publication!
+- date: 2026-05-07
+  headline: "New Preprint on Criticality and Saturation in Orthogonal Neural Networks"
+  link: https://arxiv.org/abs/2605.06563
+  text: |
+    [Max Guillen](/members/Max_Guillen) and [Jan Gerken](/members/Jan_Gerken) have published a new preprint on *Criticality and Saturation in Orthogonal Neural Networks*. The paper derives layer-wise recursion relations for the finite-width statistics of networks with orthogonal weight initialization and extends the recently-introduced Feynman diagram framework to this setting, providing a theoretical explanation for the depth-stability of orthogonally-initialized nonlinear networks.
 - date: 2026-05-13
   headline: "New Preprint on Steerable Neural ODEs on Homogeneous Spaces"
   link: https://arxiv.org/abs/2605.11133
@@ -36,7 +61,7 @@
   link: https://arxiv.org/abs/2502.15376
   text: |
     Our paper on *Learning Chern Numbers of Topological Insulators with Gauge Equivariant Neural Networks* has been accepted for a poster at NeurIPS 2025! In this paper, we combine lattice gauge equivariant networks with a novel training mechanism to learn topological invariants (Chern numbers) of topological insulators. This paper combines several beautiful topics in machine learning, physics and mathematics.
-    
+
     First author is our new PhD student [Longde Huang](/members/Longde_Huang). Congratulations to his first publication! From our group, [Hampus Linander](/members/Hampus_Linander), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken) were also involved. Thanks to our phyiscs-collaborators [Oleksandr Balabanov](https://scholar.google.com/citations?user=F90j61kAAAAJ) (then at Stockholm University) and [Mats Granath](https://www.gu.se/en/about/find-staff/matsgranath) (University of Gothenburg) for their expertise and a fun collaboration!
 - date: 2025-09-01
   headline: Welcome to our **new group members Miaowen and Longde**
@@ -54,7 +79,7 @@
 - date: 2025-08-28
   headline: "Philipp completed his half-way seminar"
   text: |
-     At Chalmers it is customary for PhD students to summarize their research after roughly the first half of their PhD. [Philipp](/members/Philipp_Misof) was successfully presenting his progress in form of a half-way seminar talk.
+    At Chalmers it is customary for PhD students to summarize their research after roughly the first half of their PhD. [Philipp](/members/Philipp_Misof) was successfully presenting his progress in form of a half-way seminar talk.
 
 - date: 2025-08-23
   headline: "Group excursion"
@@ -98,7 +123,7 @@
     We have an open PhD position with [Jan Gerken](/members/Jan_Gerken) about symmetries in neural networks.
 
     We seek a PhD student for a project at the intersection of mathematics and deep learning to work on theoretical aspects of geometric deep learning. The question whether more data and compute are sufficient to improve neural networks is highly debated at the moment in all areas of deep learning. In this project, you will work on a theoretical framework which will help to better understand these questions in the context of geometric deep learning and add rigorous arguments to a debate driven by empirical results.
-    
+
     **Application Deadline is 21 May 2025.**
 - date: 2025-02-24
   headline: "New Paper on Gauge Equivariant Networks for Topological Insulators"
@@ -115,27 +140,27 @@
 - date: 2025-01-15
   headline: "WASP Winter Conference 2025"
   text: |
-   The group had a strong presence at the WASP Winter Conference in Norrköping this year, including poster presentations by [Elias](/members/Elias_Nyholm), [Philipp](/members/Philipp_Misof) and [Oscar](/members/Oscar_Carlsson).
+    The group had a strong presence at the WASP Winter Conference in Norrköping this year, including poster presentations by [Elias](/members/Elias_Nyholm), [Philipp](/members/Philipp_Misof) and [Oscar](/members/Oscar_Carlsson).
 - date: 2024-11-22
   headline: "*The Quest for Unification - Intersecting Mathematics, Physics and AI*"
   link: /downloads/slides/Promotion_lecture_Full_Prof.pdf
   text: |
-   Inauguration lecture for [Daniel Persson's](/members/Daniel_Persson) promotion to full professor of mathematics.
+    Inauguration lecture for [Daniel Persson's](/members/Daniel_Persson) promotion to full professor of mathematics.
 - date: 2024-11-14
   headline: "Daniel Persson develops *the mathematics of AI*"
   link: https://www.chalmers.se/en/current/news/mv-daniel-persson-develops-the-math-of-future-ai/
   text: |
-   Interview with [Daniel Persson](/members/Daniel_Persson) on the occasion of his upcoming promotion to full professor of mathematics.
+    Interview with [Daniel Persson](/members/Daniel_Persson) on the occasion of his upcoming promotion to full professor of mathematics.
 - date: 2024-10-24
   headline: "Lecture for high school students on *Matematikens mysterier - från svarta hål till artificiell intelligens*"
   link: /downloads/slides/2024-10-24-daniel-persson.pdf
   text: |
-   Public lecture by [Daniel Persson](/members/Daniel_Persson) for high school students at Hulebäcksgymnasiet.
+    Public lecture by [Daniel Persson](/members/Daniel_Persson) for high school students at Hulebäcksgymnasiet.
 - date: 2024-10-11
   headline: New paper on [Equivariant manifold neural ODEs and differential invariants](https://arxiv.org/abs/2401.14131)
   link: https://arxiv.org/abs/2401.14131
   text: |
-   Paper by [Daniel Persson](/members/Daniel_Persson) together with Emma Andersdotter and Fredrik Ohlsson at [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/).
+    Paper by [Daniel Persson](/members/Daniel_Persson) together with Emma Andersdotter and Fredrik Ohlsson at [Umeå University](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/).
 - date: 2024-09-02
   headline: CaLISTA Workshop
   link: https://sites.google.com/view/calistaworkshop2024paris/home
