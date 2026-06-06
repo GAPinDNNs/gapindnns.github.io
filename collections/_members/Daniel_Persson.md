@@ -24,3 +24,12 @@ Some of my current research projects include:
 
 Below I list my [publications](#Publications) and [talks](#Talks).  
 I have also written a [book](https://www.cambridge.org/core/books/eisenstein-series-and-automorphic-representations/A815C7DFFF757DE89269DE0C36B6FBB8) on automorphic forms.
+
+I frequently give popular science lectures and engage with the general public on topics at the intersection of mathematics, physics and AI. Here are some recent interviews and articles featuring my work:
+
+- [A Unified Theory of the Universe with Quantum Gravity](https://www.azoquantum.com/article.aspx?ArticleID=311) — *AZoQuantum*
+- [Därför revolutionerar det nya AI-beviset matematiken](https://fof.se/artikel/darfor-revolutionerar-det-nya-ai-beviset-matematiken/) — *Forskning & Framsteg*
+- [Mathematical discovery could shed light on secrets of the universe](https://news.cision.com/chalmers/r/mathematical-discovery-could-shed-light-on-secrets-of-the-universe,c3509456) — *Chalmers press release*
+- [Daniel Persson develops the math of future AI](https://www.chalmers.se/en/current/news/mv-daniel-persson-develops-the-math-of-future-ai/) — *Chalmers University of Technology* (English)
+- [Daniel Persson utvecklar matematiken för framtidens AI](https://www.chalmers.se/aktuellt/nyheter/mv-daniel-persson-utvecklar-matematiken-for-framtidens-ai/) — *Chalmers tekniska högskola* (Swedish)
+- [Exploring the underlying symmetries of AI](/downloads/GeometricDL_spotlight.pdf) — *AI@Chalmers project spotlight*
