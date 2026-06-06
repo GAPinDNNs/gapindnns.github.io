@@ -11,6 +11,11 @@
     A substantially updated version of our paper *PEAR: Equal Area Weather Forecasting on the Sphere* by [Hampus Linander](/members/Hampus_Linander), [Christoffer Petersson](/members/Christoffer_Petersson), [Daniel Persson](/members/Daniel_Persson) and [Jan Gerken](/members/Jan_Gerken) is now available on the arXiv. The new version shows that PEAR outperforms a much wider range of baseline architectures than previously evaluated, demonstrates that PEAR performs well in climate model emulation, and presents new results on the symmetry properties of PEAR.
 
     The new results on symmetry properties and climate modeling are thanks to the work of our master's students Pietro Rosso and Tage Tykesson. Congratulations to both!
+- date: 2026-05-18
+  headline: "Daniel Persson interviewed in *Forskning & Framsteg*"
+  link: https://fof.se/artikel/darfor-revolutionerar-det-nya-ai-beviset-matematiken/
+  text: |
+    [Daniel Persson](/members/Daniel_Persson) is interviewed in the Swedish popular science magazine *Forskning & Framsteg* about the recent AI breakthrough in mathematics, where an AI model solved the 80-year-old Erdős unit distance problem. Daniel comments: *"It is a very exciting breakthrough! It is remarkable that AI has been able to solve a problem at this level, with such advanced mathematics."*
 - date: 2026-05-15
   headline: "New Preprint on Comparing Neural Representations via Diffusion Geometry"
   link: https://arxiv.org/abs/2605.15901
