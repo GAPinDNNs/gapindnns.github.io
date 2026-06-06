@@ -1,3 +1,8 @@
+- date: 2026-05-18
+  headline: "Daniel Persson interviewed in *Forskning & Framsteg*"
+  link: https://fof.se/artikel/darfor-revolutionerar-det-nya-ai-beviset-matematiken/
+  text: |
+    [Daniel Persson](/members/Daniel_Persson) is interviewed in the Swedish popular science magazine *Forskning & Framsteg* about the recent AI breakthrough in mathematics, where an AI model solved the 80-year-old Erdős unit distance problem. Daniel comments: *"It is a very exciting breakthrough! It is remarkable that AI has been able to solve a problem at this level, with such advanced mathematics."*
 - date: 2026-05-13
   headline: "New Preprint on Steerable Neural ODEs on Homogeneous Spaces"
   link: https://arxiv.org/abs/2605.11133
