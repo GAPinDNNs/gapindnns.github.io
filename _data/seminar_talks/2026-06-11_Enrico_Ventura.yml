@@ -1,0 +1,15 @@
+title: "From Generalization to Memorization: Results & Open Questions in Generative Diffusion"
+id: 2026-06-11_Enrico_Ventura
+date: "2026-06-11"
+time: "10:00"
+location:
+  name: MVF31
+zoom:
+slides:
+speaker:
+  first_name: Enrico
+  last_name: Ventura
+  affiliation: SISSA
+  url: https://enriventura.github.io/
+abstract: |
+  Diffusion models have achieved state-of-the-art performance in generating images, videos, scientific data, and even text. Despite its broad practical success, neural-network-based generative diffusion is, in theory, condemned to memorize the training set rather than learn the underlying data-generating distribution. This talk will first present recent advances in understanding the surprising generalization capabilities of diffusion models. We will argue that, in this framework, generalization can be understood as an intermediate and necessary dynamical stage that precedes memorization. We will then discuss how diffusion models can progressively transition from generalizing to memorizing the data, highlighting a counterintuitive sampling behavior that arises in this still largely unexplored regime. The talk will present both theoretical insights and open questions on the generative capabilities of diffusion models, while fostering the quest for a new definition of generalization in generative modeling.
