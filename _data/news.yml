@@ -1,3 +1,10 @@
+- date: 2026-06-24
+  headline: "New Preprint on Equivariance and Augmentation for Bayesian Neural Networks"
+  link: https://arxiv.org/abs/2606.26273
+  text: |
+    A new preprint *Equivariance and Augmentation for Bayesian Neural Networks* by [Miaowen Dong](/members/Miaowen_Dong), [Axel Flinth](https://www.umu.se/en/staff/axel-flinth/) and [Jan Gerken](/members/Jan_Gerken) is now available on the arXiv. The paper studies data augmentation for Bayesian neural networks trained with variational inference, deriving conditions under which exact equivariance is reached, bounds on the equivariance error, and three novel symmetrization techniques. One of them, orbit expansion, outperforms the baseline in both equivariance and overall performance.
+
+    This is the first paper for our PhD student Miaowen Dong — congratulations, Miaowen!
 - date: 2026-06-09
   headline: "Invited talk at Mathematical Foundations of AI Workshop, Chalmers"
   link: /downloads/slides/2026-06-09-daniel-persson.pdf

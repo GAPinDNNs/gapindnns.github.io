@@ -1,0 +1,21 @@
+title: Equivariance and Augmentation for Bayesian Neural Networks
+id: Dong_-_Equivariance_and_Augmentation_for_Bayesian_Neural_Networks_(2026)
+author:
+  - family: Dong
+    given: Miaowen
+  - family: Flinth
+    given: Axel
+  - family: Gerken
+    given: Jan E.
+issued: "2026-06-24"
+URL:
+abstract: |
+  Symmetries are important for many deep learning tasks, ranging from applications in the sciences to medical imaging. However, there is an ongoing debate about whether to impose symmetry constraints on the neural network architecture (yielding equivariant neural networks) or learn them from augmented training data. Although equivariant networks are well-studied theoretically, much less is known about data augmentation, since analyzing augmentation requires control over the training dynamics. Inspired by recent results that show that augmented infinite deep ensembles are exactly equivariant, we study data augmentation for Bayesian neural networks (BNNs) trained with variational inference. We focus on variational distributions in the exponential family and derive conditions under which exact equivariance is reached. We furthermore obtain bounds on the equivariance error and introduce three novel symmetrization techniques which boost the effect of data augmentation in this setting. We conduct extensive numerical experiments which show that one of our symmetrization methods (orbit expansion) outperforms the baseline in both equivariance and overall performance. Our code is available at https://github.com/dmw1998/augment-BNNs.
+publisher:
+preprint:
+  URL: http://arxiv.org/abs/2606.26273
+  name: arXiv
+type: article
+tags:
+  - ENN
+  - BDL
