@@ -29,3 +29,14 @@
 
     [Paper](https://arxiv.org/abs/2505.17720){: .btn .btn-primary .btn-sm}
     [Code](https://github.com/hlinander/PEAR-Weather){: .btn .btn-primary .btn-sm}
+
+- title: ntk-unlimited
+  github: https://github.com/PhilippMisofCH/ntk-unlimited
+  url: https://github.com/PhilippMisofCH/ntk-unlimited
+  image: /assets/images/research/feynman_diagram_transparent.png
+  description: |
+    We provide a framework to compute finite-width corrections to the infinite-width limit of the neural tangent kernel (NTK) and other statistical tensors involving the NTK and preactivations of a neural networks for the multi-input case. It implements all tensor recursions necessary to compute first order corrections to the infinite-width solutions of the NTK and the NNGP for both the single- and multi-input case for MLPs. It automatically resolves the dependency tree and provides a flexible framework based on *SymPy* to allow for straightforward extension to higher order recursions. Empirical sampling is heavily parallelized using *JAX* and enables large sample sizes at moderate depths and widths.
+
+    [Paper](https://openreview.net/forum?id=SOlPHMdSY3){: .btn .btn-primary .btn-sm}
+    [Code](https://github.com/PhilippMisofCH/ntk-unlimited){: .btn .btn-primary .btn-sm}
+
