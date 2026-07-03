@@ -30,8 +30,7 @@ Program (WASP)*.
 
 ### Internship at *Genentech*
 
-Currently, I'm complementing my education with a 10-months internship at [**Genentech**](https://www.gene.com/) (Roche) in Switzerland under the supervision of [Pan Kessel](https://www.gene.com/scientists/our-scientists/pan-kessel). In this project, I am investigating new ways for generative protein design.
-
+From September 2025 - June 2026, I visited [**Genentech**](https://www.gene.com/) (Roche) in Switzerland for a 10-months internship under the supervision of [Pan Kessel](https://www.gene.com/scientists/our-scientists/pan-kessel). I worked on a project related to novel antibody-design where I focused in particular on the development of a protein co-folding model.
 
 ### Education
 
