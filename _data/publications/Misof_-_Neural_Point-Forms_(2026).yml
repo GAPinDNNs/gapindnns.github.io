@@ -1,0 +1,26 @@
+title: Neural Point-Forms
+id: Misof_-_Neural_Point-Forms_(2026)
+author:
+  - family: Trentini
+    given: Bruno
+  - family: Hume
+    given: Jacob
+  - family: Isoldi
+    given: Vincenzo Antonio
+  - family: Misof
+    given: Philipp
+  - family: Ivshina
+    given: Ekaterina S.
+  - family: Maggs
+    given: Kelly
+
+issued: "2026-05-15"
+URL:
+abstract: |
+  Point cloud learning often rests on the premise that observed samples are noisy traces of an underlying geometric object, such as a manifold embedded in a high-dimensional feature space. Yet much of this geometry is not captured directly by coordinates, pairwise distances, or learned graph neighborhoods alone. In the smooth setting, differential forms are devices to encode higher order tangency information. In this work, we introduce a new family of principled learnable geometric features for point clouds called neural point-forms (NPFs). In the absence of a natural tangency structure, we instead use Laplacian-based techniques from Diffusion Geometry to build a discrete model for comparing differential forms on point clouds via inner products. In the continuum, submanifolds of a shared ambient feature space are represented as comparison matrices, whose entries describe how pairs of feature forms interact with extrinsic tangency information. We make this intuition precise by proving the long-run consistency of comparison matrices under standard sampling, bandwidth, density, and manifold-hypothesis assumptions. This yields a compact, efficient and permutation-invariant neural layer whose output is a learned form-comparison matrix. Across synthetic and biologically relevant experiments, we show that NPFs provide a competitive, and interpretable representation, with the strongest benefits appearing when labels depend on sampling density, manifold-like structure, or response-relevant population geometry. 
+preprint:
+  URL: https://arxiv.org/abs/2605.15524
+  name: arXiv
+type: article
+tags:
+  - GDL
