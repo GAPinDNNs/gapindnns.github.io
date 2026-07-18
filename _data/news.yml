@@ -1,3 +1,14 @@
+- date: 2026-07-15
+  headline: "Invited talk at the Isaac Newton Institute, Cambridge"
+  link: /downloads/slides/2026-07-15-daniel-persson.pdf
+  text: |
+    [Daniel Persson](/members/Daniel_Persson) gave a talk on *Beyond the chatbot - How I use AI in my mathematical research* at the workshop [New connections between physics and number theory](https://www.newton.ac.uk/event/nc2w03/), held at the Isaac Newton Institute for Mathematical Sciences in Cambridge, July 13–17, 2026. Slides are available [here](/downloads/slides/2026-07-15-daniel-persson.pdf).
+- date: 2026-07-08
+  headline: "Wallenberg Proof-of-Concept grant awarded to Jan Gerken and Daniel Persson"
+  link: https://kaw.wallenberg.org/en/press/seven-innovation-projects-ai-quantum-technologies-or-ict-receive-grants-knut-and-alice
+  image: /assets/images/news/WALP_team.jpeg
+  text: |
+    [Jan Gerken](/members/Jan_Gerken) and [Daniel Persson](/members/Daniel_Persson) have been awarded a Proof-of-Concept grant from the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/en) for the project *AI-Assisted Ultrasound Guidance for Scalable Medical Training*. This is a joint project with Carl Hallgren at Sahlgrenska University Hospital and Sebastian Bramberger at Sindrion Technologies. The Proof-of-Concept program bridges the gap between basic academic research and innovation, giving research groups the opportunity to develop early discoveries towards validated methods, products or processes and to prepare them for commercialization.
 - date: 2026-06-24
   headline: "New Preprint on Equivariance and Augmentation for Bayesian Neural Networks"
   link: https://arxiv.org/abs/2606.26273
