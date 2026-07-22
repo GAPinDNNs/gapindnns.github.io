@@ -15,6 +15,11 @@
   text: |
     [Daniel Persson](/members/Daniel_Persson) gave a talk on *Beyond the chatbot - How I use AI in my mathematical research* at the workshop [New connections between physics and number theory](https://www.newton.ac.uk/event/nc2w03/), held at the Isaac Newton Institute for Mathematical Sciences in Cambridge, July 13–17, 2026. Slides are available [here](/downloads/slides/2026-07-15-daniel-persson.pdf).
 - date: 2026-07-08
+  headline: "Poster at ICML 2026"
+  link: https://arxiv.org/abs/2508.11522
+  text: |
+    [Jan Gerken](/members/Jan_Gerken) presented our paper *Finite-Width Neural Tangent Kernels from Feynman Diagrams*, joint work with [Max Guillen](/members/Max_Guillen) and [Philipp Misof](/members/Philipp_Misof), as a poster at [ICML 2026](https://icml.cc/Conferences/2026) in Seoul. The poster is available [here](/downloads/slides/2026-07-08-jan-gerken-poster.pdf).
+- date: 2026-07-08
   headline: "Wallenberg Proof-of-Concept grant awarded to Jan Gerken and Daniel Persson"
   link: https://kaw.wallenberg.org/en/press/seven-innovation-projects-ai-quantum-technologies-or-ict-receive-grants-knut-and-alice
   image: /assets/images/news/WALP_team.jpeg
