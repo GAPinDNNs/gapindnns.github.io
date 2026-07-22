@@ -37,6 +37,11 @@
   link: /downloads/slides/2026-06-09-daniel-persson.pdf
   text: |
     [Daniel Persson](/members/Daniel_Persson) gave an invited talk on *Geometric Deep Learning - From equivariance to weather predictions* at the [Mathematical Foundations of AI](https://sites.google.com/view/chair-math-of-ai/mathematical-foundations-of-ai-main-page) workshop, held at Chalmers University of Technology (Palmstedtsalen), Gothenburg, June 8–10, 2026. Slides are available [here](/downloads/slides/2026-06-09-daniel-persson.pdf).
+- date: 2026-05-15
+  headline: "New Preprint on Neural Point-Forms"
+  link: https://arxiv.org/abs/2605.15524
+  text: |
+    When [Philipp Misof](/members/Philipp_Misof) visited last year's [LOGML Summer School](https://www.logml.ai/) in London, the week-long group project sparked an idea for a new paper using *Diffusion Geometry* to learn geometric differential-forms from point clouds. This work was done together with [Bruno Trentini](https://trentini.fyi/), [Jacob Hume](https://jakehume.xyz/Welcome!), [Vincenzo Antonio Isoldi](https://www.linkedin.com/in/vincenzoantonioisoldi/), [Katya Ivshina](https://katyaivshina.com/) and [Kelly Maggs](https://sites.google.com/view/kelly-maggs) and is now available as a preprint.
 - date: 2026-05-01
   headline: "Paper accepted at ICML 2026"
   link: https://arxiv.org/abs/2508.11522
