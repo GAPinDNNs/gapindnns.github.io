@@ -203,6 +203,21 @@ p + h2 {
   max-height: none !important;
 }
 
+.news-external-link {
+  max-height: 3rem;
+  overflow: hidden;
+  opacity: 1;
+  transform: translateY(0);
+  transition: max-height 0.3s ease, opacity 0.2s ease, transform 0.3s ease;
+}
+
+.news-text.has-overflow:not(.expanded) .news-external-link {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-0.25rem);
+}
+
 .collapse-wrapper.expanded::after {
   opacity: 0;
 }
@@ -250,5 +265,3 @@ p + h2 {
         display: block;
     }
 }
-
-
