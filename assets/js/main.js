@@ -1,5 +1,9 @@
-import * as tdr from "./time-dependent_rendering.js";
-import { add_expandable_functionality } from './card_functionalities.js';
+---
+---
+// Keep imported modules versioned with the build so browsers do not reuse stale JavaScript after deployment.
+{% assign asset_version = site.time | date: '%s' %}
+import * as tdr from "./time-dependent_rendering.js?v={{ asset_version }}";
+import { add_expandable_functionality } from './card_functionalities.js?v={{ asset_version }}';
 
 
 // Popovers from bootstrap
