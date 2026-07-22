@@ -51,12 +51,12 @@ layout: default
           {% for selected_news in recent_news %}
             {% include news_entry.html news=selected_news %}
           {% endfor %}
-          <p class="mb-0 text-end"><a href="/_pages/news.html">All news</a></p>
+          <div class="text-center"><a href="/_pages/news.html" class="btn btn-sm btn-primary" role="button">Older News</a></div>
         </div>
         {% comment %} Revealed by JavaScript if all news entries included at build time are beyond the cutoff by now. {% endcomment %}
-        <p id="news-archive-link" class="mt-4 mb-0" hidden><a href="/_pages/news.html">News archive</a></p>
+        <p id="news-archive-link" class="mt-4 mb-0" hidden><a href="/_pages/news.html">News Archive</a></p>
         {% else %}
-        <p id="news-archive-link" class="mt-4 mb-0"><a href="/_pages/news.html">News archive</a></p>
+        <p id="news-archive-link" class="mt-4 mb-0"><a href="/_pages/news.html">News Archive</a></p>
         {% endunless %}
       </div>
     </div>
