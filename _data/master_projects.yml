@@ -55,8 +55,9 @@
   tags:
     - ENN
 
-- title: "Graph Modelling for Metal Organic Complexation"
-  status: ongoing
+- title: "SÄLEN and the Art of Metal Binding"
+  status: finished
+  thesis: /downloads/master_theses/finished/Larsen-Nyman-2026.pdf
   students:
     - first_name: Jonatan
       last_name: Larsen
@@ -73,8 +74,9 @@
   tags:
     - ML4SCI
 
-- title: "Climate Prediction with PEAR"
-  status: ongoing
+- title: "Deep Learning Climate Model Emulation with PEAR"
+  status: finished
+  thesis: /downloads/master_theses/finished/Tykesson-2026.pdf
   description:
     text:
   students:
@@ -99,8 +101,9 @@
     - ML4SCI
 
 
-- title: "Equivariant Weather Forecasting with PEAR"
-  status: ongoing
+- title: "Equivariant Inductive Biases for Weather Prediction with PEAR"
+  status: finished
+  thesis: /downloads/master_theses/finished/Rosso-2026.pdf
   description:
     text:
   students:
@@ -124,8 +127,9 @@
     - SCV
     - ML4SCI
 
-- title: "Manifold-Based Knowledge Distillation"
-  status: ongoing
+- title: "Discrete Geometry for Comparing and Transferring Neural Representations"
+  status: finished
+  thesis: /downloads/master_theses/finished/Khandait-2026.pdf
   students:
     - first_name: Atharva
       last_name: Khandait
