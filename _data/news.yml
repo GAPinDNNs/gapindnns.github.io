@@ -233,10 +233,6 @@
   link: https://cvpr.thecvf.com/virtual/2024/poster/31442
   text: |
     Several members of our group, [Oscar Carlsson](/members/Oscar_Carlsson), [Jan Gerken](/members/Jan_Gerken), [Hampus Linander](/members/Hampus_Linander) and [Christoffer Petersson](/members/Christoffer_Petersson) traveled to Seattle to participate in CVPR 2024. We had an inspiring conference, met many new and old colleagues and presented our work on [HEAL-SWIN: A Vision Transformer on The Sphere](https://cvpr.thecvf.com/virtual/2024/poster/31442).
-- date: 2024-02-01
-  headline: This is old news
-  text: |
-    This is old news. It is only here to show how old news is displayed.
 - date: 2024-06-13
   headline: GeUmetric Deep Learning Workshop in Umeå
   link: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop/
@@ -255,7 +251,4 @@
   link: https://arxiv.org/abs/2406.06504
   text: |
     The preprint "Equivariant Neural Tangent Kernels" from our group appeared on the arXiv today. We compute neural tangent kernels (NTKs) for group convolutional networks for the first time and show that equivariant NTKs outperform their non-equivariant counterparts on a medical image dataset.
-- date: 2024-02-01
-  headline: This is old news
-  text: |
-    This is old news. It is only here to show how old news is displayed.
+
