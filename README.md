@@ -76,7 +76,7 @@ Talks are `.yml` files in the directory `_data/talks`. To add a talk, copy one o
 
 ### Add news
 
-News are collected in the file `_data/news.yml`. Copy one of the old news entries to create a new one and adjust the content accordingly. Make sure to get the number of spaces right. News older than three months are hidden.
+News are collected in the file `_data/news.yml`. Copy one of the old news entries to create a new one and adjust the content accordingly. Make sure to get the number of spaces right. The homepage shows news from the last six months; older entries remain available in the [news archive](/_pages/news.html).
 
 ### Add seminar talk
 
@@ -132,4 +132,3 @@ Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add 
 ### Needs to be done by each member individually
 - Member page: start with short introduction
 - Add link to homepage on Chalmers's employees page for each member
-

@@ -1,7 +1,8 @@
 <!-- This needs to be outside of any container that uses absolute positioning -->
 {% for news in site.data.news %}
 {% if news.image %}
-<div class="modal fade" id="newsImageModal-{{ forloop.index }}" tabindex="-1" aria-hidden="true">
+{% assign news_id = news.date | date: '%s' | append: '-' | append: news.headline | slugify %}
+<div class="modal fade" id="newsImageModal-{{ news_id }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-body p-0">
@@ -15,4 +16,3 @@
 </div>
 {% endif %}
 {% endfor %}
-
