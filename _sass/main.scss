@@ -211,6 +211,10 @@ p + h2 {
   transition: max-height 0.3s ease, opacity 0.2s ease, transform 0.3s ease;
 }
 
+.news-external-link .btn {
+  margin-top: 0.5rem;
+}
+
 .news-text.has-overflow:not(.expanded) .news-external-link {
   max-height: 0;
   opacity: 0;
@@ -244,11 +248,32 @@ p + h2 {
 }
 
 .news-image {
-  height: $news-height;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+.news-image-link {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  inset: 0 calc(var(--bs-gutter-x) * 0.5);
+}
+
+.news-image-column {
+  position: relative;
+}
+
+.news.expanded .news-image-link {
+  inset: 0 calc(var(--bs-gutter-x) * 0.5) auto;
+  height: var(--news-image-height, $news-height);
+}
+
+.news.expanded .news-image {
+  border-bottom-right-radius: 0;
 }
 
 // On small screens (below Bootstrap’s "md" breakpoint), round both bottom corners
@@ -263,5 +288,14 @@ p + h2 {
         object-fit: cover;
         object-position: center;
         display: block;
+    }
+
+    .news-image-link {
+        position: static;
+        width: 100%;
+    }
+
+    .news.expanded .news-image-link {
+        height: auto;
     }
 }

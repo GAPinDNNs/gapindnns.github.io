@@ -18,19 +18,15 @@
     <div class="col-md-12">
     {% endif %}
       <div class="card-body">
-        <!-- <div class="row align-items-center justify-content-between"> -->
-          <div class="col-sm align-items-center">
-            <div class="card-text news-text">
-              <div class="collapse-wrapper" id="news-text-{{ news_id }}">
-              {{ news.text | markdownify }}
-              </div>
-              {% if news.link %}
-              <!-- <div class="col-sm-2 text-end "> -->
-              <div class="news-external-link text-center">
-                <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
-              </div>
-              {% endif %}
-            </div>
+        <div class="card-text news-text">
+          <div class="collapse-wrapper" id="news-text-{{ news_id }}">
+            {{ news.text | markdownify }}
+          </div>
+          {% if news.link %}
+          <div class="news-external-link text-center">
+            <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
+          </div>
+          {% endif %}
         </div>
       </div>
       <button
@@ -43,10 +39,10 @@
       </button>
     </div>
     {% if news.image %}
-    <div class="col-md-3">
-      <a href="#" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ news_id }}">
+    <div class="col-md-3 news-image-column">
+      <button type="button" class="news-image-link" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ news_id }}" aria-label="View enlarged image: {{ news.headline | escape }}">
         <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="news-image rounded-bottom-end">
-      </a>
+      </button>
     </div>
     {% endif %}
   </div>
