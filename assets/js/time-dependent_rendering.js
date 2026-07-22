@@ -23,17 +23,20 @@ function get_talk_date_time(talk) {
 }
 
 export function cut_off_news() {
-  // cut off time for news in unix time
-  const news_cutoff_days = 183;
-  const news_cutoff = ms_time_to_unix(Date.now()) - news_cutoff_days*24*3600;
-  const news = document.querySelectorAll(".news");
+  const newsContainer = document.querySelector("#news");
+  if (!newsContainer) return;
+
+  // Match the build-time cutoff configured in _config.yml.
+  const newsCutoffDays = Number(newsContainer.dataset.cutoffDays);
+  const newsCutoff = ms_time_to_unix(Date.now()) - newsCutoffDays * 24 * 3600;
+  const news = newsContainer.querySelectorAll(".news");
 
   if (news.length != 0) {
     let displayed_news_counter = 0;
     for (let i = 0; i < news.length; i++) {
       const date = news[i].querySelector(".news-date");
       const date_unix = ms_time_to_unix(new Date(date.textContent).getTime())
-      if (date_unix < news_cutoff) {
+      if (date_unix < newsCutoff) {
         news[i].style.display = 'none';
       } else {
         displayed_news_counter++;
@@ -41,7 +44,8 @@ export function cut_off_news() {
     };
 
     if (displayed_news_counter == 0) {
-      document.querySelector("#news").style.display = 'none';
+      newsContainer.style.display = 'none';
+      document.querySelector("#news-archive-link").hidden = false;
     };
   }
 }

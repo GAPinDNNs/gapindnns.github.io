@@ -34,7 +34,7 @@ layout: default
         {{ content }}
 
         {% assign cutoff_date = 'now' | date: '%s' %}
-        {% assign cutoff_time_unix = 183 | times: 24 | times: 3600 %}
+        {% assign cutoff_time_unix = site.news_cutoff_days | times: 24 | times: 3600 %}
         {% assign cutoff_date = cutoff_date | minus: cutoff_time_unix %}
         {% assign all_news = site.data.news | sort: "date" | reverse %}
         {% assign recent_news = "" | split: "," %}
@@ -46,12 +46,17 @@ layout: default
         {% endfor %}
 
         {% unless recent_news == empty %}
-        <div id="news" class="border-top border-2 mt-4 pt-3">
+        <div id="news" class="border-top border-2 mt-4 pt-3" data-cutoff-days="{{ site.news_cutoff_days }}">
           <h2>News</h2>
           {% for selected_news in recent_news %}
             {% include news_entry.html news=selected_news %}
           {% endfor %}
+          <p class="mb-0 text-end"><a href="/_pages/news.html">All news</a></p>
         </div>
+        {% comment %} Revealed by JavaScript if all news entries included at build time are beyond the cutoff by now. {% endcomment %}
+        <p id="news-archive-link" class="mt-4 mb-0" hidden><a href="/_pages/news.html">News archive</a></p>
+        {% else %}
+        <p id="news-archive-link" class="mt-4 mb-0"><a href="/_pages/news.html">News archive</a></p>
         {% endunless %}
       </div>
     </div>

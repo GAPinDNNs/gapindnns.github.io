@@ -10,6 +10,8 @@ description: >
 domain: gapindnns.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://gapindnns.github.io/ # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: ""      # place folder name if the site is served in a subfolder
+# Number of days news is shown directly on the homepage instead of only in the archive.
+news_cutoff_days: 183
 
 remote_theme: pages-themes/primer@v0.6.0
 plugins:

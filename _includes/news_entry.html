@@ -1,4 +1,5 @@
 {% assign news = include.news %}
+{% assign news_id = news.date | date: '%s' | append: '-' | append: news.headline | slugify %}
 <div class="card mb-3 news">
   <div class="card-header">
     <div class="row align-items-center justify-content-between">
@@ -19,7 +20,7 @@
       <div class="card-body">
         <!-- <div class="row align-items-center justify-content-between"> -->
           <div class="col-sm align-items-center">
-            <div class="card-text collapse-wrapper news-text" id="news-text-{{ forloop.index }}">
+            <div class="card-text collapse-wrapper news-text" id="news-text-{{ news_id }}">
               {{ news.text | markdownify }}
               {% if news.link %}
               <!-- <div class="col-sm-2 text-end "> -->
@@ -32,7 +33,7 @@
       </div>
       <button
         class="btn btn-sm mt-2 toggle-btn arrow-btn d-block mx-auto"
-        data-target="#news-text-{{ forloop.index }}"
+        data-target="#news-text-{{ news_id }}"
         aria-expanded="false"
         aria-label="Toggle full text"
       >
@@ -41,11 +42,10 @@
     </div>
     {% if news.image %}
     <div class="col-md-3">
-      <a href="#" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ forloop.index }}">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#newsImageModal-{{ news_id }}">
         <img src="{{ news.image }}" alt="{{ news.headline | escape }}" class="news-image rounded-bottom-end">
       </a>
     </div>
     {% endif %}
   </div>
 </div>
-
