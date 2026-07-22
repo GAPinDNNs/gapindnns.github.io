@@ -20,11 +20,13 @@
       <div class="card-body">
         <!-- <div class="row align-items-center justify-content-between"> -->
           <div class="col-sm align-items-center">
-            <div class="card-text collapse-wrapper news-text" id="news-text-{{ news_id }}">
+            <div class="card-text news-text">
+              <div class="collapse-wrapper" id="news-text-{{ news_id }}">
               {{ news.text | markdownify }}
+              </div>
               {% if news.link %}
               <!-- <div class="col-sm-2 text-end "> -->
-              <div class="text-center ">
+              <div class="news-external-link text-center">
                 <a href="{{ news.link }}" class="btn btn-sm btn-primary" role="button">Read More</a>
               </div>
               {% endif %}
