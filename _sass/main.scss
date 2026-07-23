@@ -291,11 +291,16 @@ p + h2 {
     }
 
     .news-image-link {
+        display: block;
         position: static;
         width: 100%;
     }
 
     .news.expanded .news-image-link {
         height: auto;
+    }
+
+    .news.expanded .news-image {
+        border-bottom-right-radius: 0.375rem;
     }
 }
