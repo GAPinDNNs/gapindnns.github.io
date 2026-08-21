@@ -1,0 +1,16 @@
+title: Efficient architectures with geometric deep learning
+id: 2025-04-03-hampus-linander
+date: '2025-04-03'
+location:
+  name: IPA Colloquium, ETH Zürich
+  url: https://ipa.phys.ethz.ch/
+slides: /downloads/slides/2025-04-03-hampus-linander.pdf
+video: https://www.polybox.ethz.ch/index.php/s/TnGP4Gq4B96EiSB
+speaker:
+  first_name: Hampus
+  last_name: Linander
+abstract: |
+  Geometric deep learning leverages symmetry and transformation properties of input and output spaces to design neural network architectures. By incorporating invariance or equivariance into the model, the resulting architecture can be easier to learn, achieve better generalization performance, and use fewer parameters. Recent equivariant architectures show competitive compute requirements, but there are also open questions on the trade-off between exact symmetries and soft inductive bias towards simpler models.
+tags:
+  - GDL
+  - ENN
