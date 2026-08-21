@@ -1,0 +1,14 @@
+title: Equivariance and Augmentation for Bayesian Neural Networks
+id: 2026-08-19-miaowen-dong
+date: '2026-08-19'
+# time:
+location:
+  name: GeUmetric Deep Learning Workshop 2026, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/
+slides: /downloads/slides/2026-08-19-miaowen-dong.pdf
+speaker:
+  first_name: Miaowen
+  last_name: Dong
+tags:
+  - ENN
+  - BDL
