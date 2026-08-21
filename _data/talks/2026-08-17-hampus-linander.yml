@@ -1,0 +1,15 @@
+title: Soft geometric inductive bias
+id: 2026-08-17-hampus-linander
+date: '2026-08-17'
+location:
+  name: GeUmetric Deep Learning Workshop 2026, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/
+slides: /downloads/slides/2026-08-17-hampus-linander.pdf
+speaker:
+  first_name: Hampus
+  last_name: Linander
+abstract: |
+  While exact equivariance can be a powerful inductive bias, real-world applications frequently exhibit approximate or broken symmetries in practice. We introduce object-centric world models that provide a soft geometric inductive bias without enforcing exact symmetries. By embedding object states as Clifford multivectors, our models encourage physically meaningful transformations while retaining the expressivity needed to handle asymmetric dynamics. We evaluate our approach on 2D rigid-body dynamics, 3D charged-particle systems, and real-world driving trajectories. Compared to both unstructured baselines and strictly equivariant models, our soft Clifford transformer achieves better long-horizon fidelity, particularly in regimes with broken symmetries. These results suggest that geometric algebra offers an effective middle ground, delivering sample-efficient dynamics without the inflexibility of hard mathematical constraints.
+tags:
+  - ENN
+  - GDL
