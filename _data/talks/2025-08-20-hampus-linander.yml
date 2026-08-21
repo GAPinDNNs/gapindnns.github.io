@@ -1,0 +1,15 @@
+title: "PEAR: Equal Area Weather Forecasting on the Sphere"
+id: 2025-08-20-hampus-linander
+date: '2025-08-20'
+location:
+  name: GeUmetric Deep Learning Workshop 2025, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2025/
+slides: /downloads/slides/2025-08-20-hampus-linander.pdf
+speaker:
+  first_name: Hampus
+  last_name: Linander
+abstract: |
+  Machine learning methods for global medium-range weather forecasting have recently received immense attention. Following the publication of the Pangu Weather model, the first deep learning model to outperform traditional numerical simulations of the atmosphere, numerous models have been published in this domain, building on Pangu's success. However, all of these models operate on input data and produce predictions on the Driscoll-Healy discretization of the sphere which suffers from a much finer grid at the poles than around the equator. In contrast, in the Hierarchical Equal Area iso-Latitude Pixelization (HEALPix) of the sphere, each pixel covers the same surface area, removing unphysical biases. Motivated by a growing support for this grid in meteorology and climate sciences, we propose to perform weather forecasting with deep learning models which natively operate on the HEALPix grid. To this end, we introduce Pangu Equal ARea (PEAR), a transformer-based weather forecasting model which operates directly on HEALPix-features and outperforms the corresponding model on Driscoll--Healy without any computational overhead.
+tags:
+  - GDL
+  - ML4SCI
