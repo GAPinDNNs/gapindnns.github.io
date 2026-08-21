@@ -1,0 +1,16 @@
+title: "Finite-Width Neural Tangent Kernels from Feynman Diagrams"
+id: 2026-08-18-philipp-misof
+date: '2026-08-18'
+location: 
+  name: GeUmetric Deep Learning Workshop 2026, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/
+zoom:
+slides: /downloads/slides/2026-08-18-philipp-misof.pdf
+notes:
+speaker:
+    first_name: Philipp
+    last_name: Misof
+abstract: |
+  The Neural tangent kernel (NTK) is a powerful tool for analyzing deep, non-linear neural networks. In the infinite-width limit the training dynamics become analytically solvable and can be expressed in terms of this kernel. However, it is well known that this limit falls short of capturing important properties such as NTK evolution or feature learning. A way to resolve this is to compute finite-width corrections to the Gaussian statistics at infinite width. In this talk, I will present a diagrammatic framework for computing these corrections to NTK statistics. These dramatically simplify the necessary algebraic manipulations and enable the computation of layer-wise recursion relations for arbitrary statistics involving preactivations, NTKs and certain higher-derivative tensors required to predict the training dynamics at leading order. Afterwards, I will discuss how this diagrammatic approach can be used to derive new interpretable finite-width results of the NTK. To further support our findings I will present numerical evaluations of the first-order corrections and confirm close agreement to empirically sampled statistics for widths n≳20.
+tags:
+  - NTK
