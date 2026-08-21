@@ -98,10 +98,7 @@
     <div class="row align-items-center justify-content-between">
       <div class="col text-end">
         {% for tag in project.tags %}
-        {% assign matched_tag = site.data.tags | where: 'short', tag | first %}
-        {% assign tag_long = matched_tag.long %}
-        <span class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover"
-          data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ tag }}</span>
+        {% include tag.html tag=tag %}
         {% endfor %}
       </div>
     </div>

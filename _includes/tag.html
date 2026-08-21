@@ -1,0 +1,3 @@
+{% assign matched_tag = site.data.tags | where: 'short', include.tag | first %}
+{% assign tag_long = matched_tag.long %}
+<a tabindex="0" role="button" class="btn btn-sm btn-primary tag-btn" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" data-bs-content="{{ tag_long }}">{{ include.tag }}</a>
