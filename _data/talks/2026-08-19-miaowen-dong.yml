@@ -1,0 +1,16 @@
+title: Equivariance and Augmentation for Bayesian Neural Networks
+id: 2026-08-19-miaowen-dong
+date: '2026-08-19'
+# time:
+location:
+  name: GeUmetric Deep Learning Workshop 2026, Umeå University
+  url: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/
+slides: /downloads/slides/2026-08-19-miaowen-dong.pdf
+speaker:
+  first_name: Miaowen
+  last_name: Dong
+abstract: |
+  Inspired by recent results showing that augmented infinite deep ensembles are exactly equivariant, we study data augmentation for Bayesian neural networks trained with variational inference. For variational distributions in the exponential family, we characterize when the family is closed under the group action, derive conditions under which exact equivariance is reached, and show that augmented training preserves the equivariant subspace of natural parameters. We furthermore obtain bounds on the equivariance error, both for non-invariant priors and for finite Monte Carlo sampling, and introduce three novel symmetrization techniques which boost the effect of data augmentation in this setting. Numerical experiments confirm the theory and show that one of our symmetrization methods (orbit expansion) outperforms the baseline in both equivariance and overall performance.
+tags:
+  - ENN
+  - BDL
