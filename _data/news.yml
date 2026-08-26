@@ -3,6 +3,11 @@
   link: https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/
   text: |
     [Miaowen Dong](/members/Miaowen_Dong), [Longde Huang](/members/Londge_Huang), [Hampus Linander](/members/Hampus_Linander), and [Philipp Misof](/members/Philipp_Misof) presented their recent work at the third [*GeUmetric Deep Learning Workshop*](https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/research/mathematical-foundations-of-artificial-intelligence/geumetric-deep-learning-workshop-2026/) in Umeå. This conference, co-organized by [Jan Gerken](/members/Jan_Gerken), brought together researchers with interests in the mathematics, geometry and physics behind deep learning.
+- date: 2026-08-14
+  headline: "New Preprint on Boosting Data Augmentation with Stochastic Weight Averaging"
+  link: https://arxiv.org/abs/2608.14373
+  text: |
+    A new preprint *Boosting Data Augmentation with Stochastic Weight Averaging* by [Longde Huang](/members/Longde_Huang), [Axel Flinth](https://www.umu.se/en/staff/axel-flinth/) and [Jan Gerken](/members/Jan_Gerken) is now available on the arXiv. The paper studies stochastic weight averaging (SWA) as a cheap alternative to deep ensembles for making augmented models equivariant. By approximating the training trajectory at the end of training with an Ornstein–Uhlenbeck process, the paper shows that in the infinite-width limit SWA on augmented data yields an equivariance boost beyond what the performance gain from SWA alone would suggest, confirmed by extensive experiments on computer vision and graph classification models with discrete and continuous symmetries.
 - date: 2026-07-15
   headline: "Invited talk at the Isaac Newton Institute, Cambridge"
   link: /downloads/slides/2026-07-15-daniel-persson.pdf

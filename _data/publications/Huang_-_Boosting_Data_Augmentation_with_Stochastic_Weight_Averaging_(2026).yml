@@ -1,0 +1,33 @@
+title: Boosting Data Augmentation with Stochastic Weight Averaging
+id: Huang_-_Boosting_Data_Augmentation_with_Stochastic_Weight_Averaging_(2026)
+author:
+  - family: Huang
+    given: Longde
+  - family: Flinth
+    given: Axel
+  - family: Gerken
+    given: Jan E.
+issued: "2026-08-14"
+URL:
+abstract: |
+  The symmetries of a learning task have become an important factor in designing
+  modern deep learning solutions. Data augmentation is a straightforward and
+  effective way of incorporating symmetries into a generic neural network. Recent
+  results show that infinitely large deep ensembles show perfect symmetry when
+  trained on augmented data. However, since training ensembles requires repeating
+  the training process many times, this method is costly. In this work, we study
+  stochastic weight averaging (SWA) as an alternative ensembling technique that
+  does not require repeated training runs. We analyze SWA by approximating the
+  stochastic training trajectory at the end of training with an
+  Ornstein--Uhlenbeck process. We show that in the infinite-width limit, SWA on
+  augmented data provides an equivariance boost that goes beyond what could be
+  expected from the performance increase due to SWA alone. We verify our results
+  with extensive numerical experiments on numerous models spanning computer
+  vision and graph classification with both discrete and continuous symmetries.
+preprint:
+  URL: https://arxiv.org/abs/2608.14373
+  name: arXiv
+type: article
+tags:
+  - NTK
+  - ENN
