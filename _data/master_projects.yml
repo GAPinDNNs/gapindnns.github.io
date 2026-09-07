@@ -1,5 +1,9 @@
 - title: "Equivariant Machine Learning using Irreducible and Regular Representations"
-  status: open
+  status: ongoing
+  students:
+    - first_name: Ákos
+      last_name: Soós
+
   supervisors:
     - first_name: Elias
       last_name: Nyholm
@@ -19,10 +23,6 @@
       representations**. In this project, you will learn about these different representations and run
       experiments to test which representation performs better on what type of task. We will also
       investigate the difference between choices of representation when scaling up the model.
-
-      *Prerequisites:* Linear algebra, groups and representations. Python and PyTorch on the programming side.
-
-      Contact [Elias Nyholm](mailto:eliasny@chalmers.se) for more information.
   tags:
     - ENN
 
