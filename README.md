@@ -108,6 +108,15 @@ For frequent external collaborators, it is nice to have their names in author li
 
 Tags are used to categorize papers. They are collected in `_data/tags.yml`. Add an abbreviation which appears next to the papers and talks and a description which appears upon clicking on the abbreviation here. `ml-relevant` can be `true` or `false` and, if true, let's a publication containing such a tag appear on the common publication page. Note that the `ST` tag is used to filter string theory papers.
 
+### Add master's project
+
+Add an entry to `_data/master_projects.yml`. There are three supported statuses:
+- `open`
+- `ongoing`
+- `finished`
+
+Note that each section on the website is only shown if there is at least one entry with that status.
+
 ## Analytics
 
 Site statistics are collected anonymously using [GoatCounter](https://www.goatcounter.com/). The dashboard is available [here](https://gapindnns.goatcounter.com/?access-token=4w1hr6t5v345h6g6x203d515l04t2n5eqn34).
