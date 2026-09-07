@@ -1,5 +1,6 @@
 {% assign project = include.project %}
 {% assign id = include.id %}
+{% assign status_id = project.status | append: '_' | append: id %}
 <div class="card mb-3 talk-entry">
   <div class="card-body">
     <div class="row justify-content-between">
@@ -68,11 +69,11 @@
 
     {% if project.description.text %}
       <button class="me-2 btn btn-primary btn-sm" type="button" data-bs-toggle="collapse"
-        data-bs-target="#project_description_{{ id }}" aria-pressed="false" aria-expanded="false"
-        aria-controls="project_description_{{ id }}">
+        data-bs-target="#project_description_{{ status_id }}" aria-pressed="false" aria-expanded="false"
+        aria-controls="project_description_{{ status_id }}">
         Description
       </button>
-      <div class="collapse mt-2" id="project_description_{{ id }}">
+      <div class="collapse mt-2" id="project_description_{{ status_id }}">
         {{ project.description.text | markdownify }}
       </div>
     {% endif %}
