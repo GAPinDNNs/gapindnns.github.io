@@ -1,7 +1,7 @@
 ---
 first_name: Hampus
 last_name: Linander
-position: Researcher at Verses AI
+position: Guest Researcher at Chalmers and University of Gothenburg
 affiliated: true
 image: /assets/images/profile_pictures/Hampus_Linander.jpeg
 github: https://github.com/hlinander
