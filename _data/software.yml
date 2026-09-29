@@ -40,3 +40,15 @@
     [Paper](https://openreview.net/forum?id=SOlPHMdSY3){: .btn .btn-primary .btn-sm}
     [Code](https://github.com/PhilippMisofCH/ntk-unlimited){: .btn .btn-primary .btn-sm}
 
+
+- title: Soft geometric inductive bias
+  github: https://github.com/hlinander/soft-geometric-inductive-bias
+  url: https://github.com/hlinander/soft-geometric-inductive-bias
+  image: /assets/images/research/soft_geometric_inductive_bias.png
+  description: |
+    Object-centric models predicting future states in an interacting system with potentially broken geometric symmetries. Object states are embedded as Clifford multivectors and their dynamics are predicted autoregressively by a Clifford transformer with a soft geometric inductive bias without enforcing exact equivariance.
+
+    We provide an implementation in [JAX](https://github.com/jax-ml/jax) including the Clifford algebra layers and transformer models, together with training and evaluation pipelines for 2D rigid-body dynamics generated with [Kinetix](https://github.com/FlairOx/Kinetix). Sweep configurations and plotting scripts for reproducing published results are also included.
+
+    [Paper](https://arxiv.org/abs/2512.15493){: .btn .btn-primary .btn-sm}
+    [Code](https://github.com/hlinander/soft-geometric-inductive-bias){: .btn .btn-primary .btn-sm}
