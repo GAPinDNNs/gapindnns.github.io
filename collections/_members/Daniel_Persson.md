@@ -27,6 +27,7 @@ I have also written a [book](https://www.cambridge.org/core/books/eisenstein-ser
 
 I frequently give popular science lectures and engage with the general public on topics at the intersection of mathematics, physics and AI. Here are some recent interviews and articles:
 
+- [AI-genombrott kan försämra förståelsen för matematik](https://fof.se/artikel/ai-genombrott-kan-forsamra-forstaelsen-for-matematik/) — *Forskning & Framsteg*
 - [Därför revolutionerar det nya AI-beviset matematiken](https://fof.se/artikel/darfor-revolutionerar-det-nya-ai-beviset-matematiken/) — *Forskning & Framsteg*
 - [A Unified Theory of the Universe with Quantum Gravity](https://www.azoquantum.com/article.aspx?ArticleID=311) — *AZoQuantum*
 - [Mathematical discovery could shed light on secrets of the universe](https://news.cision.com/chalmers/r/mathematical-discovery-could-shed-light-on-secrets-of-the-universe,c3509456) — *Chalmers press release*
