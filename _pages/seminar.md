@@ -3,7 +3,7 @@ layout: seminar
 title: GAPinDNNs Seminar
 ---
 
-We organize the GAPinDNNs seminar at the Department for Mathematical Sciences at Chalmers and the University of Gothenburg.
+We organize the GAPinDNNs seminar at the Department for Mathematical Sciences at Chalmers and the University of Gothenburg. The seminar is run within the CHAIR theme [*Mathematical Foundations of AI*](https://math-foundations-ai.github.io/).
 
 The topics of the seminar are broad and lie at the intersection of machine learning (in particular deep learning), pure mathematics and theoretical physics. We have both more theoretical and more applied speakers. If you would like to receive invitations to upcoming talks, please let the seminar organizers know and we will add you to our email list.
 
