@@ -1,0 +1,25 @@
+title: 'Soft Geometric Inductive Bias for Object Centric Dynamics'
+id: Linander_-_Soft_Geometric_Inductive_Bias_(2026)
+author:
+  - family: Linander
+    given: Hampus
+  - family: Heins
+    given: Conor
+  - family: Tschantz
+    given: Alexander
+  - family: Perin
+    given: Marco
+  - family: Buckley
+    given: Christopher
+issued: '2026-09-27'
+DOI: 10.48550/arXiv.2512.15493
+abstract: |
+  Physical systems are naturally parameterized in terms of geometric entities and their transformations. While exact equivariance can be a powerful inductive bias, real-world applications frequently exhibit approximate or broken symmetries in practice. We introduce object-centric world models that provide a soft geometric inductive bias without enforcing exact symmetries. By embedding object states as Clifford multivectors, our models encourage physically meaningful transformations while retaining the expressivity needed to handle asymmetric dynamics. We evaluate our approach on 2D rigid-body dynamics, 3D charged-particle systems, and real-world driving trajectories. Compared to both unstructured baselines and strictly equivariant models, our soft Clifford transformer achieves better long-horizon fidelity, particularly in regimes with broken symmetries. These results suggest that geometric algebra offers an effective middle ground, delivering sample-efficient dynamics without the inflexibility of hard mathematical constraints.
+preprint:
+  URL: https://arxiv.org/abs/2512.15493
+  name: arXiv
+publisher: NeurIPS 2026 (To appear)
+type: article
+tags:
+  - ENN
+  - GDL
