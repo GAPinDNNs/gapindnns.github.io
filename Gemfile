@@ -16,11 +16,10 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-github-metadata"
-  gem "jekyll-remote-theme"
   gem "jekyll-sass-converter" 
 end
 
-gem "sassc", "< 2.2.0" # Once bootstrap 6 is released, we can upgrade to SassC 3.x
+# gem "sassc", "< 2.2.0" # Once bootstrap 6 is released, we can upgrade to SassC 3.x
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
