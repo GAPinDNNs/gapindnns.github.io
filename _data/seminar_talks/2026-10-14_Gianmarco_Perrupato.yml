@@ -1,0 +1,21 @@
+title: Are neural networks collision resistant?
+id: 2026-10-14_Gianmarco_Perrupato
+date: '2026-10-14'
+time: '13:15'
+location:
+    name: MVL-15
+zoom: 
+slides: 
+speaker:
+    first_name: Gianmarco
+    last_name: Perrupato
+    affiliation: Bocconi University
+    url: https://scholar.google.com/citations?hl=en&user=nrr8bCgAAAAJ
+abstract: |
+    Collision-resistant hash functions are a cornerstone of modern cryptography: they are easy to evaluate, yet finding two distinct inputs with the same output should be computationally hard. Can neural networks offer a new route to constructing such functions?
+
+    In this talk, I will explore collision finding in a family of neural networks with oscillating activation functions. Each weight configuration maps a fixed dataset to a set of labels, and a collision consists of two distinct weight configurations that produce identical labelings.
+
+    We show that the collision landscape exhibits an overlap gap property: certain ranges of overlap between solutions are forbidden. This geometric phenomenon, studied extensively in high-dimensional random constraint satisfaction problems, provides evidence of barriers to efficient algorithms. Our analysis predicts a regime in which finding collisions is computationally hard. Numerical experiments with approximate message passing support this picture, with the algorithms ceasing to find collisions well below the threshold predicted by theory.
+
+    These results suggest neural networks as a new family of candidate collision-resistant functions, offering an approach distinct from lattice-based constructions. More broadly, they reveal a connection between the geometry of neural-network solution spaces, algorithmic limitations, and cryptographic hardness.
