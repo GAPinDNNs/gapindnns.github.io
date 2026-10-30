@@ -39,3 +39,6 @@
 - short: ML4SCI
   long: Machine learning for Science
   ml-relevant: true
+- short: MED
+  long: Medical Imaging
+  ml-relevant: true

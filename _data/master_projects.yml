@@ -1,3 +1,33 @@
+- title: "Medical Image Analysis: Brain Vessel Segmentation and Object Detection"
+  status: open
+  announcement: https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/4970
+  supervisors:
+    - first_name: Daniel
+      last_name: Persson
+  examiner:
+    first_name: Jan
+    last_name: Gerken
+  description:
+    url: /downloads/master_theses/project_description/Stroke_CT_vessel_segmentation.pdf
+  tags:
+    - DL
+    - MED
+
+- title: "Medical Image Analysis: Achilles Tendon Rupture Segmentation and Measurement"
+  status: open
+  announcement: https://annonsportal.chalmers.se/CareerServices/en/Ads/Details/5070
+  supervisors:
+    - first_name: Jan
+      last_name: Gerken
+  examiner:
+    first_name: Daniel
+    last_name: Persson
+  description:
+    url: /downloads/master_theses/project_description/Achilles_rupture_segmentation.pdf
+  tags:
+    - DL
+    - MED
+
 - title: "Equivariant Machine Learning using Irreducible and Regular Representations"
   status: ongoing
   students:
