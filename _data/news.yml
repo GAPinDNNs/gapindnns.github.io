@@ -6,6 +6,10 @@
   headline: "Swedish Research Council grant for Invariant Theory and Geometric Deep Learning"
   text: |
     [Daniel Persson](/members/Daniel_Persson) has been awarded a project grant of 4.2 million SEK over four years from the [Swedish Research Council (Vetenskapsrådet)](https://www.vr.se/english.html) for the project *Invariant Theory and Geometric Deep Learning*. The aim is to use invariant theory to build new non-linear equivariant architectures for deep learning. The project builds on the paper [*Equivariant non-linear maps for neural networks on homogeneous spaces*](https://link.springer.com/article/10.1007/s44439-026-00004-z) by [Elias Nyholm](/members/Elias_Nyholm), [Oscar Carlsson](/members/Oscar_Carlsson), [Maurice Weiler](https://maurice-weiler.gitlab.io/) and Daniel Persson, and on the wider research of the group.
+  headline: "Talk on *Math for AI vs AI for Math* at the MaScAmp online seminar"
+  link: /downloads/slides/2026-11-02-daniel-persson.pdf
+  text: |
+    [Daniel Persson](/members/Daniel_Persson) gave a talk on *Math for AI vs AI for Math* at the online seminar of [MaScAmp](https://www.mascamp.org/), the ERC Synergy project on the Mathematics of Scattering Amplitudes, on November 2, 2026. The talk covers both directions: how symmetry shapes the design of neural networks, and how AI agents can assist mathematical research. Slides are available [here](/downloads/slides/2026-11-02-daniel-persson.pdf).
 - date: 2026-10-02
   headline: "Wallenberg Advanced Scientific Forum on Symmetries in Neural Networks"
   link: https://wasp-sweden.org/wallenberg-advanced-scientific-forum-autumn-2026/
