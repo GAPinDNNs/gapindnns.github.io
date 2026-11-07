@@ -1,0 +1,34 @@
+{% assign venture = include.venture %}
+<div class="card venture-card mb-4 overflow-hidden">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <a href="{{ venture.url }}" class="venture-logo venture-logo-{{ venture.logo_bg | default: 'light' }}">
+        <img src="{{ venture.logo }}" alt="{{ venture.name }} logo">
+      </a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body p-4">
+        <h2 class="h4 card-title mb-1">{{ venture.name }}</h2>
+        <p class="lead fs-6 fw-semibold mb-1">{{ venture.tagline }}</p>
+        {% if venture.area %}
+        <p class="small text-body-secondary mb-3">{{ venture.area }}</p>
+        {% endif %}
+        <div class="card-text">{{ venture.description | markdownify }}</div>
+
+        <ul class="list-unstyled venture-founders mb-3">
+          {% for founder in venture.founders %}
+          <li>
+            <i class="bi bi-person-fill text-body-secondary me-1"></i>
+            {% if founder.member %}<a href="/members/{{ founder.member }}">{{ founder.name }}</a>{% else %}{{ founder.name }}{% endif %},
+            <span class="text-body-secondary">{{ founder.role }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <a href="{{ venture.url }}" class="btn btn-primary btn-sm">
+          Visit {{ venture.url | remove: "https://" | remove: "http://" }} <i class="bi bi-box-arrow-up-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

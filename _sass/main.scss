@@ -304,3 +304,30 @@ p + h2 {
         border-bottom-right-radius: 0.375rem;
     }
 }
+
+// Ventures page
+.venture-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 160px;
+  padding: 2rem;
+}
+
+.venture-logo img {
+  max-width: 100%;
+  max-height: 70px;
+}
+
+.venture-logo-dark {
+  background-color: #000;
+}
+
+.venture-logo-light {
+  background-color: $light;
+}
+
+.venture-founders li {
+  margin-bottom: 0.25rem;
+}
