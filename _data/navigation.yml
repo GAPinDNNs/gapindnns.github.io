@@ -32,5 +32,7 @@
       link: /_pages/courses.html
     - name: Master's projects
       link: /_pages/master_projects.html
+- name: Ventures
+  link: /_pages/ventures.html
 - name: Positions
   link: /_pages/positions.html
