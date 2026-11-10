@@ -100,6 +100,10 @@ Upload the file in the folder `assets/images/` with corresponding subdirectories
 
 Master projects are collected in `_data/master_projects.yml`. Copy one of the old master project entries to create a new one and adjust the content accordingly. Make sure to get the number of spaces right. Theses are stored in the directory `downloads/master_theses` and descriptions in `downloads/master_theses/project_description`.
 
+### Add venture
+
+Companies founded by group members are listed in `_data/ventures.yml` and shown on the Ventures page (`/_pages/ventures.html`). Copy an existing entry and adjust it. Logos go in `assets/images/ventures/`; set `logo_bg: dark` for a white logo and `logo_bg: light` for a coloured one. A founder with a `member` field (the member file name without `.md`) is linked to their member page.
+
 ### Add external collaborator
 
 For frequent external collaborators, it is nice to have their names in author lists etc. linked to their own website. This is achieved by adding them to the file `_data/external_collaborators.yml`.

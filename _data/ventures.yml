@@ -1,0 +1,30 @@
+# Companies founded by members of the group, shown on /_pages/ventures.html.
+# logo_bg is the panel colour behind the logo: "dark" for white or reversed logos, "light" for logos made for light backgrounds.
+# A founder with a `member` slug is linked to their member page.
+- name: Kymeon Medical Technologies
+  url: https://kymeon.com
+  logo: /assets/images/ventures/kymeon_colour-reversed.svg
+  logo_bg: dark
+  tagline: Expert feedback on every ultrasound scan
+  area: Medical imaging · AI for ultrasound training
+  description: |
+    Kymeon develops an online platform for point-of-care ultrasound training: clinicians upload their scans, experienced instructors review them, and every review counts toward certification. Building on the group's work on geometric deep learning, Kymeon is researching AI models that give learners live feedback on image quality while they practise eFAST ultrasound in trauma care.
+  founders:
+    - name: Jan Gerken
+      member: Jan_Gerken
+      role: Co-founder and Chief Technological Officer
+    - name: Daniel Persson
+      member: Daniel_Persson
+      role: Co-founder and Chief Scientific Officer
+- name: Recohere
+  url: https://recohere.ai
+  logo: /assets/images/ventures/recohere_white.svg
+  logo_bg: dark
+  tagline: Interactive, editable virtual worlds from raw sensor data
+  area: Neural rendering · Simulation for autonomous driving
+  description: |
+    Recohere automates the creation of high-fidelity digital twins from raw sensor data, using neural rendering techniques such as Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting. The resulting virtual worlds are interactive and editable, and are used for simulation and testing of autonomous driving systems.
+  founders:
+    - name: Christoffer Petersson
+      member: Christoffer_Petersson
+      role: Co-founder and CEO

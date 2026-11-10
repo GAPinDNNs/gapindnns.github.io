@@ -23,6 +23,8 @@
       link: /_pages/talks.html
     - name: Software
       link: /_pages/software.html
+- name: Ventures
+  link: /_pages/ventures.html
 # - name: GAPinDNNs Seminar
 - name: Seminar
   link: /_pages/seminar.html
