@@ -1,10 +1,10 @@
 # Companies founded by members of the group, shown on /_pages/ventures.html.
-# logo_bg is the panel colour behind the logo: "dark" for white logos, "light" for coloured ones.
+# logo_bg is the panel colour behind the logo: "dark" for white or reversed logos, "light" for logos made for light backgrounds.
 # A founder with a `member` slug is linked to their member page.
 - name: Kymeon Medical Technologies
   url: https://kymeon.com
-  logo: /assets/images/ventures/kymeon_colour.svg
-  logo_bg: light
+  logo: /assets/images/ventures/kymeon_colour-reversed.svg
+  logo_bg: dark
   tagline: Expert feedback on every ultrasound scan
   area: Medical imaging · AI for ultrasound training
   description: |
