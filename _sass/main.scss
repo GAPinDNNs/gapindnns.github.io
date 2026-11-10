@@ -316,8 +316,9 @@ p + h2 {
 }
 
 .venture-logo img {
-  max-width: 100%;
-  max-height: 70px;
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
 }
 
 .venture-logo-dark {
